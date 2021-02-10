@@ -23,9 +23,9 @@ jobs:
     - name: Update cache
       run: python scrape_cache.py
       env:
-        api_id: ${{ secrets.API_ID }}
-        api_hash: ${{ secrets.API_HASH }}
-        session_string: ${{ secrets.SESSION_STRING }}
+        API_ID: ${{ secrets.API_ID }}
+        API_HASH: ${{ secrets.API_HASH }}
+        SESSION_STRING: ${{ secrets.SESSION_STRING }}
     - name: Save cache
       uses: EndBug/add-and-commit@v7
       with:
