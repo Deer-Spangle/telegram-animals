@@ -1,6 +1,7 @@
 from dataclasses import dataclass
 from typing import List, Callable, Any
 import json
+import os
 
 from yattag import Doc, indent
 
@@ -69,5 +70,6 @@ if __name__ == "__main__":
     channel_list = load_channels()
     table = lambda x, y, z: build_table(channel_list, x, y, z)
     html = create_doc(table)
-    with open("index.html", "w") as w:
+    os.makedirs("public", exist_ok=True)
+    with open("public/index.html", "w") as w:
         w.write(html)
