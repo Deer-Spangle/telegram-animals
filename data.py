@@ -104,10 +104,10 @@ class ChannelCache:
         )
 
 
-def save_channel_cache(cache: Dict[Channel, ChannelCache]):
+def save_channel_cache(cache: Dict[str, ChannelCache]):
     json_cache = {
-        channel.handle.casefold(): channel_cache.to_json()
-        for channel, channel_cache in cache.items()
+        handle: channel_cache.to_json()
+        for handle, channel_cache in cache.items()
     }
     os.makedirs("cache", exist_ok=True)
     with open("cache/channel_cache.json", "w+") as f:
@@ -115,8 +115,11 @@ def save_channel_cache(cache: Dict[Channel, ChannelCache]):
 
 
 def load_channel_cache() -> Dict[str, ChannelCache]:
-    with open("cache/channel_cache.json", "r") as f:
-        json_cache = json.load(f)
+    try:
+        with open("cache/channel_cache.json", "r") as f:
+            json_cache = json.load(f)
+    except FileNotFoundError:
+        return {}
     return {
         handle: ChannelCache.from_json(value)
         for handle, value in json_cache.items()

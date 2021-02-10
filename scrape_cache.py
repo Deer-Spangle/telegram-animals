@@ -128,20 +128,18 @@ async def generate_cache(
 
 
 async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
-    old_cache = load_channel_cache()
-    cache = {}
+    cache = load_channel_cache()
     now = datetime.utcnow().replace(tzinfo=pytz.utc)
     wait_before_refresh = timedelta(hours=6)
     searcher = CachedSearcher.load_from_json()
     for channel in channels:
-        old_channel_cache = old_cache.get(channel.handle.casefold())
+        old_channel_cache = cache.get(channel.handle.casefold())
         if old_channel_cache and (old_channel_cache.date_checked - now) < wait_before_refresh:
-            cache[channel] = old_channel_cache
             print(f"{channel.handle} was cached recently, skipping.")
             continue
         try:
             channel_cache = await generate_cache(client, channel, searcher, old_channel_cache)
-            cache[channel] = channel_cache
+            cache[channel.handle.casefold()] = channel_cache
             save_channel_cache(cache)
             print(f"{channel.handle} cache updated.")
         except Exception as e:
