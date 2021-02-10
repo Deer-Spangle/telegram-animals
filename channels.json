@@ -1301,6 +1301,20 @@
       "animal": "Caracal",
       "notes": "",
       "handle_pattern": "?channel"
+    },
+    {
+      "handle": "flickrsneps",
+      "owner": "?",
+      "animal": "Snep",
+      "notes": "Posts every 3 hours, does not repeat. Has a bot @FlickrSnepBot and code exists on github: https://github.com/DariusMiu/hourly-photo-telegram-bot Mirrored to twitter also: https://twitter.com/flickrsneps",
+      "handle_pattern": "flickr?"
+    },
+    {
+      "handle": "FlickrSnepBot",
+      "owner": "?",
+      "animal": "Snep",
+      "notes": "Bot for @flickrsneps Code on github: https://github.com/DariusMiu/hourly-photo-telegram-bot",
+      "handle_pattern": "flickr?bot"
     }
   ]
 }
