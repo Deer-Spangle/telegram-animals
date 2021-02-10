@@ -79,6 +79,10 @@ def create_doc(channels: List[Channel], bots: List[Channel]):
             with tag("p"):
                 doc.text("And the table of bots is below")
             build_table(bots, doc)
+            doc.text("If you would like to request any changes, please file an issue on the ")
+            with doc.tag("a", href="https://github.com/Deer-Spangle/telegram-animals/"):
+                text("github repository")
+            text(". (Pull requests are also welcome!)")
     return indent(doc.getvalue())
 
 
