@@ -1,0 +1,1271 @@
+{
+  "channels": [
+    {
+      "handle": "alpacagifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Alpaca",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "chickengifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Chicken",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "corvidgifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Corvid",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "cowgifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Cow",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "deergifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Deer",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "deersounds",
+      "owner": "DeerSpangle\n",
+      "animal": "Deer",
+      "notes": "Video channel",
+      "handle_pattern": "?sounds"
+    },
+    {
+      "handle": "elephantgifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Elephant",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "goatgifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Goat",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "horsegifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Horse",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "piggifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Pigs",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "sheepgifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Sheep",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "tigergifs",
+      "owner": "DeerSpangle\n",
+      "animal": "Tiger",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "IllegalBirds",
+      "owner": "Zephyr42\n",
+      "animal": "Bird",
+      "notes": "",
+      "handle_pattern": "illegal?"
+    },
+    {
+      "handle": "fox_gifs",
+      "owner": "Kubalzki\n",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "?_gifs"
+    },
+    {
+      "handle": "seapuppies",
+      "owner": "Zephyr42\n",
+      "animal": "Seapuppies",
+      "notes": "",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "wolf_gifs",
+      "owner": "Kubalzki\n",
+      "animal": "Wolf",
+      "notes": "",
+      "handle_pattern": "?_gifs"
+    },
+    {
+      "handle": "Piggiest",
+      "owner": "?\n",
+      "animal": "Pigs",
+      "notes": "Owner unknown",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "HourlyTiger",
+      "owner": "TinyZorro\n",
+      "animal": "Tiger",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyTigerBot",
+      "owner": "TinyZorro\n",
+      "animal": "Tiger",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "Dailyalpacas",
+      "owner": "?\n",
+      "animal": "Alpaca",
+      "notes": "Not english",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "alpacaland",
+      "owner": "?\n",
+      "animal": "Alpaca",
+      "notes": "Not english",
+      "handle_pattern": "?land"
+    },
+    {
+      "handle": "deerpics",
+      "owner": "?\n",
+      "animal": "Deer",
+      "notes": "Inactive",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "DeerPictures",
+      "owner": "?\n",
+      "animal": "Deer",
+      "notes": "Inactive",
+      "handle_pattern": "?pictures"
+    },
+    {
+      "handle": "dailygoat",
+      "owner": "?\n",
+      "animal": "Goat",
+      "notes": "Russian",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "dailygoats",
+      "owner": "?goatbotboibot\n",
+      "animal": "Goat",
+      "notes": "Automatic bot",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "Horsesgif",
+      "owner": "?\n",
+      "animal": "Horse",
+      "notes": "Russian",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "loveforhorses",
+      "owner": "?\n",
+      "animal": "Horse",
+      "notes": "Owner deleted",
+      "handle_pattern": "lovefor?"
+    },
+    {
+      "handle": "DailyTigers",
+      "owner": "Timidelune\n",
+      "animal": "Tiger",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "tigerpictures",
+      "owner": "?\n",
+      "animal": "Tiger",
+      "notes": "",
+      "handle_pattern": "?pictures"
+    },
+    {
+      "handle": "Cowsbot",
+      "owner": "?\n",
+      "animal": "Cow",
+      "notes": "Russian",
+      "handle_pattern": "?bot"
+    },
+    {
+      "handle": "ElephantPicBot",
+      "owner": "?\n",
+      "animal": "Elephant",
+      "notes": "No reply to /start",
+      "handle_pattern": "?picbot"
+    },
+    {
+      "handle": "Horsegifbot",
+      "owner": "?\n",
+      "animal": "Horse",
+      "notes": "No reply to /start",
+      "handle_pattern": "?gifbot"
+    },
+    {
+      "handle": "DailyTigers_bot",
+      "owner": "Timidelune\n",
+      "animal": "Tiger",
+      "notes": "",
+      "handle_pattern": "daily?_bot"
+    },
+    {
+      "handle": "DailyTigersDev_bot",
+      "owner": "Timidelune\n",
+      "animal": "Tiger",
+      "notes": "",
+      "handle_pattern": "daily?dev_bot"
+    },
+    {
+      "handle": "FoxesHourlies",
+      "owner": "TinyZorro\n",
+      "animal": "-",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "HourlyChi",
+      "owner": "TinyZorro\n",
+      "animal": "African Painted Dog",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "bigcatgifs",
+      "owner": "snownel\n",
+      "animal": "Big Cats",
+      "notes": "Currently down",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "qualitybirdgifs",
+      "owner": "XaneFeather\n",
+      "animal": "Bird",
+      "notes": "Doesn't seem to take submissions",
+      "handle_pattern": "quality?gifs"
+    },
+    {
+      "handle": "HourlyCaracal",
+      "owner": "TinyZorro\n",
+      "animal": "Caracal",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "CheetahGifs",
+      "owner": "dmuth\n",
+      "animal": "Cheetahs",
+      "notes": "Doesn't take submissions",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "HourlyYotes",
+      "owner": "TinyZorro\n",
+      "animal": "Coyote",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyJaguars",
+      "owner": "TinyZorro\n",
+      "animal": "Jaguar",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "lynx_gifs",
+      "owner": "Snynx, GreenFloofBall\n",
+      "animal": "Lynx",
+      "notes": "",
+      "handle_pattern": "?_gifs"
+    },
+    {
+      "handle": "HourlyPineMarten",
+      "owner": "TinyZorro\n",
+      "animal": "Pine Marten",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyBun",
+      "owner": "TinyZorro\n",
+      "animal": "Rabbit",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyCoon",
+      "owner": "TinyZorro\n",
+      "animal": "Raccoon",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "snepgifs",
+      "owner": "snownel\n",
+      "animal": "Sneps",
+      "notes": "Currently down",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "HourlySnep",
+      "owner": "TinyZorro\n",
+      "animal": "Sneps",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyWoofs",
+      "owner": "TinyZorro\n",
+      "animal": "Wolf",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyChiBot",
+      "owner": "TinyZorro\n",
+      "animal": "African Painted Dog",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyCaracalBot",
+      "owner": "TinyZorro\n",
+      "animal": "Caracal",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyYoteBot",
+      "owner": "TinyZorro\n",
+      "animal": "Coyote",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyJaguarBot",
+      "owner": "TinyZorro\n",
+      "animal": "Jaguar",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyPineMartenBot",
+      "owner": "TinyZorro\n",
+      "animal": "Pine Marten",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyBunBot",
+      "owner": "TinyZorro\n",
+      "animal": "Rabbit",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyRaccBot",
+      "owner": "TinyZorro\n",
+      "animal": "Raccoon",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlySnepBot",
+      "owner": "TinyZorro\n",
+      "animal": "Sneps",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyWoofBot",
+      "owner": "TinyZorro\n",
+      "animal": "Wolf",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "Cutehappystuffs",
+      "owner": "?\n",
+      "animal": "-",
+      "notes": "Many animals",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "BatGifs",
+      "owner": "?\n",
+      "animal": "Bat",
+      "notes": "Owner unknown",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "batsdaily",
+      "owner": "?\n",
+      "animal": "Bat",
+      "notes": "Not english",
+      "handle_pattern": "?daily"
+    },
+    {
+      "handle": "hourlybats",
+      "owner": "Flamauzn\n",
+      "animal": "Bat",
+      "notes": "",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "novuscats",
+      "owner": "?Novus?\n",
+      "animal": "Big cat?",
+      "notes": "Already got a bigger one",
+      "handle_pattern": "novus?"
+    },
+    {
+      "handle": "birdgifs",
+      "owner": "BlueberryCrow\n",
+      "animal": "Bird",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "birdpics",
+      "owner": "Sanqui, pyroalex\n",
+      "animal": "Bird",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "Birds",
+      "owner": "?\n",
+      "animal": "Bird",
+      "notes": "",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "HourlyCapybara",
+      "owner": "TinyZorro\n",
+      "animal": "Capybara",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyCaracals",
+      "owner": "LeonatoLynx\n",
+      "animal": "Caracal",
+      "notes": "",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "catgifcentral",
+      "owner": "?\n",
+      "animal": "Cat",
+      "notes": "Lots of non-cats",
+      "handle_pattern": "?gifcentral"
+    },
+    {
+      "handle": "catpic",
+      "owner": "trxye\n",
+      "animal": "Cat",
+      "notes": "Owner deleted",
+      "handle_pattern": "?pic"
+    },
+    {
+      "handle": "CatPics",
+      "owner": "?\n",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "CatPicture",
+      "owner": "?\n",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?picture"
+    },
+    {
+      "handle": "CatPicturesAndGifs",
+      "owner": "?\n",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?picturesandgifs"
+    },
+    {
+      "handle": "FunnyCatsGifs",
+      "owner": "merchantik\n",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "funny?gifs"
+    },
+    {
+      "handle": "picsofcat",
+      "owner": "?\n",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "picsof?"
+    },
+    {
+      "handle": "hourlycheetahs",
+      "owner": "LeonatoLynx\n",
+      "animal": "Cheetahs",
+      "notes": "Mirrored to twitter.com/HourlyCheetahs",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "dinodaily",
+      "owner": "?\n",
+      "animal": "Dinosaur",
+      "notes": "",
+      "handle_pattern": "?daily"
+    },
+    {
+      "handle": "daily_dog",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "daily_?"
+    },
+    {
+      "handle": "dailydoge",
+      "owner": "Timmy93\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "DailyDogGifs",
+      "owner": "FinnTheDafter\n",
+      "animal": "Dog",
+      "notes": "Furry",
+      "handle_pattern": "daily?gifs"
+    },
+    {
+      "handle": "dailydoggo",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "dailydoggos",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "dailydoggopic",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "Empty",
+      "handle_pattern": "daily?pic"
+    },
+    {
+      "handle": "dailydogs",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "dogdaily",
+      "owner": "raverumble\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?daily"
+    },
+    {
+      "handle": "doggifs",
+      "owner": "HooliganHusky\n",
+      "animal": "Dog",
+      "notes": "Furry",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "doggifstash",
+      "owner": "?Luke\n",
+      "animal": "Dog",
+      "notes": "Furry",
+      "handle_pattern": "?gifstash"
+    },
+    {
+      "handle": "doggify",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?gify"
+    },
+    {
+      "handle": "dogiwow",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?iwow"
+    },
+    {
+      "handle": "dogpics",
+      "owner": "dogpics@maff.im\n",
+      "animal": "Dog",
+      "notes": "Furry, email contact?",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "dogpictures",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "Automated from subreddit",
+      "handle_pattern": "?pictures"
+    },
+    {
+      "handle": "gooddoggifs",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "good?gifs"
+    },
+    {
+      "handle": "dailyduckpic",
+      "owner": "?\n",
+      "animal": "Duck",
+      "notes": "",
+      "handle_pattern": "daily?pic"
+    },
+    {
+      "handle": "dailyducks",
+      "owner": "everydaydeath\n",
+      "animal": "Duck",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "duckgifs",
+      "owner": "duckboymiro\n",
+      "animal": "Duck",
+      "notes": "Racist bio of owner, and another racist channel",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "ducksandgeese",
+      "owner": "?\n",
+      "animal": "Duck",
+      "notes": "",
+      "handle_pattern": "?and?"
+    },
+    {
+      "handle": "FennecFriends",
+      "owner": "?\n",
+      "animal": "Fennec",
+      "notes": "",
+      "handle_pattern": "?friends"
+    },
+    {
+      "handle": "FennecPost",
+      "owner": "?\n",
+      "animal": "Fennec",
+      "notes": "",
+      "handle_pattern": "?post"
+    },
+    {
+      "handle": "fennecgifs",
+      "owner": "?\n",
+      "animal": "Fennec",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "FerretGifs",
+      "owner": "?\n",
+      "animal": "Ferret",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "ferretpics",
+      "owner": "?\n",
+      "animal": "Ferret",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "HourlyFops",
+      "owner": "TinyZorro\n",
+      "animal": "Fox",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyFoxes",
+      "owner": "LeonatoLynx\n",
+      "animal": "Fox",
+      "notes": "Furry, same as twitter.com/hourlyfoxes",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "dailysadfrog",
+      "owner": "?\n",
+      "animal": "Frog",
+      "notes": "",
+      "handle_pattern": "dailysad?"
+    },
+    {
+      "handle": "guineapigscavy",
+      "owner": "?\n",
+      "animal": "Guinea Pig",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "hedgehoggifs",
+      "owner": "?\n",
+      "animal": "Hedgehog",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "HourlyHuskies",
+      "owner": "Maybe Leonato?\n",
+      "animal": "Huskies",
+      "notes": "",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "insectpic",
+      "owner": "?\n",
+      "animal": "Insect",
+      "notes": "Russian bio",
+      "handle_pattern": "?pic"
+    },
+    {
+      "handle": "dailykittens",
+      "owner": "?\n",
+      "animal": "Kitten",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "kittenGIFs",
+      "owner": "?\n",
+      "animal": "Kitten",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "kittenpics",
+      "owner": "unixLikee\n",
+      "animal": "Kitten",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "kittens_daily",
+      "owner": "?\n",
+      "animal": "Kitten",
+      "notes": "",
+      "handle_pattern": "?_daily"
+    },
+    {
+      "handle": "Lizardgifs",
+      "owner": "lazylizard95\n",
+      "animal": "Lizard",
+      "notes": "Furry",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "HourlyLynxes",
+      "owner": "LeonatoLynx\n",
+      "animal": "Lynx",
+      "notes": "Furry, same as twitter.com/HouryLynxes",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "lynxgifs",
+      "owner": "?\n",
+      "animal": "Lynx",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "lynxpics",
+      "owner": "?\n",
+      "animal": "Lynx",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "HourlyManes",
+      "owner": "TinyZorro\n",
+      "animal": "Maned Wolf",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "monkey_gif",
+      "owner": "?\n",
+      "animal": "Monkey",
+      "notes": "Russian",
+      "handle_pattern": "?_gif"
+    },
+    {
+      "handle": "dailymoths",
+      "owner": "?\n",
+      "animal": "Moth",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "HourlyMoths",
+      "owner": "?\n",
+      "animal": "Moth",
+      "notes": "",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "daily_otter",
+      "owner": "gusenica\n",
+      "animal": "Otter",
+      "notes": "Stopped",
+      "handle_pattern": "daily_?"
+    },
+    {
+      "handle": "DailyOtter",
+      "owner": "?\n",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "DailyOtters",
+      "owner": "?\n",
+      "animal": "Otter",
+      "notes": "Owner deleted",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "otterdaily",
+      "owner": "?\n",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "?daily"
+    },
+    {
+      "handle": "ottergif",
+      "owner": "?benzi?\n",
+      "animal": "Otter",
+      "notes": "All links, to a website with broken https, ran by someone at starling bank",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "ottergifs",
+      "owner": "?\n",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "otterpics",
+      "owner": "?\n",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "thedailyotter",
+      "owner": "?\n",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "thedaily?"
+    },
+    {
+      "handle": "ILoVeOwLs",
+      "owner": "?\n",
+      "animal": "Owl",
+      "notes": "",
+      "handle_pattern": "ilove?"
+    },
+    {
+      "handle": "panda_gif",
+      "owner": "?\n",
+      "animal": "Panda",
+      "notes": "",
+      "handle_pattern": "?_gif"
+    },
+    {
+      "handle": "panda_gifs",
+      "owner": "?\n",
+      "animal": "Panda",
+      "notes": "",
+      "handle_pattern": "?_gifs"
+    },
+    {
+      "handle": "parrotgif",
+      "owner": "?\n",
+      "animal": "Parrot",
+      "notes": "",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "parrotgifs",
+      "owner": "?\n",
+      "animal": "Parrot",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "bunnygifs",
+      "owner": "BlueFurryBunny\n",
+      "animal": "Rabbit",
+      "notes": "Furry",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "CatsRabbiTs",
+      "owner": "survrabbit\n",
+      "animal": "Rabbit",
+      "notes": "Cats and Rabbits",
+      "handle_pattern": "??"
+    },
+    {
+      "handle": "dailyrabbit",
+      "owner": "?\n",
+      "animal": "Rabbit",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "RabbitGifs",
+      "owner": "?\n",
+      "animal": "Rabbit",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "TomomoPlusArmando",
+      "owner": "guresawa, deervious\n",
+      "animal": "Rabbit",
+      "notes": "Furry",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "daily_raccoon",
+      "owner": "?\n",
+      "animal": "Raccoon",
+      "notes": "Russian",
+      "handle_pattern": "daily_?"
+    },
+    {
+      "handle": "dailyraccoons",
+      "owner": "?\n",
+      "animal": "Raccoon",
+      "notes": "Furry",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "dailyraccs",
+      "owner": "?\n",
+      "animal": "Raccoon",
+      "notes": "Partnered with dailywahs",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "Racc_Attac",
+      "owner": "DegenerateRubbish\n",
+      "animal": "Raccoon",
+      "notes": "Furry",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "daily_seals",
+      "owner": "?\n",
+      "animal": "Seal",
+      "notes": "Russian, Seals and guinea pigs, bot managed @SealDelivery_bot",
+      "handle_pattern": "daily_?"
+    },
+    {
+      "handle": "sealsandmanatees",
+      "owner": "?\n",
+      "animal": "Seal",
+      "notes": "",
+      "handle_pattern": "?and?"
+    },
+    {
+      "handle": "HourlyServals",
+      "owner": "LeonatoLynx\n",
+      "animal": "Serval",
+      "notes": "",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "Servalpics",
+      "owner": "?\n",
+      "animal": "Serval",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "allthesharkgifs",
+      "owner": "?\n",
+      "animal": "Shark",
+      "notes": "",
+      "handle_pattern": "allthe?gifs"
+    },
+    {
+      "handle": "shorks",
+      "owner": "?\n",
+      "animal": "Shark",
+      "notes": "",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "dailywahs",
+      "owner": "?\n",
+      "animal": "Wah",
+      "notes": "Partnered with dailyraccs",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "HourlyWah",
+      "owner": "TinyZorro\n",
+      "animal": "Wah",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "redpandagif",
+      "owner": "?\n",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "redpandapics",
+      "owner": "?\n",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "redpandasdaily",
+      "owner": "?\n",
+      "animal": "Wah",
+      "notes": "Owner deleted, links to twitter",
+      "handle_pattern": "?daily"
+    },
+    {
+      "handle": "WahGifs",
+      "owner": "?\n",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "wolfgifstash",
+      "owner": "?luke?\n",
+      "animal": "Wolf",
+      "notes": "",
+      "handle_pattern": "?gifstash"
+    },
+    {
+      "handle": "HourlyWolves",
+      "owner": "LeonatoLynx\n",
+      "animal": "Wolf",
+      "notes": "Mirrored to twitter.com/HourlyWolves",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "gifs_yeens_like",
+      "owner": "chocolatechipgoofer\n",
+      "animal": "Yeen",
+      "notes": "Furry",
+      "handle_pattern": "gifs_?_like"
+    },
+    {
+      "handle": "HourlyYeen",
+      "owner": "TinyZorro\n",
+      "animal": "Yeen",
+      "notes": "Furry, runs a network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "hyenagifs",
+      "owner": "itsfuckingdani\n",
+      "animal": "Yeen",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "hyenapics",
+      "owner": "?\n",
+      "animal": "Yeen",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "yeenpics",
+      "owner": "?\n",
+      "animal": "Yeen",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "capybara_daily_bot",
+      "owner": "?\n",
+      "animal": "Capybara",
+      "notes": "No reply to /start",
+      "handle_pattern": "?_daily_bot"
+    },
+    {
+      "handle": "HourlyCapybaraBot",
+      "owner": "TinyZorro\n",
+      "animal": "Capybara",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "catgifcentralbot",
+      "owner": "?\n",
+      "animal": "Cat",
+      "notes": "No reply to /start",
+      "handle_pattern": "?gifcentralbot"
+    },
+    {
+      "handle": "dogpicbot",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "No reply to /start",
+      "handle_pattern": "?picbot"
+    },
+    {
+      "handle": "dogpicsbot",
+      "owner": "?\n",
+      "animal": "Dog",
+      "notes": "No reply to /start",
+      "handle_pattern": "?picsbot"
+    },
+    {
+      "handle": "Duckpicbot",
+      "owner": "?\n",
+      "animal": "Duck",
+      "notes": "No reply to /start",
+      "handle_pattern": "?picbot"
+    },
+    {
+      "handle": "Daily_Emu_Bot",
+      "owner": "?\n",
+      "animal": "Emu",
+      "notes": "Hasn't sent anything yet",
+      "handle_pattern": "daily_?_bot"
+    },
+    {
+      "handle": "ZPiFoxBot",
+      "owner": "TinyZorro\n",
+      "animal": "Fox",
+      "notes": "TinyZorro network",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "HourlyHuskiesBot",
+      "owner": "Maybe Leonato?\n",
+      "animal": "Huskies",
+      "notes": "Doesn't respond, but runs HourlyHuskies",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "PicLionbot",
+      "owner": "?\n",
+      "animal": "Lion",
+      "notes": "No reply to /start",
+      "handle_pattern": "pic?bot"
+    },
+    {
+      "handle": "HourlyManeBot",
+      "owner": "TinyZorro\n",
+      "animal": "Maned Wolf",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "rabbits_gif_bot",
+      "owner": "?\n",
+      "animal": "Rabbit",
+      "notes": "No reply to /start",
+      "handle_pattern": "?_gif_bot"
+    },
+    {
+      "handle": "RaccoonDailyBot",
+      "owner": "?\n",
+      "animal": "Raccoon",
+      "notes": "Hasn't sent anything yet",
+      "handle_pattern": "?dailybot"
+    },
+    {
+      "handle": "SealPicBot",
+      "owner": "?\n",
+      "animal": "Seal",
+      "notes": "Seals, Capybara, kittens",
+      "handle_pattern": "?picbot"
+    },
+    {
+      "handle": "hourlywahbot",
+      "owner": "TinyZorro\n",
+      "animal": "Wah",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyYeenBot",
+      "owner": "TinyZorro\n",
+      "animal": "Yeen",
+      "notes": "Bot for HourlyYeen",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "YeenerBot",
+      "owner": "UmkhontoTheYawd\n",
+      "animal": "Yeen",
+      "notes": "Furry",
+      "handle_pattern": "?erbot"
+    },
+    {
+      "handle": "YeenpicBot",
+      "owner": "?\n",
+      "animal": "Yeen",
+      "notes": "No reply to /start",
+      "handle_pattern": "?picbot"
+    },
+    {
+      "handle": "dailyAWDs",
+      "owner": "?\n",
+      "animal": "African Painted Dog",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "goodpupperfans",
+      "owner": "VulpesMechanicus\n",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "good?fans"
+    }
+  ]
+}
