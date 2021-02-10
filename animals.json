@@ -7,7 +7,7 @@
     "seapuppy",
     "seapuppies"
   ],
-  "Bigcat": [
+  "Big Cat": [
     "bigcat",
     "bigcats",
     "big_cat",
@@ -25,7 +25,10 @@
     "dog",
     "dogs",
     "doge",
-    "doggo"
+    "doggo",
+    "doggos",
+    "pupper",
+    "puppers"
   ],
   "Lizard": [
     "lizard",
@@ -109,10 +112,7 @@
     "duck",
     "ducks"
   ],
-  "What": [
-    "-"
-  ],
-  "Yeen": [
+  "Hyena": [
     "yeen",
     "yeens",
     "hyena",
@@ -206,7 +206,8 @@
     "rabbit",
     "rabbits",
     "bunny",
-    "bunnies"
+    "bunnies",
+    "bun"
   ],
   "Sealion": [
     "sealion",
@@ -273,7 +274,7 @@
     "horse",
     "horses"
   ],
-  "Manedwolf": [
+  "Maned Wolf": [
     "mane",
     "manes",
     "maney",
@@ -312,7 +313,9 @@
     "raccoon",
     "raccoons",
     "racc",
-    "raccs"
+    "raccs",
+    "coon",
+    "coons"
   ],
   "Raven": [
     "raven",
@@ -358,5 +361,99 @@
   "Tiger": [
     "tiger",
     "tigers"
+  ],
+  "Corvid": [
+    "corvid",
+    "corvids",
+    "crow",
+    "crows",
+    "magpie",
+    "magpies"
+  ],
+  "Pig": [
+    "pig",
+    "pigs"
+  ],
+  "Fox": [
+    "fox",
+    "foxes",
+    "fops"
+  ],
+  "Wolf": [
+    "wolf",
+    "wolves",
+    "woof",
+    "woofs"
+  ],
+  "African Painted Dog": [
+    "africanpainteddog",
+    "africanpainteddogs",
+    "african_painted_dog",
+    "african_painted_dogs",
+    "awd",
+    "awds",
+    "apd",
+    "apds",
+    "chi"
+  ],
+  "Caracal": [
+    "caracal",
+    "caracals",
+    "floppa",
+    "floppas"
+  ],
+  "Pine Marten": [
+    "pinemarten",
+    "pinemartens",
+    "pine_marten",
+    "pine_martens",
+    "marten",
+    "martens"
+  ],
+  "Coyote": [
+    "coyote",
+    "coyotes",
+    "yote",
+    "yotes"
+  ],
+  "Jaguar": [
+    "jaguar",
+    "jaguars",
+    "jag",
+    "jags",
+    "onca"
+  ],
+  "Fennec": [
+    "fennec",
+    "fennecs",
+    "fennecfox",
+    "fennexfoxes",
+    "fennec_fox",
+    "fennex_foxes",
+    "fen",
+    "fens",
+    "fenn",
+    "fenns"
+  ],
+  "Guinea Pig": [
+    "guineapig",
+    "guineapigs",
+    "guinea_pig",
+    "guinea_pigs"
+  ],
+  "Husky": [
+    "husky",
+    "huskies",
+    "huskydog",
+    "huskydogs",
+    "husky_dog",
+    "husky_dogs"
+  ],
+  "Opossum": [
+    "opossum",
+    "opossums",
+    "possum",
+    "possums",
+    "poss"
   ]
 }

@@ -66,7 +66,7 @@
     {
       "handle": "piggifs",
       "owner": "DeerSpangle",
-      "animal": "Pigs",
+      "animal": "Pig",
       "notes": "",
       "handle_pattern": "?gifs"
     },
@@ -101,7 +101,7 @@
     {
       "handle": "seapuppies",
       "owner": "Zephyr42",
-      "animal": "Seapuppies",
+      "animal": "Seapuppy",
       "notes": "",
       "handle_pattern": "?"
     },
@@ -115,7 +115,7 @@
     {
       "handle": "Piggiest",
       "owner": "?",
-      "animal": "Pigs",
+      "animal": "Pig",
       "notes": "Owner unknown",
       "handle_pattern": "-"
     },
@@ -255,7 +255,7 @@
     {
       "handle": "bigcatgifs",
       "owner": "snownel",
-      "animal": "Big Cats",
+      "animal": "Big Cat",
       "notes": "Currently down",
       "handle_pattern": "?gifs"
     },
@@ -276,7 +276,7 @@
     {
       "handle": "CheetahGifs",
       "owner": "dmuth",
-      "animal": "Cheetahs",
+      "animal": "Cheetah",
       "notes": "Doesn't take submissions",
       "handle_pattern": "?gifs"
     },
@@ -325,14 +325,14 @@
     {
       "handle": "snepgifs",
       "owner": "snownel",
-      "animal": "Sneps",
+      "animal": "Snep",
       "notes": "Currently down",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "HourlySnep",
       "owner": "TinyZorro",
-      "animal": "Sneps",
+      "animal": "Snep",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
@@ -395,7 +395,7 @@
     {
       "handle": "HourlySnepBot",
       "owner": "TinyZorro",
-      "animal": "Sneps",
+      "animal": "Snep",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
@@ -437,9 +437,9 @@
     {
       "handle": "novuscats",
       "owner": "?Novus?",
-      "animal": "Big Cats",
+      "animal": "Big Cat",
       "notes": "",
-      "handle_pattern": "novus?"
+      "handle_pattern": "-"
     },
     {
       "handle": "birdgifs",
@@ -528,7 +528,7 @@
     {
       "handle": "hourlycheetahs",
       "owner": "LeonatoLynx",
-      "animal": "Cheetahs",
+      "animal": "Cheetah",
       "notes": "Mirrored to twitter.com/HourlyCheetahs",
       "handle_pattern": "hourly?"
     },
@@ -670,7 +670,7 @@
       "owner": "?",
       "animal": "Duck",
       "notes": "",
-      "handle_pattern": "?and?"
+      "handle_pattern": "-"
     },
     {
       "handle": "FennecFriends",
@@ -745,7 +745,7 @@
     {
       "handle": "HourlyHuskies",
       "owner": "Maybe Leonato?",
-      "animal": "Huskies",
+      "animal": "Husky",
       "notes": "",
       "handle_pattern": "hourly?"
     },
@@ -943,7 +943,7 @@
       "owner": "survrabbit",
       "animal": "Rabbit",
       "notes": "Cats and Rabbits",
-      "handle_pattern": "??"
+      "handle_pattern": "-"
     },
     {
       "handle": "dailyrabbit",
@@ -1006,7 +1006,7 @@
       "owner": "?",
       "animal": "Seal",
       "notes": "",
-      "handle_pattern": "?and?"
+      "handle_pattern": "-"
     },
     {
       "handle": "HourlyServals",
@@ -1095,35 +1095,35 @@
     {
       "handle": "gifs_yeens_like",
       "owner": "chocolatechipgoofer",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "",
       "handle_pattern": "gifs_?_like"
     },
     {
       "handle": "HourlyYeen",
       "owner": "TinyZorro",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "hyenagifs",
       "owner": "itsfuckingdani",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "hyenapics",
       "owner": "?",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "",
       "handle_pattern": "?pics"
     },
     {
       "handle": "yeenpics",
       "owner": "?",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "",
       "handle_pattern": "?pics"
     },
@@ -1186,7 +1186,7 @@
     {
       "handle": "HourlyHuskiesBot",
       "owner": "Maybe Leonato?",
-      "animal": "Huskies",
+      "animal": "Husky",
       "notes": "Doesn't respond, but runs HourlyHuskies",
       "handle_pattern": "hourly?bot"
     },
@@ -1235,21 +1235,21 @@
     {
       "handle": "HourlyYeenBot",
       "owner": "TinyZorro",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "Bot for HourlyYeen",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "YeenerBot",
       "owner": "UmkhontoTheYawd",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "",
       "handle_pattern": "?erbot"
     },
     {
       "handle": "YeenpicBot",
       "owner": "?",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "No reply to /start",
       "handle_pattern": "?picbot"
     },
@@ -1280,6 +1280,27 @@
       "animal": "Opossum",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "floppaedits",
+      "owner": "?",
+      "animal": "Caracal",
+      "notes": "Bot is @floppa_edits_submissions_bot",
+      "handle_pattern": "?edits"
+    },
+    {
+      "handle": "floppa_edits_submissions_bot",
+      "owner": "?",
+      "animal": "Caracal",
+      "notes": "Submissions bot for @floppaedits",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "floppachannel",
+      "owner": "eliasko249",
+      "animal": "Caracal",
+      "notes": "",
+      "handle_pattern": "?channel"
     }
   ]
 }
