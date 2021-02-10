@@ -1,14 +1,51 @@
-from typing import List
+from datetime import datetime, timedelta
+from typing import List, TypeVar, Union, Generic, Tuple
 import os
 
+import pytz
 from yattag import Doc, indent
 
 from data import Channel, load_channels_and_bots, load_channel_cache
 
 
+T = TypeVar("T", bound=Union[float, datetime])
+Colour = Tuple[float, float, float]
+
+
+class ColourScale(Generic[T]):
+    YELLOW = (255, 255, 0)
+    GREEN = (87, 187, 138)
+    RED = (230, 124, 115)
+    WHITE = (255, 255, 255)
+
+    def __init__(self, start_val: T, end_val: T, start_colour: Colour, end_colour: Colour):
+        self.start_value = start_val
+        self.end_value = end_val
+        self.start_colour = start_colour
+        self.end_colour = end_colour
+
+    def get_colour_for_value(self, value: T):
+        ratio = (value-self.start_value) / (self.end_value-self.start_value)
+        ratio = max(0, min(1, ratio))
+        colour = (
+                self.start_colour[0] + ratio * (self.end_colour[0] - self.start_colour[0]),
+                self.start_colour[1] + ratio * (self.end_colour[1] - self.start_colour[1]),
+                self.start_colour[2] + ratio * (self.end_colour[2] - self.start_colour[2])
+        )
+        return f"rgb({colour[0]}, {colour[1]}, {colour[2]})"
+
+    def style_for_value(self, value: T):
+        colour = self.get_colour_for_value(value)
+        return f"background-color: {colour};"
+
+
 def build_channel_table(entities: List[Channel], doc):
     channel_cache = load_channel_cache()
     doc, tag, text, line = doc.ttl()
+    now = datetime.utcnow().replace(tzinfo=pytz.utc)
+    old = now - timedelta(days=180)
+    date_scale = ColourScale(now, old, ColourScale.WHITE, ColourScale.RED)
+    count_scale = ColourScale(0, 1000, ColourScale.WHITE, ColourScale.GREEN)
 
     with tag("table"):
         with tag("thead"):
@@ -19,6 +56,8 @@ def build_channel_table(entities: List[Channel], doc):
                 line("th", "# pics")
                 line("th", "# gifs")
                 line("th", "# vids")
+                with tag("th"):
+                    line("abbr", "# subs", title="Subscribers")
                 line("th", "Latest post")
                 line("th", "Notes")
         with tag("tbody"):
@@ -31,13 +70,14 @@ def build_channel_table(entities: List[Channel], doc):
                     line("td", entity.owner)
                     cache = channel_cache.get(entity.handle.casefold())
                     if cache:
-                        line("td", cache.pic_count)
-                        line("td", cache.gif_count)
-                        line("td", cache.video_count)
+                        line("td", cache.pic_count, style=count_scale.style_for_value(cache.pic_count))
+                        line("td", cache.gif_count, style=count_scale.style_for_value(cache.gif_count))
+                        line("td", cache.video_count, style=count_scale.style_for_value(cache.video_count))
+                        line("td", cache.subscribers, style=count_scale.style_for_value(cache.subscribers))
                         latest_str = cache.latest_post.strftime("%Y-%m-%d") if cache.latest_post else "-"
-                        line("td", latest_str)
+                        line("td", latest_str, style=date_scale.style_for_value(cache.latest_post))
                     else:
-                        for _ in range(4):
+                        for _ in range(5):
                             line("td", "?")
                     line("td", entity.notes)
 
