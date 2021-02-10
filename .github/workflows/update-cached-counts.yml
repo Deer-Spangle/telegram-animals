@@ -1,0 +1,39 @@
+name: Update cache and publish site
+
+on:
+  workflow_dispatch:
+  #schedule:
+  #  - cron: "0 0 * * *"
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Update cache
+      run: python scrape_cache.py
+      env:
+        api_id: ${{ secrets.API_ID }}
+        api_hash: ${{ secrets.API_HASH }}
+        session_string: ${{ secrets.SESSION_STRING }}
+    - name: Save cache
+      uses: EndBug/add-and-commit@v7
+      with:
+        add: "cache/channel_cache.json"
+        message: "Updating channel cache"
+    - name: Create index.html
+      run: python create_html.py
+    - uses: JamesIves/github-pages-deploy-action@4.0.0
+      with:
+        branch: gh-pages
+        folder: public
