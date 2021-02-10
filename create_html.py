@@ -28,10 +28,10 @@ class Channel:
 def load_channels() -> List[Channel]:
     with open("channels.json", "r") as f:
         channel_data_store = json.load(f)
-    return [
+    return sorted([
         Channel.from_json(channel_data)
         for channel_data in channel_data_store["channels"]
-    ]
+    ], key=lambda c: (c.animal, c.handle))
 
 
 def build_table(channels: List[Channel], tag, text, line):
