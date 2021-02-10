@@ -1,17 +1,17 @@
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Optional
 from enum import Enum
 import pytz
 import os
 
 from telethon import TelegramClient
-from telethon.hints import Entity
 from telethon.sessions import StringSession
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.functions.messages import SearchRequest
-from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif, InputMessagesFilterVideo, Message
+from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif, InputMessagesFilterVideo, Message, \
+    InputPeerChannel
 
-from data import load_channels, Channel, ChannelCache, save_channel_cache
+from data import load_channels, Channel, ChannelCache, save_channel_cache, load_channel_cache
 
 
 class MediaType(Enum):
@@ -20,7 +20,7 @@ class MediaType(Enum):
     Video = InputMessagesFilterVideo()
 
 
-async def count_media_type(client: TelegramClient, entity: Entity, media_type: MediaType) -> int:
+async def count_media_type(client: TelegramClient, entity: InputPeerChannel, media_type: MediaType) -> int:
     results = await client(SearchRequest(
         entity,
         "",
@@ -30,25 +30,31 @@ async def count_media_type(client: TelegramClient, entity: Entity, media_type: M
     return results.count
 
 
-async def latest_message(client: TelegramClient, entity: Entity) -> Optional[Message]:
+async def latest_message(client: TelegramClient, entity: InputPeerChannel) -> Optional[Message]:
     async for msg in client.iter_messages(entity, 1):
         return msg
     return None
 
 
-async def generate_cache(client: TelegramClient, channel: Channel):
-    entity = await client.get_entity(channel.handle)
-    images = await count_media_type(client, entity, MediaType.Image)
-    gifs = await count_media_type(client, entity, MediaType.Gif)
-    videos = await count_media_type(client, entity, MediaType.Video)
-    full_entity = await client(GetFullChannelRequest(channel=entity))
+async def generate_cache(client: TelegramClient, channel: Channel, old_cache: Optional[ChannelCache]):
+    if old_cache and old_cache.channel_id:
+        input_entity = InputPeerChannel(old_cache.channel_id, old_cache.channel_hash)
+    else:
+        entity = await client.get_input_entity(channel.handle)
+        input_entity: InputPeerChannel = entity
+    images = await count_media_type(client, input_entity, MediaType.Image)
+    gifs = await count_media_type(client, input_entity, MediaType.Gif)
+    videos = await count_media_type(client, input_entity, MediaType.Video)
+    full_entity = await client(GetFullChannelRequest(channel=input_entity))
     sub_count = full_entity.full_chat.participants_count
-    latest_msg = await latest_message(client, entity)
+    latest_msg = await latest_message(client, input_entity)
     latest_post = None
     if latest_msg:
         latest_post = latest_msg.date
     return ChannelCache(
         datetime.utcnow().replace(tzinfo=pytz.utc),
+        input_entity.channel_id,
+        input_entity.access_hash,
         gifs,
         images,
         videos,
@@ -58,11 +64,22 @@ async def generate_cache(client: TelegramClient, channel: Channel):
 
 
 async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
+    old_cache = load_channel_cache()
     cache = {}
+    now = datetime.utcnow().replace(tzinfo=pytz.utc)
+    wait_before_refresh = timedelta(hours=6)
     for channel in channels:
-        channel_cache = await generate_cache(client, channel)
-        cache[channel] = channel_cache
-    save_channel_cache(cache)
+        old_channel_cache = old_cache.get(channel.handle.casefold())
+        if old_channel_cache and (old_channel_cache.date_checked - now) < wait_before_refresh:
+            cache[channel] = old_channel_cache
+            print(f"{channel.handle} was cached recently, skipping.")
+            continue
+        try:
+            channel_cache = await generate_cache(client, channel, old_channel_cache)
+            cache[channel] = channel_cache
+            save_channel_cache(cache)
+        except Exception as e:
+            print(f"{channel.handle} could not be cached: {e}")
 
 
 if __name__ == "__main__":

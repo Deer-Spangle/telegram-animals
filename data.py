@@ -67,6 +67,8 @@ def load_animals() -> Dict[str, List[str]]:
 @dataclass
 class ChannelCache:
     date_checked: datetime
+    channel_id: Optional[int]  # TODO: un-optional, once we have id & hash in cache
+    channel_hash: Optional[int]
     gif_count: int
     pic_count: int
     video_count: int
@@ -76,6 +78,8 @@ class ChannelCache:
     def to_json(self) -> Dict[str, Union[str, int]]:
         return {
             "date_checked": self.date_checked.isoformat(),
+            "channel_id": self.channel_id,
+            "channel_hash": self.channel_hash,
             "gif_count": self.gif_count,
             "pic_count": self.pic_count,
             "video_count": self.video_count,
@@ -87,6 +91,8 @@ class ChannelCache:
     def from_json(cls, json_cache: Dict[str, Optional[Union[str, int]]]) -> 'ChannelCache':
         return ChannelCache(
             parser.parse(json_cache["date_checked"]),
+            json_cache.get("channel_id"),
+            json_cache.get("channel_hash"),
             json_cache["gif_count"],
             json_cache["pic_count"],
             json_cache["video_count"],
