@@ -57,6 +57,9 @@ def create_doc(table_builder: Callable[[Any, Any, Any], None]):
     doc, tag, text, line = Doc().ttl()
 
     with tag("html"):
+        with tag("head"):
+            line("title", "Telegram animal channels")
+            tag("link", rel="stylesheet", href="style.css")
         with tag("body"):
             with tag("h1"):
                 text("Telegram animal channels")
