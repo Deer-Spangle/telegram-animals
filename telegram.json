@@ -1308,6 +1308,13 @@
       "animal": "Snep",
       "notes": "Bot for @flickrsneps Code on github: https://github.com/DariusMiu/hourly-photo-telegram-bot",
       "handle_pattern": "flickr?bot"
+    },
+    {
+      "handle": "redtaily",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "-"
     }
   ]
 }
