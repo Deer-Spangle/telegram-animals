@@ -97,7 +97,7 @@ class ChannelCache:
 
 def save_channel_cache(cache: Dict[Channel, ChannelCache]):
     json_cache = {
-        channel.handle: channel_cache.to_json()
+        channel.handle.casefold(): channel_cache.to_json()
         for channel, channel_cache in cache.items()
     }
     os.makedirs("cache", exist_ok=True)
