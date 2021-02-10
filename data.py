@@ -74,6 +74,7 @@ class ChannelCache:
     video_count: int
     subscribers: int
     latest_post: Optional[datetime]
+    bio: Optional[str]
 
     def to_json(self) -> Dict[str, Union[str, int]]:
         return {
@@ -84,7 +85,8 @@ class ChannelCache:
             "pic_count": self.pic_count,
             "video_count": self.video_count,
             "subscriber_count": self.subscribers,
-            "latest_post": self.latest_post.isoformat() if self.latest_post else None
+            "latest_post": self.latest_post.isoformat() if self.latest_post else None,
+            "bio": self.bio
         }
 
     @classmethod
@@ -97,7 +99,8 @@ class ChannelCache:
             json_cache["pic_count"],
             json_cache["video_count"],
             json_cache["subscriber_count"],
-            parser.parse(json_cache["latest_post"]) if json_cache["latest_post"] else None
+            parser.parse(json_cache["latest_post"]) if json_cache["latest_post"] else None,
+            json_cache.get("bio")
         )
 
 

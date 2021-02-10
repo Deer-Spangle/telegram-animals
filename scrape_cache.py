@@ -47,6 +47,7 @@ async def generate_cache(client: TelegramClient, channel: Channel, old_cache: Op
     videos = await count_media_type(client, input_entity, MediaType.Video)
     full_entity = await client(GetFullChannelRequest(channel=input_entity))
     sub_count = full_entity.full_chat.participants_count
+    bio = full_entity.full_chat.about
     latest_msg = await latest_message(client, input_entity)
     latest_post = None
     if latest_msg:
@@ -59,7 +60,8 @@ async def generate_cache(client: TelegramClient, channel: Channel, old_cache: Op
         images,
         videos,
         sub_count,
-        latest_post
+        latest_post,
+        bio
     )
 
 
