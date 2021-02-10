@@ -26,11 +26,7 @@ class MediaType(Enum):
 
 class CachedSearcher:
     def __init__(self):
-        try:
-            with open("scrape_cache_search_cache.json", "r") as f:
-                self.search_cache = json.load(f)
-        except FileNotFoundError:
-            self.search_cache = {}
+        self.search_cache = {}
 
     async def search_name(self, client: TelegramClient, handle: str) -> InputPeerChannel:
         if handle.casefold() in self.search_cache:
@@ -43,6 +39,19 @@ class CachedSearcher:
         if handle.casefold() in self.search_cache:
             return self.search_cache[handle.casefold()]
 
+    @classmethod
+    def load_from_json(cls) -> 'CachedSearcher':
+        searcher = cls()
+        try:
+            with open("scrape_cache_search_cache.json", "r") as f:
+                searcher.search_cache = {
+                    key: InputPeerChannel(value["channel_id"], value["channel_hash"])
+                    for key, value in json.load(f).items()
+                }
+        except FileNotFoundError:
+            pass
+        return searcher
+
     def save_to_json(self):
         with open("scrape_cache_search_cache.json", "w") as f:
             json.dump({
@@ -50,8 +59,7 @@ class CachedSearcher:
                     "channel_id": value.channel_id,
                     "channel_hash": value.access_hash
                 } for key, value in self.search_cache.items()
-            }, f)
-
+            }, f, indent=2)
 
 
 async def count_media_type(client: TelegramClient, entity: InputPeerChannel, media_type: MediaType) -> int:
@@ -124,7 +132,7 @@ async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
     cache = {}
     now = datetime.utcnow().replace(tzinfo=pytz.utc)
     wait_before_refresh = timedelta(hours=6)
-    searcher = CachedSearcher()
+    searcher = CachedSearcher.load_from_json()
     for channel in channels:
         old_channel_cache = old_cache.get(channel.handle.casefold())
         if old_channel_cache and (old_channel_cache.date_checked - now) < wait_before_refresh:
