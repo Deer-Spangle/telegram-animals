@@ -123,14 +123,14 @@
       "handle": "HourlyTiger",
       "owner": "TinyZorro",
       "animal": "Tiger",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyTigerBot",
       "owner": "TinyZorro",
       "animal": "Tiger",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
@@ -249,7 +249,7 @@
       "handle": "HourlyChi",
       "owner": "TinyZorro",
       "animal": "African Painted Dog",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
@@ -270,7 +270,7 @@
       "handle": "HourlyCaracal",
       "owner": "TinyZorro",
       "animal": "Caracal",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
@@ -284,14 +284,14 @@
       "handle": "HourlyYotes",
       "owner": "TinyZorro",
       "animal": "Coyote",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyJaguars",
       "owner": "TinyZorro",
       "animal": "Jaguar",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
@@ -305,21 +305,21 @@
       "handle": "HourlyPineMarten",
       "owner": "TinyZorro",
       "animal": "Pine Marten",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyBun",
       "owner": "TinyZorro",
       "animal": "Rabbit",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyCoon",
       "owner": "TinyZorro",
       "animal": "Raccoon",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
@@ -333,77 +333,77 @@
       "handle": "HourlySnep",
       "owner": "TinyZorro",
       "animal": "Sneps",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyWoofs",
       "owner": "TinyZorro",
       "animal": "Wolf",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyChiBot",
       "owner": "TinyZorro",
       "animal": "African Painted Dog",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyCaracalBot",
       "owner": "TinyZorro",
       "animal": "Caracal",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyYoteBot",
       "owner": "TinyZorro",
       "animal": "Coyote",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyJaguarBot",
       "owner": "TinyZorro",
       "animal": "Jaguar",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyPineMartenBot",
       "owner": "TinyZorro",
       "animal": "Pine Marten",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyBunBot",
       "owner": "TinyZorro",
       "animal": "Rabbit",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyRaccBot",
       "owner": "TinyZorro",
       "animal": "Raccoon",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlySnepBot",
       "owner": "TinyZorro",
       "animal": "Sneps",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyWoofBot",
       "owner": "TinyZorro",
       "animal": "Wolf",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
@@ -417,7 +417,7 @@
       "handle": "BatGifs",
       "owner": "?",
       "animal": "Bat",
-      "notes": "Owner unknown",
+      "notes": "",
       "handle_pattern": "?gifs"
     },
     {
@@ -437,8 +437,8 @@
     {
       "handle": "novuscats",
       "owner": "?Novus?",
-      "animal": "Big cat?",
-      "notes": "Already got a bigger one",
+      "animal": "Big Cats",
+      "notes": "",
       "handle_pattern": "novus?"
     },
     {
@@ -557,7 +557,7 @@
       "handle": "DailyDogGifs",
       "owner": "FinnTheDafter",
       "animal": "Dog",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "daily?gifs"
     },
     {
@@ -599,14 +599,14 @@
       "handle": "doggifs",
       "owner": "HooliganHusky",
       "animal": "Dog",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "doggifstash",
       "owner": "?Luke",
       "animal": "Dog",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "?gifstash"
     },
     {
@@ -627,7 +627,7 @@
       "handle": "dogpics",
       "owner": "dogpics@maff.im",
       "animal": "Dog",
-      "notes": "Furry, email contact?",
+      "notes": "email contact?",
       "handle_pattern": "?pics"
     },
     {
@@ -662,7 +662,7 @@
       "handle": "duckgifs",
       "owner": "duckboymiro",
       "animal": "Duck",
-      "notes": "Racist bio of owner, and another racist channel",
+      "notes": "",
       "handle_pattern": "?gifs"
     },
     {
@@ -718,7 +718,7 @@
       "handle": "HourlyFoxes",
       "owner": "LeonatoLynx",
       "animal": "Fox",
-      "notes": "Furry, same as twitter.com/hourlyfoxes",
+      "notes": "mirrored to https://twitter.com/hourlyfoxes",
       "handle_pattern": "hourly?"
     },
     {
@@ -788,14 +788,14 @@
       "handle": "Lizardgifs",
       "owner": "lazylizard95",
       "animal": "Lizard",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "HourlyLynxes",
       "owner": "LeonatoLynx",
       "animal": "Lynx",
-      "notes": "Furry, same as twitter.com/HouryLynxes",
+      "notes": "Mirrored to https://twitter.com/HouryLynxes",
       "handle_pattern": "hourly?"
     },
     {
@@ -872,7 +872,7 @@
       "handle": "ottergif",
       "owner": "?benzi?",
       "animal": "Otter",
-      "notes": "All links, to a website with broken https, ran by someone at starling bank",
+      "notes": "All links, to a website with broken https",
       "handle_pattern": "?gif"
     },
     {
@@ -935,7 +935,7 @@
       "handle": "bunnygifs",
       "owner": "BlueFurryBunny",
       "animal": "Rabbit",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "?gifs"
     },
     {
@@ -963,7 +963,7 @@
       "handle": "TomomoPlusArmando",
       "owner": "guresawa, deervious",
       "animal": "Rabbit",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "-"
     },
     {
@@ -977,7 +977,7 @@
       "handle": "dailyraccoons",
       "owner": "?",
       "animal": "Raccoon",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "daily?"
     },
     {
@@ -991,7 +991,7 @@
       "handle": "Racc_Attac",
       "owner": "DegenerateRubbish",
       "animal": "Raccoon",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "-"
     },
     {
@@ -1096,14 +1096,14 @@
       "handle": "gifs_yeens_like",
       "owner": "chocolatechipgoofer",
       "animal": "Yeen",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "gifs_?_like"
     },
     {
       "handle": "HourlyYeen",
       "owner": "TinyZorro",
       "animal": "Yeen",
-      "notes": "Furry, runs a network",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
@@ -1243,7 +1243,7 @@
       "handle": "YeenerBot",
       "owner": "UmkhontoTheYawd",
       "animal": "Yeen",
-      "notes": "Furry",
+      "notes": "",
       "handle_pattern": "?erbot"
     },
     {
@@ -1271,14 +1271,14 @@
       "handle": "HourlyPoss",
       "owner": "TinyZorro",
       "animal": "Opossum",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyPossBot",
       "owner": "TinyZorro",
       "animal": "Opossum",
-      "notes": "TinyZorro network hub",
+      "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     }
   ]
