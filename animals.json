@@ -1,0 +1,362 @@
+{
+  "Bird": [
+    "bird",
+    "birds"
+  ],
+  "Seapuppy": [
+    "seapuppy",
+    "seapuppies"
+  ],
+  "Bigcat": [
+    "bigcat",
+    "bigcats",
+    "big_cat",
+    "big_cats"
+  ],
+  "Cat": [
+    "cat",
+    "cats"
+  ],
+  "Seal": [
+    "seal",
+    "seals"
+  ],
+  "Dog": [
+    "dog",
+    "dogs",
+    "doge",
+    "doggo"
+  ],
+  "Lizard": [
+    "lizard",
+    "lizards",
+    "reptile",
+    "reptiles"
+  ],
+  "Goat": [
+    "goat",
+    "goats"
+  ],
+  "Lion": [
+    "lion",
+    "lions"
+  ],
+  "Cheetah": [
+    "cheetah",
+    "cheetahs",
+    "chee",
+    "chees"
+  ],
+  "Elephant": [
+    "elephant",
+    "elephants",
+    "phant",
+    "phants"
+  ],
+  "Ferret": [
+    "ferret",
+    "ferrets"
+  ],
+  "Owl": [
+    "owl",
+    "owls"
+  ],
+  "Panther": [
+    "panther",
+    "panthers"
+  ],
+  "Leopard": [
+    "leopard",
+    "leopards"
+  ],
+  "Snake": [
+    "snake",
+    "snakes",
+    "snek",
+    "sneks"
+  ],
+  "Crow": [
+    "crow",
+    "crows",
+    "corvid",
+    "corvids"
+  ],
+  "Kitten": [
+    "kitten",
+    "kittens"
+  ],
+  "Beluga": [
+    "beluga",
+    "belugas"
+  ],
+  "Chicken": [
+    "chicken",
+    "chickens"
+  ],
+  "Otter": [
+    "otter",
+    "otters"
+  ],
+  "Whale": [
+    "whale",
+    "whales"
+  ],
+  "Cockatoo": [
+    "cockatoo",
+    "cockatoos"
+  ],
+  "Duck": [
+    "duck",
+    "ducks"
+  ],
+  "What": [
+    "-"
+  ],
+  "Yeen": [
+    "yeen",
+    "yeens",
+    "hyena",
+    "hyenas"
+  ],
+  "Lynx": [
+    "lynx",
+    "lynxes"
+  ],
+  "Manatee": [
+    "manatee",
+    "manatees"
+  ],
+  "Capybara": [
+    "capybara",
+    "capybaras"
+  ],
+  "Crocodile": [
+    "crocodile",
+    "crocodiles",
+    "croc",
+    "crocs"
+  ],
+  "Eagle": [
+    "eagle",
+    "eagles"
+  ],
+  "Pig": [
+    "pig",
+    "pigs"
+  ],
+  "Rhino": [
+    "rhino",
+    "rhinos"
+  ],
+  "Serval": [
+    "serval",
+    "servals"
+  ],
+  "Shark": [
+    "shark",
+    "sharks",
+    "shork",
+    "shorks"
+  ],
+  "Sheep": [
+    "sheep"
+  ],
+  "Wah": [
+    "wah",
+    "wahs",
+    "redpanda",
+    "redpandas",
+    "red_panda",
+    "red_pandas"
+  ],
+  "Bat": [
+    "bat",
+    "bats"
+  ],
+  "Hummingbird": [
+    "hummingbird",
+    "hummingbirds"
+  ],
+  "Insect": [
+    "insect",
+    "insects",
+    "bug",
+    "bugs"
+  ],
+  "Komodo": [
+    "komodo",
+    "komododragon",
+    "komododragons",
+    "komodo_dragon",
+    "komodo_dragons"
+  ],
+  "Llama": [
+    "llama",
+    "llamas"
+  ],
+  "Magpie": [
+    "magpie",
+    "magpies"
+  ],
+  "Parrot": [
+    "parrot",
+    "parrots"
+  ],
+  "Rabbit": [
+    "rabbit",
+    "rabbits",
+    "bunny",
+    "bunnies"
+  ],
+  "Sealion": [
+    "sealion",
+    "sealions"
+  ],
+  "Turtle": [
+    "turtle",
+    "turtles"
+  ],
+  "Alpaca": [
+    "alpaca",
+    "alpacas"
+  ],
+  "Anteater": [
+    "anteater",
+    "anteaters"
+  ],
+  "Boar": [
+    "boar",
+    "boars"
+  ],
+  "Camel": [
+    "camel",
+    "camels"
+  ],
+  "Deer": [
+    "deer"
+  ],
+  "Dinosaur": [
+    "dinosaur",
+    "dinosaurs",
+    "dino",
+    "dinos"
+  ],
+  "Dragonfly": [
+    "dragonfly",
+    "dragonflies"
+  ],
+  "Eel": [
+    "eel",
+    "eels"
+  ],
+  "Emu": [
+    "emu",
+    "emus"
+  ],
+  "Frog": [
+    "frog",
+    "frogs"
+  ],
+  "Geese": [
+    "goose",
+    "geese"
+  ],
+  "Giraffe": [
+    "giraffe",
+    "giraffes"
+  ],
+  "Hedgehog": [
+    "hedgehog",
+    "hedgehogs"
+  ],
+  "Horse": [
+    "horse",
+    "horses"
+  ],
+  "Manedwolf": [
+    "mane",
+    "manes",
+    "maney",
+    "maneys",
+    "manedwolf",
+    "manedwolves",
+    "manedwolfs",
+    "maned_wolf",
+    "maned_wolves",
+    "maned_wolves"
+  ],
+  "Monkey": [
+    "monkey",
+    "monkeys"
+  ],
+  "Moth": [
+    "moth",
+    "moths"
+  ],
+  "Panda": [
+    "panda",
+    "pandas"
+  ],
+  "Pangolin": [
+    "pangolin"
+  ],
+  "Peacock": [
+    "peacock",
+    "peacocks"
+  ],
+  "Pigeon": [
+    "pigeon",
+    "pigeons"
+  ],
+  "Raccoon": [
+    "raccoon",
+    "raccoons",
+    "racc",
+    "raccs"
+  ],
+  "Raven": [
+    "raven",
+    "ravens"
+  ],
+  "Skunk": [
+    "skunk",
+    "skunks"
+  ],
+  "Snep": [
+    "snep",
+    "sneps",
+    "snowleopard",
+    "snowleopards",
+    "snow_leopard",
+    "snow_leopards"
+  ],
+  "Squirrel": [
+    "squirrel",
+    "squirrels"
+  ],
+  "Starfish": [
+    "starfish",
+    "starfish"
+  ],
+  "Tortoise": [
+    "tortoise",
+    "tortoises"
+  ],
+  "Toucan": [
+    "toucan",
+    "toucans"
+  ],
+  "Cougar": [
+    "cougar",
+    "cougars"
+  ],
+  "Cow": [
+    "cow",
+    "cows",
+    "cattle"
+  ],
+  "Tiger": [
+    "tiger",
+    "tigers"
+  ]
+}
