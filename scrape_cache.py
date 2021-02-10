@@ -90,6 +90,10 @@ if __name__ == "__main__":
     api_id = int(os.getenv("API_ID"))
     api_hash = os.getenv("API_HASH")
     session_string = os.getenv("SESSION_STRING")
-    c = TelegramClient(StringSession(session_string), api_id, api_hash)
+    if session_string:
+        session_arg = StringSession(session_string)
+    else:
+        session_arg = "telegram-animals"
+    c = TelegramClient(session_arg, api_id, api_hash)
     c.start()
     c.loop.run_until_complete(generate_all_caches(c, channel_list))
