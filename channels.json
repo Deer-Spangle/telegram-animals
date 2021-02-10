@@ -241,7 +241,7 @@
     {
       "handle": "FoxesHourlies",
       "owner": "TinyZorro",
-      "animal": "-",
+      "animal": "~",
       "notes": "TinyZorro network hub",
       "handle_pattern": "-"
     },
@@ -409,7 +409,7 @@
     {
       "handle": "Cutehappystuffs",
       "owner": "?",
-      "animal": "-",
+      "animal": "*",
       "notes": "Many animals",
       "handle_pattern": "-"
     },
