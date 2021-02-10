@@ -66,7 +66,7 @@ async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
 
 
 if __name__ == "__main__":
-    channel_list = load_channels()[:5]
+    channel_list = load_channels()
     api_id = int(os.getenv("API_ID"))
     api_hash = os.getenv("API_HASH")
     session_string = os.getenv("SESSION_STRING")
