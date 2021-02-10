@@ -1266,6 +1266,20 @@
       "animal": "Dog",
       "notes": "",
       "handle_pattern": "good?fans"
+    },
+    {
+      "handle": "HourlyPoss",
+      "owner": "TinyZorro",
+      "animal": "Opossum",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyPossBot",
+      "owner": "TinyZorro",
+      "animal": "Opossum",
+      "notes": "TinyZorro network hub",
+      "handle_pattern": "hourly?bot"
     }
   ]
 }
