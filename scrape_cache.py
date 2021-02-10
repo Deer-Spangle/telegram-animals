@@ -80,6 +80,7 @@ async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
             channel_cache = await generate_cache(client, channel, old_channel_cache)
             cache[channel] = channel_cache
             save_channel_cache(cache)
+            print(f"{channel.handle} cache updated.")
         except Exception as e:
             print(f"{channel.handle} could not be cached: {e}")
 
