@@ -1,6 +1,10 @@
 import json
 from dataclasses import dataclass
-from typing import Tuple, List, Dict
+from datetime import datetime
+from typing import Tuple, List, Dict, Optional, Union
+import os
+
+from dateutil import parser
 
 
 @dataclass
@@ -25,6 +29,12 @@ class Channel:
     def is_bot(self) -> bool:
         return self.handle.lower().endswith("bot")
 
+    def __eq__(self, other):
+        return isinstance(other, Channel) and self.handle.casefold() == other.handle.casefold()
+
+    def __hash__(self):
+        return hash(self.handle.casefold())
+
 
 def load_channels_and_bots() -> Tuple[List[Channel], List[Channel]]:
     with open("telegram.json", "r") as f:
@@ -39,6 +49,10 @@ def load_channels_and_bots() -> Tuple[List[Channel], List[Channel]]:
     )
 
 
+def load_channels() -> List[Channel]:
+    return [entity for entity in load_entities() if not entity.is_bot]
+
+
 def load_entities() -> List[Channel]:
     with open("telegram.json", "r") as f:
         telegram_data = json.load(f)
@@ -48,3 +62,53 @@ def load_entities() -> List[Channel]:
 def load_animals() -> Dict[str, List[str]]:
     with open("animals.json", "r") as f:
         return json.load(f)
+
+
+@dataclass
+class ChannelCache:
+    date_checked: datetime
+    gif_count: int
+    pic_count: int
+    video_count: int
+    subscribers: int
+    latest_post: Optional[datetime]
+
+    def to_json(self) -> Dict[str, Union[str, int]]:
+        return {
+            "date_checked": self.date_checked.isoformat(),
+            "gif_count": self.gif_count,
+            "pic_count": self.pic_count,
+            "video_count": self.video_count,
+            "subscriber_count": self.subscribers,
+            "latest_post": self.latest_post.isoformat() if self.latest_post else None
+        }
+
+    @classmethod
+    def from_json(cls, json_cache: Dict[str, Optional[Union[str, int]]]) -> 'ChannelCache':
+        return ChannelCache(
+            parser.parse(json_cache["date_checked"]),
+            json_cache["gif_count"],
+            json_cache["pic_count"],
+            json_cache["video_count"],
+            json_cache["subscriber_count"],
+            parser.parse(json_cache["latest_post"]) if json_cache["latest_post"] else None
+        )
+
+
+def save_channel_cache(cache: Dict[Channel, ChannelCache]):
+    json_cache = {
+        channel.handle: channel_cache.to_json()
+        for channel, channel_cache in cache.items()
+    }
+    os.makedirs("cache", exist_ok=True)
+    with open("cache/channel_cache.json", "w+") as f:
+        json.dump(json_cache, f, indent=2)
+
+
+def load_channel_cache() -> Dict[str, ChannelCache]:
+    with open("cache/channel_cache.json", "r") as f:
+        json_cache = json.load(f)
+    return {
+        handle: ChannelCache.from_json(value)
+        for handle, value in json_cache.items()
+    }
