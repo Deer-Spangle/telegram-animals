@@ -1,22 +1,10 @@
-import json
 from typing import List, Dict
 
-from create_html import Channel
+from data import Channel, load_entities, load_animals
 
 
 class DataException(Exception):
     pass
-
-
-def load_entities() -> List[Channel]:
-    with open("channels.json", "r") as f:
-        entity_data = json.load(f)
-    return [Channel.from_json(entity_datum) for entity_datum in entity_data["channels"]]
-
-
-def load_animals() -> Dict[str, List[str]]:
-    with open("animals.json", "r") as f:
-        return json.load(f)
 
 
 def validate_entity(entity: Channel, animal_data: Dict[str, List[str]]):
@@ -44,11 +32,9 @@ def validate_animal(key, name_list):
             raise DataException(f"Spaces are not allowed in animal name: {name}")
 
 
-if __name__ == "__main__":
-    entites = load_entities()
-    animal_data = load_animals()
+def validate(entities: List[Channel], animal_data: Dict[str, List[str]]) -> List[DataException]:
     exceptions = []
-    for entity in entites:
+    for entity in entities:
         try:
             validate_entity(entity, animal_data)
         except DataException as e:
@@ -58,5 +44,10 @@ if __name__ == "__main__":
             validate_animal(key, name_list)
         except DataException as e:
             exceptions.append(e)
-    if exceptions:
-        raise DataException("Data failed to validate:\n" + "\n".join(str(e) for e in exceptions))
+    return exceptions
+
+
+if __name__ == "__main__":
+    exc_list = validate(load_entities(), load_animals())
+    if exc_list:
+        raise DataException("Data failed to validate:\n" + "\n".join(str(e) for e in exc_list))

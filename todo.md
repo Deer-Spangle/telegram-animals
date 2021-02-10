@@ -1,6 +1,4 @@
 # To do
-- Pull common data parsing out to a module
-  - Split channels and bots in entity store
 - Ability to sort and filter table
   - Filter on things like: hourly, daily, etc
     - Eventually filter on whether they are primarily gifs, pics, videos
