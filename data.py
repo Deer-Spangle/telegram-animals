@@ -42,7 +42,7 @@ def load_channels_and_bots() -> Tuple[List[Channel], List[Channel]]:
     sorted_entites = sorted([
         Channel.from_json(channel_data)
         for channel_data in data_store["entities"]
-    ], key=lambda c: (c.animal, c.handle))
+    ], key=lambda c: (c.animal, c.handle.casefold()))
     return (
         [channel for channel in sorted_entites if not channel.is_bot],
         [bot for bot in sorted_entites if bot.is_bot]
