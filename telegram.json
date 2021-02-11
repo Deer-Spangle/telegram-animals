@@ -1322,6 +1322,69 @@
       "animal": "Dog",
       "notes": "",
       "handle_pattern": "best?"
+    },
+    {
+      "handle": "brokencats",
+      "owner": "lesharodin",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "broken?"
+    },
+    {
+      "handle": "cats_cats",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?_?"
+    },
+    {
+      "handle": "catsc",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?c"
+    },
+    {
+      "handle": "cutedogs",
+      "owner": "Schr0dinger",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "cute?"
+    },
+    {
+      "handle": "CuteFrogges",
+      "owner": "?",
+      "animal": "Frog",
+      "notes": "Happy Animally network",
+      "handle_pattern": "cute?"
+    },
+    {
+      "handle": "CowsCowsCows",
+      "owner": "?",
+      "animal": "Cow",
+      "notes": "Happy Animally network",
+      "handle_pattern": "???"
+    },
+    {
+      "handle": "lionslionslions",
+      "owner": "?",
+      "animal": "Lion",
+      "notes": "Happy Animally network",
+      "handle_pattern": "???"
+    },
+    {
+      "handle": "ShibaInuDoge",
+      "owner": "Bestulo",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "otterappreciation",
+      "owner": "?",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "?appreciation"
     }
   ]
 }
