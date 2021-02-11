@@ -1392,6 +1392,20 @@
       "animal": "Fox",
       "notes": "",
       "handle_pattern": "fluffy?"
+    },
+    {
+      "handle": "HourlyBleat",
+      "owner": "TinyZorro",
+      "animal": "Deer",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyDeerBot",
+      "owner": "TinyZorro",
+      "animal": "Deer",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
     }
   ]
 }
