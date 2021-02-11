@@ -1385,6 +1385,13 @@
       "animal": "Otter",
       "notes": "",
       "handle_pattern": "?appreciation"
+    },
+    {
+      "handle": "FluffyFoxxos",
+      "owner": "starunderscorestar",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "fluffy?"
     }
   ]
 }
