@@ -35,7 +35,8 @@ class CachedSearcher:
         time.sleep(3)
         for chat in response.chats:
             input_entity = InputPeerChannel(chat.id, chat.access_hash)
-            self.search_cache[chat.username.casefold()] = input_entity
+            if chat.username:
+                self.search_cache[chat.username.casefold()] = input_entity
         if handle.casefold() in self.search_cache:
             return self.search_cache[handle.casefold()]
 
