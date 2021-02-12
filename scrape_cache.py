@@ -135,7 +135,7 @@ async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
     searcher = CachedSearcher.load_from_json()
     for channel in channels:
         old_channel_cache = cache.get(channel.handle.casefold())
-        if old_channel_cache and (old_channel_cache.date_checked - now) < wait_before_refresh:
+        if old_channel_cache and (now - old_channel_cache.date_checked) > wait_before_refresh:
             print(f"{channel.handle} was cached recently, skipping.")
             continue
         try:
