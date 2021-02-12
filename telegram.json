@@ -737,7 +737,7 @@
     },
     {
       "handle": "HourlyHuskies",
-      "owner": "Maybe Leonato?",
+      "owner": "LeonatoLynx",
       "animal": "Husky",
       "notes": "",
       "handle_pattern": "hourly?"
@@ -1385,6 +1385,27 @@
       "animal": "Otter",
       "notes": "",
       "handle_pattern": "?appreciation"
+    },
+    {
+      "handle": "FluffyFoxxos",
+      "owner": "starunderscorestar",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "fluffy?"
+    },
+    {
+      "handle": "HourlyBleat",
+      "owner": "TinyZorro",
+      "animal": "Deer",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyDeerBot",
+      "owner": "TinyZorro",
+      "animal": "Deer",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
     }
   ]
 }
