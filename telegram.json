@@ -1406,6 +1406,41 @@
       "animal": "Deer",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "KotEPaRtY",
+      "owner": "YaARTEMIY",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "TheKittyHouse",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "the?house"
+    },
+    {
+      "handle": "roumdcat",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "roumd?"
+    },
+    {
+      "handle": "cuteotters",
+      "owner": "?",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "cute?"
+    },
+    {
+      "handle": "TheFoxNews",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "the?news"
     }
   ]
 }
