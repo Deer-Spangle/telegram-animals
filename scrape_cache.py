@@ -108,6 +108,8 @@ async def generate_cache(
     images = await count_media_type(client, input_entity, MediaType.Image)
     gifs = await count_media_type(client, input_entity, MediaType.Gif)
     videos = await count_media_type(client, input_entity, MediaType.Video)
+    entity = await client.get_entity(input_entity)
+    title = entity.title
     full_entity = await client(GetFullChannelRequest(channel=input_entity))
     sub_count = full_entity.full_chat.participants_count
     bio = full_entity.full_chat.about
@@ -124,7 +126,8 @@ async def generate_cache(
         videos,
         sub_count,
         latest_post,
-        bio
+        bio,
+        title
     )
 
 
