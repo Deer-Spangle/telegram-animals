@@ -1441,6 +1441,13 @@
       "animal": "Fox",
       "notes": "",
       "handle_pattern": "the?news"
+    },
+    {
+      "handle": "fox_vulpes_renard_lis",
+      "owner": "pechenkovsky",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "-"
     }
   ]
 }
