@@ -2050,5 +2050,17 @@
     "latest_post": "2021-02-26T08:45:11+00:00",
     "bio": "Wah = RedPanda gifs channel\nBy: @kubalzki",
     "title": "Wah Gifs"
+  },
+  "spanglegifs": {
+    "date_checked": "2021-03-09T14:49:54.078191+00:00",
+    "channel_id": 1384860156,
+    "channel_hash": -7094747216865560189,
+    "gif_count": 0,
+    "pic_count": 0,
+    "video_count": 0,
+    "subscriber_count": 14,
+    "latest_post": "2021-02-22T00:39:33+00:00",
+    "bio": "Just a hub explaining and linking all my gif channels",
+    "title": "Spangle gifs"
   }
 }
