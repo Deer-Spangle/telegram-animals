@@ -1455,6 +1455,13 @@
       "animal": "Wah",
       "notes": "",
       "handle_pattern": "?_gifs"
+    },
+    {
+      "handle": "spanglegifs",
+      "owner": "DeerSpangle",
+      "animal": "~",
+      "notes": "DeerSpangle gif channels network hub",
+      "handle_pattern": "-"
     }
   ]
 }
