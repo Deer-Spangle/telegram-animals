@@ -1448,6 +1448,13 @@
       "animal": "Fox",
       "notes": "",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "wah_gifs",
+      "owner": "Kubalzki",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "?_gifs"
     }
   ]
 }
