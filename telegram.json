@@ -1462,6 +1462,237 @@
       "animal": "~",
       "notes": "DeerSpangle gif channels network hub",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "JustDogs",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "just?"
+    },
+    {
+      "handle": "dogsandflowers",
+      "owner": "sellyourcat",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "GloryToMiku",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Miku the cat",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "iboopyeens",
+      "owner": "OzzyC",
+      "animal": "Hyena",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "CuteFoxes",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "cute?"
+    },
+    {
+      "handle": "cute_meows_and_barks",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Cats and dogs and others",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "FarmAnimals",
+      "owner": "Kroznick",
+      "animal": "Cow",
+      "notes": "Various farm animals. Cats, dogs, goats, horses, etc",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "cutebunnies",
+      "owner": "?",
+      "animal": "Rabbit",
+      "notes": "",
+      "handle_pattern": "cute?"
+    },
+    {
+      "handle": "ratpost",
+      "owner": "mintyfoxxe",
+      "animal": "Rat",
+      "notes": "",
+      "handle_pattern": "?post"
+    },
+    {
+      "handle": "pander_paradise",
+      "owner": "?",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "Catarium",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "See @CatariumBot for submissions",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "imacat",
+      "owner": "nakxwest",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "ima?"
+    },
+    {
+      "handle": "roundcats",
+      "owner": "tororooo",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "round?"
+    },
+    {
+      "handle": "toadschannel",
+      "owner": "?",
+      "animal": "Toad",
+      "notes": "See @suggest_a_toad_bot for submissions",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "notaraccoon",
+      "owner": "?",
+      "animal": "Wah",
+      "notes": "See @notaraccoonBot for submissions",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "smolkitties",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "smol?"
+    },
+    {
+      "handle": "birblife",
+      "owner": "crossbill",
+      "animal": "Bird",
+      "notes": "Has a chat, @birbchat",
+      "handle_pattern": "?life"
+    },
+    {
+      "handle": "papugi",
+      "owner": "?",
+      "animal": "Bird",
+      "notes": "See @PopugaysBot for submissions. Also uses @birbchat",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "thebirb",
+      "owner": "artkolp",
+      "animal": "Bird",
+      "notes": "Also uses @birbchat",
+      "handle_pattern": "the?"
+    },
+    {
+      "handle": "opossums",
+      "owner": "?",
+      "animal": "Opossum",
+      "notes": "",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "PuppersAndBorks",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "possums_here",
+      "owner": "draggsconnor",
+      "animal": "Opossum",
+      "notes": "",
+      "handle_pattern": "?_here"
+    },
+    {
+      "handle": "SlothLovers",
+      "owner": "?",
+      "animal": "Sloth",
+      "notes": "See @cybersloth_bot for submissions",
+      "handle_pattern": "?lovers"
+    },
+    {
+      "handle": "jezitto",
+      "owner": "diashavs",
+      "animal": "Hedgehog",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "dookers",
+      "owner": "?",
+      "animal": "Ferret",
+      "notes": "",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "vidrochki",
+      "owner": "fullofmaggots",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "possumemes",
+      "owner": "?",
+      "animal": "Opossum",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "cat_kv",
+      "owner": "orlanas",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "surfingbirds",
+      "owner": "?",
+      "animal": "Bird",
+      "notes": "See @CatualBot for submissions and feedback",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "trippycats",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "See @CatualBot for submissions and feedback",
+      "handle_pattern": "trippy?"
+    },
+    {
+      "handle": "trippydogs",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "See @CatualBot for submissions and feedback",
+      "handle_pttern": "trippy?"
+    },
+    {
+      "handle": "ratsssz",
+      "owner": "podvalmetal",
+      "animal": "Rat",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "Chats_Cats_kocky_koty",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "See @koty_feedback_bot for submissions and feedback",
+      "handle_pattern": "-"
     }
   ]
 }
