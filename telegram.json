@@ -1693,6 +1693,55 @@
       "animal": "Cat",
       "notes": "See @koty_feedback_bot for submissions and feedback",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "voce_bernese",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "HourlyOtt",
+      "owner": "TinyZorro",
+      "animal": "Otter",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyOttBot",
+      "owner": "TinyZorro",
+      "animal": "Otter",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyLeo",
+      "owner": "TinyZorro",
+      "animal": "Lion",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyLeoBot",
+      "owner": "TinyZorro",
+      "animal": "Lion",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlySneks",
+      "owner": "TinyZorro",
+      "animal": "Snake",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlySnekBot",
+      "owner": "TinyZorro",
+      "animal": "Snake",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
     }
   ]
 }
