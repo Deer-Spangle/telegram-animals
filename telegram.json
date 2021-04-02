@@ -1742,6 +1742,13 @@
       "animal": "Snake",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "StuffAboutCrows",
+      "owner": "?",
+      "animal": "Corvid",
+      "notes": "",
+      "handle_pattern": "stuffabout?"
     }
   ]
 }
