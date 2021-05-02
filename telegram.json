@@ -1749,6 +1749,13 @@
       "animal": "Corvid",
       "notes": "",
       "handle_pattern": "stuffabout?"
+    },
+    {
+      "handle": "birbchannel",
+      "owner": "knifewitch",
+      "animal": "Bird",
+      "notes": "",
+      "handle_pattern": "?channel"
     }
   ]
 }
