@@ -1756,6 +1756,13 @@
       "animal": "Bird",
       "notes": "",
       "handle_pattern": "?channel"
+    },
+    {
+      "handle": "CougarPics",
+      "owner": "?",
+      "animal": "Cougar",
+      "notes": "",
+      "handle_pattern": "?pics"
     }
   ]
 }
