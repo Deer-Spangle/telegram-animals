@@ -1763,6 +1763,13 @@
       "animal": "Cougar",
       "notes": "",
       "handle_pattern": "?pics"
+    },
+    {
+      "handle": "Samoyed_Channel",
+      "owner": "Zelts_Elis",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?_channel"
     }
   ]
 }
