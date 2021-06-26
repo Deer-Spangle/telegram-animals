@@ -1777,6 +1777,13 @@
       "animal": "Cheetah",
       "notes": "Blocked my main account, which is a tad confusing",
       "handle_pattern": "bagof?"
+    },
+    {
+      "handle": "BURRS",
+      "owner": "?",
+      "animal": "Bear",
+      "notes": "Discussion group at @discussburrs",
+      "handle_pattern": "?"
     }
   ]
 }
