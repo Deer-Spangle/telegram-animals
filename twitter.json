@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "handle": "FennecsDaily",
+      "owner": "?",
+      "animal": "Fennec",
+      "notes": "Fennec photos/videos posted every day at 12 AM, 8 AM & 5 PM CST!",
+      "handle_pattern": "?daily"
+    },
+    {
+      "handle": "platinumfoxes",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Platinum Foxes are often confused with Marble, Whitemark or Sibirian Foxes",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "HourlyCheetahs",
+      "owner": "LeonatoLynx",
+      "animal": "Cheetah",
+      "notes": "Mirror of telegram @hourlycheetahs",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "hourlyfoxes",
+      "owner": "LeonatoLynx",
+      "animal": "Fox",
+      "notes": "Mirror of telegram @HourlyFoxes",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyLynxes",
+      "owner": "LeonatoLynx",
+      "animal": "Lynx",
+      "notes": "Mirror of telegram @HourlyLynxes",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "flickrsneps",
+      "owner": "?",
+      "animal": "Snep",
+      "notes": "Mirror of telegram @flickrsneps",
+      "handle_pattern": "flickr?"
+    },
+    {
+      "handle": "HourlyWolves",
+      "owner": "LeonatoLynx",
+      "animal": "Wolf",
+      "notes": "Mirror of telegram @HourlyWolves",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "redpandasdaily",
+      "owner": "?",
+      "animal": "Wah",
+      "notes": "Linked by telegram @redpandasdaily, but not affiliated with them",
+      "handle_pattern": "?daily"
+    }
+  ]
+}
