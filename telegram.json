@@ -1784,6 +1784,13 @@
       "animal": "Bear",
       "notes": "Discussion group at @discussburrs",
       "handle_pattern": "?"
+    },
+    {
+      "handle": "snekgifs",
+      "owner": "?",
+      "animal": "Snake",
+      "notes": "Same owner as mierde randm?",
+      "handle_pattern": "?gifs"
     }
   ]
 }
