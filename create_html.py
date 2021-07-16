@@ -61,8 +61,13 @@ def build_channel_table(entities: List[Channel], doc):
                 line("th", "Latest post")
                 line("th", "Notes")
         with tag("tbody"):
+            last_animal = None
             for entity in entities:
-                with tag("tr"):
+                row_class = ""
+                if last_animal is not None and last_animal != entity.animal:
+                    row_class = "new-animal"
+                last_animal = entity.animal
+                with tag("tr", klass=row_class):
                     with tag("td"):
                         with tag("a", href=f"https://t.me/{entity.handle}"):
                             text(f"@{entity.handle}")
