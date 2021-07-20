@@ -55,6 +55,13 @@
       "animal": "Wah",
       "notes": "Not a bot. Linked by telegram @redpandasdaily, but not affiliated with them",
       "handle_pattern": "?daily"
+    },
+    {
+      "handle": "DeerHourly",
+      "owner": "@SamTheRaccDeer",
+      "animal": "Deer",
+      "notes": "-",
+      "handle_pattern": "?hourly"
     }
   ]
 }
