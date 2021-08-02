@@ -62,6 +62,13 @@
       "animal": "Deer",
       "notes": "-",
       "handle_pattern": "?hourly"
+    },
+    {
+      "handle": "cowsjpg",
+      "owner": "?",
+      "animal": "Cow",
+      "notes": "-",
+      "handle_pattern": "?jpg"
     }
   ]
 }
