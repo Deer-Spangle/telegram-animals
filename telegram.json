@@ -1910,6 +1910,12 @@
       "animal": "Raccoon",
       "notes": "Russian",
       "handle_pattern": "?"
-    }
+    },
+    {
+      "handle": "musia_shuvalova",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Specific cat, Musi",
+      "handle_pattern": "?"
   ]
 }
