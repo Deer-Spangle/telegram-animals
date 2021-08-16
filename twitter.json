@@ -69,6 +69,13 @@
       "animal": "Cow",
       "notes": "-",
       "handle_pattern": "?jpg"
+    },
+    {
+      "handle": "CapybaraDaily",
+      "owner": "?",
+      "animal": "Capybara",
+      "notes": "-",
+      "handle_pattern": "?daily"
     }
   ]
 }
