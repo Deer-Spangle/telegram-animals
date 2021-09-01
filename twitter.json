@@ -76,6 +76,48 @@
       "animal": "Capybara",
       "notes": "-",
       "handle_pattern": "?daily"
+    },
+    {
+      "handle": "hourlyFox",
+      "owner": "@marudor",
+      "animal": "Fox",
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://foxrudor.de/",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "hourlycats",
+      "owner": "@marudor",
+      "animal": "Cat",
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://maurudor.de/",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "hourlypanda",
+      "owner": "@marudor",
+      "animal": "Panda",
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://pandarudor.de/",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "hourlytiger",
+      "owner": "@marudor",
+      "animal": "Tiger",
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://tigrudor.de/",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyPengus",
+      "owner": "@jukeboxlifemc",
+      "animal": "Penguin",
+      "notes": "Daily, despite the handle",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyPinguins",
+      "owner": "@marudor",
+      "animal": "Penguin",
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://pingudor.de/",
+      "handle_pattern": "hourly?"
     }
   ]
 }
