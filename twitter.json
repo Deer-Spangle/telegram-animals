@@ -118,6 +118,13 @@
       "animal": "Penguin",
       "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://pingudor.de/",
       "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "DailyHyenas",
+      "owner": "?",
+      "animal": "Hyena",
+      "notes": "",
+      "handle_pattern": "daily?"
     }
   ]
 }
