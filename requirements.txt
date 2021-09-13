@@ -2,3 +2,4 @@ yattag
 telethon
 pytz
 python-dateutil
+requests
