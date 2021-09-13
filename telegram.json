@@ -1741,7 +1741,7 @@
       "owner": "TinyZorro",
       "animal": "Snake",
       "notes": "TinyZorro network",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "hourly?bot"
     },
     {
       "handle": "StuffAboutCrows",
