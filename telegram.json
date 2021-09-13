@@ -1713,7 +1713,7 @@
       "owner": "TinyZorro",
       "animal": "Otter",
       "notes": "TinyZorro network",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyLeo",
@@ -1727,7 +1727,7 @@
       "owner": "TinyZorro",
       "animal": "Lion",
       "notes": "TinyZorro network",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlySneks",
