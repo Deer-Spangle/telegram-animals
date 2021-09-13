@@ -37,8 +37,8 @@ class SearchCacheEntry:
 
 
 class Searcher:
-    def __init__(self, entites: List[Channel], animals: Dict[str, List[str]], ignored: List[str]):
-        self.entites = entities
+    def __init__(self, entities: List[Channel], animals: Dict[str, List[str]], ignored: List[str]):
+        self.entities = entities
         self.animals = animals
         self.ignored = ignored
         self.cache = {}
@@ -102,7 +102,7 @@ if __name__ == "__main__":
     animals = load_animals()
     ignored = []  # TODO
     # Create searcher
-    searcher = Searcher(entites, animals, ignored)
+    searcher = Searcher(entities, animals, ignored)
     # Get all animal names
     animal_names = searcher.all_animal_names()
     # Get all handle patterns
