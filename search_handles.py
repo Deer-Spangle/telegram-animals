@@ -1,21 +1,23 @@
-import itertools
-from dataclasses import dataclass
-from typing import Optional, Dict, List, TypeVar, Callable, Tuple
 import datetime
+import itertools
 import json
-import pytz
+from dataclasses import dataclass
+from typing import Optional, Dict, List, TypeVar, Callable, Tuple, Iterable
 
-from dateutil import parser
+import pytz
 import requests
+from dateutil import parser
 
 from data import Channel, load_channels, load_animals
 
 T = TypeVar("T")
 
-def split_list(source_list: List[T], condition: Callable[[T], bool]) -> Tuple[List[T], List[T]]:
+
+def split_list(source_list: Iterable[T], condition: Callable[[T], bool]) -> Tuple[List[T], List[T]]:
     """
     Splits a list by a condition.
-    Returning the list of entries for which the condition is true, then the list of entries for which the condition is false.
+    Returning the list of entries for which the condition is true, then the list of entries for which the
+    condition is false.
     """
     true_list = []
     false_list = []
@@ -33,8 +35,8 @@ class SearchCacheEntry:
     in_store: bool
     exists_in_telegram: Optional[bool]
     ignored: bool
-    last_checked: datetime.datetime
-    
+    last_checked: Optional[datetime.datetime]
+
     def to_json(self) -> Dict:
         return {
             "handle": self.handle,
@@ -43,7 +45,7 @@ class SearchCacheEntry:
             "ignored": self.ignored,
             "last_checked": self.last_checked.isoformat() if self.last_checked else None
         }
-    
+
     @classmethod
     def from_json(cls, data: Dict) -> 'SearchCacheEntry':
         return cls(
@@ -53,18 +55,18 @@ class SearchCacheEntry:
             data["ignored"],
             parser.parse(data["last_checked"]) if data["last_checked"] else None
         )
-    
+
     @property
     def is_known(self) -> bool:
         return self.in_store or self.ignored
-    
+
     def older_than(self, age: datetime.timedelta, now: Optional[datetime.datetime] = None) -> bool:
         if self.last_checked is None:
             return True
         now = now or datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         my_age = now - self.last_checked
         return my_age > age
-    
+
     def check_existence(self) -> bool:
         path = f"https://t.me/{self.handle}"
         resp = requests.get(path)
@@ -83,27 +85,27 @@ class Searcher:
         self.cache = {}
         self.unknown_expiry = datetime.timedelta(weeks=1)
         self.known_expiry = datetime.timedelta(weeks=5)
-    
+
     def all_animal_names(self) -> List[str]:
         return list(itertools.chain(*self.animals.values()))
-    
+
     def all_handle_patterns(self) -> List[str]:
         handle_patterns = set()
-        for channel in channels:
+        for channel in self.channels:
             if channel.handle_pattern == "-":
                 continue
             handle_patterns.add(channel.handle_pattern)
         return list(handle_patterns)
-    
+
     def all_known_handles(self) -> List[str]:
         return [c.handle for c in self.channels]
-    
+
     def total_handles(self) -> int:
         return len(self.cache)
-    
+
     def unchecked_handles(self) -> int:
         return len([entry for entry in self.cache.values() if entry.exists_in_telegram is None])
-    
+
     def initialise_cache(self) -> None:
         self.load_cache_from_json()
         known_handles = self.all_known_handles()
@@ -112,7 +114,7 @@ class Searcher:
                 handle = handle_pattern.replace("?", animal_name)
                 if handle not in self.cache:
                     self.cache[handle] = SearchCacheEntry(
-                        handle, 
+                        handle,
                         handle in known_handles,
                         None,
                         handle in self.ignored,
@@ -130,15 +132,16 @@ class Searcher:
         }
         with open("cache/search_cache.json", "w") as f:
             json.dump(data, f, indent=2)
-    
+
     def load_cache_from_json(self) -> None:
         try:
             with open("cache/search_cache.json", "r") as f:
                 data = json.load(f)
         except FileNotFoundError:
             data = {}
-        self.cache = {handle: SearchCacheEntry.from_json(entry_data) for handle, entry_data in data.get("cache", {}).items()}
-    
+        self.cache = {handle: SearchCacheEntry.from_json(entry_data) for handle, entry_data in
+                      data.get("cache", {}).items()}
+
     def list_cache_entries_needing_update(self) -> List[SearchCacheEntry]:
         now = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         # Split by whether they have been checked
@@ -157,7 +160,7 @@ class Searcher:
         # Then known, ignored entries which are over expiry limit
         results += [entry for entry in known_checked if entry.older_than(self.known_expiry, now)]
         return results
-    
+
     def check_channels(self) -> None:
         needs_update = self.list_cache_entries_needing_update()
         print(f"Looks like {len(needs_update)} handles need checking")
@@ -167,48 +170,49 @@ class Searcher:
                 entry.check_existence()
                 print(f"It {'exists' if entry.exists_in_telegram else 'does not exist'}")
             except Exception as e:
-                print(f"{channel.handle} could not be cached: {e}")
-    
+                print(f"{entry.handle} could not be cached: {e}")
+
     def list_alerts(self) -> List[str]:
         exists_unknown = [entry for entry in self.cache.values() if entry.exists_in_telegram and not entry.is_known]
-        ignored = [entry for entry in self.cache.values() if entry.ignored]
-        ignored_missing = [entry for entry in self.cache.values() if entry.ignored and entry.exists_in_telegram is False]
-        stored_missing = [entry for entry in self.cache.values() if entry.in_store and entry.exists_in_telegram is False]
-        alerts = []
-        alerts.append(
-            "These channels have been discovered:\n" + "\n".join(entry.handle for entry in exists_unknown)
-        )
-        alerts.append(
-            "These channels are ignored, but do not exist:\n" + "\n".join(entry.handle for entry in ignored_missing)
-        )
-        alerts.append(
+        ignored_missing = [
+            entry for entry in self.cache.values() if entry.ignored and entry.exists_in_telegram is False
+        ]
+        stored_missing = [
+            entry for entry in self.cache.values() if entry.in_store and entry.exists_in_telegram is False
+        ]
+        alerts = [
+            "These channels have been discovered:\n" + "\n".join(entry.handle for entry in exists_unknown),
+            "These channels are ignored, but do not exist:\n" + "\n".join(entry.handle for entry in ignored_missing),
             "These channels are in store, but do not exist:\n" + "\n".join(entry.handle for entry in stored_missing)
-        )
+        ]
+        return alerts
 
 
 if __name__ == "__main__":
     # Load channels, animals, and ignore list
-    channels = load_channels()
-    animals = load_animals()
-    ignored = []  # TODO
+    a_channels = load_channels()
+    a_animals = load_animals()
+    a_ignored = []  # TODO
     # Create searcher
-    searcher = Searcher(channels, animals, ignored)
-    # Get all animal names
-    animal_names = searcher.all_animal_names()
-    # Get all handle patterns
-    handle_patterns = searcher.all_handle_patterns()
+    searcher = Searcher(a_channels, a_animals, a_ignored)
     # Print some stats
-    print(f"There are {len(animal_names)} animal names, {len(channels)} known channels, {len(ignored)} ignored channels, and {len(handle_patterns)} handle patterns.")
+    print(
+        f"There are {len(searcher.all_animal_names())} animal names, {len(a_channels)} known channels, "
+        f"{len(a_ignored)} ignored channels, and {len(searcher.all_handle_patterns())} handle patterns."
+    )
     # Initialise searcher cache
     searcher.initialise_cache()
     # Print more stats
-    print(f"There are {searcher.total_handles()} possible handles in total, of which, {searcher.unchecked_handles()} have not been checked.")
+    print(
+        f"There are {searcher.total_handles()} possible handles in total, of which, "
+        f"{searcher.unchecked_handles()} have not been checked."
+    )
     # Check channels
     searcher.check_channels()
     # Get alerts
-    alerts = searcher.list_alerts()
+    a_alerts = searcher.list_alerts()
     # Just print alerts for now. TODO
-    for alert in alerts:
+    for alert in a_alerts:
         print(alert)
     # Save cache
     searcher.save_cache_to_json()
