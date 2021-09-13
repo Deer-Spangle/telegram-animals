@@ -1,12 +1,30 @@
 import itertools
 from dataclasses import dataclass
-from typing import Optional, Dict, List
+from typing import Optional, Dict, List, TypeVar
 import datetime
 import json
+import pytz
 
 from dateutil import parser
+import requests
 
-from data import Channel, load_entities, load_animals
+from data import Channel, load_channels, load_animals
+
+T = TypeVar("T")
+
+def split_list(source_list: List[T], condition: Callable[[T], bool]) -> Tuple[List[T], List[T]]:
+    """
+    Splits a list by a condition.
+    Returning the list of entries for which the condition is true, then the list of entries for which the condition is false.
+    """
+    true_list = []
+    false_list = []
+    for entry in source_list:
+        if condition(entry):
+            true_list.append(entry)
+        else:
+            false_list.append(entry)
+    return true_list, false_list
 
 
 @dataclass
@@ -35,28 +53,47 @@ class SearchCacheEntry:
             data["ignored"],
             parser.parse(data["last_checked"]) if data["last_checked"] else None
         )
+    
+    @property
+    def is_known(self) -> bool:
+        return self.in_store or self.ignored
+    
+    def older_than(self, age: datetime.timedelta, now: Optional[datetime.datetime] = None) -> bool:
+        now = now or datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
+        my_age = now - self.last_checked
+        return my_age > age
+    
+    def check_existence(self) -> bool:
+        path = f"https://t.me/{self.handle}"
+        resp = requests.get(path)
+        assert resp.status_code == 200
+        exists = '<span class="tgme_action_button_label">Preview channel</span>' in resp.text
+        self.exists_in_telegram = exists
+        return exists
 
 
 class Searcher:
-    def __init__(self, entities: List[Channel], animals: Dict[str, List[str]], ignored: List[str]):
-        self.entities = entities
+    def __init__(self, channels: List[Channel], animals: Dict[str, List[str]], ignored: List[str]):
+        self.channels = channels
         self.animals = animals
         self.ignored = ignored
         self.cache = {}
+        self.unknown_expiry = datetime.timedelta(weeks=1)
+        self.known_expiry = datetime.timedelta(weeks=5)
     
     def all_animal_names(self) -> List[str]:
         return list(itertools.chain(*self.animals.values()))
     
     def all_handle_patterns(self) -> List[str]:
         handle_patterns = set()
-        for entity in entities:
-            if entity.handle_pattern == "-":
+        for channel in channels:
+            if channel.handle_pattern == "-":
                 continue
-            handle_patterns.add(entity.handle_pattern)
+            handle_patterns.add(channel.handle_pattern)
         return list(handle_patterns)
     
     def all_known_handles(self) -> List[str]:
-        return [e.handle for e in self.entities]
+        return [c.handle for c in self.channels]
     
     def total_handles(self) -> int:
         return len(self.cache)
@@ -99,28 +136,73 @@ class Searcher:
             data = {}
         self.cache = {handle: SearchCacheEntry.from_json(entry_data) for handle, entry_data in data.get("cache", {}).items()}
     
+    def list_cache_entries_needing_update(self) -> List[SearchCacheEntry]:
+        now = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
+        # Split by whether they have been checked
+        unchecked, checked = split_list(self.cache.values(), lambda entry: entry.exists_in_telegram is None)
+        # Split unchecked by whether they are known
+        known_unchecked, unknown_unchecked = split_list(unchecked, lambda entry: entry.is_known)
+        # Split checked by whether they are known
+        known_checked, unknown_checked = split_list(unchecked, lambda entry: entry.is_known)
+        # Build results list
+        results = []
+        # Unchecked known entries first, then unknown
+        results += known_unchecked
+        results += unknown_unchecked
+        # Then unknown entries which are over expiry limit
+        results += [entry for entry in unknown_checked if entry.older_than(self.unknown_expiry, now)]
+        # Then known, ignored entries which are over expiry limit
+        results += [entry for entry in known_checked if entry.older_than(self.known_expiry, now)]
+        return results
+    
     def check_channels(self) -> None:
-        pass  # TODO: Actually check channels
+        needs_update = self.list_cache_entries_needing_update()
+        print(f"Looks like {len(needs_update)} handles need checking")
+        for entry in needs_update:
+            print(f"Checking whether @{entry.handle} exists on telegram")
+            entry.check_existence()
+            print(f"It {'exists' if entry.exists_in_telegram else 'does not exist'}")
+    
+    def list_alerts(self) -> List[str]:
+        exists_unknown = [entry for entry in self.cache.values() if entry.exists_in_telegram and not entry.is_known]
+        ignored = [entry for entry in self.cache.values() if entry.ignored]
+        ignored_missing = [entry for entry in self.cache.values() if entry.ignored and entry.exists_in_telegram is False]
+        stored_missing = [entry for entry in self.cache.values() if entry.in_store and entry.exists_in_telegram is False]
+        alerts = []
+        alerts.append(
+            "These channels have been discovered:\n" + "\n".join(entry.handle for entry in exists_unknown)
+        )
+        alerts.append(
+            "These channels are ignored, but do not exist:\n" + "\n".join(entry.handle for entry in ignored_missing)
+        )
+        alerts.append(
+            "These channels are in store, but do not exist:\n" + "\n".join(entry.handle for entry in stored_missing)
+        )
 
 
 if __name__ == "__main__":
-    # Load entities, animals, and ignore list
-    entities = load_entities()
+    # Load channels, animals, and ignore list
+    channels = load_channels()
     animals = load_animals()
     ignored = []  # TODO
     # Create searcher
-    searcher = Searcher(entities, animals, ignored)
+    searcher = Searcher(channels, animals, ignored)
     # Get all animal names
     animal_names = searcher.all_animal_names()
     # Get all handle patterns
     handle_patterns = searcher.all_handle_patterns()
     # Print some stats
-    print(f"There are {len(animal_names)} animal names, {len(entities)} known channels, {len(ignored)} ignored channels, and {len(handle_patterns)} handle patterns.")
+    print(f"There are {len(animal_names)} animal names, {len(channels)} known channels, {len(ignored)} ignored channels, and {len(handle_patterns)} handle patterns.")
     # Initialise searcher cache
     searcher.initialise_cache()
     # Print more stats
     print(f"There are {searcher.total_handles()} possible handles in total, of which, {searcher.unchecked_handles()} have not been checked.")
     # Check channels
     searcher.check_channels()
+    # Get alerts
+    alerts = searcher.list_alerts()
+    # Just print alerts for now. TODO
+    for alert in alerts:
+        print(alert)
     # Save cache
     searcher.save_cache_to_json()
