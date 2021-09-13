@@ -1,6 +1,6 @@
 import itertools
 from dataclasses import dataclass
-from typing import Optional, Dict, List, TypeVar
+from typing import Optional, Dict, List, TypeVar, Callable, Tuple
 import datetime
 import json
 import pytz
