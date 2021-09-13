@@ -1797,126 +1797,126 @@
       "owner": "?",
       "animal": "Duck",
       "notes": "Italian, lapqpera network, part of @pagatelupizzu network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "ilprocionw",
       "owner": "?",
       "animal": "Raccoon",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "laranw",
       "owner": "?",
       "animal": "Frog",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "el_buni",
       "owner": "?",
       "animal": "Rabbit",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "lalumacw",
       "owner": "?",
       "animal": "Snail",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "capibqra",
       "owner": "?",
       "animal": "Capybara",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "nulistheshiba",
       "owner": "?",
       "animal": "Dog",
       "notes": "Specific shiba, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "canepallareal",
       "owner": "?",
       "animal": "Dog",
       "notes": "Specific dog? Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "bestioline",
       "owner": "?",
       "animal": "*",
       "notes": "Cute small animals, Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "lalontrq",
       "owner": "?",
       "animal": "Otter",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "PAPERWCHESALTANO",
       "owner": "?",
       "animal": "Parrot",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "ilriccip",
       "owner": "?",
       "animal": "Hedgehog",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "nyaasus",
       "owner": "?",
       "animal": "Cat",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "ilploplo",
       "owner": "?",
       "animal": "Octopus",
       "notes": "Italian, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "liltummy",
       "owner": "?",
       "animal": "Cat",
       "notes": "Specific 3 cats, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "cogeshiiiiba",
       "owner": "?",
       "animal": "Dog",
       "notes": "Specific shiba, lapqpera network",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "allprocyon",
       "owner": "@come_to_me_my_inquisitor",
       "animal": "Raccoon",
       "notes": "Russian",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     },
     {
       "handle": "musia_shuvalova",
       "owner": "?",
       "animal": "Cat",
       "notes": "Specific cat, Musi",
-      "handle_pattern": "?"
+      "handle_pattern": "-"
     }
   ]
 }
