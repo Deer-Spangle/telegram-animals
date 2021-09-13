@@ -59,6 +59,8 @@ class SearchCacheEntry:
         return self.in_store or self.ignored
     
     def older_than(self, age: datetime.timedelta, now: Optional[datetime.datetime] = None) -> bool:
+        if self.last_checked is None:
+            return True
         now = now or datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         my_age = now - self.last_checked
         return my_age > age
@@ -69,6 +71,7 @@ class SearchCacheEntry:
         assert resp.status_code == 200
         exists = '<span class="tgme_action_button_label">Preview channel</span>' in resp.text
         self.exists_in_telegram = exists
+        self.last_checked = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         return exists
 
 
