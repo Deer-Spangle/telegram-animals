@@ -81,7 +81,7 @@ class Searcher:
                     self.cache[handle].in_store = handle in known_handles
                     self.cache[handle].ignored = handle in self.ignored
 
-    def save_cache_to_json(self):
+    def save_cache_to_json(self) -> None:
         data = {
             "cache": {
                 entry.handle: entry.to_json() for entry in self.cache.values()
@@ -90,7 +90,7 @@ class Searcher:
         with open("cache/search_cache.json", "w") as f:
             json.dump(data, f, indent=2)
     
-    def load_cache_from_json(self):
+    def load_cache_from_json(self) -> None:
         try:
             with open("cache/search_cache.json", "r") as f:
                 data = json.load(f)
@@ -98,6 +98,9 @@ class Searcher:
             data = {}
         self.cache = {handle: SearchCacheEntry.from_json(entry_data) for handle, entry_data in data.get("cache", {}).items()}
     
+    def check_channels(self) -> None:
+        pass  # TODO: Actually check channels
+
 
 if __name__ == "__main__":
     # Load entities, animals, and ignore list
@@ -116,3 +119,7 @@ if __name__ == "__main__":
     searcher.initialise_cache()
     # Print more stats
     print(f"There are {searcher.total_handles()} possible handles in total, of which, {searcher.unchecked_handles()} have not been checked.")
+    # Check channels
+    searcher.check_channels()
+    # Save cache
+    searcher.save_cache_to_json()
