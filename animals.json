@@ -1,7 +1,11 @@
 {
   "Bird": [
     "bird",
-    "birds"
+    "birds",
+    "birb",
+    "birbs",
+    "borb",
+    "borbs"
   ],
   "Seapuppy": [
     "seapuppy",
@@ -15,7 +19,9 @@
   ],
   "Cat": [
     "cat",
-    "cats"
+    "cats",
+    "kitty",
+    "kitties"
   ],
   "Seal": [
     "seal",
@@ -28,7 +34,9 @@
     "doggo",
     "doggos",
     "pupper",
-    "puppers"
+    "puppers",
+    "shiba",
+    "samoyed"
   ],
   "Lizard": [
     "lizard",
@@ -42,13 +50,18 @@
   ],
   "Lion": [
     "lion",
-    "lions"
+    "lions",
+    "leo",
+    "leos"
   ],
   "Cheetah": [
     "cheetah",
     "cheetahs",
     "chee",
-    "chees"
+    "chees",
+    "cheeto",
+    "cheetos",
+    "cheetoes"
   ],
   "Elephant": [
     "elephant",
@@ -58,7 +71,11 @@
   ],
   "Ferret": [
     "ferret",
-    "ferrets"
+    "ferrets",
+    "dook",
+    "dooks",
+    "dooker",
+    "dookers"
   ],
   "Owl": [
     "owl",
@@ -98,7 +115,9 @@
   ],
   "Otter": [
     "otter",
-    "otters"
+    "otters",
+    "ott",
+    "otts"
   ],
   "Whale": [
     "whale",
@@ -234,7 +253,10 @@
     "camels"
   ],
   "Deer": [
-    "deer"
+    "deer",
+    "deers",
+    "bleat",
+    "bleats"
   ],
   "Dinosaur": [
     "dinosaur",
@@ -379,7 +401,9 @@
   "Fox": [
     "fox",
     "foxes",
-    "fops"
+    "fops",
+    "foxxo",
+    "foxxos"
   ],
   "Wolf": [
     "wolf",
@@ -457,5 +481,33 @@
     "possum",
     "possums",
     "poss"
+  ],
+  "Octopus": [
+    "octopus",
+    "octopi",
+    "octopusses",
+    "octopode"
+  ],
+  "Bear": [
+    "bear",
+    "bears",
+    "burr",
+    "burrs"
+  ],
+  "Snail": [
+    "snail",
+    "snails"
+  ],
+  "Rat": [
+    "rat",
+    "rats"
+  ],
+  "Toad": [
+    "toad",
+    "toads"
+  ],
+  "Sloth": [
+    "sloth",
+    "sloths"
   ]
 }
