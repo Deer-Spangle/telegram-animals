@@ -146,7 +146,7 @@ class Searcher:
         # Split unchecked by whether they are known
         known_unchecked, unknown_unchecked = split_list(unchecked, lambda entry: entry.is_known)
         # Split checked by whether they are known
-        known_checked, unknown_checked = split_list(unchecked, lambda entry: entry.is_known)
+        known_checked, unknown_checked = split_list(checked, lambda entry: entry.is_known)
         # Build results list
         results = []
         # Unchecked known entries first, then unknown
