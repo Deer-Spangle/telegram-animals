@@ -163,8 +163,11 @@ class Searcher:
         print(f"Looks like {len(needs_update)} handles need checking")
         for entry in needs_update:
             print(f"Checking whether @{entry.handle} exists on telegram")
-            entry.check_existence()
-            print(f"It {'exists' if entry.exists_in_telegram else 'does not exist'}")
+            try:
+                entry.check_existence()
+                print(f"It {'exists' if entry.exists_in_telegram else 'does not exist'}")
+            except Exception as e:
+                print(f"{channel.handle} could not be cached: {e}")
     
     def list_alerts(self) -> List[str]:
         exists_unknown = [entry for entry in self.cache.values() if entry.exists_in_telegram and not entry.is_known]
