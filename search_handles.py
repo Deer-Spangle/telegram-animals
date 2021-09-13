@@ -1,5 +1,7 @@
 import itertools
 from dataclasses import dataclass
+from typing import Optional, Dict, List
+import datetime
 
 from dateutil import parser
 
