@@ -181,9 +181,12 @@ class Searcher:
             entry for entry in self.cache.values() if entry.in_store and entry.exists_in_telegram is False
         ]
         alerts = [
-            "These channels have been discovered:\n" + "\n".join(entry.handle for entry in exists_unknown),
-            "These channels are ignored, but do not exist:\n" + "\n".join(entry.handle for entry in ignored_missing),
-            "These channels are in store, but do not exist:\n" + "\n".join(entry.handle for entry in stored_missing)
+            f"These ({len(exists_unknown)}) channels have been discovered:\n" +
+            "\n".join(f"@{entry.handle}" for entry in exists_unknown),
+            f"These ({len(ignored_missing)}) channels are ignored, but do not exist:\n" +
+            "\n".join(f"@{entry.handle}" for entry in ignored_missing),
+            f"These ({len(stored_missing)}) channels are in store, but do not exist:\n" +
+            "\n".join(f"@{entry.handle}" for entry in stored_missing)
         ]
         return alerts
 
