@@ -91,9 +91,12 @@ class Searcher:
             json.dump(data, f, indent=2)
     
     def load_cache_from_json(self):
-        with open("cache/search_cache.json", "r") as f:
-            data = json.load(f)
-        self.cache = {handle: SearchCacheEntry.from_json(entry_data) for handle, entry_data in data["cache"]}
+        try:
+            with open("cache/search_cache.json", "r") as f:
+                data = json.load(f)
+        except FileNotFoundError:
+            data = {}
+        self.cache = {handle: SearchCacheEntry.from_json(entry_data) for handle, entry_data in data.get("cache", {}).items()}
     
 
 if __name__ == "__main__":
