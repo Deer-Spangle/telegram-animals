@@ -20,3 +20,8 @@ jobs:
       run: python validate.py
     - name: Search telegram
       run: python search_handles.py
+    - name: Save cache
+      uses: EndBug/add-and-commit@v7
+      with:
+        add: "cache/search_cache.json"
+        message: "Updating search cache"
