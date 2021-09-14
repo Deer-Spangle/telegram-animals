@@ -4,6 +4,7 @@ from datetime import datetime
 from typing import Tuple, List, Dict, Optional, Union
 import os
 
+import pytz
 from dateutil import parser
 
 
@@ -36,6 +37,28 @@ class Channel:
         return hash(self.handle.casefold())
 
 
+@dataclass
+class Ignore:
+    handle: str
+    reason: str
+    expiry: Optional[datetime] = None
+
+    @classmethod
+    def from_json(cls, data: Dict) -> 'Ignore':
+        return cls(
+            data["handle"],
+            data["reason"],
+            None if "expiry" not in data else parser.parse(data["expiry"])
+        )
+
+    @property
+    def is_expired(self) -> bool:
+        if self.expiry is None:
+            return False
+        now = datetime.utcnow().replace(tzinfo=pytz.utc)
+        return now > self.expiry
+
+
 def load_channels_and_bots() -> Tuple[List[Channel], List[Channel]]:
     with open("telegram.json", "r") as f:
         data_store = json.load(f)
@@ -62,6 +85,14 @@ def load_entities() -> List[Channel]:
 def load_animals() -> Dict[str, List[str]]:
     with open("animals.json", "r") as f:
         return json.load(f)
+
+
+def load_ignored() -> List[Ignore]:
+    with open("telegram.json", "r") as f:
+        telegram_data = json.load(f)
+    if "ignored" not in telegram_data:
+        return []
+    return [Ignore.from_json(ignore_data) for ignore_data in telegram_data["ignored"]]
 
 
 @dataclass

@@ -10,7 +10,7 @@ import requests
 from dateutil import parser
 from bs4 import BeautifulSoup
 
-from data import Channel, load_channels, load_animals
+from data import Channel, load_channels, load_animals, load_ignored, Ignore
 
 T = TypeVar("T")
 
@@ -111,7 +111,10 @@ class SearchCacheEntry:
         if not self.exists_in_telegram:
             return None
         page_code = page_code or requests.get(f"https://t.me/{self.handle}").text
-        subs = re.search(r"<div class=\"(?:tgme_page_extra|tgme_header_counter)\">([0-9 ]+|no) subscribers?</div>", page_code)
+        subs = re.search(
+            r"<div class=\"(?:tgme_page_extra|tgme_header_counter)\">([0-9 ]+|no) subscribers?</div>",
+            page_code
+        )
         sub_str = subs.group(1)
         if sub_str == "no":
             self.subscribers = 0
@@ -157,7 +160,7 @@ class SearchCacheEntry:
 
 
 class Searcher:
-    def __init__(self, channels: List[Channel], animals: Dict[str, List[str]], ignored: List[str]):
+    def __init__(self, channels: List[Channel], animals: Dict[str, List[str]], ignored: List[Ignore]):
         self.channels = channels
         self.animals = animals
         self.ignored = ignored
@@ -186,25 +189,29 @@ class Searcher:
     def unchecked_handles(self) -> int:
         return len([entry for entry in self.cache.values() if entry.exists_in_telegram is None])
 
+    def ignored_dict(self) -> Dict[str, Ignore]:
+        return {i.handle.lower(): i for i in self.ignored}
+
     def initialise_cache(self) -> None:
         self.load_cache_from_json()
         known_handles = self.all_known_handles()
+        ignored_dict = self.ignored_dict()
         for animal_name in self.all_animal_names():
             for handle_pattern in self.all_handle_patterns():
-                handle = handle_pattern.replace("?", animal_name)
+                handle = handle_pattern.replace("?", animal_name).lower()
                 if handle not in self.cache:
                     self.cache[handle] = SearchCacheEntry(
                         handle,
                         handle in known_handles,
                         None,
-                        handle in self.ignored,
+                        handle in ignored_dict,
                         None,
                         None,
                         None
                     )
                 else:
                     self.cache[handle].in_store = handle in known_handles
-                    self.cache[handle].ignored = handle in self.ignored
+                    self.cache[handle].ignored = handle in ignored_dict and not ignored_dict[handle].is_expired
 
     def save_cache_to_json(self) -> None:
         data = {
@@ -275,6 +282,9 @@ class Searcher:
         ignored_missing = [
             entry for entry in self.cache.values() if entry.ignored and entry.exists_in_telegram is False
         ]
+        ignored_expired = [
+            i for i in self.ignored if i.is_expired
+        ]
         stored_missing = [
             entry for entry in self.cache.values() if entry.in_store and entry.exists_in_telegram is False
         ]
@@ -283,6 +293,8 @@ class Searcher:
             "\n".join(f"@{entry.handle}" for entry in exists_unknown),
             f"These ({len(ignored_missing)}) channels are ignored, but do not exist:\n" +
             "\n".join(f"@{entry.handle}" for entry in ignored_missing),
+            f"These ({len(ignored_expired)}) channels were ignored, but have expired:\n" +
+            "\n".join(f"@{ignore.handle}" for ignore in ignored_expired),
             f"These ({len(stored_missing)}) channels are in store, but do not exist:\n" +
             "\n".join(f"@{entry.handle}" for entry in stored_missing)
         ]
@@ -293,7 +305,7 @@ if __name__ == "__main__":
     # Load channels, animals, and ignore list
     a_channels = load_channels()
     a_animals = load_animals()
-    a_ignored = []  # TODO
+    a_ignored = load_ignored()
     # Create searcher
     searcher = Searcher(a_channels, a_animals, a_ignored)
     # Print some stats
