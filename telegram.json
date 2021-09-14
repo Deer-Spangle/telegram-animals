@@ -1959,6 +1959,326 @@
       "animal": "Cougar",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "horse_horse",
+      "owner": "?",
+      "animal": "Horse",
+      "notes": "",
+      "handle_pattern": "?_?"
+    },
+    {
+      "handle": "FoxPic",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "?pic"
+    },
+    {
+      "handle": "bestfoxes",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "best?"
+    },
+    {
+      "handle": "dailyfoxes",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "wolfchannel",
+      "owner": "@WolFi",
+      "animal": "Wolf",
+      "notes": "Pictures and drawings",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "wolfgif",
+      "owner": "?",
+      "animal": "Wolf",
+      "notes": "",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "wolfgifs",
+      "owner": "?",
+      "animal": "Wolf",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "whales_whales",
+      "owner": "?",
+      "animal": "Whale",
+      "notes": "",
+      "handle_pattern": "?_?"
+    }
+  ],
+  "ignored": [
+    {
+      "handle": "deerlife",
+      "reason": "misc Russian chatter"
+    },
+    {
+      "handle": "llamaland",
+      "reason": "parked and empty"
+    },
+    {
+      "handle": "fluffyllama",
+      "reason": "Indonesian misc news/commentary"
+    },
+    {
+      "handle": "llamasland",
+      "reason": "parked and empty"
+    },
+    {
+      "handle": "bestsheep",
+      "reason": "Arabic livestock info"
+    },
+    {
+      "handle": "dailysheep",
+      "reason": "misc news channel"
+    },
+    {
+      "handle": "cuteoctopus",
+      "reason": "kpop tweet feed"
+    },
+    {
+      "handle": "dragonfly_channel",
+      "reason": "crypto news channel"
+    },
+    {
+      "handle": "dragonflychannel",
+      "reason": "misc farsi news feed"
+    },
+    {
+      "handle": "belugasfriends",
+      "reason": "misc chatter"
+    },
+    {
+      "handle": "dailybelugas",
+      "expiry": "2021-10-14T23:03:00+00:00",
+      "reason": "empty testing channel"
+    },
+    {
+      "handle": "komodopost",
+      "reason": "indonesian kpop feed"
+    },
+    {
+      "handle": "komodochannel",
+      "reason": "indonesian board game group"
+    },
+    {
+      "handle": "dailygiraffe",
+      "expiry": "2021-10-14T23:00:00+00:00",
+      "reason": "just a misc photo?"
+    },
+    {
+      "handle": "giraffe_daily",
+      "reason": "Russian news feed"
+    },
+    {
+      "handle": "giraffeland",
+      "reason": "advert for a malay artist channel"
+    },
+    {
+      "handle": "eelsdaily",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "just links the twitter feed of the same name"
+    },
+    {
+      "handle": "eelseelseels",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "eelpicture",
+      "reason": "Same furry icon pic over and over"
+    },
+    {
+      "handle": "flickreel",
+      "reason": "Bollywood movie dump"
+    },
+    {
+      "handle": "brokenhorse",
+      "reason": "misc photo? Might be some sort of meanness"
+    },
+    {
+      "handle": "horse_channel",
+      "reason": "inactive since 2016, owner deleted"
+    },
+    {
+      "handle": "horse",
+      "reason": "farsi livestock care channel"
+    },
+    {
+      "handle": "horseslife",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "dailyhorses",
+      "reason": "horseracing tips"
+    },
+    {
+      "handle": "manechannel",
+      "reason": "cooking and makeup YouTube channel mirror"
+    },
+    {
+      "handle": "mane_channel",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "maneyland",
+      "reason": "misc Russian finance advice"
+    },
+    {
+      "handle": "bestmaney",
+      "reason": "empty and owner deleted"
+    },
+    {
+      "handle": "loveformaney",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "ilovemaney",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bestfox",
+      "reason": "empty and owner deleted"
+    },
+    {
+      "handle": "fox_daily",
+      "reason": "Russian art channel"
+    },
+    {
+      "handle": "foxdaily",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "fox_gif",
+      "expiry": "2021-10-14T23:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "foxeschannel",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "empty with deletion timer, Brazilian something"
+    },
+    {
+      "handle": "fopsc",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "fopschannel",
+      "reason": "misc gaming videos"
+    },
+    {
+      "handle": "ravenland",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "ravendaily",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "ravenpost",
+      "reason": "Indonesian personal feed?"
+    },
+    {
+      "handle": "dailyraven",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "ravengifs",
+      "reason": "gifs of a human"
+    },
+    {
+      "handle": "theravens",
+      "reason": "advert for an ebook piracy channel"
+    },
+    {
+      "handle": "ravenslovers",
+      "reason": "misc placeholder advert thing"
+    },
+    {
+      "handle": "ravensedits",
+      "reason": "lewd adverts"
+    },
+    {
+      "handle": "ravensgifs",
+      "reason": "misc stickers?"
+    },
+    {
+      "handle": "ravens_channel",
+      "reason": "misc games stuff?"
+    },
+    {
+      "handle": "wolfpost",
+      "reason": "misc Cambodian channel"
+    },
+    {
+      "handle": "wolfedits",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "wolvespost",
+      "reason": "football channel"
+    },
+    {
+      "handle": "dailywolves",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "some pics, but dead for many years"
+    },
+    {
+      "handle": "thewolveshouse",
+      "reason": "misc chatwars game channel?"
+    },
+    {
+      "handle": "wolvespic",
+      "reason": "football channel"
+    },
+    {
+      "handle": "whaleland",
+      "reason": "music channel"
+    },
+    {
+      "handle": "whalefriends",
+      "reason": "finance and trading news"
+    },
+    {
+      "handle": "whalechannel",
+      "expiry": "2021-12-14T23:00:00+00:00",
+      "reason": "mostly empty"
+    },
+    {
+      "handle": "whaleedits",
+      "reason": "misc Indonesian photos and stuff"
+    },
+    {
+      "handle": "whalegif",
+      "reason": "channel advert"
+    },
+    {
+      "handle": "dailywhale",
+      "reason": "infrequent Indonesian comments"
+    },
+    {
+      "handle": "bestwhales",
+      "reason": "crypto finance updates"
+    },
+    {
+      "handle": "whalesc",
+      "reason": "crypto advert"
     }
   ]
 }
