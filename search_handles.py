@@ -114,7 +114,7 @@ class SearchCacheEntry:
         subs = re.search(r"<div class=\"(?:tgme_page_extra|tgme_header_counter)\">([0-9 ]+) subscribers?</div>", resp.text)
         self.subscribers = int(subs.group(1).replace(" ", ""))
         # Find message divs
-        soup = BeautifulSoup(resp.text)
+        soup = BeautifulSoup(resp.text, "html.parser")
         date_links = soup.find_all("a", {"class": "tgme_widget_message_date"})
         self.latest_posts = []
         for date_link in date_links:
@@ -132,7 +132,7 @@ class SearchCacheEntry:
         now = now or datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         if len(self.latest_posts) == 0:
             return False
-        newest_post = sorted(self.latest_posts, key=lambda post: post.post_time, reverse=True)[0]
+        newest_post = sorted(self.latest_posts, key=lambda post: post.date, reverse=True)[0]
         latest_age = now - newest_post.date
         return latest_age < age
 
