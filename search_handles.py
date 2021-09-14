@@ -103,7 +103,17 @@ class SearchCacheEntry:
         exists = '<span class="tgme_action_button_label">Preview channel</span>' in resp.text
         self.exists_in_telegram = exists
         self.last_checked = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
+        if exists:
+            self.check_subscribers(resp.text)
         return exists
+    
+    def check_subscribers(self, page_code: Optional[str] = None) -> Optional[int]:
+        if not self.exists_in_telegram:
+            return None
+        page_code = page_code or requests.get(f"https://t.me/{self.handle}").text
+        subs = re.search(r"<div class=\"(?:tgme_page_extra|tgme_header_counter)\">([0-9 ]+) subscribers?</div>", page_code)
+        self.subscribers = int(subs.group(1).replace(" ", ""))
+        return self.subscribers
 
     def check_posts(self) -> Optional[List[CachePostPreview]]:
         if not self.exists_in_telegram:
@@ -111,8 +121,7 @@ class SearchCacheEntry:
         path = f"https://t.me/s/{self.handle}"
         resp = requests.get(path)
         assert resp.status_code == 200
-        subs = re.search(r"<div class=\"(?:tgme_page_extra|tgme_header_counter)\">([0-9 ]+) subscribers?</div>", resp.text)
-        self.subscribers = int(subs.group(1).replace(" ", ""))
+        self.check_subscribers(resp.text)
         # Find message divs
         soup = BeautifulSoup(resp.text, "html.parser")
         date_links = soup.find_all("a", {"class": "tgme_widget_message_date"})
