@@ -147,6 +147,13 @@ class SearchCacheEntry:
         newest_post = sorted(self.latest_posts, key=lambda post: post.date, reverse=True)[0]
         latest_age = now - newest_post.date
         return latest_age < age
+    
+    def missing_values(self) -> bool:
+        if self.exists_in_telegram is None:
+            return True
+        if self.exists_in_telegram is False:
+            return False
+        return self.subscribers is None or self.latest_posts is None
 
 
 class Searcher:
@@ -222,7 +229,7 @@ class Searcher:
         # Split by whether they have been checked
         unchecked, checked = split_list(
             self.cache.values(),
-            lambda entry: entry.exists_in_telegram is None or entry.latest_posts is None or entry.subscribers is None
+            lambda entry: entry.missing_values()
         )
         # Split unchecked by whether they are known
         known_unchecked, unknown_unchecked = split_list(unchecked, lambda entry: entry.is_known)
