@@ -36,7 +36,11 @@
     "pupper",
     "puppers",
     "shiba",
-    "samoyed"
+    "samoyed",
+    "canine",
+    "canines",
+    "puppy",
+    "puppies"
   ],
   "Lizard": [
     "lizard",
@@ -147,7 +151,11 @@
   ],
   "Capybara": [
     "capybara",
-    "capybaras"
+    "capybaras",
+    "capy",
+    "capies",
+    "cappy",
+    "cappies"
   ],
   "Crocodile": [
     "crocodile",
@@ -226,7 +234,10 @@
     "rabbits",
     "bunny",
     "bunnies",
-    "bun"
+    "bun",
+    "buns",
+    "hare",
+    "hares"
   ],
   "Sealion": [
     "sealion",
@@ -256,7 +267,11 @@
     "deer",
     "deers",
     "bleat",
-    "bleats"
+    "bleats",
+    "bleet",
+    "bleets",
+    "derr",
+    "derrs"
   ],
   "Dinosaur": [
     "dinosaur",
@@ -308,7 +323,11 @@
     "manedwolfs",
     "maned_wolf",
     "maned_wolves",
-    "maned_wolves"
+    "maned_wolves",
+    "roark",
+    "roarks",
+    "leggy",
+    "leggies"
   ],
   "Monkey": [
     "monkey",
@@ -347,7 +366,9 @@
   ],
   "Skunk": [
     "skunk",
-    "skunks"
+    "skunks",
+    "skoonk",
+    "skoonks"
   ],
   "Snep": [
     "snep",
@@ -375,7 +396,13 @@
   ],
   "Cougar": [
     "cougar",
-    "cougars"
+    "cougars",
+    "puma",
+    "pumas",
+    "mountainlion",
+    "mountainlions",
+    "mountain_lion",
+    "mountain_lions"
   ],
   "Cow": [
     "cow",
@@ -384,7 +411,9 @@
   ],
   "Tiger": [
     "tiger",
-    "tigers"
+    "tigers",
+    "stripe",
+    "stripes"
   ],
   "Corvid": [
     "corvid",
@@ -509,5 +538,17 @@
   "Sloth": [
     "sloth",
     "sloths"
+  ],
+  "Dragon": [
+    "dragon",
+    "dragons",
+    "drake",
+    "drakes",
+    "wyrm",
+    "wyrms",
+    "wyvern",
+    "wyverns",
+    "dragoness",
+    "dragonesses"
   ]
 }
