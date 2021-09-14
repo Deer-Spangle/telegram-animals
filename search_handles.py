@@ -121,7 +121,6 @@ class SearchCacheEntry:
         path = f"https://t.me/s/{self.handle}"
         resp = requests.get(path)
         assert resp.status_code == 200
-        self.check_subscribers(resp.text)
         # Find message divs
         soup = BeautifulSoup(resp.text, "html.parser")
         date_links = soup.find_all("a", {"class": "tgme_widget_message_date"})
@@ -217,7 +216,7 @@ class Searcher:
         # Split by whether they have been checked
         unchecked, checked = split_list(
             self.cache.values(),
-            lambda entry: entry.exists_in_telegram is None or entry.latest_posts is None
+            lambda entry: entry.exists_in_telegram is None or entry.latest_posts is None or entry.subscribers is None
         )
         # Split unchecked by whether they are known
         known_unchecked, unknown_unchecked = split_list(unchecked, lambda entry: entry.is_known)
@@ -240,9 +239,14 @@ class Searcher:
         for entry in needs_update:
             print(f"Checking whether @{entry.handle} exists on telegram")
             try:
-                entry.check_existence()
+                expired = entry.older_than(self.known_expiry if entry.is_known else self.unknown_expiry)
+                if entry.exists_in_telegram is None or expired:
+                    entry.check_existence()
                 if entry.exists_in_telegram:
-                    entry.check_posts()
+                    if entry.subscribers is None or expired:
+                        entry.check_subscribers()
+                    if entry.latest_posts is None or expired:
+                        entry.check_posts()
                 print(f"It {'exists' if entry.exists_in_telegram else 'does not exist'}")
                 if entry.exists_in_telegram and entry.has_post_newer_than(self.post_age_cutoff):
                     print(f"And it is active, with {entry.subscribers} subscribers!")
