@@ -191,6 +191,8 @@ class Searcher:
                         handle in known_handles,
                         None,
                         handle in self.ignored,
+                        None,
+                        None,
                         None
                     )
                 else:
