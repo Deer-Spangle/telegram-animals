@@ -233,9 +233,11 @@ class Searcher:
 
     def list_cache_entries_needing_update(self) -> List[SearchCacheEntry]:
         now = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
+        # Remove ignored entries
+        entries = [entry for entry in self.cache.values() if not entry.ignored]
         # Split by whether they have been checked
         unchecked, checked = split_list(
-            self.cache.values(),
+            entries,
             lambda entry: entry.missing_values()
         )
         # Split unchecked by whether they are known
