@@ -3,3 +3,4 @@ telethon
 pytz
 python-dateutil
 requests
+beautifulsoup4

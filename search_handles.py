@@ -1,12 +1,14 @@
 import datetime
 import itertools
 import json
+import re
 from dataclasses import dataclass
 from typing import Optional, Dict, List, TypeVar, Callable, Tuple, Iterable
 
 import pytz
 import requests
 from dateutil import parser
+from bs4 import BeautifulSoup
 
 from data import Channel, load_channels, load_animals
 
@@ -30,12 +32,33 @@ def split_list(source_list: Iterable[T], condition: Callable[[T], bool]) -> Tupl
 
 
 @dataclass
+class CachePostPreview:
+    post_id: int
+    date: datetime.datetime
+
+    def to_json(self) -> Dict:
+        return {
+            "post_id": self.post_id,
+            "date": self.date.isoformat()
+        }
+
+    @classmethod
+    def from_json(cls, data: Dict) -> 'CachePostPreview':
+        return cls(
+            data["post_id"],
+            parser.parse(data["date"])
+        )
+
+
+@dataclass
 class SearchCacheEntry:
     handle: str
     in_store: bool
     exists_in_telegram: Optional[bool]
     ignored: bool
     last_checked: Optional[datetime.datetime]
+    latest_posts: Optional[List[CachePostPreview]]
+    subscribers: Optional[int]
 
     def to_json(self) -> Dict:
         return {
@@ -43,7 +66,9 @@ class SearchCacheEntry:
             "in_store": self.in_store,
             "exists_in_telegram": self.exists_in_telegram,
             "ignored": self.ignored,
-            "last_checked": self.last_checked.isoformat() if self.last_checked else None
+            "last_checked": self.last_checked.isoformat() if self.last_checked else None,
+            "latest_posts": None if self.latest_posts is None else [post.to_json() for post in self.latest_posts],
+            "subscribers": self.subscribers
         }
 
     @classmethod
@@ -53,7 +78,11 @@ class SearchCacheEntry:
             data["in_store"],
             data["exists_in_telegram"],
             data["ignored"],
-            parser.parse(data["last_checked"]) if data["last_checked"] else None
+            parser.parse(data["last_checked"]) if data["last_checked"] else None,
+            None if data.get("latest_posts") is None else [
+                CachePostPreview.from_json(post_data) for post_data in data["latest_posts"]
+            ],
+            data.get("subscribers")
         )
 
     @property
@@ -76,6 +105,37 @@ class SearchCacheEntry:
         self.last_checked = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         return exists
 
+    def check_posts(self) -> Optional[List[CachePostPreview]]:
+        if not self.exists_in_telegram:
+            return None
+        path = f"https://t.me/s/{self.handle}"
+        resp = requests.get(path)
+        assert resp.status_code == 200
+        subs = re.search("<div class=\"tgme_page_extra\">([0-9 ]+) subscribers?</div>", resp.text)
+        self.subscribers = int(subs.group(1).replace(" ", ""))
+        # Find message divs
+        soup = BeautifulSoup(resp.text)
+        date_links = soup.find_all("a", {"class": "tgme_widget_message_date"})
+        self.latest_posts = []
+        for date_link in date_links:
+            post_link = date_link["href"]
+            post_id = int(post_link.split("/")[-1])
+            post_time_tag = date_link.find("time")
+            post_time = parser.parse(post_time_tag["datetime"])
+            post = CachePostPreview(post_id, post_time)
+            self.latest_posts.append(post)
+        return self.latest_posts
+
+    def has_post_newer_than(self, age: datetime.timedelta, now: Optional[datetime.datetime] = None) -> bool:
+        if self.latest_posts is None:
+            return False
+        now = now or datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
+        if len(self.latest_posts) == 0:
+            return False
+        newest_post = sorted(self.latest_posts, key=lambda post: post.post_time, reverse=True)[0]
+        latest_age = now - newest_post.date
+        return latest_age < age
+
 
 class Searcher:
     def __init__(self, channels: List[Channel], animals: Dict[str, List[str]], ignored: List[str]):
@@ -85,6 +145,7 @@ class Searcher:
         self.cache = {}
         self.unknown_expiry = datetime.timedelta(weeks=1)
         self.known_expiry = datetime.timedelta(weeks=5)
+        self.post_age_cutoff = datetime.timedelta(days=365)
 
     def all_animal_names(self) -> List[str]:
         return list(itertools.chain(*self.animals.values()))
@@ -145,7 +206,10 @@ class Searcher:
     def list_cache_entries_needing_update(self) -> List[SearchCacheEntry]:
         now = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         # Split by whether they have been checked
-        unchecked, checked = split_list(self.cache.values(), lambda entry: entry.exists_in_telegram is None)
+        unchecked, checked = split_list(
+            self.cache.values(),
+            lambda entry: entry.exists_in_telegram is None or entry.latest_posts is None
+        )
         # Split unchecked by whether they are known
         known_unchecked, unknown_unchecked = split_list(unchecked, lambda entry: entry.is_known)
         # Split checked by whether they are known
@@ -168,12 +232,20 @@ class Searcher:
             print(f"Checking whether @{entry.handle} exists on telegram")
             try:
                 entry.check_existence()
+                if entry.exists_in_telegram:
+                    entry.check_posts()
                 print(f"It {'exists' if entry.exists_in_telegram else 'does not exist'}")
+                if entry.exists_in_telegram and entry.has_post_newer_than(self.post_age_cutoff):
+                    print(f"And it is active, with {entry.subscribers} subscribers!")
             except Exception as e:
                 print(f"{entry.handle} could not be cached: {e}")
 
     def list_alerts(self) -> List[str]:
-        exists_unknown = [entry for entry in self.cache.values() if entry.exists_in_telegram and not entry.is_known]
+        exists_unknown = [
+            entry
+            for entry in self.cache.values()
+            if entry.exists_in_telegram and not entry.is_known and entry.has_post_newer_than(self.post_age_cutoff)
+        ]
         ignored_missing = [
             entry for entry in self.cache.values() if entry.ignored and entry.exists_in_telegram is False
         ]
@@ -181,7 +253,7 @@ class Searcher:
             entry for entry in self.cache.values() if entry.in_store and entry.exists_in_telegram is False
         ]
         alerts = [
-            f"These ({len(exists_unknown)}) channels have been discovered:\n" +
+            f"These ({len(exists_unknown)}) active channels have been discovered:\n" +
             "\n".join(f"@{entry.handle}" for entry in exists_unknown),
             f"These ({len(ignored_missing)}) channels are ignored, but do not exist:\n" +
             "\n".join(f"@{entry.handle}" for entry in ignored_missing),
