@@ -2279,6 +2279,40 @@
     {
       "handle": "whalesc",
       "reason": "crypto advert"
+    },
+    {
+      "handle": "birdc",
+      "expiry": "2022-03-14T23:00:00+00:00",
+      "reason": "Removed due to copyright infringement"
+    },
+    {
+      "handle": "elephant",
+      "expiry": "2022-03-14T23:00:00+00:00",
+      "reason": "Removed due to pornography"
+    },
+    {
+      "handle": "thecougar",
+      "reason": "Lewd pics and videos"
+    },
+    {
+      "handle": "cougarlife",
+      "reason": "Contains broken channel links and deletion warnings"
+    },
+    {
+      "handle": "bearspics",
+      "reason": "Lewd photos"
+    },
+    {
+      "handle": "ilovebears",
+      "reason": "Lewd photos"
+    },
+    {
+      "handle": "dragongifs",
+      "reason": "Lewd dragon gifs"
+    },
+    {
+      "handle": "dragon_gifs",
+      "reason": "Lewd dragon gifs"
     }
   ]
 }
