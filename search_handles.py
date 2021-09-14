@@ -111,7 +111,7 @@ class SearchCacheEntry:
         path = f"https://t.me/s/{self.handle}"
         resp = requests.get(path)
         assert resp.status_code == 200
-        subs = re.search("<div class=\"tgme_page_extra\">([0-9 ]+) subscribers?</div>", resp.text)
+        subs = re.search(r"<div class=\"(?:tgme_page_extra|tgme_header_counter)\">([0-9 ]+) subscribers?</div>", resp.text)
         self.subscribers = int(subs.group(1).replace(" ", ""))
         # Find message divs
         soup = BeautifulSoup(resp.text)
