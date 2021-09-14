@@ -98,7 +98,7 @@ class Searcher:
         return list(handle_patterns)
 
     def all_known_handles(self) -> List[str]:
-        return [c.handle for c in self.channels]
+        return [c.handle.lower() for c in self.channels]
 
     def total_handles(self) -> int:
         return len(self.cache)
