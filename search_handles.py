@@ -111,8 +111,12 @@ class SearchCacheEntry:
         if not self.exists_in_telegram:
             return None
         page_code = page_code or requests.get(f"https://t.me/{self.handle}").text
-        subs = re.search(r"<div class=\"(?:tgme_page_extra|tgme_header_counter)\">([0-9 ]+) subscribers?</div>", page_code)
-        self.subscribers = int(subs.group(1).replace(" ", ""))
+        subs = re.search(r"<div class=\"(?:tgme_page_extra|tgme_header_counter)\">([0-9 ]+|no) subscribers?</div>", page_code)
+        sub_str = subs.group(1)
+        if sub_str == "no":
+            self.subscribers = 0
+        else:
+            self.subscribers = int(sub_str.replace(" ", ""))
         return self.subscribers
 
     def check_posts(self) -> Optional[List[CachePostPreview]]:
