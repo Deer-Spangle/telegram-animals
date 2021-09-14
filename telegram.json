@@ -1917,6 +1917,48 @@
       "animal": "Cat",
       "notes": "Specific cat, Musi",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "HourlyCanine",
+      "owner": "TinyZorro",
+      "animal": "Dog",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyCanineBot",
+      "owner": "TinyZorro",
+      "animal": "Dog",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlySkunk",
+      "owner": "TinyZorro",
+      "animal": "Skunk",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlySkunkBot",
+      "owner": "TinyZorro",
+      "animal": "Skunk",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "HourlyPuma",
+      "owner": "TinyZorro",
+      "animal": "Puma",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyPumaBot",
+      "owner": "TinyZorro",
+      "animal": "Puma",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
     }
   ]
 }
