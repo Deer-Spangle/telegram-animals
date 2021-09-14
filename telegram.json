@@ -1949,14 +1949,14 @@
     {
       "handle": "HourlyPuma",
       "owner": "TinyZorro",
-      "animal": "Puma",
+      "animal": "Cougar",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyPumaBot",
       "owner": "TinyZorro",
-      "animal": "Puma",
+      "animal": "Cougar",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     }
