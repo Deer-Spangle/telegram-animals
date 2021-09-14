@@ -792,13 +792,6 @@
       "handle_pattern": "hourly?"
     },
     {
-      "handle": "lynxgifs",
-      "owner": "?",
-      "animal": "Lynx",
-      "notes": "",
-      "handle_pattern": "?gifs"
-    },
-    {
       "handle": "lynxpics",
       "owner": "?",
       "animal": "Lynx",
@@ -1287,13 +1280,6 @@
       "animal": "Caracal",
       "notes": "Submissions bot for @floppaedits",
       "handle_pattern": "-"
-    },
-    {
-      "handle": "floppachannel",
-      "owner": "eliasko249",
-      "animal": "Caracal",
-      "notes": "",
-      "handle_pattern": "?channel"
     },
     {
       "handle": "flickrsneps",
@@ -2015,6 +2001,24 @@
       "animal": "Whale",
       "notes": "",
       "handle_pattern": "?_?"
+    }
+  ],
+  "removed": [
+    {
+      "handle": "lynxgifs",
+      "owner": "?",
+      "animal": "Lynx",
+      "notes": "",
+      "handle_pattern": "?gifs",
+      "removal_reason": "Channel deleted"
+    },
+    {
+      "handle": "floppachannel",
+      "owner": "eliasko249",
+      "animal": "Caracal",
+      "notes": "",
+      "handle_pattern": "?channel",
+      "removal_reason": "Channel deleted and replaced with something else"
     }
   ],
   "ignored": [
