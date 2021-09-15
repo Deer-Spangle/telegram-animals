@@ -2091,7 +2091,7 @@
       "owner": "?",
       "animal": "Big Cat",
       "notes": "Warnings that the owner account may be deleted",
-      "handle_pattern": "?channel"
+      "handle_pattern": "-"
     }
   ],
   "removed": [
