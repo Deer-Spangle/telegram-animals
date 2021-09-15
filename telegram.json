@@ -2001,6 +2001,69 @@
       "animal": "Whale",
       "notes": "",
       "handle_pattern": "?_?"
+    },
+    {
+      "handle": "chickenslife",
+      "owner": "?",
+      "animal": "Chicken",
+      "notes": "Russian home farm, feedback to @feedback_chickenslife_bot",
+      "handle_pattern": "?life"
+    },
+    {
+      "handle": "bestsheep",
+      "owner": "?",
+      "animal": "Sheep",
+      "notes": "Mostly farsi agriculture info",
+      "handle_pattern": "best?"
+    },
+    {
+      "handle": "cuteowls",
+      "owner": "?",
+      "animal": "Owl",
+      "notes": "",
+      "handle_pattern": "cute?"
+    },
+    {
+      "handle": "otterchannel",
+      "owner": "?",
+      "animal": "Otter",
+      "notes": "Russian, mostly instagram links",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "otterlife",
+      "owner": "?",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "?life"
+    },
+    {
+      "handle": "ottersgif",
+      "owner": "?",
+      "animal": "Otter",
+      "notes": "Italian, pulls content mostly from @ottergang and @cuteotters",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "ottergang",
+      "owner": "?",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "?gang"
+    },
+    {
+      "handle": "eaglepictures",
+      "owner": "?",
+      "animal": "Eagle",
+      "notes": "",
+      "handle_pattern": "?pictures"
+    },
+    {
+      "handle": "shark_gifs",
+      "owner": "?",
+      "animal": "Shark",
+      "notes": "Has farsi on most the gifs",
+      "handle_pattern": "?_gifs"
     }
   ],
   "removed": [
@@ -2317,6 +2380,305 @@
     {
       "handle": "dragon_gifs",
       "reason": "Lewd dragon gifs"
+    },
+    {
+      "handle": "goatlife",
+      "expiry": "2021-10-15T21:00:00+00:00",
+      "reason": "mystery post, no content"
+    },
+    {
+      "handle": "thegoathouse",
+      "reason": "misinformation news feed"
+    },
+    {
+      "handle": "goatpic",
+      "expiry": "2021-10-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "goat_channel",
+      "reason": "crypto spam"
+    },
+    {
+      "handle": "thegoats",
+      "reason": "finance channel"
+    },
+    {
+      "handle": "goatschannel",
+      "reason": "Italian football channel"
+    },
+    {
+      "handle": "cowland",
+      "reason": "some indonesian kpop thing"
+    },
+    {
+      "handle": "cowchannel",
+      "reason": "crypto feed"
+    },
+    {
+      "handle": "cow_gif",
+      "reason": "Chinese screenshots"
+    },
+    {
+      "handle": "cows_channel",
+      "reason": "rules for a Russian chat"
+    },
+    {
+      "handle": "cattle",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "pigchannel",
+      "reason": "misc Russian personal feed"
+    },
+    {
+      "handle": "piglife",
+      "expiry": "2021-03-15T21:00:00+00:00",
+      "reason": "just a couple comments"
+    },
+    {
+      "handle": "pigpics",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "pigpic",
+      "reason": "Russian meme feed"
+    },
+    {
+      "handle": "pigsgifs",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "imacrow",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "cutecrow",
+      "reason": "farsi misinformation feed"
+    },
+    {
+      "handle": "thecrowshouse",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bestseal",
+      "reason": "advert feed"
+    },
+    {
+      "handle": "sealchannel",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "theseals",
+      "reason": "Russian health feed"
+    },
+    {
+      "handle": "bestseals",
+      "expiry": "2021-03-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "tigerdaily",
+      "reason": "Indonesian anime feed"
+    },
+    {
+      "handle": "tigergif",
+      "reason": "Chinese kpop kinda feed?"
+    },
+    {
+      "handle": "thetigers",
+      "reason": "advert for Indonesian misc feed"
+    },
+    {
+      "handle": "besttigers",
+      "reason": "piracy advert"
+    },
+    {
+      "handle": "chickensdaily",
+      "reason": "Chinese meme channel"
+    },
+    {
+      "handle": "elephantpost",
+      "reason": "empty and owner deleted"
+    },
+    {
+      "handle": "elephantlovers",
+      "reason": "dead for years, just some YouTube links"
+    },
+    {
+      "handle": "dailysheep",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "placeholder for an art project"
+    },
+    {
+      "handle": "deerlife",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "owlowlowl",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "owldaily",
+      "reason": "just Arabic religious messages"
+    },
+    {
+      "handle": "owlpost",
+      "expiry": "2021-03-15T21:00:00+00:00",
+      "reason": "just a message saying soon"
+    },
+    {
+      "handle": "dailyowl",
+      "reason": "Russian Harry Potter feed"
+    },
+    {
+      "handle": "owl_channel",
+      "reason": "farsi personal feed"
+    },
+    {
+      "handle": "theowls",
+      "reason": "farsi football feed"
+    },
+    {
+      "handle": "owlsc",
+      "reason": "just some bot messages"
+    },
+    {
+      "handle": "hourlyowls",
+      "expiry": "2021-10-15T21:00:00+00:00",
+      "reason": "just a message saying soon"
+    },
+    {
+      "handle": "owls_channel",
+      "reason": "Italian misinformation feed"
+    },
+    {
+      "handle": "fluffyotter",
+      "reason": "furry artist feed"
+    },
+    {
+      "handle": "otter",
+      "expiry": "2021-03-15T21:00:00+00:00",
+      "reason": "handle parked and for sale"
+    },
+    {
+      "handle": "ottlovers",
+      "reason": "lewd adverts"
+    },
+    {
+      "handle": "theotts",
+      "reason": "pirate bollywood links"
+    },
+    {
+      "handle": "eagleeagleeagle",
+      "reason": "crypto spam"
+    },
+    {
+      "handle": "theeaglenews",
+      "reason": "old advert and deletion warnings"
+    },
+    {
+      "handle": "justeagle",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "dailyeagle",
+      "expiry": "2021-11-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "brokeneagle",
+      "reason": "Turkish spam and deletion warnings"
+    },
+    {
+      "handle": "eaglepic",
+      "reason": "some kpop feed"
+    },
+    {
+      "handle": "theeagles",
+      "reason": "farsi misc feed"
+    },
+    {
+      "handle": "eaglespost",
+      "reason": "some kpop link portal?"
+    },
+    {
+      "handle": "snakechannel",
+      "reason": "misc YouTube links and deletion warnings"
+    },
+    {
+      "handle": "snakelife",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "snakessnakessnakes",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "snakeschannel",
+      "reason": "random chatter"
+    },
+    {
+      "handle": "cutesnakes",
+      "reason": "Russian anime channel"
+    },
+    {
+      "handle": "sneksneksnek",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "snekc",
+      "expiry": "2021-01-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "snek_channel",
+      "reason": "Russian politics channel"
+    },
+    {
+      "handle": "ilovesneks",
+      "reason": "Russian artist channel"
+    },
+    {
+      "handle": "sharkfriends",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "sharkchannel",
+      "reason": "finance feed"
+    },
+    {
+      "handle": sharkgif"",
+      "reason": "Farsi misc message and no content"
+    },
+    {
+      "handle": "dailyshork",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "thebat",
+      "expiry": "2021-10-15T21:00:00+00:00",
+      "reason": "placeholder spam"
+    },
+    {
+      "handle": "batfriends",
+      "reason": "piracy links"
+    },
+    {
+      "handle": "batgif",
+      "reason": "misc memes"
+    },
+    {
+      "handle": "brokenbat",
+      "reason": "advert to anime sticker channel"
     }
   ]
 }
