@@ -2071,6 +2071,27 @@
       "animal": "Dog",
       "notes": "",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "dailycorvid",
+      "owner": "?",
+      "animal": "Corvid",
+      "notes": "Drawings mostly",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "leggypics",
+      "owner": "?",
+      "animal": "Maned wolf",
+      "notes": "",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "servalchannel",
+      "owner": "?",
+      "animal": "Big Cat",
+      "notes": "Warnings that the owner account may be deleted",
+      "handle_pattern": "?channel"
     }
   ],
   "removed": [
@@ -2686,6 +2707,77 @@
     {
       "handle": "brokenbat",
       "reason": "advert to anime sticker channel"
+    },
+    {
+      "handle": "batgang",
+      "reason": "just a misc youtube link"
+    },
+    {
+      "handle": "coyotec",
+      "reason": "Russian music"
+    },
+    {
+      "handle": "eaglegang",
+      "reason": "just misc chatter"
+    },
+    {
+      "handle": "horsesgang",
+      "reason": "some misc spam"
+    },
+    {
+      "handle": "manedaily",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "jagsc",
+      "reason": "just a hi message"
+    },
+    {
+      "handle": "thejaguar",
+      "reason": "empty"
+    },
+    {
+      "handle": "leopard_channel",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "theleopardnews",
+      "reason": "some group rules"
+    },
+    {
+      "handle": "themoth",
+      "reason": "misc channel link"
+    },
+    {
+      "handle": "pantherlovers",
+      "reason": "spanish misc stuff"
+    },
+    {
+      "handle": "panthersland",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bestseals",
+      "expiry": "2021-12-15T21:00:00+00:00",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "shark_gif",
+      "reason": "does not exist?"
+    },
+    {
+      "handle": "stripechannel",
+      "reason": "misc music"
+    },
+    {
+      "handle": "tortoises",
+      "reason": "fortnite thing"
+    },
+    {
+      "handle": "toucanland",
+      "reason": "farsi adverts"
     }
   ]
 }
