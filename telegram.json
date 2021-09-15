@@ -2064,6 +2064,13 @@
       "animal": "Shark",
       "notes": "Has farsi on most the gifs",
       "handle_pattern": "?_gifs"
+    },
+    {
+      "handle": "RexGSD",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "-"
     }
   ],
   "removed": [
@@ -2655,7 +2662,7 @@
       "reason": "finance feed"
     },
     {
-      "handle": sharkgif"",
+      "handle": "sharkgif",
       "reason": "Farsi misc message and no content"
     },
     {
