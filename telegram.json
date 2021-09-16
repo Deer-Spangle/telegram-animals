@@ -2666,6 +2666,167 @@
       "animal": "Cat",
       "notes": "Russian memes",
       "handle_pattern": "thedaily?"
+    },
+        {
+      "handle": "bunchannel",
+      "owner": "?",
+      "animal": "Rabbit",
+      "notes": "Personal feed of Melonpan and Baozi",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "hourlybuns",
+      "owner": "?",
+      "animal": "Rabbit",
+      "notes": "",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "bestdoggos",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "best?"
+    },
+    {
+      "handle": "dog_gifs",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?_gifs"
+    },
+    {
+      "handle": "doge_gifs",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Farsi written over most gifs",
+      "handle_pattern": "?_gifs"
+    },
+    {
+      "handle": "dogedits",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Russian",
+      "handle_pattern": "?edits"
+    },
+    {
+      "handle": "dogegif",
+      "owner": "qeuka",
+      "animal": "Dog",
+      "notes": "Linked chat @dogesohbet",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "doggochannel",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "doggodaily",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?daily"
+    },
+    {
+      "handle": "dogpic",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?pic"
+    },
+    {
+      "handle": "dogpicture",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?picture"
+    },
+    {
+      "handle": "dogsedits",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Russian",
+      "handle_pattern": "?edits"
+    },
+    {
+      "handle": "dogsgif",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "dogspic",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Russian",
+      "handle_pattern": "?pic
+    },
+    {
+      "handle": "dogspics",
+      "owner": "justanativeman",
+      "animal": "Dog",
+      "notes": "Russian",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "dogspictures",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?pictures"
+    },
+    {
+      "handle": "fluffysamoyed",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Russian",
+      "handle_pattern": "fluffy?"
+    },
+    {
+      "handle": "puppiesgifs",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Some other animal stuff too",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "puppygif",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "All sorts of animals",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "samoyedgif",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Chinese, just samoyeds",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "samoyedgifs",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Just samoyeds",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "shiba_gif",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Just shiba inu",
+      "handle_pattern": "?_gif"
+    },
+    {
+      "handle": "shibagif",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Farsi on most gifs",
+      "handle_pattern": "?gif"
     }
   ],
   "removed": [
