@@ -2092,6 +2092,384 @@
       "animal": "Big Cat",
       "notes": "Warnings that the owner account may be deleted",
       "handle_pattern": "-"
+    },
+        {
+      "handle": "justsloths",
+      "owner": "?",
+      "animal": "Sloth",
+      "notes": "",
+      "handle_pattern": "just?"
+    },
+    {
+      "handle": "guineapig_channel",
+      "owner": "?",
+      "animal": "Guinea Pig",
+      "notes": "",
+      "handle_pattern": "?_channel"
+    },
+    {
+      "handle": "bigcats",
+      "owner": "?",
+      "animal": "Big Cat",
+      "notes": "Russian. Big cat news and stuff also. Has a group, @bigcats_ru",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "bigcatschannel",
+      "owner": "?",
+      "animal": "Big Cat",
+      "notes": "",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "justgoose",
+      "owner": "alifhh2",
+      "animal": "Goose",
+      "notes": "farsi livestock channel",
+      "handle_pattern": "just?"
+    },
+    {
+      "handle": "hourlymartens",
+      "owner": "Ra_Zim",
+      "animal": "Pine Marten",
+      "notes": "Bot by a friend of theirs",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "marten_daily",
+      "owner": "VirtualMarten",
+      "animal": "Pine Marten",
+      "notes": "Bot has been broken for a while",
+      "handle_pattern": "?_daily"
+    },
+    {
+      "handle": "sneppics",
+      "owner": "?",
+      "animal": "Snep",
+      "notes": "Pics sent as files",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "dailytoad",
+      "owner": "?",
+      "animal": "Toad",
+      "notes": "Russian",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "cuteredpandas",
+      "owner": "?",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "cute?"
+    },
+    {
+      "handle": "daily_red_panda",
+      "owner": "?",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "daily_?"
+    },
+    {
+      "handle": "red_pandas_channel",
+      "owner": "?",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "?_channel"
+    },
+    {
+      "handle": "dailypossums",
+      "owner": "PeachOpossum",
+      "animal": "Opossum",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "reptilegif",
+      "owner": "?",
+      "animal": "Lizard",
+      "notes": "",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "possum",
+      "owner": "?",
+      "animal": "Opossum",
+      "notes": "",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "possumgifs",
+      "owner": "panna_acidaa",
+      "animal": "Opossum",
+      "notes": "Lots of non-possum stuff too. Part of Panna Acida network",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "gatinicarini",
+      "owner": "panna_acidaa",
+      "animal": "Cat",
+      "notes": "Part of Panna Acida network",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "froggosfroggies",
+      "owner": "panna_acidaa",
+      "animal": "Frog",
+      "notes": "Part of Panna Acida network",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "doggoscute",
+      "owner": "panna_acidaa",
+      "animal": "Dog",
+      "notes": "Part of Panna Acida network. Sources from @muchshibe, @shibainugif, @doggoch, @shibeposting",
+      "handle_pattern": "?cute"
+    },
+    {
+      "handle": "floppabooty",
+      "owner": "panna_acidaa",
+      "animal": "Caracal",
+      "notes": "Part of Panna Acida network",
+      "handle_pattern": "?booty"
+    },
+    {
+      "handle": "monkegif",
+      "owner": "panna_acidaa",
+      "animal": "Monkey",
+      "notes": "Part of Panna Acida network",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "muchshibe",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "much?"
+    },
+    {
+      "handle": "doggoch",
+      "owner": "Leoman99",
+      "animal": "Dog",
+      "notes": "Has a chat @doggochat",
+      "handle_pattern": "?ch"
+    },
+    {
+      "handle": "shibeposting",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "shibainugif",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Shiba inu network hub, links to private channels by mood",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "shibapazzi",
+      "owner": "effepo",
+      "animal": "Dog",
+      "notes": "Shiba inu network, selected photos, Italian",
+      "handle_pattern": "?pazzi"
+    },
+    {
+      "handle": "pumagifs",
+      "owner": "CyrusTarber, catameep",
+      "animal": "Cougar",
+      "notes": "Tagged and stuff",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "capybaras",
+      "owner": "quirischa",
+      "animal": "Capybara",
+      "notes": "Has a facebook, VK, and diary site too",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "squirrelgifs",
+      "owner": "Malgaro",
+      "animal": "Squirrel",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "iloverat",
+      "owner": "dankozz1",
+      "animal": "Rat",
+      "notes": "retired, links a bunch of others",
+      "handle_pattern": "ilove?"
+    },
+    {
+      "handle": "odessa_rat_club_szczurownia",
+      "owner": "?",
+      "animal": "Rat",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "ratspets",
+      "owner": "?",
+      "animal": "Rat",
+      "notes": "Russian, contact krysulkenbot",
+      "handle_pattern": "?pets"
+    },
+    {
+      "handle": "BreakingRat",
+      "owner": "?",
+      "animal": "Rat",
+      "notes": "Russian",
+      "handle_pattern": "breaking?"
+    },
+    {
+      "handle": "ratschannel",
+      "owner": "?",
+      "animal": "Rat",
+      "notes": "Some bot experimentation lately",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "dailymonkeys",
+      "owner": "ne_pasha",
+      "animal": "Monkey",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "monkeygifs",
+      "owner": "?",
+      "animal": "Monkey",
+      "notes": "-",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "monkeylovers",
+      "owner": "?",
+      "animal": "Monkey",
+      "notes": "",
+      "handle_pattern": "?lovers"
+    },
+    {
+      "handle": "insectlife",
+      "owner": "?",
+      "animal": "Insect",
+      "notes": "",
+      "handle_pattern": "?life"
+    },
+    {
+      "handle": "huskiesgif",
+      "owner": "?",
+      "animal": "Husky",
+      "notes": "",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "ferretfriends",
+      "owner": "?",
+      "animal": "Ferret",
+      "notes": "",
+      "handle_pattern": "?friends"
+    },
+    {
+      "handle": "parrotlife",
+      "owner": "Darniritta",
+      "animal": "Parrot",
+      "notes": "Russian, has a chat at @parrotGrup",
+      "handle_pattern": "?life"
+    },
+    {
+      "handle": "parrots",
+      "owner": "?",
+      "animal": "Parrot",
+      "notes": "",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "parrotsland",
+      "owner": "Piter833",
+      "animal": "Parrot",
+      "notes": "lots of farsi posts between videos",
+      "handle_pattern": "?land"
+    },
+    {
+      "handle": "ilovefloppa",
+      "owner": "?",
+      "animal": "Caracal",
+      "notes": "Russian",
+      "handle_pattern": "ilove?"
+    },
+    {
+      "handle": "pigeonschannel",
+      "owner": "?",
+      "animal": "Pigeon",
+      "notes": "Contact @pigeons_bot. Network @disagioinunclick",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "pigeonslife",
+      "owner": "CartmanRus, P_Light",
+      "animal": "Pigeon",
+      "notes": "",
+      "handle_pattern": "?life"
+    },
+    {
+      "handle": "pigeonspic",
+      "owner": "?",
+      "animal": "Pigeon",
+      "notes": "Ethiopian channel, misc other content",
+      "handle_pattern": "?pic"
+    },
+    {
+      "handle": "fengif",
+      "owner": "FennEXE",
+      "animal": "Fennec",
+      "notes": "",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "dailypanda",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "personal cat feed",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "dailypandas",
+      "owner": "?",
+      "animal": "Panda",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "panda",
+      "owner": "?",
+      "animal": "Panda",
+      "notes": "Contact: panda.queen.tg@gmail.com",
+      "handle_pattern": "?"
+    },
+    {
+      "handle": "pandagif",
+      "owner": "Blue_Sunday",
+      "animal": "Panda",
+      "notes": "Has group, @Panda_Linked",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "pandagifs",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "cats and other stuff",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "pandapost",
+      "owner": "?",
+      "animal": "Panda",
+      "notes": "",
+      "handle_pattern": "?post"
     }
   ],
   "removed": [
