@@ -2667,7 +2667,7 @@
       "notes": "Russian memes",
       "handle_pattern": "thedaily?"
     },
-        {
+    {
       "handle": "bunchannel",
       "owner": "?",
       "animal": "Rabbit",
@@ -2827,6 +2827,55 @@
       "animal": "Dog",
       "notes": "Farsi on most gifs",
       "handle_pattern": "?gif"
+    },
+    {
+      "handle": "reptilepets",
+      "owner": "Markbritney",
+      "animal": "Lizard",
+      "notes": "Pet sales channel",
+      "handle_pattern": "?pets"
+    },
+    {
+      "handle": "shibainuch",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?ch"
+    },
+    {
+      "handle": "dailyshibainu",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "shibainupics",
+      "owner": "ConnorShibe, FishhFinns",
+      "animal": "Dog",
+      "notes": "pics and memes",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "shibechannel",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Mostly instagram links",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "shibegang",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "ratscute",
+      "owner": "?",
+      "animal": "Rat",
+      "notes": "",
+      "handle_pattern": "?cute"
     }
   ],
   "removed": [
@@ -4567,6 +4616,87 @@
     {
       "handle": "smolpuppies",
       "reason": "lewd feed"
-    }
+    },
+    {
+      "handle": "cheetoch",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "pantherch",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "snakesch",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "leopets",
+      "reason": "Indonesian kpop feed"
+    },
+    {
+      "handle": "lionch",
+      "reason": "Empty personal feed"
+    },
+    {
+      "handle": "lioncute",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "goatch",
+      "reason": "Placeholder, pointing to an account"
+    },
+    {
+      "handle": "goatposting",
+      "reason": "Music feed"
+    },
+    {
+      "handle": "puppiespets",
+      "reason": "empty"
+    },
+    {
+      "handle": "puppycute",
+      "reason": "furry and empty"
+    },
+    {
+      "handle": "puppypets",
+      "expiry": "2021-12-16T16:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "shiba_inu_channel",
+      "reason": "crypto channel"
+    },
+    {
+      "handle": "shibainuchannel",
+      "reason": "crypto channel"
+    },
+    {
+      "handle": "cuteshibainu",
+      "reason": "crypto channel"
+    },
+    {
+      "handle": "theshibainu",
+      "expiry": "2021-12-15T14:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "shibainu",
+      "expiry": "2021-10-16T14:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "shibaposting",
+      "expiry": "2021-12-16T14:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "shibacute",
+      "expiry": "2021-12-16T14:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "dogch",
+      "reason": "personal feed"
+    },
   ]
 }
