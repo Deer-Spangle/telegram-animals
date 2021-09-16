@@ -2778,6 +2778,1060 @@
     {
       "handle": "toucanland",
       "reason": "farsi adverts"
+    },
+    {
+      "handle": "hedgehogschannel",
+      "reason": "just one spam message"
+    },
+    {
+      "handle": "guineapiglife",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "rhinoland",
+      "reason": "farsi misc"
+    },
+    {
+      "handle": "rhinosland",
+      "reason": "crypto spam"
+    },
+    {
+      "handle": "starfish_channel",
+      "reason": "crypto spam"
+    },
+    {
+      "handle": "starfishland",
+      "reason": "personal placeholder"
+    },
+    {
+      "handle": "bigcatpics",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "crocodilegang",
+      "reason": "misc indonesian chatter"
+    },
+    {
+      "handle": "crocs",
+      "reason": "farsi adverts"
+    },
+    {
+      "handle": "justcrocodile",
+      "reason": "russian misc"
+    },
+    {
+      "handle": "gooselife",
+      "reason": "Russian goose comic with deletion warnings"
+    },
+    {
+      "handle": "gooselovers",
+      "reason": "abandoned personal channel"
+    },
+    {
+      "handle": "lynx_channel",
+      "reason": "Russian personal channel"
+    },
+    {
+      "handle": "lynxchannel",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "lynxpost",
+      "reason": "placeholder forward to deleted handle"
+    },
+    {
+      "handle": "martenc",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "hourlysneps",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "snepschannel",
+      "reason": "lewd furry stuff"
+    },
+    {
+      "handle": "toadchannel",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "toads",
+      "reason": "placeholder for sale"
+    },
+    {
+      "handle": "dailydino",
+      "reason": "indonesian personal channel"
+    },
+    {
+      "handle": "dino_here",
+      "reason": "indonesian personal channel"
+    },
+    {
+      "handle": "dinodinodino",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "Russian misc post"
+    },
+    {
+      "handle": "dinofriends",
+      "reason": "indonesian kpop channel"
+    },
+    {
+      "handle": "dinosaurc",
+      "reason": "indonesian personal channel"
+    },
+    {
+      "handle": "dinosaurs",
+      "reason": "farsi random stuff"
+    },
+    {
+      "handle": "dinosaursland",
+      "reason": "indonesian personal channel"
+    },
+    {
+      "handle": "dinosland",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "indonesian misc thing?"
+    },
+    {
+      "handle": "justdino",
+      "reason": "indonesian personal channel"
+    },
+    {
+      "handle": "justwah",
+      "reason": "misc farsi photos"
+    },
+    {
+      "handle": "redpanda",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "opossumchannel",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "lizardlife",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "lizardspictures",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "some old photos"
+    },
+    {
+      "handle": "reptilegang",
+      "reason": "Russian comic"
+    },
+    {
+      "handle": "reptileslovers",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "besthyena",
+      "reason": "furry lewd"
+    },
+    {
+      "handle": "thehyenas",
+      "reason": "personal feed"
+    },
+    {
+      "handle": "yeenlovers",
+      "reason": "indonesian personal feed"
+    },
+    {
+      "handle": "yeensyeensyeens",
+      "reason": "furry art"
+    },
+    {
+      "handle": "fluffycougar",
+      "reason": "kpop feed"
+    },
+    {
+      "handle": "pumalife",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "pumaschannel",
+      "reason": "malay news feed"
+    },
+    {
+      "handle": "camelcamelcamel",
+      "reason": "French shopping ads"
+    },
+    {
+      "handle": "camelland",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "camels",
+      "reason": "farsi agriculture training"
+    },
+    {
+      "handle": "justcamel",
+      "reason": "meme feed"
+    },
+    {
+      "handle": "capies",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "capypic",
+      "reason": "Russian artist feed"
+    },
+    {
+      "handle": "justcapy",
+      "reason": "Russian hat sales"
+    },
+    {
+      "handle": "squirrelgang",
+      "reason": ""
+    },
+    {
+      "handle": "squirrelslife",
+      "reason": "Portuguese story feed"
+    },
+    {
+      "handle": "squirrelsounds",
+      "reason": "music feed"
+    },
+    {
+      "handle": "thesquirrel",
+      "reason": "Russian reviews feed"
+    },
+    {
+      "handle": "coonc",
+      "reason": "misc Arabic feed"
+    },
+    {
+      "handle": "cutecoons",
+      "reason": "misc photo feed"
+    },
+    {
+      "handle": "hourlycoons",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "hourlyracc",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "raccoondaily",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "raccoonpictures",
+      "reason": "misc personal video feed"
+    },
+    {
+      "handle": "cuterat",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "imarats",
+      "reason": "farsi sales feed"
+    },
+    {
+      "handle": "ratsratsrats",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "bestmonkey",
+      "reason": "dead and account deletion warning"
+    },
+    {
+      "handle": "monkeypost",
+      "reason": "Spanish meme feed"
+    },
+    {
+      "handle": "bagofbugs",
+      "reason": "empty Russian tech feed"
+    },
+    {
+      "handle": "bugsc",
+      "reason": "music feed"
+    },
+    {
+      "handle": "bugschannel",
+      "reason": "farsi job feed"
+    },
+    {
+      "handle": "insectslife",
+      "reason": "misc Russian personal feed"
+    },
+    {
+      "handle": "thebugs",
+      "reason": "tech meme channel"
+    },
+    {
+      "handle": "theinsects",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "huskyc",
+      "reason": "just a twitter link"
+    },
+    {
+      "handle": "huskypic",
+      "reason": "Italian artist"
+    },
+    {
+      "handle": "ilovehusky",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "Russian placeholder"
+    },
+    {
+      "handle": "dookc",
+      "reason": "farsi misc feed"
+    },
+    {
+      "handle": "dooks",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "ferrets",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "parrot",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "parrotchannel",
+      "reason": "tech feed"
+    },
+    {
+      "handle": "cutepeacock",
+      "reason": "indonesian placeholder"
+    },
+    {
+      "handle": "peacockchannel",
+      "reason": "spam"
+    },
+    {
+      "handle": "peacocklovers",
+      "reason": "Indian music channel"
+    },
+    {
+      "handle": "peacocks",
+      "reason": "farsi personal feed"
+    },
+    {
+      "handle": "thepeacockhouse",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "caracal",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "caracals",
+      "reason": "nearly empty personal feed"
+    },
+    {
+      "handle": "floppachannel",
+      "reason": "just same cat pic with filters"
+    },
+    {
+      "handle": "floppalovers",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bestpigeon",
+      "reason": "empty with deletion warnings"
+    },
+    {
+      "handle": "pigeonc",
+      "reason": "accidental channel?"
+    },
+    {
+      "handle": "pigeons",
+      "reason": "farsi personal feed"
+    },
+    {
+      "handle": "cutefen",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "a little furry art but channel was a joke"
+    },
+    {
+      "handle": "fenlovers",
+      "reason": "empty indonesian feed"
+    },
+    {
+      "handle": "fennc",
+      "reason": "empty personal feed"
+    },
+    {
+      "handle": "fennchannel",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "fennecpic",
+      "reason": "Russian meme channel"
+    },
+    {
+      "handle": "ilovefennecs",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "cheeland",
+      "reason": "empty sales channel"
+    },
+    {
+      "handle": "cheetah",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "placeholder for sale"
+    },
+    {
+      "handle": "cheetahchannel",
+      "reason": "empty"
+    },
+    {
+      "handle": "cheetahgif",
+      "reason": "personal gif feed"
+    },
+    {
+      "handle": "cheetahs_channel",
+      "reason": "android tech feed"
+    },
+    {
+      "handle": "cheetoslovers",
+      "reason": "personal feed"
+    },
+    {
+      "handle": "cheetospost",
+      "reason": "Spanish meme feed"
+    },
+    {
+      "handle": "ilovechee",
+      "reason": "indonesian personal channel"
+    },
+    {
+      "handle": "pandadaily",
+      "reason": "Russian finance thing"
+    },
+    {
+      "handle": "pandafriends",
+      "reason": "empty personal channel"
+    },
+    {
+      "handle": "pandagang",
+      "reason": "photography channel"
+    },
+    {
+      "handle": "pandapicture",
+      "reason": "artist channel"
+    },
+    {
+      "handle": "daily_ducks",
+      "reason": "Donald duck feed"
+    },
+    {
+      "handle": "dailyduck",
+      "reason": "empty Russian meme channel?"
+    },
+    {
+      "handle": "duck_channel",
+      "reason": "Russian carding channel"
+    },
+    {
+      "handle": "duck_gif",
+      "reason": "same duck pic with distortions and farsi messages"
+    },
+    {
+      "handle": "duckpic",
+      "reason": "lewd pics"
+    },
+    {
+      "handle": "ducks_channel",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "hourlyduck",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "smolduck",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "dragongang",
+      "reason": "empty"
+    },
+    {
+      "handle": "dragons",
+      "reason": "httyd fan pics"
+    },
+    {
+      "handle": "dragonschannel",
+      "reason": "furry art channel"
+    },
+    {
+      "handle": "dragonslovers",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "drakedaily",
+      "reason": "farsi music feed"
+    },
+    {
+      "handle": "hourlydrake",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "thedailydragon",
+      "reason": "furry art feed"
+    },
+    {
+      "handle": "thedragon",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "thedrakes",
+      "reason": "russian personal feed"
+    },
+    {
+      "handle": "wyvernchannel",
+      "reason": "Russian misc feed"
+    },
+    {
+      "handle": "birbsgang",
+      "expiry": "2021-10-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "birdspicture",
+      "reason": "mostly just motivational quotes"
+    },
+    {
+      "handle": "birdspictures",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "reposts from @birds"
+    },
+    {
+      "handle": "brokenbirds",
+      "reason": "empty with deletion warnings"
+    },
+    {
+      "handle": "fluffybirds",
+      "reason": "empty"
+    },
+    {
+      "handle": "loveforbirds",
+      "expiry": "2021-10-16T12:00:00+00:00",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "bear_daily",
+      "reason": "indonesian kpop feed"
+    },
+    {
+      "handle": "bear_gif",
+      "reason": "farsi football feed"
+    },
+    {
+      "handle": "beardaily",
+      "reason": "indonesian kpop feed"
+    },
+    {
+      "handle": "bearfriends",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bearpost",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "mostly empty"
+    },
+    {
+      "handle": "bearsgang",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bearspic",
+      "expiry": "2021-10-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "dailybears",
+      "reason": "furry art feed"
+    },
+    {
+      "handle": "ilovebear",
+      "reason": "fitness channel"
+    },
+    {
+      "handle": "apdapdapd",
+      "reason": "just a boxing video"
+    },
+    {
+      "handle": "apdedits",
+      "reason": "Indian youtube channel mirror"
+    },
+    {
+      "handle": "apdsc",
+      "reason": "Indian youtube channel mirror"
+    },
+    {
+      "handle": "awd_awd",
+      "reason": "farsi clothing sales"
+    },
+    {
+      "handle": "chiedits",
+      "reason": "Indonesian kpop thing"
+    },
+    {
+      "handle": "chipic",
+      "reason": "farsi shop thing"
+    },
+    {
+      "handle": "daily_chi",
+      "reason": "farsi personal feed"
+    },
+    {
+      "handle": "fluffychi",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "smolchi",
+      "reason": "Russian personal channel"
+    },
+    {
+      "handle": "theapd",
+      "reason": "empty"
+    },
+    {
+      "handle": "brokenkitten",
+      "reason": "personal feed"
+    },
+    {
+      "handle": "cutekitten",
+      "reason": "indonesian accidental channel?"
+    },
+    {
+      "handle": "dailykitten",
+      "reason": "empty kpop feed"
+    },
+    {
+      "handle": "hourlykitten",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "kittenc",
+      "reason": "forward to a bot"
+    },
+    {
+      "handle": "kittenchannel",
+      "reason": "italian personal feed"
+    },
+    {
+      "handle": "kittendaily",
+      "reason": "empty except for a sticker"
+    },
+    {
+      "handle": "kittensc",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "loveforkitten",
+      "reason": "some sort of lost love message"
+    },
+    {
+      "handle": "bestfrogs",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "Russian empty channel"
+    },
+    {
+      "handle": "frog_gif",
+      "reason": "indian misc post"
+    },
+    {
+      "handle": "frog_gifs",
+      "reason": "misc farsi memes"
+    },
+    {
+      "handle": "frogdaily",
+      "reason": "some illicit sales thing"
+    },
+    {
+      "handle": "frogge",
+      "expiry": "2021-10-16T12:00:00+00:00",
+      "reason": "empty shitpost feed?"
+    },
+    {
+      "handle": "froggif",
+      "reason": "some farsi pepe thing?"
+    },
+    {
+      "handle": "frogs_frogs",
+      "reason": "Russian gacha life thing?"
+    },
+    {
+      "handle": "thefrogs",
+      "reason": "piracy link"
+    },
+    {
+      "handle": "cutelions",
+      "reason": "sticker link"
+    },
+    {
+      "handle": "dailyleo",
+      "reason": "crypto feed"
+    },
+    {
+      "handle": "dailylion",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "ilovelion",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "leochannel",
+      "reason": "accidental/test channel"
+    },
+    {
+      "handle": "leodaily",
+      "reason": "horoscopes"
+    },
+    {
+      "handle": "leogif",
+      "reason": "kpop feed"
+    },
+    {
+      "handle": "leopics",
+      "reason": "music dump"
+    },
+    {
+      "handle": "leopictures",
+      "reason": "meme feed"
+    },
+    {
+      "handle": "leosdaily",
+      "reason": "farsi personal feed"
+    },
+    {
+      "handle": "leosgifs",
+      "reason": "farsi kpop feed"
+    },
+    {
+      "handle": "leoslife",
+      "reason": "personal feed"
+    },
+    {
+      "handle": "lionedits",
+      "reason": "Indian meme feed?"
+    },
+    {
+      "handle": "lionfriends",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "lionlionlion",
+      "reason": "Russian empty channel"
+    },
+    {
+      "handle": "lionlovers",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "lionpost",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "lionschannel",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "loveforleo",
+      "reason": "Indonesian lost love thing?"
+    },
+    {
+      "handle": "theleonews",
+      "reason": "Indian news feed"
+    },
+    {
+      "handle": "catsedits",
+      "expiry": "?T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "catslovers",
+      "expiry": "?T12:00:00+00:00",
+      "reason": "dead"
+    },
+    {
+      "handle": "dailycat",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "kittiesland",
+      "reason": "kpop feed?"
+    },
+    {
+      "handle": "kittiespicture",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "kitty_channel",
+      "reason": "lewd"
+    },
+    {
+      "handle": "kittyland",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "kittylife",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bestbunnies",
+      "reason": "misc photo feed"
+    },
+    {
+      "handle": "bestbunny",
+      "reason": "empty"
+    },
+    {
+      "handle": "bundaily",
+      "reason": "indonesian personal feed"
+    },
+    {
+      "handle": "bunedits",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bungang",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bunlife",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "bunniesc",
+      "reason": "parked"
+    },
+    {
+      "handle": "bunniesland",
+      "reason": "empty"
+    },
+    {
+      "handle": "bunny_gifs",
+      "reason": "personal meme feed"
+    },
+    {
+      "handle": "bunnybunnybunny",
+      "reason": "personal feed"
+    },
+    {
+      "handle": "bunnyc",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bunnyedits",
+      "reason": "misc videos"
+    },
+    {
+      "handle": "bunnypictures",
+      "reason": "indonesian feed"
+    },
+    {
+      "handle": "bunnypost",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "bunpic",
+      "reason": "empty personal feed"
+    },
+    {
+      "handle": "fluffybunnies",
+      "reason": "parked"
+    },
+    {
+      "handle": "hareharehare",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "hareschannel",
+      "reason": "Indonesian personal shitpost feed"
+    },
+    {
+      "handle": "illegalbunny",
+      "reason": "indonesian personal feed"
+    },
+    {
+      "handle": "illegalrabbits",
+      "reason": "illicit feed?"
+    },
+    {
+      "handle": "ilovebunny",
+      "reason": "crypto feed?"
+    },
+    {
+      "handle": "justbunnies",
+      "reason": "lewd furry feed"
+    },
+    {
+      "handle": "rabbitdaily",
+      "reason": "Indonesian test channel"
+    },
+    {
+      "handle": "rabbitedits",
+      "reason": "misc videos?"
+    },
+    {
+      "handle": "rabbitlife",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "rabbitschannel",
+      "reason": "Russian hacking channel?"
+    },
+    {
+      "handle": "rabbitsland",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "smolbunny",
+      "reason": "food pics"
+    },
+    {
+      "handle": "smolbuns",
+      "reason": "dead and deletion warnings"
+    },
+    {
+      "handle": "therabbits",
+      "reason": "illicit drugs feed"
+    },
+    {
+      "handle": "bestshiba",
+      "reason": "parked for roleplay"
+    },
+    {
+      "handle": "dailypuppies",
+      "reason": "spam"
+    },
+    {
+      "handle": "dailyshiba",
+      "reason": "manga piracy"
+    },
+    {
+      "handle": "doge_gif",
+      "reason": "parked iranian forwarder"
+    },
+    {
+      "handle": "dogegang",
+      "reason": "Italian gang channel"
+    },
+    {
+      "handle": "dogegifs",
+      "reason": "shitposting"
+    },
+    {
+      "handle": "dogelovers",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "dogepic",
+      "reason": "some odd bot thing"
+    },
+    {
+      "handle": "dogfriends",
+      "reason": "Dead Russian channel with deletion warnings"
+    },
+    {
+      "handle": "doglovers",
+      "reason": "malasian dog sales"
+    },
+    {
+      "handle": "dogsdaily",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "parked"
+    },
+    {
+      "handle": "imapuppy",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "lovefordogs",
+      "reason": "dog care info"
+    },
+    {
+      "handle": "puppies",
+      "reason": "arabic misc feed"
+    },
+    {
+      "handle": "puppiesland",
+      "reason": "puppy sales"
+    },
+    {
+      "handle": "puppychannel",
+      "reason": "empty and puppy sales"
+    },
+    {
+      "handle": "puppylife",
+      "reason": "piracy feed"
+    },
+    {
+      "handle": "samoyedc",
+      "reason": "empty"
+    },
+    {
+      "handle": "shiba",
+      "reason": "crypto feed"
+    },
+    {
+      "handle": "shiba_shiba",
+      "reason": "misc Farsi feed"
+    },
+    {
+      "handle": "shibachannel",
+      "reason": "empty"
+    },
+    {
+      "handle": "smolpuppies",
+      "reason": "lewd feed"
     }
   ]
 }
