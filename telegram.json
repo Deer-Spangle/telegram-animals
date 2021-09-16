@@ -2964,56 +2964,56 @@
     {
       "handle": "otterposting",
       "owner": "Novolobo",
-      "animal": "",
+      "animal": "Otter",
       "notes": "",
       "handle_pattern": "?posting"
     },
     {
       "handle": "bunnyposting",
       "owner": "?",
-      "animal": "",
+      "animal": "Rabbit",
       "notes": "",
       "handle_pattern": "?posting"
     },
     {
       "handle": "bunniesposting",
       "owner": "?",
-      "animal": "",
+      "animal": "Rabbit",
       "notes": "",
       "handle_pattern": "?posting"
     },
     {
       "handle": "turtleposting",
       "owner": "?",
-      "animal": "",
+      "animal": "Turtle",
       "notes": "",
       "handle_pattern": "?posting"
     },
     {
       "handle": "frogsposting",
       "owner": "?",
-      "animal": "",
+      "animal": "Frog",
       "notes": "Memes and artwork",
       "handle_pattern": "?posting"
     },
     {
       "handle": "monkegifs",
       "owner": "?",
-      "animal": "",
+      "animal": "Monkey",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "cowposting",
       "owner": "?",
-      "animal": "",
+      "animal": "Cow",
       "notes": "Memes and pics",
       "handle_pattern": "?posting"
     },
     {
       "handle": "foxesposting",
       "owner": "?",
-      "animal": "",
+      "animal": "Fox",
       "notes": "Russian. Gathers fox pics from VK",
       "handle_pattern": "?posting"
     }
