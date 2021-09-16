@@ -4319,12 +4319,12 @@
     },
     {
       "handle": "catsedits",
-      "expiry": "?T12:00:00+00:00",
+      "expiry": "2021-12-16T12:00:00+00:00",
       "reason": "empty"
     },
     {
       "handle": "catslovers",
-      "expiry": "?T12:00:00+00:00",
+      "expiry": "2021-12-16T12:00:00+00:00",
       "reason": "dead"
     },
     {
