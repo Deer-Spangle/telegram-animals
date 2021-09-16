@@ -2470,6 +2470,202 @@
       "animal": "Panda",
       "notes": "",
       "handle_pattern": "?post"
+    },
+        {
+      "handle": "cuteducks",
+      "owner": "?",
+      "animal": "Duck",
+      "notes": "",
+      "handle_pattern": "cute?"
+    },
+{
+      "handle": "duckgif",
+      "owner": "?",
+      "animal": "Duck",
+      "notes": "",
+      "handle_pattern": "?gif"
+    },
+    {
+      "handle": "birds_channel",
+      "owner": "?",
+      "animal": "Bird",
+      "notes": "Farsi, with some bird care info",
+      "handle_pattern": "?_channel"
+    },
+    {
+      "handle": "fluffybirbs",
+      "owner": "Shaheen",
+      "animal": "Bird",
+      "notes": "",
+      "handle_pattern": "fluffy?"
+    },
+    {
+      "handle": "hourlybirds",
+      "owner": "?",
+      "animal": "Bird",
+      "notes": "repost of twitter @birdperhour",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "roumdbirds",
+      "owner": "?",
+      "animal": "Bird",
+      "notes": "In the @pagatelupizzu network",
+      "handle_pattern": "roumd?"
+    },
+    {
+      "handle": "bearpictures",
+      "owner": "Pastek_s",
+      "animal": "Bear",
+      "notes": "?",
+      "handle_pattern": "?pictures"
+    },
+    {
+      "handle": "cutekittens",
+      "owner": "?",
+      "animal": "Kitten",
+      "notes": "Russian",
+      "handle_pattern": "cute?"
+    },
+    {
+      "handle": "kittens_kittens",
+      "owner": "?",
+      "animal": "Kitten",
+      "notes": "cats and memes",
+      "handle_pattern": "?_?"
+    },
+    {
+      "handle": "dailyfrog",
+      "owner": "?",
+      "animal": "Frog",
+      "notes": "Russian",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "dailyfrogs",
+      "owner": "nyanvillager",
+      "animal": "Frog",
+      "notes": "Russian",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "frog_channel",
+      "owner": "?",
+      "animal": "Frog",
+      "notes": "Has linked discussion group",
+      "handle_pattern": "?_channel"
+    },
+    {
+      "handle": "froggifs",
+      "owner": "armixyz",
+      "animal": "Frog",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "frogpost",
+      "owner": "?",
+      "animal": "Frog",
+      "notes": "?",
+      "handle_pattern": "?post"
+    },
+    {
+      "handle": "frogs_channel",
+      "owner": "?",
+      "animal": "Frog",
+      "notes": "?",
+      "handle_pattern": "?_channel"
+    },
+    {
+      "handle": "cat_gif",
+      "owner": "MrMillenomi",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?_gif"
+    },
+    {
+      "handle": "catchannel",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "cats and Italian memes and stuff. Concat: @AcademyWPBot",
+      "handle_pattern": "?channel"
+    },
+    {
+      "handle": "catland",
+      "owner": "BotCat",
+      "animal": "Cat",
+      "notes": "Russian",
+      "handle_pattern": "?land"
+    },
+    {
+      "handle": "catpictures",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?pictures"
+    },
+    {
+      "handle": "catpost",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?post"
+    },
+    {
+      "handle": "catsappreciation",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?appreciation"
+    },
+    {
+      "handle": "catsgifs",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "?",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "catsland",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Russian",
+      "handle_pattern": "?land"
+    },
+    {
+      "handle": "catspics",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Chinese",
+      "handle_pattern": "?pics"
+    },
+    {
+      "handle": "daily_cats",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Networked with programming channels",
+      "handle_pattern": "daily_?"
+    },
+    {
+      "handle": "loveforcats",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "lovefor?"
+    },
+    {
+      "handle": "thecatsnews",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Russian",
+      "handle_pattern": "the?news"
+    },
+    {
+      "handle": "thedailycat",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Russian memes",
+      "handle_pattern": "thedaily?"
     }
   ],
   "removed": [
