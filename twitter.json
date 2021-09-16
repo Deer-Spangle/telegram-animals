@@ -132,6 +132,13 @@
       "animal": "Eel",
       "notes": "",
       "handle_pattern": "?daily"
+    },
+    {
+      "handle": "birdperhour",
+      "owner": "?",
+      "animal": "Bird",
+      "notes": "Contact birdperhour@tutanova.com",
+      "handle_pattern": "?perhour"
     }
   ]
 }
