@@ -2876,6 +2876,146 @@
       "animal": "Rat",
       "notes": "",
       "handle_pattern": "?cute"
+    },
+    {
+      "handle": "birbposting",
+      "owner": "?",
+      "animal": "Bird",
+      "notes": "Friends with @cutedogeposting",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "cutedogeposting",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "cute?posting"
+    },
+    {
+      "handle": "catsch",
+      "owner": "bunk100",
+      "animal": "Cat",
+      "notes": "Pictures from @kesylkenbot",
+      "handle_pattern": "?ch"
+    },
+    {
+      "handle": "kesylkenbot",
+      "owner": "bunk100",
+      "animal": "Cat",
+      "notes": "Runs @catsch, chat is @kesylkenchat, feedback to @thebunkbot",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "catsbooty",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Russian",
+      "handle_pattern": "?booty"
+    },
+    {
+      "handle": "sealposting",
+      "owner": "?",
+      "animal": "Seal",
+      "notes": "Mostly Youtube links",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "dogposting",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Italian. Part of Mattonella network, @mattonellanetwork",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "MonkeLee",
+      "owner": "?",
+      "animal": "Monkey",
+      "notes": "Pics and memes. Italian. Part of Mattonella network, @mattonellanetwork",
+      "handle_pattern": "?lee"
+    },
+    {
+      "handle": "arthropodlove",
+      "owner": "trvmanblack",
+      "animal": "Insect",
+      "notes": "Italian. Has some facts also. Part of Mattonella network, @mattonellanetwork",
+      "handle_pattern": "?love"
+    },
+    {
+      "handle": "procionimagici",
+      "owner": "GiornoDiMaggio",
+      "animal": "Raccoon",
+      "notes": "Italian. Has some facts also. Part of Mattonella network, @mattonellanetwork",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "gifscimia",
+      "owner": "?",
+      "animal": "Monkey",
+      "notes": "Italian. Part of Mattonella network, @mattonellanetwork",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "ScimmiaPostaggio",
+      "owner": "?",
+      "animal": "Monkey",
+      "notes": "Italian. Part of Mattonella network, @mattonellanetwork",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "otterposting",
+      "owner": "Novolobo",
+      "animal": "",
+      "notes": "",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "bunnyposting",
+      "owner": "?",
+      "animal": "",
+      "notes": "",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "bunniesposting",
+      "owner": "?",
+      "animal": "",
+      "notes": "",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "turtleposting",
+      "owner": "?",
+      "animal": "",
+      "notes": "",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "frogsposting",
+      "owner": "?",
+      "animal": "",
+      "notes": "Memes and artwork",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "monkegifs",
+      "owner": "?",
+      "animal": "",
+      "notes": "",
+      "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "cowposting",
+      "owner": "?",
+      "animal": "",
+      "notes": "Memes and pics",
+      "handle_pattern": "?posting"
+    },
+    {
+      "handle": "foxesposting",
+      "owner": "?",
+      "animal": "",
+      "notes": "Russian. Gathers fox pics from VK",
+      "handle_pattern": "?posting"
     }
   ],
   "removed": [
@@ -4697,6 +4837,237 @@
     {
       "handle": "dogch",
       "reason": "personal feed"
+    },
+    {
+      "handle": "lionpets",
+      "reason": "lewd furry art feed"
+    },
+    {
+      "handle": "otterbooty",
+      "reason": "lewd photos and videos"
+    },
+    {
+      "handle": "birdspets",
+      "reason": "India bird sales"
+    },
+    {
+      "handle": "catcute",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "catscute",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "kittypets",
+      "reason": "personal feed"
+    },
+    {
+      "handle": "kittiescute",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "snakebooty",
+      "reason": "meme channel"
+    },
+    {
+      "handle": "otterch",
+      "reason": "arabic personal feed"
+    },
+    {
+      "handle": "whalech",
+      "reason": "empty finance feed"
+    },
+    {
+      "handle": "hyenach",
+      "reason": "indonesian anime channel"
+    },
+    {
+      "handle": "rhinoch",
+      "reason": "indian piracy channel"
+    },
+    {
+      "handle": "sharkposting",
+      "reason": "meme channel"
+    },
+    {
+      "handle": "bugcute",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bunnypets",
+      "reason": "indonesian kpop feed"
+    },
+    {
+      "handle": "bunnybooty",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "bunniesch",
+      "reason": "Indonesian art feed"
+    },
+    {
+      "handle": "camelcute",
+      "reason": "indonesian personal feed"
+    },
+    {
+      "handle": "deerposting",
+      "reason": "meme feed"
+    },
+    {
+      "handle": "deerch",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "dinosaurcute",
+      "expiry": "2021-10-16T12:00:00+00:00",
+      "reason": "just some wallpapers?"
+    },
+    {
+      "handle": "frogcute",
+      "reason": "arabic personal feed"
+    },
+    {
+      "handle": "thefroggie",
+      "reason": "piracy maybe"
+    },
+    {
+      "handle": "ilovefroggie",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "thefroggy",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "froggylovers",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "brokenfroggy",
+      "reason": "personal feed"
+    },
+    {
+      "handle": "froggiesland",
+      "reason": "Indonesian personal feed"
+    },
+    {
+      "handle": "horsech",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "monkeyposting",
+      "reason": "empty"
+    },
+    {
+      "handle": "monke",
+      "reason": "farsi forward to another channel"
+    },
+    {
+      "handle": "monkegang",
+      "reason": "accidental channel"
+    },
+    {
+      "handle": "monkepost",
+      "reason": "empty"
+    },
+    {
+      "handle": "monkechannel",
+      "reason": "misc channel"
+    },
+    {
+      "handle": "monkeposting",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "shitposting"
+    },
+    {
+      "handle": "monkepic",
+      "reason": "meme channel"
+    },
+    {
+      "handle": "raccoonsposting",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "toucanch",
+      "reason": "farsi bot announcement channel"
+    },
+    {
+      "handle": "cowcute",
+      "reason": "sales feed"
+    },
+    {
+      "handle": "cowpets",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "cowch",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "tigerpets",
+      "reason": "misc Spanish personal feed"
+    },
+    {
+      "handle": "tigersch",
+      "reason": "indonesian parked channel"
+    },
+    {
+      "handle": "breakingwolf",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "wolfposting",
+      "reason": "crypto feed"
+    },
+    {
+      "handle": "apdch",
+      "reason": "empty arabic channel"
+    },
+    {
+      "handle": "chich",
+      "reason": "misc farsi feed"
+    },
+    {
+      "handle": "oncach",
+      "reason": "misc indonesian feed"
+    },
+    {
+      "handle": "fench",
+      "reason": "misc personal feed"
+    },
+    {
+      "handle": "breakingbears",
+      "reason": "Russian dancing channel"
+    },
+    {
+      "handle": "dragonposting",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "dragonsch",
+      "reason": "empty"
+    },
+    {
+      "handle": "squidland",
+      "expiry": "2021-12-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "squids",
+      "reason": "Russian personal feed"
     }
   ]
 }
