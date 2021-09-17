@@ -3018,21 +3018,21 @@
       "handle_pattern": "?posting"
     },
     {
-      "handle": "snakeslove accept, scrape",
+      "handle": "snakeslove",
       "owner": "?",
       "animal": "Snake",
       "notes": "",
       "handle_pattern": "?love"
     },
     {
-      "handle": "squirrellove accept, all YouTube links though",
+      "handle": "squirrellove",
       "owner": "?",
       "animal": "Squirrel",
       "notes": "All YouTube links though",
       "handle_pattern": "?love"
     },
     {
-      "handle": "snailslove accept",
+      "handle": "snailslove",
       "owner": "?",
       "animal": "Snail",
       "notes": "",
