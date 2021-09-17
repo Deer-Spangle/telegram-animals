@@ -3016,6 +3016,27 @@
       "animal": "Fox",
       "notes": "Russian. Gathers fox pics from VK",
       "handle_pattern": "?posting"
+    },
+    {
+      "handle": "snakeslove accept, scrape",
+      "owner": "?",
+      "animal": "Snake",
+      "notes": "",
+      "handle_pattern": "?love"
+    },
+    {
+      "handle": "squirrellove accept, all YouTube links though",
+      "owner": "?",
+      "animal": "Squirrel",
+      "notes": "All YouTube links though",
+      "handle_pattern": "?love"
+    },
+    {
+      "handle": "snailslove accept",
+      "owner": "?",
+      "animal": "Snail",
+      "notes": "",
+      "handle_pattern": "?love"
     }
   ],
   "removed": [
@@ -5068,6 +5089,119 @@
     {
       "handle": "squids",
       "reason": "Russian personal feed"
+    },
+    {
+      "handle": "samoyedlee",
+      "reason": "empty"
+    },
+    {
+      "handle": "puppylove",
+      "reason": "piracy"
+    },
+    {
+      "handle": "puppylee",
+      "reason": "empty test"
+    },
+    {
+      "handle": "lionlove",
+      "reason": "lewd furry channel"
+    },
+    {
+      "handle": "cheetahlee",
+      "expiry": "2022-03-16T12:00:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "cheeslove",
+      "reason": "Russian cheese channel"
+    },
+    {
+      "handle": "cheetoslee",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "kittenlee",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "crocodileslove",
+      "reason": "indonesian roleplay channel"
+    },
+    {
+      "handle": "eaglelove",
+      "reason": "farsi personal feed"
+    },
+    {
+      "handle": "piglove",
+      "reason": "Russian personal feed"
+    },
+    {
+      "handle": "rhinolee",
+      "reason": "indonesian roleplay channel"
+    },
+    {
+      "handle": "batlee",
+      "reason": "empty and deletion warnings"
+    },
+    {
+      "handle": "llamalove",
+      "reason": "indonesian personal channel"
+    },
+    {
+      "handle": "parrotlove",
+      "reason": "inactive animal sales and deletion warnings"
+    },
+    {
+      "handle": "bunnylove",
+      "reason": "indonesian personal channel"
+    },
+    {
+      "handle": "bunnylee",
+      "reason": "indonesian empty personal feed"
+    },
+    {
+      "handle": "bunnieslee",
+      "reason": "parked and empty"
+    },
+    {
+      "handle": "bunlove",
+      "reason": "indonesian empty personal feed"
+    },
+    {
+      "handle": "dinosaurlee",
+      "reason": "forward to a forward to an indonesian personal channel"
+    },
+    {
+      "handle": "froglove",
+      "reason": "chinese permission feed"
+    },
+    {
+      "handle": "pandaslee",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "ravenlee",
+      "reason": "lewd photos and advert"
+    },
+    {
+      "handle": "cowlove",
+      "reason": "Russian personal feed with deletion warnings"
+    },
+    {
+      "handle": "cowslee",
+      "reason": "placeholder"
+    },
+    {
+      "handle": "wolflove",
+      "reason": "farsi personal feed"
+    },
+    {
+      "handle": "fenlee",
+      "reason": "parked"
+    },
+    {
+      "handle": "bearslee",
+      "reason": "personal channel"
     }
   ]
 }
