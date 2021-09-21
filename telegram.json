@@ -2465,20 +2465,13 @@
       "handle_pattern": "-"
     },
     {
-      "handle": "pandapost",
-      "owner": "?",
-      "animal": "Panda",
-      "notes": "",
-      "handle_pattern": "?post"
-    },
-        {
       "handle": "cuteducks",
       "owner": "?",
       "animal": "Duck",
       "notes": "",
       "handle_pattern": "cute?"
     },
-{
+    {
       "handle": "duckgif",
       "owner": "?",
       "animal": "Duck",
@@ -3055,6 +3048,14 @@
       "notes": "",
       "handle_pattern": "?channel",
       "removal_reason": "Channel deleted and replaced with something else"
+    },
+    {
+      "handle": "pandapost",
+      "owner": "?",
+      "animal": "Panda",
+      "notes": "",
+      "handle_pattern": "?post",
+      "removal_reason": "Channel deleted"
     }
   ],
   "ignored": [
