@@ -1766,7 +1766,7 @@
     },
     {
       "handle": "BURRS",
-      "owner": "@spcbear",
+      "owner": "spcbear",
       "animal": "Bear",
       "notes": "Discussion group at @discussburrs",
       "handle_pattern": "?"
