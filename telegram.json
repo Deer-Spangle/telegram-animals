@@ -3037,6 +3037,13 @@
       "animal": "Bear",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
+    },
+    {
+      "handle": "rats_rats",
+      "owner": "?",
+      "animal": "Rat",
+      "notes": "",
+      "handle_pattern": "?_?"
     }
   ],
   "removed": [
@@ -5218,6 +5225,56 @@
     {
       "handle": "bearslee",
       "reason": "personal channel"
+    },
+    {
+      "handle": "hourlycat",
+      "reason": "Indonesian personal channel"
+    },
+    {
+      "handle": "theferret",
+      "reason": "Farsi personal channel"
+    },
+    {
+      "handle": "thepanthers",
+      "reason": "Teen fiction channel"
+    },
+    {
+      "handle": "belugachannel",
+      "reason": "some meme thing"
+    },
+    {
+      "handle": "duck_duck",
+      "reason": "farsi news feed"
+    },
+    {
+      "handle": "bunnyfriends",
+      "reason": "personal feed"
+    },
+    {
+      "handle": "thedinos",
+      "reason": "Indonesian empty personal feed"
+    },
+    {
+      "handle": "thedailyeel",
+      "reason": "some pol crap"
+    },
+    {
+      "handle": "cutemane",
+      "reason": "Wallpaper channel"
+    },
+    {
+      "handle": "pandasdaily",
+      "reason": "Farsi personal feed"
+    },
+    {
+      "handle": "woofc",
+      "expiry": "2021-10-29T00:43:00+00:00",
+      "reason": "empty"
+    },
+    {
+      "handle": "floppa_channel",
+      "expiry": "2021-10-29T00:43:00+00:00",
+      "reason": "misc Russian channel"
     }
   ]
 }
