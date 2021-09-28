@@ -2325,13 +2325,6 @@
       "handle_pattern": "breaking?"
     },
     {
-      "handle": "ratschannel",
-      "owner": "?",
-      "animal": "Rat",
-      "notes": "Some bot experimentation lately",
-      "handle_pattern": "?channel"
-    },
-    {
       "handle": "dailymonkeys",
       "owner": "ne_pasha",
       "animal": "Monkey",
@@ -3069,6 +3062,14 @@
       "animal": "Panda",
       "notes": "",
       "handle_pattern": "?post",
+      "removal_reason": "Channel deleted"
+    },
+    {
+      "handle": "ratschannel",
+      "owner": "?",
+      "animal": "Rat",
+      "notes": "Some bot experimentation lately",
+      "handle_pattern": "?channel",
       "removal_reason": "Channel deleted"
     }
   ],
