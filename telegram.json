@@ -3030,6 +3030,20 @@
       "animal": "Snail",
       "notes": "",
       "handle_pattern": "?love"
+    },
+    {
+      "handle": "HourlyBears",
+      "owner": "TinyZorro",
+      "animal": "Bear",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyBearBot",
+      "owner": "TinyZorro",
+      "animal": "Bear",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?bot"
     }
   ],
   "removed": [
