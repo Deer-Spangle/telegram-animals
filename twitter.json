@@ -146,6 +146,13 @@
       "animal": "Fennec",
       "notes": "I think the fennec is their pet",
       "handle_patern": "-"
+    },
+    {
+      "handle": "SnakeHour",
+      "owner": "?",
+      "animal": "Snake",
+      "notes": "Has a little website here: https://snakehour.carrd.co/ to send submissions and such",
+      "handle_pattern": "?hour"
     }
   ]
 }
