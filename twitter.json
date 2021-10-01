@@ -139,6 +139,13 @@
       "animal": "Bird",
       "notes": "Contact birdperhour@tutanova.com",
       "handle_pattern": "?perhour"
+    },
+    {
+      "handle": "K3pboUWHkrSJL9s",
+      "owner": "?",
+      "animal": "Fennec",
+      "notes": "I think the fennec is their pet",
+      "handle_patern": "-"
     }
   ]
 }
