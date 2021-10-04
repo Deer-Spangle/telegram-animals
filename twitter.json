@@ -153,6 +153,13 @@
       "animal": "Snake",
       "notes": "Has a little website here: https://snakehour.carrd.co/ to send submissions and such",
       "handle_pattern": "?hour"
+    },
+    {
+      "handle": "rabbiteveryhour",
+      "owner": "?",
+      "animal": "Rabbit",
+      "notes": "",
+      "handle_pattern": "?everyhour"
     }
   ]
 }
