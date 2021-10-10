@@ -47,7 +47,11 @@ def validate(entities: List[Channel], animal_data: Dict[str, List[str]]) -> List
     return exceptions
 
 
-if __name__ == "__main__":
+def do_validation():
     exc_list = validate(load_entities(), load_animals())
     if exc_list:
         raise DataException("Data failed to validate:\n" + "\n".join(str(e) for e in exc_list))
+
+
+if __name__ == "__main__":
+    do_validation()
