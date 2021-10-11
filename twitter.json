@@ -160,6 +160,13 @@
       "animal": "Rabbit",
       "notes": "",
       "handle_pattern": "?everyhour"
+    },
+    {
+      "handle": "deerchive",
+      "owner": "?",
+      "animal": "Deer",
+      "notes": "",
+      "handle_pattern": "?chive"
     }
   ]
 }
