@@ -23,9 +23,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Validate data
-      run: python validate.py
+      run: python main.py validate
     - name: Update cache
-      run: python scrape_cache.py
+      run: python main.py update_cache
       env:
         API_ID: ${{ secrets.API_ID }}
         API_HASH: ${{ secrets.API_HASH }}
@@ -36,7 +36,7 @@ jobs:
         add: "cache/channel_cache.json"
         message: "Updating channel cache"
     - name: Create index.html
-      run: python create_html.py
+      run: python main.py create_html
     - uses: JamesIves/github-pages-deploy-action@4.0.0
       with:
         branch: gh-pages
