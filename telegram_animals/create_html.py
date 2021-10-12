@@ -1,3 +1,4 @@
+from argparse import Namespace
 from datetime import datetime, timedelta
 from typing import List, TypeVar, Union, Generic, Tuple
 import os
@@ -6,7 +7,7 @@ import pytz
 from yattag import Doc, indent
 
 from data import Channel, load_channels_and_bots, load_channel_cache
-
+from telegram_animals.subparser import SubParserAdder
 
 T = TypeVar("T", bound=Union[float, datetime])
 Colour = Tuple[float, float, float]
@@ -131,9 +132,24 @@ def create_doc(channels: List[Channel], bots: List[Channel]):
     return indent(doc.getvalue())
 
 
-if __name__ == "__main__":
+def setup_parser(subparsers: SubParserAdder) -> None:
+    parser = subparsers.add_parser(
+        "create_html",
+        description="Generates and writes the HTML for the website",
+        help="Generates the HTML for the website",
+        aliases=["html"]
+    )
+    parser.set_defaults(func=do_html)
+    parser.add_argument("--filename", "-f", default="public/index.html")
+
+
+def do_html(args: Namespace):
     list_channels, list_bots = load_channels_and_bots()
     html = create_doc(list_channels, list_bots)
     os.makedirs("public", exist_ok=True)
-    with open("public/index.html", "w") as w:
+    with open(args.filename, "w") as w:
         w.write(html)
+
+
+if __name__ == "__main__":
+    do_html(Namespace())
