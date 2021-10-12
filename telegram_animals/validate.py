@@ -1,4 +1,4 @@
-from argparse import Namespace, _SubParsersAction
+from argparse import Namespace
 from typing import List, Dict
 
 from data import Channel, load_entities, load_animals
