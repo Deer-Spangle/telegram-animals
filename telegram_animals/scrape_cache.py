@@ -165,14 +165,14 @@ def setup_parser(subparsers: SubParserAdder) -> None:
         aliases=["update_cache"]
     )
     parser.set_defaults(func=do_scrape)
-    parser.add_argument("--api_id", type=int, default=int(os.getenv("API_ID")))
+    parser.add_argument("--api_id", type=int, default=os.getenv("API_ID"))
     parser.add_argument("--api_hash", default=os.getenv("API_HASH"))
     parser.add_argument("--session_string", default=os.getenv("SESSION_STRING"))
 
 
 def do_scrape(args: Namespace) -> None:
     channel_list = load_channels()
-    api_id = args.api_id
+    api_id = int(args.api_id)
     api_hash = args.api_hash
     session_string = args.session_string
     if session_string:
