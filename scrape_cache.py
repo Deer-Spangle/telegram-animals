@@ -15,7 +15,7 @@ from telethon.tl.functions.messages import SearchRequest
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif, InputMessagesFilterVideo, Message, \
     InputPeerChannel
 
-from data import load_channels, Channel, ChannelCache, save_channel_cache, load_channel_cache
+from telegram_animals.data import load_channels, Channel, ChannelCache, save_channel_cache, load_channel_cache
 
 
 class MediaType(Enum):

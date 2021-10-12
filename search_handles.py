@@ -10,7 +10,7 @@ import requests
 from dateutil import parser
 from bs4 import BeautifulSoup
 
-from data import Channel, load_channels, load_animals, load_ignored, Ignore
+from telegram_animals.data import Channel, load_channels, load_animals, load_ignored, Ignore
 
 T = TypeVar("T")
 

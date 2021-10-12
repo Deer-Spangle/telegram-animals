@@ -1,7 +1,7 @@
 from argparse import Namespace
 from typing import List, Dict
 
-from data import Channel, load_entities, load_animals
+from telegram_animals.data import Channel, load_entities, load_animals
 from telegram_animals.subparser import SubParserAdder
 
 

@@ -6,7 +6,7 @@ import os
 import pytz
 from yattag import Doc, indent
 
-from data import Channel, load_channels_and_bots, load_channel_cache
+from telegram_animals.data import Channel, load_channels_and_bots, load_channel_cache
 from telegram_animals.subparser import SubParserAdder
 
 T = TypeVar("T", bound=Union[float, datetime])
