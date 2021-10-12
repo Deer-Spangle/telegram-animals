@@ -158,9 +158,10 @@ async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
 
 def setup_parser(subparsers: SubParserAdder) -> None:
     parser = subparsers.add_parser(
-        "create_html",
-        description="Generates and writes the HTML for the website",
-        help="Generates the HTML for the website",
+        "scrape_cache",
+        description="Scrapes the known channel list and updates cached values for dates, message counts, etc.",
+        help="Scrapes the known channel list and updates cached values for dates, message counts, etc.\n"
+             "Saves the data to cache/channel_cache.json",
         aliases=["html"]
     )
     parser.set_defaults(func=do_scrape)
