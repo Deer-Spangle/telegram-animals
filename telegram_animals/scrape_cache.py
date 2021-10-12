@@ -1,3 +1,4 @@
+from argparse import Namespace
 from datetime import datetime, timedelta
 from typing import List, Optional
 from enum import Enum
@@ -10,12 +11,13 @@ from telethon import TelegramClient
 from telethon.errors import FloodWaitError
 from telethon.sessions import StringSession
 from telethon.tl.functions.channels import GetFullChannelRequest
-from telethon.tl.functions.contacts import SearchRequest as SR
+from telethon.tl.functions.contacts import SearchRequest as ContactSearchRequest
 from telethon.tl.functions.messages import SearchRequest
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif, InputMessagesFilterVideo, Message, \
     InputPeerChannel
 
-from data import load_channels, Channel, ChannelCache, save_channel_cache, load_channel_cache
+from telegram_animals.data import load_channels, Channel, ChannelCache, save_channel_cache, load_channel_cache
+from telegram_animals.subparser import SubParserAdder
 
 
 class MediaType(Enum):
@@ -31,7 +33,7 @@ class CachedSearcher:
     async def search_name(self, client: TelegramClient, handle: str) -> InputPeerChannel:
         if handle.casefold() in self.search_cache:
             return self.search_cache[handle.casefold()]
-        response = await client(SR(q=handle, limit=3))
+        response = await client(ContactSearchRequest(q=handle, limit=3))
         time.sleep(3)
         for chat in response.chats:
             input_entity = InputPeerChannel(chat.id, chat.access_hash)
@@ -154,11 +156,25 @@ async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
     searcher.save_to_json()
 
 
-if __name__ == "__main__":
+def setup_parser(subparsers: SubParserAdder) -> None:
+    parser = subparsers.add_parser(
+        "scrape_cache",
+        description="Scrapes the known channel list and updates cached values for dates, message counts, etc.",
+        help="Scrapes the known channel list and updates cached values for dates, message counts, etc.\n"
+             "Saves the data to cache/channel_cache.json",
+        aliases=["update_cache"]
+    )
+    parser.set_defaults(func=do_scrape)
+    parser.add_argument("--api_id", type=int, default=int(os.getenv("API_ID")))
+    parser.add_argument("--api_hash", default=os.getenv("API_HASH"))
+    parser.add_argument("--session_string", default=os.getenv("SESSION_STRING"))
+
+
+def do_scrape(args: Namespace) -> None:
     channel_list = load_channels()
-    api_id = int(os.getenv("API_ID"))
-    api_hash = os.getenv("API_HASH")
-    session_string = os.getenv("SESSION_STRING")
+    api_id = args.api_id
+    api_hash = args.api_hash
+    session_string = args.session_string
     if session_string:
         session_arg = StringSession(session_string)
     else:
@@ -166,3 +182,7 @@ if __name__ == "__main__":
     c = TelegramClient(session_arg, api_id, api_hash)
     c.start()
     c.loop.run_until_complete(generate_all_caches(c, channel_list))
+
+
+if __name__ == "__main__":
+    do_scrape(Namespace())

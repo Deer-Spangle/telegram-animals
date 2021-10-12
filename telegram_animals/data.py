@@ -60,7 +60,7 @@ class Ignore:
 
 
 def load_channels_and_bots() -> Tuple[List[Channel], List[Channel]]:
-    with open("telegram.json", "r") as f:
+    with open("store/telegram.json", "r") as f:
         data_store = json.load(f)
     sorted_entites = sorted([
         Channel.from_json(channel_data)
@@ -77,18 +77,18 @@ def load_channels() -> List[Channel]:
 
 
 def load_entities() -> List[Channel]:
-    with open("telegram.json", "r") as f:
+    with open("store/telegram.json", "r") as f:
         telegram_data = json.load(f)
     return [Channel.from_json(entity_datum) for entity_datum in telegram_data["entities"]]
 
 
 def load_animals() -> Dict[str, List[str]]:
-    with open("animals.json", "r") as f:
+    with open("store/animals.json", "r") as f:
         return json.load(f)
 
 
 def load_ignored() -> List[Ignore]:
-    with open("telegram.json", "r") as f:
+    with open("store/telegram.json", "r") as f:
         telegram_data = json.load(f)
     if "ignored" not in telegram_data:
         return []

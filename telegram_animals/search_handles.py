@@ -2,6 +2,7 @@ import datetime
 import itertools
 import json
 import re
+from argparse import Namespace
 from dataclasses import dataclass
 from typing import Optional, Dict, List, TypeVar, Callable, Tuple, Iterable
 
@@ -10,7 +11,8 @@ import requests
 from dateutil import parser
 from bs4 import BeautifulSoup
 
-from data import Channel, load_channels, load_animals, load_ignored, Ignore
+from telegram_animals.data import Channel, load_channels, load_animals, load_ignored, Ignore
+from telegram_animals.subparser import SubParserAdder
 
 T = TypeVar("T")
 
@@ -303,7 +305,18 @@ class Searcher:
         return alerts
 
 
-if __name__ == "__main__":
+def setup_parser(subparsers: SubParserAdder) -> None:
+    parser = subparsers.add_parser(
+        "search_handles",
+        description="Search for new channels, based on animal names and handle patterns",
+        help="Search for new channels, based on animal names and handle patterns.\n"
+             "Saves channel cache information to cache/search_cache.json",
+        aliases=["find_channels", "hunt_channels"]
+    )
+    parser.set_defaults(func=do_search)
+
+
+def do_search(args: Namespace) -> None:
     # Load channels, animals, and ignore list
     a_channels = load_channels()
     a_animals = load_animals()
@@ -331,3 +344,7 @@ if __name__ == "__main__":
         print(alert)
     # Save cache
     searcher.save_cache_to_json()
+
+
+if __name__ == "__main__":
+    do_search(Namespace())

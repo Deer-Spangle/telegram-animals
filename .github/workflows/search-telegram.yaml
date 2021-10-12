@@ -17,9 +17,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Validate data
-      run: python validate.py
+      run: python main.py validate
     - name: Search telegram
-      run: python search_handles.py
+      run: python main.py search_handles
     - name: Save cache
       uses: EndBug/add-and-commit@v7
       with:

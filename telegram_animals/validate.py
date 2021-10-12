@@ -1,6 +1,8 @@
+from argparse import Namespace
 from typing import List, Dict
 
-from data import Channel, load_entities, load_animals
+from telegram_animals.data import Channel, load_entities, load_animals
+from telegram_animals.subparser import SubParserAdder
 
 
 class DataException(Exception):
@@ -47,7 +49,20 @@ def validate(entities: List[Channel], animal_data: Dict[str, List[str]]) -> List
     return exceptions
 
 
-if __name__ == "__main__":
+def setup_subparser(subparsers: SubParserAdder) -> None:
+    parser = subparsers.add_parser(
+        "validate",
+        description="Validates the data",
+        help="Validates the data"
+    )
+    parser.set_defaults(func=do_validation)
+
+
+def do_validation(args: Namespace):
     exc_list = validate(load_entities(), load_animals())
     if exc_list:
         raise DataException("Data failed to validate:\n" + "\n".join(str(e) for e in exc_list))
+
+
+if __name__ == "__main__":
+    do_validation(Namespace())
