@@ -162,7 +162,7 @@ def setup_parser(subparsers: SubParserAdder) -> None:
         description="Scrapes the known channel list and updates cached values for dates, message counts, etc.",
         help="Scrapes the known channel list and updates cached values for dates, message counts, etc.\n"
              "Saves the data to cache/channel_cache.json",
-        aliases=["html"]
+        aliases=["update_cache"]
     )
     parser.set_defaults(func=do_scrape)
     parser.add_argument("--api_id", type=int, default=int(os.getenv("API_ID")))
