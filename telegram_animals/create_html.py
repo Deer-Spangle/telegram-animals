@@ -132,7 +132,7 @@ def create_doc(channels: List[Channel], bots: List[Channel]):
             # Some basic, privacy-focused analytics
             doc.stag("script", src="https://getinsights.io/js/insights.js")
             with doc.tag("script"):
-                text("insights.init('lrFaPwGuDpIqLUXt');
+                text("insights.init('lrFaPwGuDpIqLUXt');")
                 text("insights.trackPages();")
     return indent(doc.getvalue())
 
