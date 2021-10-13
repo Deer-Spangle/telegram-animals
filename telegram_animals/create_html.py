@@ -130,7 +130,7 @@ def create_doc(channels: List[Channel], bots: List[Channel]):
                 text("github repository")
             text(". (Pull requests are also welcome!)")
             # Some basic, privacy-focused analytics
-            with doc.tag("script", src="https://getinsights.io/js/insights.js")Ö
+            with doc.tag("script", src="https://getinsights.io/js/insights.js"):
                 pass
             with doc.tag("script"):
                 text("insights.init('lrFaPwGuDpIqLUXt');")
