@@ -167,6 +167,13 @@
       "animal": "Deer",
       "notes": "",
       "handle_pattern": "?chive"
+    },
+    {
+      "handle": "HourlyYeen",
+      "owner": "TinyZorro",
+      "animal": "Yeen",
+      "notes": "Mirror of telegram channel, t.me/HourlyYeen",
+      "handle_pattern": "hourly?"
     }
   ]
 }
