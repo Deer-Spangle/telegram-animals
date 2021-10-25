@@ -147,7 +147,7 @@ class SearchCacheEntry:
         if self.latest_posts is None:
             return False
         now = now or datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
-        if len(self.latest_posts) == 0:
+        if not self.latest_posts:
             return False
         newest_post = sorted(self.latest_posts, key=lambda post: post.date, reverse=True)[0]
         latest_age = now - newest_post.date
