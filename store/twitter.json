@@ -174,6 +174,13 @@
       "animal": "Yeen",
       "notes": "Mirror of telegram channel, t.me/HourlyYeen",
       "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "TheDailyPossums",
+      "owner": "",
+      "animal": "Possum",
+      "notes": "",
+      "handle_pattern": "thedaily?"
     }
   ]
 }
