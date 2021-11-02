@@ -3044,6 +3044,13 @@
       "animal": "Rat",
       "notes": "",
       "handle_pattern": "?_?"
+    },
+    {
+      "handle": "friesian_horses",
+      "owner": "?",
+      "animal": "Horse",
+      "notes": "Russian",
+      "handle_pattern": "-"
     }
   ],
   "removed": [
