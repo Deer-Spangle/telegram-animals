@@ -181,6 +181,13 @@
       "animal": "Possum",
       "notes": "",
       "handle_pattern": "thedaily?"
+    },
+    {
+      "handle": "Foxwthreataura",
+      "owner": "FoxynTheWolfox",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "?wthreataura"
     }
   ]
 }
