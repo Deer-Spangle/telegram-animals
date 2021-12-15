@@ -3051,6 +3051,13 @@
       "animal": "Horse",
       "notes": "Russian",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "yeentt",
+      "owner": "whimsycality",
+      "animal": "Hyena",
+      "notes:" "",
+      "handle_pattern": "?tt"
     }
   ],
   "removed": [
