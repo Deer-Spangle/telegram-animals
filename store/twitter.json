@@ -188,6 +188,13 @@
       "animal": "Fox",
       "notes": "",
       "handle_pattern": "?wthreataura"
+    },
+    {
+      "handle": "DailyMarten",
+      "owner": "ZGFGaming",
+      "animal": "Pine Marten",
+      "notes": "Linked to telegram channel, t.me/HourlyMartens",
+      "handle_pattern": "daily?"
     }
   ]
 }
