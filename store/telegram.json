@@ -1361,7 +1361,7 @@
     {
       "handle": "ShibaInuDoge",
       "owner": "Bestulo",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "",
       "handle_pattern": "-"
     },
@@ -1823,7 +1823,7 @@
     {
       "handle": "nulistheshiba",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "Specific shiba, lapqpera network",
       "handle_pattern": "-"
     },
@@ -1886,7 +1886,7 @@
     {
       "handle": "cogeshiiiiba",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "Specific shiba, lapqpera network",
       "handle_pattern": "-"
     },
@@ -2243,7 +2243,7 @@
     {
       "handle": "muchshibe",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "",
       "handle_pattern": "much?"
     },
@@ -2257,21 +2257,21 @@
     {
       "handle": "shibeposting",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "",
       "handle_pattern": "?posting"
     },
     {
       "handle": "shibainugif",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "Shiba inu network hub, links to private channels by mood",
       "handle_pattern": "?gif"
     },
     {
       "handle": "shibapazzi",
       "owner": "effepo",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "Shiba inu network, selected photos, Italian",
       "handle_pattern": "?pazzi"
     },
@@ -2838,7 +2838,7 @@
     {
       "handle": "shibainupics",
       "owner": "ConnorShibe, FishhFinns",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "pics and memes",
       "handle_pattern": "?pics"
     },
@@ -3058,6 +3058,20 @@
       "animal": "Hyena",
       "notes": "",
       "handle_pattern": "?tt"
+    },
+    {
+      "handle": "HourlyServal",
+      "owner": "TinyZorro",
+      "animal": "Serval",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyShibe",
+      "owner": "TinyZorro",
+      "animal": "Shiba Inu",
+      "notes": "TinyZorro network",
+      "handle_pattern": "hourly?"
     }
   ],
   "removed": [
