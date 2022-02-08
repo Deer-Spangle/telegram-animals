@@ -2803,14 +2803,14 @@
     {
       "handle": "shiba_gif",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "Just shiba inu",
       "handle_pattern": "?_gif"
     },
     {
       "handle": "shibagif",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "Farsi on most gifs",
       "handle_pattern": "?gif"
     },
@@ -2824,14 +2824,14 @@
     {
       "handle": "shibainuch",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "",
       "handle_pattern": "?ch"
     },
     {
       "handle": "dailyshibainu",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "",
       "handle_pattern": "daily?"
     },
@@ -2845,14 +2845,14 @@
     {
       "handle": "shibechannel",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "Mostly instagram links",
       "handle_pattern": "?channel"
     },
     {
       "handle": "shibegang",
       "owner": "?",
-      "animal": "Dog",
+      "animal": "Shiba Inu",
       "notes": "",
       "handle_pattern": "?gang"
     },
