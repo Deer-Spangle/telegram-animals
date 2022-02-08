@@ -35,15 +35,21 @@
     "doggos",
     "pupper",
     "puppers",
-    "shiba",
-    "shibe",
-    "shibainu",
-    "shiba_inu",
     "samoyed",
     "canine",
     "canines",
     "puppy",
     "puppies"
+  ],
+  "Shiba Inu": [
+    "shiba",
+    "shibas",
+    "shibe",
+    "shibes",
+    "shibainu",
+    "shibainus",
+    "shiba_inu",
+    "shiba_inus"
   ],
   "Lizard": [
     "lizard",
