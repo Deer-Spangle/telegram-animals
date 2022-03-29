@@ -3072,6 +3072,13 @@
       "animal": "Shiba Inu",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "altaygoats",
+      "owner": "Aruna @shtnb",
+      "animal": "Goat",
+      "notes": "",
+      "handle_pattern": "-"
     }
   ],
   "removed": [
