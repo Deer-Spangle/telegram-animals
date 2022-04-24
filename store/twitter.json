@@ -195,6 +195,13 @@
       "animal": "Pine Marten",
       "notes": "Linked to telegram channel, t.me/HourlyMartens",
       "handle_pattern": "daily?"
+    },
+    {
+      "handle": "PossumEveryHour",
+      "owner": "ThunderySteak",
+      "animal": "Possum",
+      "notes": "",
+      "handle_pattern": "?everyhour"
     }
   ]
 }
