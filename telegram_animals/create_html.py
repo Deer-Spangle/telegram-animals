@@ -4,7 +4,7 @@ from typing import List, TypeVar, Union, Generic, Tuple
 import os
 
 import pytz
-from yattag import Doc, indent
+from jinja2 import Environment, PackageLoader, select_autoescape
 
 from telegram_animals.data import Channel, load_channels_and_bots, load_channel_cache
 from telegram_animals.subparser import SubParserAdder
@@ -25,7 +25,7 @@ class ColourScale(Generic[T]):
         self.start_colour = start_colour
         self.end_colour = end_colour
 
-    def get_colour_for_value(self, value: T):
+    def get_colour_for_value(self, value: T) -> str:
         ratio = (value-self.start_value) / (self.end_value-self.start_value)
         ratio = max(0, min(1, ratio))
         colour = (
@@ -33,109 +33,31 @@ class ColourScale(Generic[T]):
                 self.start_colour[1] + ratio * (self.end_colour[1] - self.start_colour[1]),
                 self.start_colour[2] + ratio * (self.end_colour[2] - self.start_colour[2])
         )
-        return f"rgb({colour[0]}, {colour[1]}, {colour[2]})"
+        return f"rgb({colour[0]:0.0f}, {colour[1]:0.0f}, {colour[2]:0.0f})"
 
-    def style_for_value(self, value: T):
+    def style_for_value(self, value: T) -> str:
         colour = self.get_colour_for_value(value)
         return f"background-color: {colour};"
 
 
-def build_channel_table(entities: List[Channel], doc):
-    channel_cache = load_channel_cache()
-    doc, tag, text, line = doc.ttl()
+def create_doc(channels: List[Channel], bots: List[Channel]):
+    env = Environment(
+        loader=PackageLoader("telegram_animals"),
+        autoescape=select_autoescape()
+    )
     now = datetime.utcnow().replace(tzinfo=pytz.utc)
     old = now - timedelta(days=180)
     date_scale = ColourScale(now, old, ColourScale.WHITE, ColourScale.RED)
     count_scale = ColourScale(0, 1000, ColourScale.WHITE, ColourScale.GREEN)
 
-    with tag("table"):
-        with tag("thead"):
-            with tag("tr"):
-                line("th", "Link")
-                line("th", "Animal")
-                line("th", "Owner")
-                line("th", "# pics")
-                line("th", "# gifs")
-                line("th", "# vids")
-                with tag("th"):
-                    line("abbr", "# subs", title="Subscribers")
-                line("th", "Latest post")
-                line("th", "Notes")
-        with tag("tbody"):
-            last_animal = None
-            for entity in entities:
-                row_class = ""
-                if last_animal is not None and last_animal != entity.animal:
-                    row_class = "new-animal"
-                last_animal = entity.animal
-                with tag("tr", klass=row_class):
-                    with tag("td"):
-                        with tag("a", href=f"https://t.me/{entity.handle}"):
-                            text(f"@{entity.handle}")
-                    line("td", entity.animal)
-                    line("td", entity.owner)
-                    cache = channel_cache.get(entity.handle.casefold())
-                    if cache:
-                        line("td", cache.pic_count, style=count_scale.style_for_value(cache.pic_count))
-                        line("td", cache.gif_count, style=count_scale.style_for_value(cache.gif_count))
-                        line("td", cache.video_count, style=count_scale.style_for_value(cache.video_count))
-                        line("td", cache.subscribers, style=count_scale.style_for_value(cache.subscribers))
-                        latest_str = cache.latest_post.strftime("%Y-%m-%d") if cache.latest_post else "-"
-                        line("td", latest_str, style=date_scale.style_for_value(cache.latest_post))
-                    else:
-                        for _ in range(5):
-                            line("td", "?")
-                    line("td", entity.notes)
-
-
-def build_bot_table(entities: List[Channel], doc):
-    doc, tag, text, line = doc.ttl()
-
-    with tag("table"):
-        with tag("thead"):
-            with tag("tr"):
-                line("th", "Link")
-                line("th", "Animal")
-                line("th", "Owner")
-                line("th", "Notes")
-        with tag("tbody"):
-            for entity in entities:
-                with tag("tr"):
-                    with tag("td"):
-                        with tag("a", href=f"https://t.me/{entity.handle}"):
-                            text(f"@{entity.handle}")
-                    line("td", entity.animal)
-                    line("td", entity.owner)
-                    line("td", entity.notes)
-
-
-def create_doc(channels: List[Channel], bots: List[Channel]):
-    doc, tag, text, line = Doc().ttl()
-
-    with tag("html"):
-        with tag("head"):
-            line("title", "Telegram animal channels")
-            doc.stag("link", rel="stylesheet", href="style.css")
-        with tag("body"):
-            with tag("h1"):
-                text("Telegram animal channels")
-            with tag("p"):
-                text("This site is just a list of telegram channels for pictures, gifs, and videos of animals")
-            build_channel_table(channels, doc)
-            with tag("p"):
-                doc.text("And the table of bots is below")
-            build_bot_table(bots, doc)
-            doc.text("If you would like to request any changes, please file an issue on the ")
-            with doc.tag("a", href="https://github.com/Deer-Spangle/telegram-animals/"):
-                text("github repository")
-            text(". (Pull requests are also welcome!)")
-            # Some basic, privacy-focused analytics
-            with doc.tag("script", src="https://getinsights.io/js/insights.js"):
-                pass
-            with doc.tag("script"):
-                text("insights.init('lrFaPwGuDpIqLUXt');")
-                text("insights.trackPages();")
-    return indent(doc.getvalue())
+    template = env.get_template("index.html")
+    return template.render(
+        channels=channels,
+        bots=bots,
+        channel_cache=load_channel_cache(),
+        count_scale=count_scale,
+        date_scale=date_scale
+    )
 
 
 def setup_parser(subparsers: SubParserAdder) -> None:

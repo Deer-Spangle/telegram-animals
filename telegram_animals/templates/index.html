@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>Telegram animal channels</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+<h1>Telegram animal channels</h1>
+<p>This site is just a list of telegram channels for pictures, gifs, and videos of animals</p>
+<table>
+    <thead>
+        <tr>
+            <th>Link</th>
+            <th>Animal</th>
+            <th>Owner</th>
+            <th># pics</th>
+            <th># gifs</th>
+            <th># vids</th>
+            <th><abbr title="Subscribers"># subs</abbr></th>
+            <th>Latest post</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% set ns = namespace(last_animal=none) %}
+    {% for channel in channels %}
+        {% if ns.last_animal is not none and ns.last_animal != channel.animal %}
+            <tr class="new-animal">
+        {% else %}
+            <tr>
+        {% endif %}
+        {% set ns.last_animal = channel.animal %}
+            <td><a href="https://t.me/{{ channel.handle }}">{{ channel.handle }}</a></td>
+            <td>{{ channel.animal }}</td>
+            <td>{{ channel.owner }}</td>
+            {% set cache = channel_cache.get(channel.handle.casefold()) %}
+            {% if cache %}
+                <td style="{{ count_scale.style_for_value(cache.pic_count) }}">{{ cache.pic_count }}</td>
+                <td style="{{ count_scale.style_for_value(cache.gif_count) }}">{{ cache.gif_count }}</td>
+                <td style="{{ count_scale.style_for_value(cache.video_count) }}">{{ cache.video_count }}</td>
+                <td style="{{ count_scale.style_for_value(cache.subscribers) }}">{{ cache.subscribers }}</td>
+                {% if cache.latest_post %}
+                    <td style="{{ date_scale.style_for_value(cache.latest_post) }}">{{ cache.latest_post.strftime('%Y-%m-%d') }}</td>
+                {% else %}}
+                    <td>-</td>
+                {% endif %}
+                <td></td>
+            {% else %}
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+                <td>?</td>
+            {% endif %}
+            <td>{{ channel.notes }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<p>And the table of telegram bots is below</p>
+<table>
+    <thead>
+        <tr>
+            <th>Link</th>
+            <th>Animal</th>
+            <th>Owner</th>
+            <th>Notes</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for bot in bots %}
+        <tr>
+            <td><a href="https://t.me/{{ bot.handle }}">@{{ bot.handle }}</a></td>
+            <td>{{ bot.animal }}</td>
+            <td>{{ bot.owner }}</td>
+            <td>{{ bot.notes }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<p>
+    If you would like to request any changes, please file an issue on the
+    <a href="https://github.com/Deer-Spangle/telegram-animals/">github repository</a>.
+    (Pull requests are also welcome!)
+</p>
+<! -- Some basic, privacy-focused analytics -->
+<script src="https://getinsights.io/js/insights.js"></script>
+<script>
+    insights.init("lrFaPwGuDpIqLUXt");
+    insights.trackPages();
+</script>
+</body>
+</html>
