@@ -29,7 +29,7 @@
             <tr>
         {% endif %}
         {% set ns.last_animal = channel.animal %}
-            <td><a href="https://t.me/{{ channel.handle }}">{{ channel.handle }}</a></td>
+            <td><a href="https://t.me/{{ channel.handle }}">@{{ channel.handle }}</a></td>
             <td>{{ channel.animal }}</td>
             <td>{{ channel.owner }}</td>
             {% set cache = channel_cache.get(channel.handle.casefold()) %}
