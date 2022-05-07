@@ -195,3 +195,53 @@ def load_channel_cache() -> Dict[str, ChannelCache]:
         handle: ChannelCache.from_json(value)
         for handle, value in json_cache.items()
     }
+
+
+class Datastore:
+    def __init__(self):
+        # Animal data
+        with open("store/animals.json") as f:
+            self.animal_data = json.load(f)
+        # Telegram data
+        with open("store/telegram.json") as f:
+            telegram_data = json.load(f)
+            self.telegram_entities = [Channel.from_json(entity) for entity in telegram_data["entities"]]
+            self.telegram_removed = [Channel.from_json(entity) for entity in telegram_data["removed"]]
+            self.telegram_ignored = [Ignore.from_json(ignore) for ignore in telegram_data["ignored"]]
+        # Twitter data
+        with open("store/twitter.json") as f:
+            twitter_data = json.load(f)
+            self.twitter_feeds = [Channel.from_json(entity, ChannelType.TWITTER) for entity in twitter_data["entities"]]
+        # Channel cache
+        try:
+            with open("cache/channel_cache.json") as f:
+                channel_cache = json.load(f)
+        except FileNotFoundError:
+            self.channel_cache = {}
+        else:
+            self.channel_cache = {
+                handle: ChannelCache.from_json(value)
+                for handle, value in channel_cache.items()
+            }
+        # Search cache
+        try:
+            with open("cache/search_cache.json") as f:
+                self.search_cache = json.load(f)
+        except FileNotFoundError:
+            self.search_cache = {"cache": {}}
+
+    @property
+    def all_channels(self) -> List[Channel]:
+        return self.telegram_channels + self.twitter_feeds
+
+    @property
+    def telegram_channels(self) -> List[Channel]:
+        return [
+            channel for channel in self.telegram_entities if not channel.is_bot
+        ]
+
+    @property
+    def telegram_bots(self) -> List[Channel]:
+        return [
+            channel for channel in self.telegram_entities if channel.is_bot
+        ]

@@ -1,13 +1,13 @@
 import json
 from argparse import Namespace
 from datetime import datetime, timedelta
-from typing import List, TypeVar, Union, Generic, Tuple
+from typing import TypeVar, Union, Generic, Tuple
 import os
 
 import pytz
 from jinja2 import Environment, PackageLoader, select_autoescape
 
-from telegram_animals.data import Channel, load_channels_and_bots, load_channel_cache
+from telegram_animals.data import Datastore
 from telegram_animals.subparser import SubParserAdder
 
 T = TypeVar("T", bound=Union[float, datetime])
@@ -41,8 +41,9 @@ class ColourScale(Generic[T]):
         return f"background-color: {colour};"
 
 
-def create_data_file(channels: List[Channel]) -> str:
-    channel_cache = load_channel_cache()
+def create_data_file(datastore: Datastore) -> str:
+    channels = datastore.telegram_channels
+    channel_cache = datastore.channel_cache
     data = {
         "channels": [
             channel.to_javascript_data(channel_cache) for channel in channels
@@ -51,7 +52,9 @@ def create_data_file(channels: List[Channel]) -> str:
     return f"const telegramChannels = {json.dumps(data, indent=2)}"
 
 
-def create_doc(channels: List[Channel], bots: List[Channel]) -> str:
+def create_doc(datastore: Datastore) -> str:
+    channels = datastore.telegram_channels
+    bots = datastore.telegram_bots
     env = Environment(
         loader=PackageLoader("telegram_animals"),
         autoescape=select_autoescape()
@@ -65,7 +68,7 @@ def create_doc(channels: List[Channel], bots: List[Channel]) -> str:
     return template.render(
         channels=channels,
         bots=bots,
-        channel_cache=load_channel_cache(),
+        channel_cache=datastore.channel_cache,
         count_scale=count_scale,
         date_scale=date_scale
     )
@@ -83,11 +86,11 @@ def setup_parser(subparsers: SubParserAdder) -> None:
 
 
 def do_html(args: Namespace):
-    list_channels, list_bots = load_channels_and_bots()
+    datastore = Datastore()
     os.makedirs("public", exist_ok=True)
     with open("public/data.js", "w") as w:
-        w.write(create_data_file(list_channels))
-    html = create_doc(list_channels, list_bots)
+        w.write(create_data_file(datastore))
+    html = create_doc(datastore)
     with open(args.filename, "w") as w:
         w.write(html)
 
