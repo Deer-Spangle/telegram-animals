@@ -2,7 +2,7 @@ import json
 from dataclasses import dataclass
 from datetime import datetime
 from enum import Enum
-from typing import Tuple, List, Dict, Optional, Union
+from typing import List, Dict, Optional, Union
 import os
 
 import pytz
@@ -94,19 +94,6 @@ class Ignore:
             return False
         now = datetime.utcnow().replace(tzinfo=pytz.utc)
         return now > self.expiry
-
-
-def load_channels_and_bots() -> Tuple[List[Channel], List[Channel]]:
-    with open("store/telegram.json", "r") as f:
-        data_store = json.load(f)
-    sorted_entites = sorted([
-        Channel.from_json(channel_data)
-        for channel_data in data_store["entities"]
-    ], key=lambda c: (c.animal, c.handle.casefold()))
-    return (
-        [channel for channel in sorted_entites if not channel.is_bot],
-        [bot for bot in sorted_entites if bot.is_bot]
-    )
 
 
 def load_channels() -> List[Channel]:
