@@ -21,16 +21,19 @@ class Channel:
     owner: str
     notes: str
     handle_pattern: str
-    type: ChannelType = ChannelType.TELEGRAM
+    channel_type: ChannelType = ChannelType.TELEGRAM
+    removal_reason: Optional[str] = None
 
     @classmethod
-    def from_json(cls, data) -> 'Channel':
+    def from_json(cls, data, channel_type: ChannelType = ChannelType.TELEGRAM) -> 'Channel':
         return cls(
             data["handle"],
             data["animal"],
             data["owner"],
             data["notes"],
-            data["handle_pattern"]
+            data["handle_pattern"],
+            channel_type=channel_type,
+            removal_reason=data.get("removal_reason")
         )
 
     def to_javascript_data(self, channel_cache: Dict[str, "ChannelCache"]) -> Dict[str, str]:
@@ -38,9 +41,13 @@ class Channel:
         latest_post = getattr(cache, "latest_post", None)
         if latest_post:
             latest_post = latest_post.strftime("%Y-%m-%d")
+        link = {
+            ChannelType.TELEGRAM: f"https://t.me/{self.handle}",
+            ChannelType.TWITTER: f"https://twitter.com/{self.handle}"
+        }[self.channel_type]
         return {
-            "type": self.type.value,
-            "link": f"https://t.me/{self.handle}",
+            "type": self.channel_type.value,
+            "link": link,
             "handle": self.handle,
             "animal": self.animal,
             "owner": self.owner,
@@ -55,6 +62,10 @@ class Channel:
     @property
     def is_bot(self) -> bool:
         return self.handle.lower().endswith("bot")
+
+    @property
+    def is_removed(self) -> bool:
+        return self.removal_reason is not None
 
     def __eq__(self, other):
         return isinstance(other, Channel) and self.handle.casefold() == other.handle.casefold()
