@@ -171,14 +171,14 @@
     {
       "handle": "HourlyYeen",
       "owner": "TinyZorro",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "Mirror of telegram channel, t.me/HourlyYeen",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "TheDailyPossums",
       "owner": "",
-      "animal": "Possum",
+      "animal": "Opossum",
       "notes": "",
       "handle_pattern": "thedaily?"
     },
@@ -199,7 +199,7 @@
     {
       "handle": "PossumEveryHour",
       "owner": "ThunderySteak",
-      "animal": "Possum",
+      "animal": "Opossum",
       "notes": "",
       "handle_pattern": "?everyhour"
     }
