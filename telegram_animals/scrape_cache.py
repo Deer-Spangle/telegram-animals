@@ -1,6 +1,6 @@
 from argparse import Namespace
 from datetime import datetime, timedelta
-from typing import List, Optional
+from typing import Optional
 from enum import Enum
 import pytz
 import os
@@ -16,7 +16,7 @@ from telethon.tl.functions.messages import SearchRequest
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif, InputMessagesFilterVideo, Message, \
     InputPeerChannel
 
-from telegram_animals.data import load_channels, Channel, ChannelCache, save_channel_cache, load_channel_cache
+from telegram_animals.data import Channel, ChannelCache, Datastore
 from telegram_animals.subparser import SubParserAdder
 
 
@@ -133,8 +133,9 @@ async def generate_cache(
     )
 
 
-async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
-    cache = load_channel_cache()
+async def generate_all_caches(client: TelegramClient, datastore: Datastore):
+    channels = datastore.telegram_channels
+    cache = datastore.telegram_cache
     now = datetime.utcnow().replace(tzinfo=pytz.utc)
     wait_before_refresh = timedelta(hours=6)
     searcher = CachedSearcher.load_from_json()
@@ -147,12 +148,12 @@ async def generate_all_caches(client: TelegramClient, channels: List[Channel]):
                 continue
         try:
             channel_cache = await generate_cache(client, channel, searcher, old_channel_cache)
-            cache[channel.handle.casefold()] = channel_cache
-            save_channel_cache(cache)
+            datastore.telegram_cache[channel.handle.casefold()] = channel_cache
+            datastore.save_telegram_cache()
             print(f"{channel.handle} cache updated.")
         except Exception as e:
             print(f"{channel.handle} could not be cached: {e}")
-    save_channel_cache(cache)
+    datastore.save_telegram_cache()
     searcher.save_to_json()
 
 
@@ -171,7 +172,7 @@ def setup_parser(subparsers: SubParserAdder) -> None:
 
 
 def do_scrape(args: Namespace) -> None:
-    channel_list = load_channels()
+    datastore = Datastore()
     api_id = int(args.api_id)
     api_hash = args.api_hash
     session_string = args.session_string
@@ -181,7 +182,7 @@ def do_scrape(args: Namespace) -> None:
         session_arg = "telegram-animals"
     c = TelegramClient(session_arg, api_id, api_hash)
     c.start()
-    c.loop.run_until_complete(generate_all_caches(c, channel_list))
+    c.loop.run_until_complete(generate_all_caches(c, datastore))
 
 
 if __name__ == "__main__":

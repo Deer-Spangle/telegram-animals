@@ -167,28 +167,6 @@ class ChannelCache:
         )
 
 
-def save_channel_cache(cache: Dict[str, ChannelCache]):
-    json_cache = {
-        handle: channel_cache.to_json()
-        for handle, channel_cache in cache.items()
-    }
-    os.makedirs("cache", exist_ok=True)
-    with open("cache/channel_cache.json", "w+") as f:
-        json.dump(json_cache, f, indent=2)
-
-
-def load_channel_cache() -> Dict[str, ChannelCache]:
-    try:
-        with open("cache/channel_cache.json", "r") as f:
-            json_cache = json.load(f)
-    except FileNotFoundError:
-        return {}
-    return {
-        handle: ChannelCache.from_json(value)
-        for handle, value in json_cache.items()
-    }
-
-
 class Datastore:
     def __init__(self):
         # Animal data
@@ -248,3 +226,12 @@ class Datastore:
         return [
             channel for channel in self.telegram_entities if channel.is_bot
         ]
+
+    def save_telegram_cache(self) -> None:
+        json_cache = {
+            handle: channel_cache.to_json()
+            for handle, channel_cache in self.telegram_cache.items()
+        }
+        os.makedirs("cache", exist_ok=True)
+        with open("cache/channel_cache.json", "w+") as f:
+            json.dump(json_cache, f, indent=2)
