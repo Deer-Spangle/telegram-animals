@@ -42,18 +42,17 @@ class ColourScale(Generic[T]):
 
 
 def create_data_file(datastore: Datastore) -> str:
-    channels = datastore.telegram_channels
-    channel_cache = datastore.channel_cache
+    channels = datastore.all_channels
     data = {
         "channels": [
-            channel.to_javascript_data(channel_cache) for channel in channels
+            channel.to_javascript_data(datastore) for channel in channels
         ]
     }
     return f"const telegramChannels = {json.dumps(data, indent=2)}"
 
 
 def create_doc(datastore: Datastore) -> str:
-    channels = datastore.telegram_channels
+    channels = datastore.all_channels
     bots = datastore.telegram_bots
     env = Environment(
         loader=PackageLoader("telegram_animals"),
@@ -68,7 +67,7 @@ def create_doc(datastore: Datastore) -> str:
     return template.render(
         channels=channels,
         bots=bots,
-        channel_cache=datastore.channel_cache,
+        datastore=datastore,
         count_scale=count_scale,
         date_scale=date_scale
     )

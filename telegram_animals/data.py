@@ -36,8 +36,8 @@ class Channel:
             removal_reason=data.get("removal_reason")
         )
 
-    def to_javascript_data(self, channel_cache: Dict[str, "ChannelCache"]) -> Dict[str, str]:
-        cache = channel_cache.get(self.handle.casefold())
+    def to_javascript_data(self, datastore: "Datastore") -> Dict[str, str]:
+        cache = self.get_cache(datastore)
         latest_post = getattr(cache, "latest_post", None)
         if latest_post:
             latest_post = latest_post.strftime("%Y-%m-%d")
@@ -58,6 +58,11 @@ class Channel:
             "latest_post": latest_post,
             "notes": self.notes
         }
+
+    def get_cache(self, datastore: "Datastore") -> Optional["ChannelCache"]:
+        if self.channel_type == ChannelType.TELEGRAM:
+            return datastore.telegram_cache.get(self.handle.casefold())
+        return None
 
     @property
     def is_bot(self) -> bool:
@@ -204,9 +209,9 @@ class Datastore:
             with open("cache/channel_cache.json") as f:
                 channel_cache = json.load(f)
         except FileNotFoundError:
-            self.channel_cache = {}
+            self.telegram_cache = {}
         else:
-            self.channel_cache = {
+            self.telegram_cache = {
                 handle: ChannelCache.from_json(value)
                 for handle, value in channel_cache.items()
             }

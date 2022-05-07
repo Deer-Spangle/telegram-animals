@@ -39,7 +39,7 @@
             <td><a href="https://t.me/{{ channel.handle }}">{{ channel.handle }}</a></td>
             <td>{{ channel.animal }}</td>
             <td>{{ channel.owner }}</td>
-            {% set cache = channel_cache.get(channel.handle.casefold()) %}
+            {% set cache = channel.get_cache(datastore) %}
             {% if cache %}
                 <td style="{{ count_scale.style_for_value(cache.pic_count) }}">{{ cache.pic_count }}</td>
                 <td style="{{ count_scale.style_for_value(cache.gif_count) }}">{{ cache.gif_count }}</td>
