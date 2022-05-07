@@ -5,18 +5,125 @@ const colGreen = [87, 187, 138]
 
 function init_table() {
     const channelTable = document.getElementById("telegram_channels")
+    const thead = channelTable.getElementsByTagName("thead")[0]
+    const table = new Table(channelTable)
+    for (let th of thead.querySelectorAll("th[data-sort-column]")) {
+        th.addEventListener("click", () => {
+            const column = th.getAttribute("data-sort-column")
+            table.sortBy(column)
+        })
+        th.style.cursor = "pointer"
+    }
 
-    const tbody = channelTable.getElementsByTagName("tbody")[0]
-    const countScale = (givenValue) => colourScale(colWhite, colGreen, 0, 1000, givenValue)
-    const today = new Date()
-    const old = new Date()
-    old.setDate(old.getDate() - 180)
-    const dateScale = (givenValue) => colourScale(colWhite, colRed, today, old, givenValue)
-    let lastAnimal = null
-    for (let channel of telegramChannels["channels"]) {
-        const newAnimal = lastAnimal != null && channel["animal"] !== lastAnimal
-        lastAnimal = channel["animal"]
-        addRow(channel, tbody, newAnimal, countScale, dateScale)
+    table.render()
+}
+
+const colSettings = {
+    "handle": {
+        "default_asc": true,
+        "sort": (channels) => channels.sort((chanA, chanB) => chanA.handle.localeCompare(chanB.handle))
+    },
+    "animal": {
+        "default_asc": true,
+        "sort": (channels) => {
+            const anyAnimals = channels.filter((chan) => chan.animal === "*")
+                .sort((chanA, chanB) => chanA.handle.localeCompare(chanB.handle))
+            const notAnimals = channels.filter((chan) => chan.animal === "~")
+                .sort((chanA, chanB) => chanA.handle.localeCompare(chanB.handle))
+            const other = channels.filter((chan) => !"*~".includes(chan.animal))
+                .sort((chanA, chanB) => {
+                    if (chanA.animal === chanB.animal) {
+                        return chanA.handle.localeCompare(chanB.handle)
+                    }
+                    return chanA.animal.localeCompare(chanB.animal)
+                })
+            return [...anyAnimals, ...other, ...notAnimals]
+        }
+    },
+    "owner": {
+        "default_asc": true,
+        "sort": (channels) => {
+            const unknown = channels.filter((chan) => chan.owner === "?")
+                .sort((chanA, chanB) => chanA.animal.localeCompare(chanB.animal))
+            const known = channels.filter((chan) => chan.owner !== "?")
+                .sort((chanA, chanB) => {
+                    if (chanA.owner === chanB.owner) {
+                        return chanA.animal.localeCompare(chanB.animal)
+                    }
+                    return chanA.owner.localeCompare(chanB.owner)
+                })
+            return [...known, ...unknown]
+        }
+    },
+    "num_pics": {
+        "default_asc": false,
+        "sort": (channels) => channels.sort((chanA, chanB) => chanA["num_pics"] - chanB["num_pics"])
+    },
+    "num_gifs": {
+        "default_asc": false,
+        "sort": (channels) => channels.sort((chanA, chanB) => chanA["num_gifs"] - chanB["num_gifs"])
+    },
+    "num_vids": {
+        "default_asc": false,
+        "sort": (channels) => channels.sort((chanA, chanB) => chanA["num_vids"] - chanB["num_vids"])
+    },
+    "num_subs": {
+        "default_asc": false,
+        "sort": (channels) => channels.sort((chanA, chanB) => chanA["num_subs"] - chanB["num_subs"])
+    },
+    "latest_post": {
+        "default_asc": false,
+        "sort": (channels) => channels.sort(
+            (chanA, chanB) => new Date(chanA["latest_post"]) - new Date(chanB["latest_post"])
+        )
+    }
+}
+
+class Table {
+    constructor(tableElem) {
+        this.tableElem = tableElem
+        this.sort_by_col = "animal"
+        this.sort_by_asc = true
+    }
+
+    sortBy(column) {
+        if (column === this.sort_by_col) {
+            this.sort_by_asc = !this.sort_by_asc
+        } else {
+            this.sort_by_col = column
+            this.sort_by_asc = colSettings[column].default_asc ?? true
+        }
+        this.render()
+    }
+
+    render() {
+        const thead = this.tableElem.getElementsByTagName("thead")[0]
+        for (let th of thead.querySelectorAll("th[data-sort-column]")) {
+            if (th.innerText.endsWith("▾") || th.innerText.endsWith("▴")) {
+                th.innerText = th.innerText.slice(0, -1)
+            }
+            if (th.getAttribute("data-sort-column") === this.sort_by_col) {
+                th.innerText += this.sort_by_asc ? "▴" : "▾"
+            }
+        }
+
+        const tbody = document.createElement("tbody")
+        const countScale = (givenValue) => colourScale(colWhite, colGreen, 0, 1000, givenValue)
+        const today = new Date()
+        const old = new Date()
+        old.setDate(old.getDate() - 180)
+        const dateScale = (givenValue) => colourScale(colWhite, colRed, today, old, givenValue)
+        let lastAnimal = null
+        const channels = colSettings[this.sort_by_col].sort(telegramChannels["channels"])
+        if (!this.sort_by_asc) {
+            channels.reverse()
+        }
+        for (let channel of channels) {
+            const newAnimal = lastAnimal != null && this.sort_by_col === "animal" && channel.animal !== lastAnimal
+            lastAnimal = channel.animal
+            addRow(channel, tbody, newAnimal, countScale, dateScale)
+        }
+        this.tableElem.getElementsByTagName("tbody")[0].replaceWith(tbody)
     }
 }
 
