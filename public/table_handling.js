@@ -4,6 +4,7 @@ const colYellow = [255, 255, 0]
 const colGreen = [87, 187, 138]
 
 function init_table() {
+    const tableForm = document.getElementById("channel_table")
     const channelTable = document.getElementById("telegram_channels")
     const thead = channelTable.getElementsByTagName("thead")[0]
     const table = new Table(channelTable)
@@ -13,6 +14,11 @@ function init_table() {
             table.sortBy(column)
         })
         th.style.cursor = "pointer"
+    }
+    for (let input of tableForm.querySelectorAll("input[name=view_platform]")) {
+        input.addEventListener("change", () => {
+            table.viewType(input.getAttribute("value"), input.checked)
+        })
     }
 
     table.render()
@@ -84,6 +90,15 @@ class Table {
         this.tableElem = tableElem
         this.sort_by_col = "animal"
         this.sort_by_asc = true
+        this.platform_types = ["telegram"]
+    }
+
+    viewType(platformType, include) {
+        this.platform_types = this.platform_types.filter((val) => val !== platformType)
+        if (include) {
+            this.platform_types.push(platformType)
+        }
+        this.render()
     }
 
     sortBy(column) {
@@ -114,14 +129,26 @@ class Table {
         old.setDate(old.getDate() - 180)
         const dateScale = (givenValue) => colourScale(colWhite, colRed, today, old, givenValue)
         let lastAnimal = null
-        const channels = colSettings[this.sort_by_col].sort(telegramChannels["channels"])
+        const channels = telegramChannels["channels"]
+        const filteredChannels = channels.filter((chan) => this.platform_types.includes(chan.type))
+        const sortedChannels = colSettings[this.sort_by_col].sort(filteredChannels)
         if (!this.sort_by_asc) {
-            channels.reverse()
+            sortedChannels.reverse()
         }
-        for (let channel of channels) {
+        for (let channel of sortedChannels) {
             const newAnimal = lastAnimal != null && this.sort_by_col === "animal" && channel.animal !== lastAnimal
             lastAnimal = channel.animal
             addRow(channel, tbody, newAnimal, countScale, dateScale)
+        }
+        if (sortedChannels.length === 0) {
+            const row = document.createElement("tr")
+            const cell = document.createElement("td")
+            cell.colSpan = 9
+            cell.style.fontStyle = "italic"
+            cell.style.textAlign = "center"
+            cell.innerText = "There's nothing here..."
+            row.appendChild(cell)
+            tbody.appendChild(row)
         }
         this.tableElem.getElementsByTagName("tbody")[0].replaceWith(tbody)
     }
