@@ -26,6 +26,25 @@ class Channel:
             data["handle_pattern"]
         )
 
+    def to_javascript_data(self, channel_cache: Dict[str, "ChannelCache"]) -> Dict[str, str]:
+        cache = channel_cache.get(self.handle.casefold())
+        latest_post = getattr(cache, "latest_post", None)
+        if latest_post:
+            latest_post = latest_post.strftime("%Y-%m-%d")
+        return {
+            "type": "telegram_channel",
+            "link": f"https://t.me/{self.handle}",
+            "handle": self.handle,
+            "animal": self.animal,
+            "owner": self.owner,
+            "num_pics": getattr(cache, "pic_count", None),
+            "num_gifs": getattr(cache, "gif_count", None),
+            "num_vids": getattr(cache, "video_count", None),
+            "num_subs": getattr(cache, "subscribers", None),
+            "latest_post": latest_post,
+            "notes": self.notes
+        }
+
     @property
     def is_bot(self) -> bool:
         return self.handle.lower().endswith("bot")

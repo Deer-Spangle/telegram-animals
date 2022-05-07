@@ -1,3 +1,4 @@
+import json
 from argparse import Namespace
 from datetime import datetime, timedelta
 from typing import List, TypeVar, Union, Generic, Tuple
@@ -40,7 +41,17 @@ class ColourScale(Generic[T]):
         return f"background-color: {colour};"
 
 
-def create_doc(channels: List[Channel], bots: List[Channel]):
+def create_data_file(channels: List[Channel]) -> str:
+    channel_cache = load_channel_cache()
+    data = {
+        "channels": [
+            channel.to_javascript_data(channel_cache) for channel in channels
+        ]
+    }
+    return f"const telegramChannels = {json.dumps(data, indent=2)}"
+
+
+def create_doc(channels: List[Channel], bots: List[Channel]) -> str:
     env = Environment(
         loader=PackageLoader("telegram_animals"),
         autoescape=select_autoescape()
@@ -73,8 +84,10 @@ def setup_parser(subparsers: SubParserAdder) -> None:
 
 def do_html(args: Namespace):
     list_channels, list_bots = load_channels_and_bots()
-    html = create_doc(list_channels, list_bots)
     os.makedirs("public", exist_ok=True)
+    with open("public/data.js", "w") as w:
+        w.write(create_data_file(list_channels))
+    html = create_doc(list_channels, list_bots)
     with open(args.filename, "w") as w:
         w.write(html)
 
