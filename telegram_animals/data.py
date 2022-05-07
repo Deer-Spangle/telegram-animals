@@ -101,29 +101,6 @@ class Ignore:
         return now > self.expiry
 
 
-def load_channels() -> List[Channel]:
-    return [entity for entity in load_entities() if not entity.is_bot]
-
-
-def load_entities() -> List[Channel]:
-    with open("store/telegram.json", "r") as f:
-        telegram_data = json.load(f)
-    return [Channel.from_json(entity_datum) for entity_datum in telegram_data["entities"]]
-
-
-def load_animals() -> Dict[str, List[str]]:
-    with open("store/animals.json", "r") as f:
-        return json.load(f)
-
-
-def load_ignored() -> List[Ignore]:
-    with open("store/telegram.json", "r") as f:
-        telegram_data = json.load(f)
-    if "ignored" not in telegram_data:
-        return []
-    return [Ignore.from_json(ignore_data) for ignore_data in telegram_data["ignored"]]
-
-
 @dataclass
 class ChannelCache:
     date_checked: datetime

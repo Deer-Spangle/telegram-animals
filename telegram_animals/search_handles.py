@@ -11,7 +11,7 @@ import requests
 from dateutil import parser
 from bs4 import BeautifulSoup
 
-from telegram_animals.data import Channel, load_channels, load_animals, load_ignored, Ignore
+from telegram_animals.data import Channel, Ignore, Datastore
 from telegram_animals.subparser import SubParserAdder
 
 T = TypeVar("T")
@@ -317,16 +317,16 @@ def setup_parser(subparsers: SubParserAdder) -> None:
 
 
 def do_search(args: Namespace) -> None:
+    datastore = Datastore()
     # Load channels, animals, and ignore list
-    a_channels = load_channels()
-    a_animals = load_animals()
-    a_ignored = load_ignored()
+    a_channels = datastore.telegram_channels
+    a_ignored = datastore.telegram_ignored
     # Create searcher
-    searcher = Searcher(a_channels, a_animals, a_ignored)
+    searcher = Searcher(a_channels, datastore.animal_data, a_ignored)
     # Print some stats
     print(
-        f"There are {len(searcher.all_animal_names())} animal names, {len(a_channels)} known channels, "
-        f"{len(a_ignored)} ignored channels, and {len(searcher.all_handle_patterns())} handle patterns."
+        f"There are {len(searcher.all_animal_names())} animal names, {len(a_channels)} known telegram channels, "
+        f"{len(a_ignored)} ignored telegram channels, and {len(searcher.all_handle_patterns())} handle patterns."
     )
     # Initialise searcher cache
     searcher.initialise_cache()
