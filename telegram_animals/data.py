@@ -1,11 +1,17 @@
 import json
 from dataclasses import dataclass
 from datetime import datetime
+from enum import Enum
 from typing import Tuple, List, Dict, Optional, Union
 import os
 
 import pytz
 from dateutil import parser
+
+
+class ChannelType(Enum):
+    TELEGRAM = "telegram"
+    TWITTER = "twitter"
 
 
 @dataclass
@@ -15,6 +21,7 @@ class Channel:
     owner: str
     notes: str
     handle_pattern: str
+    type: ChannelType = ChannelType.TELEGRAM
 
     @classmethod
     def from_json(cls, data) -> 'Channel':
@@ -32,7 +39,7 @@ class Channel:
         if latest_post:
             latest_post = latest_post.strftime("%Y-%m-%d")
         return {
-            "type": "telegram_channel",
+            "type": self.type.value,
             "link": f"https://t.me/{self.handle}",
             "handle": self.handle,
             "animal": self.animal,
