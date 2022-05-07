@@ -204,7 +204,7 @@ class Datastore:
         with open("store/twitter.json") as f:
             twitter_data = json.load(f)
             self.twitter_feeds = [Channel.from_json(entity, ChannelType.TWITTER) for entity in twitter_data["entities"]]
-        # Channel cache
+        # Telegram cache
         try:
             with open("cache/channel_cache.json") as f:
                 channel_cache = json.load(f)
@@ -215,12 +215,23 @@ class Datastore:
                 handle: ChannelCache.from_json(value)
                 for handle, value in channel_cache.items()
             }
-        # Search cache
+        # Telegram search cache
         try:
             with open("cache/search_cache.json") as f:
-                self.search_cache = json.load(f)
+                self.telegram_search_cache = json.load(f)
         except FileNotFoundError:
-            self.search_cache = {"cache": {}}
+            self.telegram_search_cache = {"cache": {}}
+        # Twitter cache
+        try:
+            with open("cache/twitter_cache.json") as f:
+                feed_cache = json.load(f)
+        except FileNotFoundError:
+            self.twitter_cache = {}
+        else:
+            self.twitter_cache = {
+                handle: ChannelCache.from_json(value)
+                for handle, value in feed_cache.items()
+            }
 
     @property
     def all_channels(self) -> List[Channel]:
