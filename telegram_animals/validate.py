@@ -1,7 +1,7 @@
 from argparse import Namespace
 from typing import List, Dict
 
-from telegram_animals.data import Channel, load_entities, load_animals
+from telegram_animals.data import Channel, Datastore
 from telegram_animals.subparser import SubParserAdder
 
 
@@ -34,9 +34,10 @@ def validate_animal(key, name_list):
             raise DataException(f"Spaces are not allowed in animal name: {name}")
 
 
-def validate(entities: List[Channel], animal_data: Dict[str, List[str]]) -> List[DataException]:
+def validate(datastore: Datastore) -> List[DataException]:
+    animal_data = datastore.animal_data
     exceptions = []
-    for entity in entities:
+    for entity in datastore.all_channels:
         try:
             validate_entity(entity, animal_data)
         except DataException as e:
@@ -59,7 +60,8 @@ def setup_subparser(subparsers: SubParserAdder) -> None:
 
 
 def do_validation(args: Namespace):
-    exc_list = validate(load_entities(), load_animals())
+    datastore = Datastore()
+    exc_list = validate(datastore)
     if exc_list:
         raise DataException("Data failed to validate:\n" + "\n".join(str(e) for e in exc_list))
 
