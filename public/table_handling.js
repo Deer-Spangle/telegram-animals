@@ -173,7 +173,7 @@ function addRow(channel, tableBody, newAnimal, countScale, dateScale) {
         tr.classList.add("new-animal")
     }
     const handleCell = document.createElement("td")
-    handleCell.innerHTML = `<a href=${channel['link']}">@${channel['handle']}</a>`
+    handleCell.innerHTML = `<a href="${channel['link']}">@${channel['handle']}</a>`
     tr.appendChild(handleCell)
 
     const animalCell = document.createElement("td")
