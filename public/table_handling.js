@@ -18,10 +18,12 @@ function init_table() {
     platformSelect.addEventListener("change", () => {
         table.viewPlatform(platformSelect.value)
     })
+    table.viewPlatform(platformSelect.value)
     const animalSelect = document.getElementById("select_animal")
     animalSelect.addEventListener("change", () => {
         table.viewAnimal(animalSelect.value)
     })
+    table.viewAnimal(animalSelect.value)
 
     table.render()
 }
