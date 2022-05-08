@@ -2,37 +2,6 @@ const colWhite = [255, 255, 255]
 const colRed = [230, 124, 115]
 const colYellow = [255, 255, 0]
 const colGreen = [87, 187, 138]
-
-function init_table() {
-    const channelTable = document.getElementById("telegram_channels")
-    const thead = channelTable.getElementsByTagName("thead")[0]
-    const table = new Table(channelTable)
-    for (let th of thead.querySelectorAll("th[data-sort-column]")) {
-        th.addEventListener("click", () => {
-            const column = th.getAttribute("data-sort-column")
-            table.sortBy(column)
-        })
-        th.style.cursor = "pointer"
-    }
-
-    // Setup dropdowns
-    const urlParams = new URLSearchParams(window.location.search);
-    const platformSelect = document.getElementById("select_platform")
-    platformSelect.value = urlParams.get("platform") || "all"
-    platformSelect.addEventListener("change", () => {
-        table.viewPlatform(platformSelect.value)
-    })
-    table.viewPlatform(platformSelect.value, true)
-    const animalSelect = document.getElementById("select_animal")
-    animalSelect.value = urlParams.get("animal") || "all"
-    animalSelect.addEventListener("change", () => {
-        table.viewAnimal(animalSelect.value)
-    })
-    table.viewAnimal(animalSelect.value, true)
-
-    table.render()
-}
-
 const colSettings = {
     "handle": {
         "default_asc": true,
@@ -94,6 +63,42 @@ const colSettings = {
     }
 }
 
+function init_table() {
+    const channelTable = document.getElementById("telegram_channels")
+    const thead = channelTable.getElementsByTagName("thead")[0]
+    const table = new Table(channelTable)
+    const urlParams = new URLSearchParams(window.location.search)
+
+    // Setup sorting
+    const sortBy = urlParams.get("sort") || "animal"
+    const sortAsc = urlParams.get("asc") || colSettings[sortBy]["default_asc"]
+    table.sortBy(sortBy, sortAsc, true)
+    for (let th of thead.querySelectorAll("th[data-sort-column]")) {
+        th.addEventListener("click", () => {
+            const column = th.getAttribute("data-sort-column")
+            table.sortBy(column)
+        })
+        th.style.cursor = "pointer"
+    }
+
+    // Setup dropdowns
+    const platformSelect = document.getElementById("select_platform")
+    platformSelect.value = urlParams.get("platform") || "all"
+    platformSelect.addEventListener("change", () => {
+        table.viewPlatform(platformSelect.value)
+    })
+    table.viewPlatform(platformSelect.value, true)
+    const animalSelect = document.getElementById("select_animal")
+    animalSelect.value = urlParams.get("animal") || "all"
+    animalSelect.addEventListener("change", () => {
+        table.viewAnimal(animalSelect.value)
+    })
+    table.viewAnimal(animalSelect.value, true)
+
+    table.render()
+}
+
+
 class Table {
     constructor(tableElem) {
         this.tableElem = tableElem
@@ -116,6 +121,14 @@ class Table {
         if (this.view_animal !== null) {
             state["animal"] = this.view_animal
             queryParams.push(`animal=${this.view_animal}`)
+        }
+        if (this.sort_by_col !== "animal" || !this.sort_by_asc) {
+            state["sort"] = this.sort_by_col
+            queryParams.push(`sort=${this.sort_by_col}`)
+            if (colSettings[this.sort_by_col]["default_asc"] !== this.sort_by_asc) {
+                state["asc"] = this.sort_by_asc
+                queryParams.push(`asc=${this.sort_by_asc}`)
+            }
         }
         let queryStr = ""
         if (queryParams.length > 0) {
@@ -144,13 +157,19 @@ class Table {
         this.render()
     }
 
-    sortBy(column) {
-        if (column === this.sort_by_col) {
-            this.sort_by_asc = !this.sort_by_asc
+    sortBy(column, sortAsc = null, skipHistory = false) {
+        if (sortAsc === null) {
+            if (column === this.sort_by_col) {
+                this.sort_by_asc = !this.sort_by_asc
+            } else {
+                this.sort_by_col = column
+                this.sort_by_asc = colSettings[column].default_asc ?? true
+            }
         } else {
             this.sort_by_col = column
-            this.sort_by_asc = colSettings[column].default_asc ?? true
+            this.sort_by_asc = sortAsc
         }
+        if (!skipHistory) this.updateHistory()
         this.render()
     }
 
