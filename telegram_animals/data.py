@@ -46,7 +46,7 @@ class Channel:
             ChannelType.TWITTER: f"https://twitter.com/{self.handle}"
         }[self.channel_type]
         return {
-            "type": self.channel_type.value,
+            "platform": self.channel_type.value,
             "link": link,
             "handle": self.handle,
             "animal": self.animal,

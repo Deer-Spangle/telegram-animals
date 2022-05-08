@@ -146,11 +146,12 @@ class Table {
 
         // Filter channels to display
         const channels = telegramChannels["channels"]
-        const filteredChannels = channels.filter((chan) => this.platform_types.includes(chan.type)).filter((chan) => {
-            if (this.view_animal === null) {
-                return true
-            }
-            return chan.animal === this.view_animal
+        const filteredChannels = channels.filter((chan) => this.platform_types.includes(chan.platform))
+            .filter((chan) => {
+                if (this.view_animal === null) {
+                    return true
+                }
+                return chan.animal === this.view_animal
         })
         // Sort channels
         const sortedChannels = colSettings[this.sort_by_col].sort(filteredChannels)
