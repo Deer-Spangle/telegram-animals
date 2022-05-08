@@ -67,7 +67,7 @@ def create_doc(datastore: Datastore) -> str:
     return template.render(
         channels=channels,
         bots=bots,
-        animals=sorted(datastore.list_animals),
+        animals=sorted(datastore.list_animals_with_channels),
         datastore=datastore,
         count_scale=count_scale,
         date_scale=date_scale

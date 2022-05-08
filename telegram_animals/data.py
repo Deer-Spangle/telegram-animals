@@ -216,3 +216,10 @@ class Datastore:
     @property
     def list_animals(self) -> List[str]:
         return list(self.animal_data.keys())
+
+    @property
+    def list_animals_with_channels(self) -> List[str]:
+        return [
+            animal for animal in self.list_animals
+            if any(channel.animal == animal for channel in self.all_channels)
+        ]
