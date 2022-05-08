@@ -170,7 +170,7 @@ class Table {
         if (sortedChannels.length === 0) {
             const row = document.createElement("tr")
             const cell = document.createElement("td")
-            cell.colSpan = 9
+            cell.colSpan = 100
             cell.style.fontStyle = "italic"
             cell.style.textAlign = "center"
             cell.innerText = "There's nothing here..."
