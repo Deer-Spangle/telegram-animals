@@ -52,8 +52,8 @@ def create_data_file(datastore: Datastore) -> str:
 
 
 def create_doc(datastore: Datastore) -> str:
-    channels = datastore.all_channels
-    bots = datastore.telegram_bots
+    channels = sorted(datastore.all_channels, key=lambda c: (c.animal, c.handle.casefold()))
+    bots = sorted(datastore.telegram_bots, key=lambda b: (b.animal, b.handle.casefold()))
     env = Environment(
         loader=PackageLoader("telegram_animals"),
         autoescape=select_autoescape()
