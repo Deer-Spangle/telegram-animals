@@ -92,7 +92,7 @@ class Table {
         this.tableElem = tableElem
         this.sort_by_col = "animal"
         this.sort_by_asc = true
-        this.platform_types = ["telegram"]
+        this.platform_types = ["telegram", "twitter"]
         this.view_animal = null
     }
 
