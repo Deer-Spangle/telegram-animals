@@ -46,7 +46,7 @@
             <tr>
         {% endif %}
         {% set ns.last_animal = channel.animal %}
-            <td><img src="icon_{{channel.platform}}.svg" alt="{{channel.platform}}" style="height: 1em;"/></td>
+            <td><img src="icon_{{channel.channel_type.value}}.svg" alt="{{channel.channel_type.value}}" style="height: 1em;"/></td>
             <td><a href="https://t.me/{{ channel.handle }}" target="_blank">{{ channel.handle }}</a></td>
             <td>{{ channel.animal }}</td>
             <td>{{ channel.owner }}</td>
