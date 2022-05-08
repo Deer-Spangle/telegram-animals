@@ -4,7 +4,6 @@ const colYellow = [255, 255, 0]
 const colGreen = [87, 187, 138]
 
 function init_table() {
-    const tableForm = document.getElementById("channel_table")
     const channelTable = document.getElementById("telegram_channels")
     const thead = channelTable.getElementsByTagName("thead")[0]
     const table = new Table(channelTable)
@@ -15,11 +14,14 @@ function init_table() {
         })
         th.style.cursor = "pointer"
     }
-    for (let input of tableForm.querySelectorAll("input[name=view_platform]")) {
-        input.addEventListener("change", () => {
-            table.viewType(input.getAttribute("value"), input.checked)
-        })
-    }
+    const platformSelect = document.getElementById("select_platform")
+    platformSelect.addEventListener("change", () => {
+        table.viewPlatform(platformSelect.value)
+    })
+    const animalSelect = document.getElementById("select_animal")
+    animalSelect.addEventListener("change", () => {
+        table.viewAnimal(animalSelect.value)
+    })
 
     table.render()
 }
@@ -91,12 +93,23 @@ class Table {
         this.sort_by_col = "animal"
         this.sort_by_asc = true
         this.platform_types = ["telegram"]
+        this.view_animal = null
     }
 
-    viewType(platformType, include) {
-        this.platform_types = this.platform_types.filter((val) => val !== platformType)
-        if (include) {
-            this.platform_types.push(platformType)
+    viewPlatform(platformType) {
+        if (platformType === "all") {
+            this.platform_types = ["telegram", "twitter"]
+        } else {
+            this.platform_types = [platformType]
+        }
+        this.render()
+    }
+
+    viewAnimal(animal) {
+        if (animal === "all") {
+            this.view_animal = null
+        } else {
+            this.view_animal = animal
         }
         this.render()
     }
@@ -112,6 +125,7 @@ class Table {
     }
 
     render() {
+        // Update table headers to display ordering
         const thead = this.tableElem.getElementsByTagName("thead")[0]
         for (let th of thead.querySelectorAll("th[data-sort-column]")) {
             if (th.innerText.endsWith("▾") || th.innerText.endsWith("▴")) {
@@ -123,18 +137,28 @@ class Table {
         }
 
         const tbody = document.createElement("tbody")
+        // Build colour scales
         const countScale = (givenValue) => colourScale(colWhite, colGreen, 0, 1000, givenValue)
         const today = new Date()
         const old = new Date()
         old.setDate(old.getDate() - 180)
         const dateScale = (givenValue) => colourScale(colWhite, colRed, today, old, givenValue)
-        let lastAnimal = null
+
+        // Filter channels to display
         const channels = telegramChannels["channels"]
-        const filteredChannels = channels.filter((chan) => this.platform_types.includes(chan.type))
+        const filteredChannels = channels.filter((chan) => this.platform_types.includes(chan.type)).filter((chan) => {
+            if (this.view_animal === null) {
+                return true
+            }
+            return chan.animal === this.view_animal
+        })
+        // Sort channels
         const sortedChannels = colSettings[this.sort_by_col].sort(filteredChannels)
         if (!this.sort_by_asc) {
             sortedChannels.reverse()
         }
+
+        let lastAnimal = null
         for (let channel of sortedChannels) {
             const newAnimal = lastAnimal != null && this.sort_by_col === "animal" && channel.animal !== lastAnimal
             lastAnimal = channel.animal

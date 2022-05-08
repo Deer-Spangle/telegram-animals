@@ -148,7 +148,7 @@ class Datastore:
     def __init__(self):
         # Animal data
         with open("store/animals.json") as f:
-            self.animal_data = json.load(f)
+            self.animal_data: Dict[str, List[str]] = json.load(f)
         # Telegram data
         with open("store/telegram.json") as f:
             telegram_data = json.load(f)
@@ -212,3 +212,7 @@ class Datastore:
         os.makedirs("cache", exist_ok=True)
         with open("cache/channel_cache.json", "w+") as f:
             json.dump(json_cache, f, indent=2)
+
+    @property
+    def list_animals(self) -> List[str]:
+        return list(self.animal_data.keys())

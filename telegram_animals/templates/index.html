@@ -10,9 +10,18 @@
 <h1>Telegram animal channels</h1>
 <p>This site is just a list of telegram channels for pictures, gifs, and videos of animals</p>
 <form id="channel_table">
-    Platforms:<br/>
-    <label><input type="checkbox" name="view_platform" value="telegram" checked/>Telegram</label><br />
-    <label><input type="checkbox" name="view_platform" value="twitter" />Twitter</label>
+    <label>Platforms: <select id="select_platform">
+        <option value="all">Telegram+Twitter</option>
+        <option value="telegram">Telegram</option>
+        <option value="twitter">Twitter</option>
+    </select></label>
+    |
+    <label>Animal: <select id="select_animal">
+        <option value="all">All animals</option>
+        {% for animal in animals %}
+        <option value="{{animal}}">{{animal}}</option>
+        {% endfor %}
+    </select></label>
 <table id="telegram_channels">
     <thead>
         <tr>
