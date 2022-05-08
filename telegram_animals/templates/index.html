@@ -47,7 +47,7 @@
         {% endif %}
         {% set ns.last_animal = channel.animal %}
             <td><img src="icon_{{channel.platform}}.svg" alt="{{channel.platform}}" style="height: 1em;"/></td>
-            <td><a href="https://t.me/{{ channel.handle }}">{{ channel.handle }}</a></td>
+            <td><a href="https://t.me/{{ channel.handle }}" target="_blank">{{ channel.handle }}</a></td>
             <td>{{ channel.animal }}</td>
             <td>{{ channel.owner }}</td>
             {% set cache = channel.get_cache(datastore) %}
@@ -87,7 +87,7 @@
     <tbody>
     {% for bot in bots %}
         <tr>
-            <td><a href="https://t.me/{{ bot.handle }}">@{{ bot.handle }}</a></td>
+            <td><a href="https://t.me/{{ bot.handle }}" target="_blank">@{{ bot.handle }}</a></td>
             <td>{{ bot.animal }}</td>
             <td>{{ bot.owner }}</td>
             <td>{{ bot.notes }}</td>
