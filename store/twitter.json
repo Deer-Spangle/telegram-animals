@@ -202,6 +202,13 @@
       "animal": "Possum",
       "notes": "",
       "handle_pattern": "?everyhour"
+    },
+    {
+      "handle": "cat_dot_exe",
+      "owner": "Cloudy__Jay",
+      "animal": "Cat",
+      "notes": "Has a discord server: https://discord.gg/mmrFESFCbc",
+      "handle_pattern": "?_dot_exe"
     }
   ]
 }
