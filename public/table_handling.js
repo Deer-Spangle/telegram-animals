@@ -14,16 +14,21 @@ function init_table() {
         })
         th.style.cursor = "pointer"
     }
+
+    // Setup dropdowns
+    const urlParams = new URLSearchParams(window.location.search);
     const platformSelect = document.getElementById("select_platform")
+    platformSelect.value = urlParams.get("platform") || "all"
     platformSelect.addEventListener("change", () => {
         table.viewPlatform(platformSelect.value)
     })
-    table.viewPlatform(platformSelect.value)
+    table.viewPlatform(platformSelect.value, true)
     const animalSelect = document.getElementById("select_animal")
+    animalSelect.value = urlParams.get("animal") || "all"
     animalSelect.addEventListener("change", () => {
         table.viewAnimal(animalSelect.value)
     })
-    table.viewAnimal(animalSelect.value)
+    table.viewAnimal(animalSelect.value, true)
 
     table.render()
 }
@@ -98,21 +103,44 @@ class Table {
         this.view_animal = null
     }
 
-    viewPlatform(platformType) {
+    updateHistory() {
+        const queryParams = []
+        const state = {
+            "platform": "all",
+            "animal": "all"
+        }
+        if (this.platform_types.length === 1) {
+            state["platform"] = this.platform_types[0]
+            queryParams.push(`platform=${this.platform_types[0]}`)
+        }
+        if (this.view_animal !== null) {
+            state["animal"] = this.view_animal
+            queryParams.push(`animal=${this.view_animal}`)
+        }
+        let queryStr = ""
+        if (queryParams.length > 0) {
+            queryStr += "?" + queryParams.join("&")
+        }
+        history.pushState(state, "", `index.html${queryStr}`)
+    }
+
+    viewPlatform(platformType, skipHistory = false) {
         if (platformType === "all") {
             this.platform_types = ["telegram", "twitter"]
         } else {
             this.platform_types = [platformType]
         }
+        if (!skipHistory) this.updateHistory()
         this.render()
     }
 
-    viewAnimal(animal) {
+    viewAnimal(animal, skipHistory = false) {
         if (animal === "all") {
             this.view_animal = null
         } else {
             this.view_animal = animal
         }
+        if (!skipHistory) this.updateHistory()
         this.render()
     }
 
