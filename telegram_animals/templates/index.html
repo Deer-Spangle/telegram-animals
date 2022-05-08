@@ -25,6 +25,7 @@
 <table id="telegram_channels">
     <thead>
         <tr>
+            <th>-</th>
             <th>Link</th>
             <th data-sort-column="animal">Animal</th>
             <th data-sort-column="owner">Owner</th>
@@ -45,6 +46,7 @@
             <tr>
         {% endif %}
         {% set ns.last_animal = channel.animal %}
+            <td><img src="icon_{{channel.platform}}.svg" alt="{{channel.platform}}" style="height: 1em;"/></td>
             <td><a href="https://t.me/{{ channel.handle }}">{{ channel.handle }}</a></td>
             <td>{{ channel.animal }}</td>
             <td>{{ channel.owner }}</td>

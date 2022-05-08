@@ -197,6 +197,10 @@ function addRow(channel, tableBody, newAnimal, countScale, dateScale) {
     if (newAnimal) {
         tr.classList.add("new-animal")
     }
+    const platformCell = document.createElement("td")
+    platformCell.innerHTML = `<img src="icon_${channel['platform']}.svg" alt="${channel['platform']}" style="height:1em"/>`
+    tr.appendChild(platformCell)
+
     const handleCell = document.createElement("td")
     handleCell.innerHTML = `<a href="${channel['link']}">@${channel['handle']}</a>`
     tr.appendChild(handleCell)
