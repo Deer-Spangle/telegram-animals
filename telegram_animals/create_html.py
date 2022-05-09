@@ -27,6 +27,8 @@ class ColourScale(Generic[T]):
         self.end_colour = end_colour
 
     def get_colour_for_value(self, value: T) -> str:
+        if value is None:
+            value = min(self.start_value, self.end_value)
         ratio = (value-self.start_value) / (self.end_value-self.start_value)
         ratio = max(0, min(1, ratio))
         colour = (

@@ -39,6 +39,10 @@ const colSettings = {
             return [...known, ...unknown]
         }
     },
+    "num_posts": {
+        "default_asc": false,
+        "sort": (channels) => channels.sort((chanA, chanB) => chanA["num_posts"] - chanB["num_posts"])
+    },
     "num_pics": {
         "default_asc": false,
         "sort": (channels) => channels.sort((chanA, chanB) => chanA["num_pics"] - chanB["num_pics"])
@@ -261,6 +265,11 @@ function addRow(channel, tableBody, newAnimal, countScale, dateScale) {
     const ownerCell = document.createElement("td")
     ownerCell.innerHTML = channel['owner']
     tr.appendChild(ownerCell)
+
+    const postsCell = document.createElement("td")
+    postsCell.innerHTML = channel['num_posts'] === null ? "?" : channel['num_posts']
+    postsCell.style.backgroundColor = countScale(channel['num_posts'])
+    tr.appendChild(postsCell)
 
     const picsCell = document.createElement("td")
     picsCell.innerHTML = channel['num_pics'] === null ? "?" : channel['num_pics']

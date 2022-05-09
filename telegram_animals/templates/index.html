@@ -29,6 +29,7 @@
             <th>Link</th>
             <th data-sort-column="animal">Animal</th>
             <th data-sort-column="owner">Owner</th>
+            <th data-sort-column="num_posts"># posts</th>
             <th data-sort-column="num_pics"># pics</th>
             <th data-sort-column="num_gifs"># gifs</th>
             <th data-sort-column="num_vids"># vids</th>
@@ -52,16 +53,18 @@
             <td>{{ channel.owner }}</td>
             {% set cache = channel.get_cache(datastore) %}
             {% if cache %}
-                <td style="{{ count_scale.style_for_value(cache.pic_count) }}">{{ cache.pic_count }}</td>
-                <td style="{{ count_scale.style_for_value(cache.gif_count) }}">{{ cache.gif_count }}</td>
-                <td style="{{ count_scale.style_for_value(cache.video_count) }}">{{ cache.video_count }}</td>
-                <td style="{{ count_scale.style_for_value(cache.subscribers) }}">{{ cache.subscribers }}</td>
+                <td style="{{ count_scale.style_for_value(cache.post_count) }}">{{ cache.post_count | default("?") }}</td>
+                <td style="{{ count_scale.style_for_value(cache.pic_count) }}">{{ cache.pic_count | default("?") }}</td>
+                <td style="{{ count_scale.style_for_value(cache.gif_count) }}">{{ cache.gif_count | default("?") }}</td>
+                <td style="{{ count_scale.style_for_value(cache.video_count) }}">{{ cache.video_count | default("?") }}</td>
+                <td style="{{ count_scale.style_for_value(cache.subscribers) }}">{{ cache.subscribers | default("?") }}</td>
                 {% if cache.latest_post %}
                     <td style="{{ date_scale.style_for_value(cache.latest_post) }}">{{ cache.latest_post.strftime('%Y-%m-%d') }}</td>
                 {% else %}}
                     <td>-</td>
                 {% endif %}
             {% else %}
+                <td>?</td>
                 <td>?</td>
                 <td>?</td>
                 <td>?</td>

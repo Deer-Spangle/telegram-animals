@@ -52,6 +52,7 @@ class Channel:
             "handle": self.handle,
             "animal": self.animal,
             "owner": self.owner,
+            "num_posts": cache.post_count if cache else None,
             "num_pics": cache.pic_count if cache else None,
             "num_gifs": cache.gif_count if cache else None,
             "num_vids": cache.video_count if cache else None,
