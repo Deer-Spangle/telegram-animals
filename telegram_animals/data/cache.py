@@ -121,12 +121,13 @@ class TelegramCache(ChannelCache):
 
     def to_json(self) -> Dict[str, Union[str, int]]:
         return {
-            "date_checked": self.date_checked.isoformat(),
-            "gif_count": self.gif_count,
-            "pic_count": self.pic_count,
-            "video_count": self.video_count,
-            "subscriber_count": self.subscribers,
-            "latest_post": nullable_isoformat(self.latest_post),
+            "date_checked": self._date_checked.isoformat(),
+            "gif_count": self._gif_count,
+            "pic_count": self._pic_count,
+            "video_count": self._video_count,
+            "subscriber_count": self._subscribers,
+            "post_count": self._post_count,
+            "latest_post": nullable_isoformat(self._latest_post),
             "channel_id": self.channel_id,
             "channel_hash": self.channel_hash,
             "bio": self.bio,
