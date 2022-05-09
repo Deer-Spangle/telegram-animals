@@ -2,7 +2,7 @@ import json
 import os
 from argparse import Namespace
 from datetime import datetime, timedelta
-from typing import List
+from typing import List, Optional
 
 import dateutil.parser
 import twitter
@@ -11,6 +11,14 @@ from twitter import Status
 from telegram_animals.data.cache import TwitterCache, TwitterSample
 from telegram_animals.data.datastore import Datastore
 from telegram_animals.subparser import SubParserAdder
+
+
+def min_not_null(a: Optional[int], b: Optional[int]) -> Optional[int]:
+    if a is None:
+        return b
+    if b is None:
+        return a
+    return min(a, b)
 
 
 def setup_parser(subparsers: SubParserAdder) -> None:
@@ -75,7 +83,7 @@ def fetch_new_tweets(api: twitter.Api, user_id: int, since_id: int, since_dateti
             if tweet_datetime < since_datetime and tweet.id not in [t.id for t in new_tweets] + [since_id]:
                 new_tweets.append(tweet)
                 new_batch.append(tweet)
-            max_id = max(tweet.id, max_id)
+            max_id = min_not_null(tweet.id, max_id)
         if not new_batch:
             break
     return new_tweets
@@ -91,7 +99,7 @@ def fetch_initial_tweets(api: twitter.Api, user_id: int) -> List[Status]:
             if tweet.id not in [t.id for t in tweets]:
                 tweets.append(tweet)
                 new_batch.append(tweet)
-            max_id = max(tweet.id, max_id)
+            max_id = min_not_null(tweet.id, max_id)
         if not new_batch or len(tweets) > 1000:
             break
     return tweets
