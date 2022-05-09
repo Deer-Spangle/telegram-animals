@@ -5921,6 +5921,20 @@ const telegramChannels = {
       "num_subs": 529905,
       "latest_post": "2022-05-09",
       "notes": ""
+    },
+    {
+      "platform": "twitter",
+      "link": "https://twitter.com/cat_dot_exe",
+      "handle": "cat_dot_exe",
+      "animal": "Cat",
+      "owner": "Cloudy__Jay",
+      "num_posts": 33641,
+      "num_pics": 28897,
+      "num_gifs": 0,
+      "num_vids": 4677,
+      "num_subs": 45974,
+      "latest_post": "2022-05-09",
+      "notes": "Has a discord server: https://discord.gg/mmrFESFCbc"
     }
   ]
 }
