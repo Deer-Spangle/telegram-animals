@@ -101,8 +101,32 @@ class Ignore:
         return now > self.expiry
 
 
+class ChannelCache:
+    date_checked: datetime
+    gif_count: int
+    pic_count: int
+    video_count: int
+    post_count: int
+    subscribers: int
+    latest_post: Optional[datetime]
+
+    def to_json(self) -> Dict:
+        return {
+            "date_checked": self.date_checked.isoformat(),
+            "gif_count": self.gif_count,
+            "pic_count": self.pic_count,
+            "video_count": self.video_count,
+            "subscriber_count": self.subscribers,
+            "latest_post": self.latest_post.isoformat() if self.latest_post else None
+        }
+
+    @classmethod
+    def from_json(cls, json_cache: Dict) -> "ChannelCache":
+        raise NotImplementedError
+
+
 @dataclass
-class TelegramCache:
+class TelegramCache(ChannelCache):
     date_checked: datetime
     channel_id: Optional[int]  # TODO: un-optional, once we have id & hash in cache
     channel_hash: Optional[int]
@@ -115,18 +139,12 @@ class TelegramCache:
     title: Optional[str]
 
     def to_json(self) -> Dict[str, Union[str, int]]:
-        return {
-            "date_checked": self.date_checked.isoformat(),
-            "channel_id": self.channel_id,
-            "channel_hash": self.channel_hash,
-            "gif_count": self.gif_count,
-            "pic_count": self.pic_count,
-            "video_count": self.video_count,
-            "subscriber_count": self.subscribers,
-            "latest_post": self.latest_post.isoformat() if self.latest_post else None,
-            "bio": self.bio,
-            "title": self.title
-        }
+        data = super().to_json()
+        data["channel_id"] = self.channel_id
+        data["channel_hash"] = self.channel_hash
+        data["bio"] = self.bio
+        data["title"] = self.title
+        return data
 
     @classmethod
     def from_json(cls, json_cache: Dict[str, Optional[Union[str, int]]]) -> 'TelegramCache':
