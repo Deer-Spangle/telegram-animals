@@ -1373,13 +1373,6 @@
       "handle_pattern": "?appreciation"
     },
     {
-      "handle": "FluffyFoxxos",
-      "owner": "starunderscorestar",
-      "animal": "Fox",
-      "notes": "",
-      "handle_pattern": "fluffy?"
-    },
-    {
       "handle": "HourlyBleat",
       "owner": "TinyZorro",
       "animal": "Deer",
@@ -1581,13 +1574,6 @@
       "animal": "Bird",
       "notes": "Also uses @birbchat",
       "handle_pattern": "the?"
-    },
-    {
-      "handle": "opossums",
-      "owner": "?",
-      "animal": "Opossum",
-      "notes": "",
-      "handle_pattern": "?"
     },
     {
       "handle": "PuppersAndBorks",
@@ -1966,13 +1952,6 @@
       "animal": "Fox",
       "notes": "",
       "handle_pattern": "best?"
-    },
-    {
-      "handle": "dailyfoxes",
-      "owner": "?",
-      "animal": "Fox",
-      "notes": "",
-      "handle_pattern": "daily?"
     },
     {
       "handle": "wolfchannel",
@@ -2465,13 +2444,6 @@
       "handle_pattern": "cute?"
     },
     {
-      "handle": "duckgif",
-      "owner": "?",
-      "animal": "Duck",
-      "notes": "",
-      "handle_pattern": "?gif"
-    },
-    {
       "handle": "birds_channel",
       "owner": "?",
       "animal": "Bird",
@@ -2512,13 +2484,6 @@
       "animal": "Kitten",
       "notes": "Russian",
       "handle_pattern": "cute?"
-    },
-    {
-      "handle": "kittens_kittens",
-      "owner": "?",
-      "animal": "Kitten",
-      "notes": "cats and memes",
-      "handle_pattern": "?_?"
     },
     {
       "handle": "dailyfrog",
@@ -2640,13 +2605,6 @@
       "handle_pattern": "lovefor?"
     },
     {
-      "handle": "thecatsnews",
-      "owner": "?",
-      "animal": "Cat",
-      "notes": "Russian",
-      "handle_pattern": "the?news"
-    },
-    {
       "handle": "thedailycat",
       "owner": "?",
       "animal": "Cat",
@@ -2717,25 +2675,11 @@
       "handle_pattern": "?daily"
     },
     {
-      "handle": "dogpic",
-      "owner": "?",
-      "animal": "Dog",
-      "notes": "",
-      "handle_pattern": "?pic"
-    },
-    {
       "handle": "dogpicture",
       "owner": "?",
       "animal": "Dog",
       "notes": "",
       "handle_pattern": "?picture"
-    },
-    {
-      "handle": "dogsedits",
-      "owner": "?",
-      "animal": "Dog",
-      "notes": "Russian",
-      "handle_pattern": "?edits"
     },
     {
       "handle": "dogsgif",
@@ -3113,6 +3057,70 @@
       "notes": "Some bot experimentation lately",
       "handle_pattern": "?channel",
       "removal_reason": "Channel deleted"
+    },
+    {
+      "handle": "FluffyFoxxos",
+      "owner": "starunderscorestar",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "fluffy?",
+      "removal_reason": "Channel has been deleted"
+    },
+    {
+      "handle": "opossums",
+      "owner": "?",
+      "animal": "Opossum",
+      "notes": "",
+      "handle_pattern": "?",
+      "removal_reason": "Channel has been deleted"
+    },
+    {
+      "handle": "dailyfoxes",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "daily?",
+      "removal_reason": "Channel has been deleted",
+    },
+    {
+      "handle": "kittens_kittens",
+      "owner": "?",
+      "animal": "Kitten",
+      "notes": "cats and memes",
+      "handle_pattern": "?_?",
+      "removal_reason": "Channel has been removed"
+    },
+    {
+      "handle": "thecatsnews",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Russian",
+      "handle_pattern": "the?news",
+      "removal_reason": "Channel has been deleted"
+    },
+    {
+      "handle": "dogpic",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?pic",
+      "removal_reason": "Channel has been deleted"
+    },
+    {
+      "handle": "dogsedits",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Russian",
+      "handle_pattern": "?edits",
+      "removal_reason": "Channel has been deleted"
+    },
+    {
+      "handle": "duckgif",
+      "owner": "?",
+      "animal": "Duck",
+      "notes": "",
+      "handle_pattern": "?gif",
+      "removal_reason": "Channel removed, handle is parked for sale"
     }
   ],
   "ignored": [
