@@ -202,7 +202,7 @@ class Datastore:
             self.twitter_cache = {}
         else:
             self.twitter_cache = {
-                handle: ChannelCache.from_json(value)
+                handle: TwitterCache.from_json(value)
                 for handle, value in feed_cache.items()
             }
 
@@ -241,3 +241,18 @@ class Datastore:
             animal for animal in self.list_animals
             if any(channel.animal == animal for channel in self.all_channels)
         ]
+
+    def fetch_twitter_cache(self, handle: str) -> Optional[TwitterCache]:
+        return self.twitter_cache.get(handle.casefold())
+
+    def update_twitter_cache(self, handle: str, cache: TwitterCache) -> None:
+        self.twitter_cache[handle.casefold()] = cache
+
+    def save_twitter_cache(self) -> None:
+        json_cache = {
+            handle: channel_cache.to_json()
+            for handle, channel_cache in self.twitter_cache.items()
+        }
+        os.makedirs("cache", exist_ok=True)
+        with open("cache/twitter_cache.json", "w+") as f:
+            json.dump(json_cache, f, indent=2)
