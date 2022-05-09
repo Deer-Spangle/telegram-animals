@@ -47,7 +47,7 @@
       "owner": "LeonatoLynx",
       "animal": "Wolf",
       "notes": "Mirror of telegram @HourlyWolves",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "hourly?bot"
     },
     {
       "handle": "redpandasdaily",
@@ -110,7 +110,7 @@
       "owner": "@jukeboxlifemc",
       "animal": "Penguin",
       "notes": "Daily, despite the handle",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "daily?"
     },
     {
       "handle": "HourlyPinguins",
