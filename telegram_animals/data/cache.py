@@ -182,22 +182,19 @@ class TwitterCache(ChannelCache):
     def gif_count(self) -> Optional[int]:
         if self.sample is None:
             return None
-        gifs_per_tweet = self.sample.num_gifs / self.sample.num_tweets
-        return int(gifs_per_tweet * self._post_count)
+        return int(self._post_count * self.sample.num_gifs / self.sample.num_tweets)
 
     @property
     def pic_count(self) -> Optional[int]:
         if self.sample is None:
             return None
-        pics_per_tweet = self.sample.num_pics / self.sample.num_tweets
-        return int(pics_per_tweet * self._post_count)
+        return int(self._post_count * self.sample.num_pics / self.sample.num_tweets)
 
     @property
     def video_count(self) -> Optional[int]:
         if self.sample is None:
             return None
-        vids_per_tweet = self.sample.num_vids / self.sample.num_tweets
-        return int(vids_per_tweet * self._post_count)
+        return int(self._post_count * self.sample.num_vids / self.sample.num_tweets)
 
     @property
     def post_count(self) -> int:
