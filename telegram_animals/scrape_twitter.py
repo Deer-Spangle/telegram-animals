@@ -51,14 +51,8 @@ def add_tweet_to_sample(sample: TwitterSample, tweet: Status):
         sample.num_no_media_tweets += 1
         return
     media_types = [media.type for media in tweet.media]
-    if all(m == "video" for m in media_types):
-        sample.num_vid_tweets += 1
-    elif all(m == "photo" for m in media_types):
+    if all(m == "photo" for m in media_types):
         sample.num_pic_tweets += 1
-    elif all(m == "animated_gif" for m in media_types):
-        sample.num_gif_tweets += 1
-    else:
-        sample.num_other_media_tweets += 1
     for media_type in media_types:
         if media_type == "photo":
             sample.num_pics += 1
@@ -117,7 +111,6 @@ def do_twitter_scrape(ns: Namespace):
             user = api.GetUser(screen_name=channel.handle)
             user_cache = TwitterCache(
                 datetime.now(),
-                channel.handle,
                 user.id,
                 user.name,
                 user.description,
@@ -139,7 +132,7 @@ def do_twitter_scrape(ns: Namespace):
         for tweet in tweets:
             add_tweet_to_sample(user_cache.sample, tweet)
         print(
-            f"{user_cache.handle}: {user_cache.num_tweets} tweets ({user_cache.sample.num_tweets} sampled), "
-            f"{user_cache.num_subs} subscribers"
+            f"{channel.handle}: {user_cache.post_count} tweets ({user_cache.sample.num_tweets} sampled), "
+            f"{user_cache.subscribers} subscribers"
         )
     pass
