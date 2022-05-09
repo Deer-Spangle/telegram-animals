@@ -109,6 +109,9 @@ def do_twitter_scrape(ns: Namespace):
         user_cache = datastore.fetch_twitter_cache(channel.handle)
         if user_cache is None:
             user = api.GetUser(screen_name=channel.handle)
+            latest_post_datetime = None
+            if user.status:
+                latest_post_datetime = dateutil.parser.parse(user.status.created_at)
             user_cache = TwitterCache(
                 datetime.now(),
                 user.id,
@@ -119,7 +122,7 @@ def do_twitter_scrape(ns: Namespace):
                 dateutil.parser.parse(user.created_at),
                 user.followers_count,
                 user.statuses_count,
-                dateutil.parser.parse(user.status.created_at)
+                latest_post_datetime
             )
         else:
             user = api.GetUser(user_id=user_cache.user_id)
