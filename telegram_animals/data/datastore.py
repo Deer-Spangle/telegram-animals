@@ -8,7 +8,7 @@ import os
 import pytz
 from dateutil import parser
 
-from telegram_animals.data.cache import TelegramCache, TwitterCache
+from telegram_animals.data.cache import TelegramCache, TwitterCache, ChannelCache
 
 
 class ChannelType(Enum):
@@ -38,9 +38,8 @@ class Channel:
             removal_reason=data.get("removal_reason")
         )
 
-    def to_javascript_data(self, datastore: "Datastore") -> Dict[str, str]:
-        cache = self.get_cache(datastore)
-        latest_post = getattr(cache, "latest_post", None)
+    def to_javascript_data(self, cache: Optional[ChannelCache]) -> Dict[str, str]:
+        latest_post = cache.latest_post if cache else None
         if latest_post:
             latest_post = latest_post.strftime("%Y-%m-%d")
         link = {
@@ -53,10 +52,10 @@ class Channel:
             "handle": self.handle,
             "animal": self.animal,
             "owner": self.owner,
-            "num_pics": getattr(cache, "pic_count", None),
-            "num_gifs": getattr(cache, "gif_count", None),
-            "num_vids": getattr(cache, "video_count", None),
-            "num_subs": getattr(cache, "subscribers", None),
+            "num_pics": cache.pic_count if cache else None,
+            "num_gifs": cache.gif_count if cache else None,
+            "num_vids": cache.video_count if cache else None,
+            "num_subs": cache.subscribers if cache else None,
             "latest_post": latest_post,
             "notes": self.notes
         }
@@ -182,6 +181,13 @@ class Datastore:
             animal for animal in self.list_animals
             if any(channel.animal == animal for channel in self.all_channels)
         ]
+
+    def fetch_cache(self, platform: ChannelType, handle: str) -> Optional[ChannelCache]:
+        if platform == ChannelType.TELEGRAM:
+            return self.telegram_cache.get(handle.casefold())
+        if platform == ChannelType.TWITTER:
+            return self.fetch_twitter_cache(handle)
+        return None
 
     def fetch_twitter_cache(self, handle: str) -> Optional[TwitterCache]:
         return self.twitter_cache.get(handle.casefold())

@@ -45,7 +45,7 @@ def create_data_file(datastore: Datastore) -> str:
     channels = datastore.all_channels
     data = {
         "channels": [
-            channel.to_javascript_data(datastore) for channel in channels
+            channel.to_javascript_data(datastore.fetch_cache(channel.channel_type, channel.handle)) for channel in channels
         ]
     }
     return f"const telegramChannels = {json.dumps(data, indent=2)}"
