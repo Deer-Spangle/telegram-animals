@@ -1,12 +1,13 @@
+import json
 from argparse import Namespace
 from datetime import datetime, timedelta
-from typing import List, TypeVar, Union, Generic, Tuple
+from typing import TypeVar, Union, Generic, Tuple
 import os
 
 import pytz
 from jinja2 import Environment, PackageLoader, select_autoescape
 
-from telegram_animals.data import Channel, load_channels_and_bots, load_channel_cache
+from telegram_animals.data.datastore import Datastore
 from telegram_animals.subparser import SubParserAdder
 
 T = TypeVar("T", bound=Union[float, datetime])
@@ -26,6 +27,8 @@ class ColourScale(Generic[T]):
         self.end_colour = end_colour
 
     def get_colour_for_value(self, value: T) -> str:
+        if value is None:
+            value = min(self.start_value, self.end_value)
         ratio = (value-self.start_value) / (self.end_value-self.start_value)
         ratio = max(0, min(1, ratio))
         colour = (
@@ -40,7 +43,19 @@ class ColourScale(Generic[T]):
         return f"background-color: {colour};"
 
 
-def create_doc(channels: List[Channel], bots: List[Channel]):
+def create_data_file(datastore: Datastore) -> str:
+    channels = datastore.all_channels
+    data = {
+        "channels": [
+            channel.to_javascript_data(datastore.fetch_cache(channel.channel_type, channel.handle)) for channel in channels
+        ]
+    }
+    return f"const telegramChannels = {json.dumps(data, indent=2)}"
+
+
+def create_doc(datastore: Datastore) -> str:
+    channels = sorted(datastore.all_channels, key=lambda c: (c.animal, c.handle.casefold()))
+    bots = sorted(datastore.telegram_bots, key=lambda b: (b.animal, b.handle.casefold()))
     env = Environment(
         loader=PackageLoader("telegram_animals"),
         autoescape=select_autoescape()
@@ -54,7 +69,8 @@ def create_doc(channels: List[Channel], bots: List[Channel]):
     return template.render(
         channels=channels,
         bots=bots,
-        channel_cache=load_channel_cache(),
+        animals=sorted(datastore.list_animals_with_channels),
+        datastore=datastore,
         count_scale=count_scale,
         date_scale=date_scale
     )
@@ -72,9 +88,11 @@ def setup_parser(subparsers: SubParserAdder) -> None:
 
 
 def do_html(args: Namespace):
-    list_channels, list_bots = load_channels_and_bots()
-    html = create_doc(list_channels, list_bots)
+    datastore = Datastore()
     os.makedirs("public", exist_ok=True)
+    with open("public/data.js", "w") as w:
+        w.write(create_data_file(datastore))
+    html = create_doc(datastore)
     with open(args.filename, "w") as w:
         w.write(html)
 

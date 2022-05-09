@@ -4,3 +4,4 @@ python-dateutil
 requests
 beautifulsoup4
 Jinja2
+python-twitter

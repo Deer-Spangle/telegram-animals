@@ -1,6 +1,6 @@
 import argparse
 
-from telegram_animals import create_html, scrape_cache, validate, search_handles
+from telegram_animals import create_html, scrape_telegram, validate, search_handles, scrape_twitter
 
 parser = argparse.ArgumentParser(
     description="Entrypoint for the telegram animals scripts"
@@ -13,7 +13,8 @@ subparsers = parser.add_subparsers(
 )
 validate.setup_subparser(subparsers)
 create_html.setup_parser(subparsers)
-scrape_cache.setup_parser(subparsers)
+scrape_telegram.setup_parser(subparsers)
+scrape_twitter.setup_parser(subparsers)
 search_handles.setup_parser(subparsers)
 
 

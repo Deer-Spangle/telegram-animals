@@ -1,22 +1,40 @@
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
     <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
         <title>Telegram animal channels</title>
         <link rel="stylesheet" href="style.css" />
     </head>
 <body>
 <h1>Telegram animal channels</h1>
 <p>This site is just a list of telegram channels for pictures, gifs, and videos of animals</p>
-<table>
+<form id="channel_table">
+    <label>Platforms: <select id="select_platform">
+        <option value="all">Telegram+Twitter</option>
+        <option value="telegram">Telegram</option>
+        <option value="twitter">Twitter</option>
+    </select></label>
+    |
+    <label>Animal: <select id="select_animal">
+        <option value="all">All animals</option>
+        {% for animal in animals %}
+        <option value="{{animal}}">{{animal}}</option>
+        {% endfor %}
+    </select></label>
+<table id="telegram_channels">
     <thead>
         <tr>
+            <th>-</th>
             <th>Link</th>
-            <th>Animal</th>
-            <th>Owner</th>
-            <th># pics</th>
-            <th># gifs</th>
-            <th># vids</th>
-            <th><abbr title="Subscribers"># subs</abbr></th>
-            <th>Latest post</th>
+            <th data-sort-column="animal">Animal</th>
+            <th data-sort-column="owner">Owner</th>
+            <th data-sort-column="num_posts"># posts</th>
+            <th data-sort-column="num_pics"># pics</th>
+            <th data-sort-column="num_gifs"># gifs</th>
+            <th data-sort-column="num_vids"># vids</th>
+            <th data-sort-column="num_subs"><abbr title="Subscribers"># subs</abbr></th>
+            <th data-sort-column="latest_post">Latest post</th>
             <th>Notes</th>
         </tr>
     </thead>
@@ -29,15 +47,17 @@
             <tr>
         {% endif %}
         {% set ns.last_animal = channel.animal %}
-            <td><a href="https://t.me/{{ channel.handle }}">@{{ channel.handle }}</a></td>
+            <td><img src="icon_{{channel.channel_type.value}}.svg" alt="{{channel.channel_type.value}}" style="height: 1em;"/></td>
+            <td><a href="https://t.me/{{ channel.handle }}" target="_blank">@{{ channel.handle }}</a></td>
             <td>{{ channel.animal }}</td>
             <td>{{ channel.owner }}</td>
-            {% set cache = channel_cache.get(channel.handle.casefold()) %}
+            {% set cache = channel.get_cache(datastore) %}
             {% if cache %}
-                <td style="{{ count_scale.style_for_value(cache.pic_count) }}">{{ cache.pic_count }}</td>
-                <td style="{{ count_scale.style_for_value(cache.gif_count) }}">{{ cache.gif_count }}</td>
-                <td style="{{ count_scale.style_for_value(cache.video_count) }}">{{ cache.video_count }}</td>
-                <td style="{{ count_scale.style_for_value(cache.subscribers) }}">{{ cache.subscribers }}</td>
+                <td style="{{ count_scale.style_for_value(cache.post_count) }}">{{ cache.post_count | default("?") }}</td>
+                <td style="{{ count_scale.style_for_value(cache.pic_count) }}">{{ cache.pic_count | default("?") }}</td>
+                <td style="{{ count_scale.style_for_value(cache.gif_count) }}">{{ cache.gif_count | default("?") }}</td>
+                <td style="{{ count_scale.style_for_value(cache.video_count) }}">{{ cache.video_count | default("?") }}</td>
+                <td style="{{ count_scale.style_for_value(cache.subscribers) }}">{{ cache.subscribers | default("?") }}</td>
                 {% if cache.latest_post %}
                     <td style="{{ date_scale.style_for_value(cache.latest_post) }}">{{ cache.latest_post.strftime('%Y-%m-%d') }}</td>
                 {% else %}}
@@ -49,12 +69,14 @@
                 <td>?</td>
                 <td>?</td>
                 <td>?</td>
+                <td>?</td>
             {% endif %}
             <td>{{ channel.notes }}</td>
         </tr>
     {% endfor %}
     </tbody>
 </table>
+</form>
 <p>And the table of telegram bots is below</p>
 <table>
     <thead>
@@ -68,7 +90,7 @@
     <tbody>
     {% for bot in bots %}
         <tr>
-            <td><a href="https://t.me/{{ bot.handle }}">@{{ bot.handle }}</a></td>
+            <td><a href="https://t.me/{{ bot.handle }}" target="_blank">@{{ bot.handle }}</a></td>
             <td>{{ bot.animal }}</td>
             <td>{{ bot.owner }}</td>
             <td>{{ bot.notes }}</td>
@@ -81,11 +103,18 @@
     <a href="https://github.com/Deer-Spangle/telegram-animals/">github repository</a>.
     (Pull requests are also welcome!)
 </p>
+<h3>Credits</h3>
+<p>
+    This site was made by <a href="https://github.com/Deer-Spangle/">Deer-Spangle</a> and is licensed under an MIT licence.<br />
+    <a target="_blank" href="https://icons8.com/icon/63306/telegram-app">Telegram</a> and <a target="_blank" href="https://icons8.com/icon/13963/twitter">Twitter</a> icons by <a target="_blank" href="https://icons8.com">Icons8</a>
+</p>
 <! -- Some basic, privacy-focused analytics -->
 <script src="https://getinsights.io/js/insights.js"></script>
 <script>
     insights.init("lrFaPwGuDpIqLUXt");
     insights.trackPages();
 </script>
+<script src="data.js"></script>
+<script src="table_handling.js"></script>
 </body>
 </html>

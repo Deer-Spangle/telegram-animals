@@ -43,11 +43,11 @@
       "handle_pattern": "flickr?"
     },
     {
-      "handle": "HourlyWolves",
+      "handle": "hourlywolvesbot",
       "owner": "LeonatoLynx",
       "animal": "Wolf",
       "notes": "Mirror of telegram @HourlyWolves",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "hourly?bot"
     },
     {
       "handle": "redpandasdaily",
@@ -106,11 +106,11 @@
       "handle_pattern": "hourly?"
     },
     {
-      "handle": "HourlyPengus",
+      "handle": "DailyPengus",
       "owner": "@jukeboxlifemc",
       "animal": "Penguin",
       "notes": "Daily, despite the handle",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "daily?"
     },
     {
       "handle": "HourlyPinguins",
@@ -141,13 +141,6 @@
       "handle_pattern": "?perhour"
     },
     {
-      "handle": "K3pboUWHkrSJL9s",
-      "owner": "?",
-      "animal": "Fennec",
-      "notes": "I think the fennec is their pet",
-      "handle_patern": "-"
-    },
-    {
       "handle": "SnakeHour",
       "owner": "?",
       "animal": "Snake",
@@ -171,14 +164,14 @@
     {
       "handle": "HourlyYeen",
       "owner": "TinyZorro",
-      "animal": "Yeen",
+      "animal": "Hyena",
       "notes": "Mirror of telegram channel, t.me/HourlyYeen",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "TheDailyPossums",
       "owner": "",
-      "animal": "Possum",
+      "animal": "Opossum",
       "notes": "",
       "handle_pattern": "thedaily?"
     },
@@ -199,7 +192,7 @@
     {
       "handle": "PossumEveryHour",
       "owner": "ThunderySteak",
-      "animal": "Possum",
+      "animal": "Opossum",
       "notes": "",
       "handle_pattern": "?everyhour"
     },
@@ -209,6 +202,16 @@
       "animal": "Cat",
       "notes": "Has a discord server: https://discord.gg/mmrFESFCbc",
       "handle_pattern": "?_dot_exe"
+    }
+  ],
+  "removed": [
+    {
+      "handle": "K3pboUWHkrSJL9s",
+      "owner": "?",
+      "animal": "Fennec",
+      "notes": "I think the fennec is their pet",
+      "handle_pattern": "-",
+      "removal_reason": "Account deleted"
     }
   ]
 }
