@@ -1,0 +1,135 @@
+from abc import ABC, abstractmethod
+from dataclasses import dataclass
+from datetime import datetime
+from typing import Optional, Dict, Union
+
+from dateutil import parser
+
+
+class ChannelCache(ABC):
+    @property
+    @abstractmethod
+    def date_checked(self) -> Optional[datetime]:
+        pass
+
+    @property
+    @abstractmethod
+    def gif_count(self) -> Optional[int]:
+        pass
+
+    @property
+    @abstractmethod
+    def pic_count(self) -> Optional[int]:
+        pass
+
+    @property
+    @abstractmethod
+    def video_count(self) -> Optional[int]:
+        pass
+
+    @property
+    @abstractmethod
+    def post_count(self) -> Optional[int]:
+        pass
+
+    @property
+    @abstractmethod
+    def subscribers(self) -> Optional[int]:
+        pass
+
+    @property
+    @abstractmethod
+    def latest_post(self) -> Optional[datetime]:
+        pass
+
+    @abstractmethod
+    def to_json(self) -> Dict:
+        raise NotImplementedError
+
+    @classmethod
+    def from_json(cls, json_cache: Dict) -> "ChannelCache":
+        raise NotImplementedError
+
+
+class TelegramCache(ChannelCache):
+
+    def __init__(
+            self,
+            date_checked: datetime,
+            channel_id: int,
+            channel_hash: int,
+            gif_count: int,
+            pic_count: int,
+            video_count: int,
+            subscribers: int,
+            latest_post: Optional[datetime],
+            bio: Optional[str],
+            title: Optional[str],
+    ) -> None:
+        self._date_checked = date_checked
+        self.channel_id = channel_id
+        self.channel_hash = channel_hash
+        self._gif_count = gif_count
+        self._pic_count = pic_count
+        self._video_count = video_count
+        self._subscribers = subscribers
+        self._latest_post = latest_post
+        self.bio = bio
+        self.title = title
+
+    @property
+    def date_checked(self) -> Optional[datetime]:
+        return self._date_checked
+
+    @property
+    def gif_count(self) -> Optional[int]:
+        return self._gif_count
+
+    @property
+    def pic_count(self) -> Optional[int]:
+        return self._pic_count
+
+    @property
+    def video_count(self) -> Optional[int]:
+        return self._video_count
+
+    @property
+    def subscribers(self) -> Optional[int]:
+        return self._subscribers
+
+    @property
+    def latest_post(self) -> Optional[datetime]:
+        return self._latest_post
+
+    @property
+    def post_count(self) -> Optional[int]:
+        return None  # TODO
+
+    def to_json(self) -> Dict[str, Union[str, int]]:
+        return {
+            "date_checked": self.date_checked.isoformat(),
+            "gif_count": self.gif_count,
+            "pic_count": self.pic_count,
+            "video_count": self.video_count,
+            "subscriber_count": self.subscribers,
+            "latest_post": self.latest_post.isoformat() if self.latest_post else None,
+            "channel_id": self.channel_id,
+            "channel_hash": self.channel_hash,
+            "bio": self.bio,
+            "title": self.title
+        }
+
+    @classmethod
+    def from_json(cls, json_cache: Dict[str, Optional[Union[str, int]]]) -> 'TelegramCache':
+        return TelegramCache(
+            parser.parse(json_cache["date_checked"]),
+            json_cache.get("channel_id"),
+            json_cache.get("channel_hash"),
+            json_cache["gif_count"],
+            json_cache["pic_count"],
+            json_cache["video_count"],
+            json_cache["subscriber_count"],
+            parser.parse(json_cache["latest_post"]) if json_cache["latest_post"] else None,
+            json_cache.get("bio"),
+            json_cache.get("title")
+        )

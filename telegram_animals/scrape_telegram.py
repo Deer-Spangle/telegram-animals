@@ -16,7 +16,8 @@ from telethon.tl.functions.messages import SearchRequest
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif, InputMessagesFilterVideo, Message, \
     InputPeerChannel
 
-from telegram_animals.data.datastore import Channel, TelegramCache, Datastore
+from telegram_animals.data.datastore import Channel, Datastore
+from telegram_animals.data.cache import TelegramCache
 from telegram_animals.subparser import SubParserAdder
 
 
