@@ -43,7 +43,7 @@
       "handle_pattern": "flickr?"
     },
     {
-      "handle": "HourlyWolves",
+      "handle": "hourlywolvesbot",
       "owner": "LeonatoLynx",
       "animal": "Wolf",
       "notes": "Mirror of telegram @HourlyWolves",
@@ -106,7 +106,7 @@
       "handle_pattern": "hourly?"
     },
     {
-      "handle": "HourlyPengus",
+      "handle": "DailyPengus",
       "owner": "@jukeboxlifemc",
       "animal": "Penguin",
       "notes": "Daily, despite the handle",
@@ -139,13 +139,6 @@
       "animal": "Bird",
       "notes": "Contact birdperhour@tutanova.com",
       "handle_pattern": "?perhour"
-    },
-    {
-      "handle": "K3pboUWHkrSJL9s",
-      "owner": "?",
-      "animal": "Fennec",
-      "notes": "I think the fennec is their pet",
-      "handle_pattern": "-"
     },
     {
       "handle": "SnakeHour",
@@ -202,6 +195,16 @@
       "animal": "Opossum",
       "notes": "",
       "handle_pattern": "?everyhour"
+    }
+  ],
+  "removed": [
+    {
+      "handle": "K3pboUWHkrSJL9s",
+      "owner": "?",
+      "animal": "Fennec",
+      "notes": "I think the fennec is their pet",
+      "handle_pattern": "-",
+      "removal_reason": "Account deleted"
     }
   ]
 }
