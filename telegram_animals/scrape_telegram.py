@@ -159,11 +159,11 @@ async def generate_all_caches(client: TelegramClient, datastore: Datastore):
 
 def setup_parser(subparsers: SubParserAdder) -> None:
     parser = subparsers.add_parser(
-        "scrape_cache",
-        description="Scrapes the known channel list and updates cached values for dates, message counts, etc.",
-        help="Scrapes the known channel list and updates cached values for dates, message counts, etc.\n"
+        "scrape_telegram",
+        description="Scrapes the known telegram channel list and updates cached values for dates, message counts, etc.",
+        help="Scrapes the known telegram channel list and updates cached values for dates, message counts, etc.\n"
              "Saves the data to cache/channel_cache.json",
-        aliases=["update_cache"]
+        aliases=["update_telegram", "update_cache", "scrape_cache"]
     )
     parser.set_defaults(func=do_scrape)
     parser.add_argument("--api_id", type=int, default=os.getenv("API_ID"))
