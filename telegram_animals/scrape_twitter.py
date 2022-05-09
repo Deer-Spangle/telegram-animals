@@ -1,7 +1,7 @@
 import json
 import os
 from argparse import Namespace
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List
 
 import dateutil.parser
@@ -97,6 +97,38 @@ def fetch_initial_tweets(api: twitter.Api, user_id: int) -> List[Status]:
     return tweets
 
 
+def create_twitter_cache(user: twitter.User) -> TwitterCache:
+    latest_post_datetime = None
+    if user.status:
+        latest_post_datetime = dateutil.parser.parse(user.status.created_at)
+    return TwitterCache(
+        datetime.now(),
+        user.id,
+        user.name,
+        user.description,
+        user.location,
+        user.url,
+        dateutil.parser.parse(user.created_at),
+        user.followers_count,
+        user.statuses_count,
+        latest_post_datetime
+    )
+
+
+def update_twitter_cache(twitter_cache: TwitterCache, user: twitter.User) -> TwitterCache:
+    twitter_cache._date_checked = datetime.now()
+    twitter_cache.display_name = user.name
+    twitter_cache.bio = user.description
+    twitter_cache.user_location = user.location
+    twitter_cache.user_url = user.url
+    twitter_cache._subscribers = user.followers_count
+    twitter_cache._post_count = user.statuses_count
+    latest_post_datetime = None
+    if user.status:
+        latest_post_datetime = dateutil.parser.parse(user.status.created_at)
+    twitter_cache._latest_post = latest_post_datetime
+
+
 def do_twitter_scrape(ns: Namespace):
     api = twitter.Api(
         consumer_key=ns.api_key,
@@ -109,31 +141,16 @@ def do_twitter_scrape(ns: Namespace):
         user_cache = datastore.fetch_twitter_cache(channel.handle)
         if user_cache is None:
             user = api.GetUser(screen_name=channel.handle)
-            latest_post_datetime = None
-            if user.status:
-                latest_post_datetime = dateutil.parser.parse(user.status.created_at)
-            user_cache = TwitterCache(
-                datetime.now(),
-                user.id,
-                user.name,
-                user.description,
-                user.location,
-                user.url,
-                dateutil.parser.parse(user.created_at),
-                user.followers_count,
-                user.statuses_count,
-                latest_post_datetime
-            )
-        else:
+            user_cache = create_twitter_cache(user)
+        if datetime.now() - user_cache.date_checked > timedelta(hours=6) or user_cache.sample.num_tweets == 0:
             user = api.GetUser(user_id=user_cache.user_id)
-            user_cache
-        if user_cache.sample is None:
-            user_cache.sample = TwitterSample()
-            tweets = fetch_initial_tweets(api, user.id)
-        else:
-            tweets = fetch_new_tweets(api, user.id, user_cache.sample.latest_id, user_cache.sample.latest_datetime)
-        for tweet in tweets:
-            add_tweet_to_sample(user_cache.sample, tweet)
+            update_twitter_cache(user_cache, user)
+            if user_cache.sample.num_tweets == 0:
+                tweets = fetch_initial_tweets(api, user.id)
+            else:
+                tweets = fetch_new_tweets(api, user.id, user_cache.sample.latest_id, user_cache.sample.latest_datetime)
+            for tweet in tweets:
+                add_tweet_to_sample(user_cache.sample, tweet)
         print(
             f"{channel.handle}: {user_cache.post_count} tweets ({user_cache.sample.num_tweets} sampled), "
             f"{user_cache.subscribers} subscribers"
