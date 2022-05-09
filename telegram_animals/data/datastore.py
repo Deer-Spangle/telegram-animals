@@ -8,7 +8,7 @@ import os
 import pytz
 from dateutil import parser
 
-from telegram_animals.data.cache import TelegramCache
+from telegram_animals.data.cache import TelegramCache, TwitterCache
 
 
 class ChannelType(Enum):

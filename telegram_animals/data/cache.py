@@ -1,3 +1,4 @@
+import dataclasses
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 from datetime import datetime
@@ -133,3 +134,57 @@ class TelegramCache(ChannelCache):
             json_cache.get("bio"),
             json_cache.get("title")
         )
+
+
+@dataclasses.dataclass
+class TwitterCache:
+    handle: str
+    user_id: int
+    display_name: int
+    bio: str
+    user_location: str
+    user_url: str
+    creation_datetime: datetime
+    num_subs: int
+    num_tweets: int
+    latest_post: datetime
+    sample: "TwitterSample" = None
+
+    @property
+    def num_pics(self) -> Optional[int]:
+        if self.sample is None:
+            return None
+        pics_per_tweet = self.sample.num_pics / self.sample.num_tweets
+        return int(pics_per_tweet * self.num_tweets)
+
+    @property
+    def num_vids(self) -> Optional[int]:
+        if self.sample is None:
+            return None
+        vids_per_tweet = self.sample.num_vids / self.sample.num_tweets
+        return int(vids_per_tweet * self.num_tweets)
+
+    @property
+    def num_gifs(self) -> Optional[int]:
+        if self.sample is None:
+            return None
+        gifs_per_tweet = self.sample.num_gifs / self.sample.num_tweets
+        return int(gifs_per_tweet * self.num_tweets)
+
+
+@dataclasses.dataclass
+class TwitterSample:
+    num_tweets: int = 0
+    latest_id: int = None
+    latest_datetime: datetime = None
+    earliest_id: int = None
+    earliest_datetime: datetime = None
+    num_pics: int = 0
+    num_vids: int = 0
+    num_gifs: int = 0
+    num_other_media: int = 0
+    num_pic_tweets: int = 0
+    num_vid_tweets: int = 0
+    num_gif_tweets: int = 0
+    num_other_media_tweets: int = 0
+    num_no_media_tweets: int = 0
