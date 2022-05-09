@@ -9,7 +9,6 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
     concurrency: telegram_checks
     steps:
@@ -24,17 +23,24 @@ jobs:
         pip install -r requirements.txt
     - name: Validate data
       run: python main.py validate
-    - name: Update cache
-      run: python main.py update_cache
+    - name: Update telegram cache
+      run: python main.py update_telegram
       env:
         API_ID: ${{ secrets.API_ID }}
         API_HASH: ${{ secrets.API_HASH }}
         SESSION_STRING: ${{ secrets.SESSION_STRING }}
+    - name: Update twitter cache
+      run: python main.py update_twitter
+      env:
+        API_KEY: ${{ secrets.TWITTER_API_KEY }}
+        API_KEY_SECRET: ${{ secrets.TWITTER_API_KEY_SECRET }}
+        ACCESS_TOKEN_KEY: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }}
+        ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
     - name: Save cache
       uses: EndBug/add-and-commit@v7
       with:
-        add: "cache/channel_cache.json"
-        message: "Updating channel cache"
+        add: '["cache/channel_cache.json", "cache/twitter_cache.json"]'
+        message: "Updating telegram and twitter cache"
     - name: Create index.html
       run: python main.py create_html
     - uses: JamesIves/github-pages-deploy-action@4.0.0
