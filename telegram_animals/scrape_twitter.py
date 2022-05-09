@@ -155,4 +155,5 @@ def do_twitter_scrape(ns: Namespace):
             f"{channel.handle}: {user_cache.post_count} tweets ({user_cache.sample.num_tweets} sampled), "
             f"{user_cache.subscribers} subscribers"
         )
-    pass
+        datastore.update_twitter_cache(channel.handle, user_cache)
+        datastore.save_twitter_cache()
