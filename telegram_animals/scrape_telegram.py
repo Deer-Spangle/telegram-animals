@@ -16,7 +16,7 @@ from telethon.tl.functions.messages import SearchRequest
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif, InputMessagesFilterVideo, Message, \
     InputPeerChannel
 
-from telegram_animals.data import Channel, ChannelCache, Datastore
+from telegram_animals.data import Channel, TelegramCache, Datastore
 from telegram_animals.subparser import SubParserAdder
 
 
@@ -85,7 +85,7 @@ async def get_input_entity(
         client: TelegramClient,
         channel: Channel,
         searcher: CachedSearcher,
-        old_cache: Optional[ChannelCache]
+        old_cache: Optional[TelegramCache]
 ) -> InputPeerChannel:
     if old_cache and old_cache.channel_id:
         return InputPeerChannel(old_cache.channel_id, old_cache.channel_hash)
@@ -104,8 +104,8 @@ async def generate_cache(
         client: TelegramClient,
         channel: Channel,
         searcher: CachedSearcher,
-        old_cache: Optional[ChannelCache]
-) -> ChannelCache:
+        old_cache: Optional[TelegramCache]
+) -> TelegramCache:
     input_entity = await get_input_entity(client, channel, searcher, old_cache)
     images = await count_media_type(client, input_entity, MediaType.Image)
     gifs = await count_media_type(client, input_entity, MediaType.Gif)
@@ -119,7 +119,7 @@ async def generate_cache(
     latest_post = None
     if latest_msg:
         latest_post = latest_msg.date
-    return ChannelCache(
+    return TelegramCache(
         datetime.utcnow().replace(tzinfo=pytz.utc),
         input_entity.channel_id,
         input_entity.access_hash,

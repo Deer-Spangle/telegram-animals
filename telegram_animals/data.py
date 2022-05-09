@@ -59,7 +59,7 @@ class Channel:
             "notes": self.notes
         }
 
-    def get_cache(self, datastore: "Datastore") -> Optional["ChannelCache"]:
+    def get_cache(self, datastore: "Datastore") -> Optional["TelegramCache"]:
         if self.channel_type == ChannelType.TELEGRAM:
             return datastore.telegram_cache.get(self.handle.casefold())
         return None
@@ -102,7 +102,7 @@ class Ignore:
 
 
 @dataclass
-class ChannelCache:
+class TelegramCache:
     date_checked: datetime
     channel_id: Optional[int]  # TODO: un-optional, once we have id & hash in cache
     channel_hash: Optional[int]
@@ -129,8 +129,8 @@ class ChannelCache:
         }
 
     @classmethod
-    def from_json(cls, json_cache: Dict[str, Optional[Union[str, int]]]) -> 'ChannelCache':
-        return ChannelCache(
+    def from_json(cls, json_cache: Dict[str, Optional[Union[str, int]]]) -> 'TelegramCache':
+        return TelegramCache(
             parser.parse(json_cache["date_checked"]),
             json_cache.get("channel_id"),
             json_cache.get("channel_hash"),
@@ -167,7 +167,7 @@ class Datastore:
             self.telegram_cache = {}
         else:
             self.telegram_cache = {
-                handle: ChannelCache.from_json(value)
+                handle: TelegramCache.from_json(value)
                 for handle, value in channel_cache.items()
             }
         # Telegram search cache
