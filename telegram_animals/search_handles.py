@@ -11,7 +11,7 @@ import requests
 from dateutil import parser
 from bs4 import BeautifulSoup
 
-from telegram_animals.data import Channel, Ignore, Datastore
+from telegram_animals.data.datastore import Channel, Ignore, Datastore
 from telegram_animals.subparser import SubParserAdder
 
 T = TypeVar("T")

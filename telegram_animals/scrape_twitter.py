@@ -9,7 +9,7 @@ import dateutil.parser
 import twitter
 from twitter import Status
 
-from telegram_animals.data import Datastore, ChannelCache
+from telegram_animals.data.datastore import Datastore
 from telegram_animals.subparser import SubParserAdder
 
 

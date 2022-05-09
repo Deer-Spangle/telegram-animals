@@ -7,7 +7,7 @@ import os
 import pytz
 from jinja2 import Environment, PackageLoader, select_autoescape
 
-from telegram_animals.data import Datastore
+from telegram_animals.data.datastore import Datastore
 from telegram_animals.subparser import SubParserAdder
 
 T = TypeVar("T", bound=Union[float, datetime])
