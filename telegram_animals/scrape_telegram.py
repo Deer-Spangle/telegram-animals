@@ -12,9 +12,10 @@ from telethon.errors import FloodWaitError
 from telethon.sessions import StringSession
 from telethon.tl.functions.channels import GetFullChannelRequest
 from telethon.tl.functions.contacts import SearchRequest as ContactSearchRequest
-from telethon.tl.functions.messages import SearchRequest
+from telethon.tl.functions.messages import SearchRequest, GetHistoryRequest
 from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif, InputMessagesFilterVideo, Message, \
     InputPeerChannel
+from telethon.tl.types.messages import Messages
 
 from telegram_animals.data.datastore import Channel, Datastore
 from telegram_animals.data.cache import TelegramCache
@@ -76,6 +77,25 @@ async def count_media_type(client: TelegramClient, entity: InputPeerChannel, med
     return results.count
 
 
+async def count_posts(client: TelegramClient, entity: InputPeerChannel) -> int:
+    get_history = GetHistoryRequest(
+        peer=entity,
+        offset_id=0,
+        offset_date=None,
+        add_offset=0,
+        limit=1,
+        max_id=0,
+        min_id=0,
+        hash=0
+    )
+
+    history = await client(get_history)
+    if isinstance(history, Messages):
+        return len(history.messages)
+    else:
+        return history.count
+
+
 async def latest_message(client: TelegramClient, entity: InputPeerChannel) -> Optional[Message]:
     async for msg in client.iter_messages(entity, 1):
         return msg
@@ -111,6 +131,7 @@ async def generate_cache(
     images = await count_media_type(client, input_entity, MediaType.Image)
     gifs = await count_media_type(client, input_entity, MediaType.Gif)
     videos = await count_media_type(client, input_entity, MediaType.Video)
+    post_count = await count_posts(client, input_entity)
     entity = await client.get_entity(input_entity)
     title = entity.title
     full_entity = await client(GetFullChannelRequest(channel=input_entity))
@@ -128,6 +149,7 @@ async def generate_cache(
         images,
         videos,
         sub_count,
+        post_count,
         latest_post,
         bio,
         title

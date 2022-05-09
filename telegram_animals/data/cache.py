@@ -74,6 +74,7 @@ class TelegramCache(ChannelCache):
             pic_count: int,
             video_count: int,
             subscribers: int,
+            post_count: Optional[int],
             latest_post: Optional[datetime],
             bio: Optional[str],
             title: Optional[str],
@@ -85,6 +86,7 @@ class TelegramCache(ChannelCache):
         self._pic_count = pic_count
         self._video_count = video_count
         self._subscribers = subscribers
+        self._post_count = post_count
         self._latest_post = latest_post
         self.bio = bio
         self.title = title
@@ -115,7 +117,7 @@ class TelegramCache(ChannelCache):
 
     @property
     def post_count(self) -> Optional[int]:
-        return None  # TODO
+        return self._post_count
 
     def to_json(self) -> Dict[str, Union[str, int]]:
         return {
@@ -141,6 +143,7 @@ class TelegramCache(ChannelCache):
             json_cache["pic_count"],
             json_cache["video_count"],
             json_cache["subscriber_count"],
+            json_cache.get("post_count"),
             nullable_isoparse(json_cache["latest_post"]),
             json_cache.get("bio"),
             json_cache.get("title")
