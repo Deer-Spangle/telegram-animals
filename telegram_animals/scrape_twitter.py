@@ -116,6 +116,7 @@ def do_twitter_scrape(ns: Namespace):
         if user_cache is None:
             user = api.GetUser(screen_name=channel.handle)
             user_cache = TwitterCache(
+                datetime.now(),
                 channel.handle,
                 user.id,
                 user.name,

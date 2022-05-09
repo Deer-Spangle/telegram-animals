@@ -1,6 +1,5 @@
 import dataclasses
 from abc import ABC, abstractmethod
-from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional, Dict, Union
 
@@ -79,23 +78,23 @@ class TelegramCache(ChannelCache):
         self.title = title
 
     @property
-    def date_checked(self) -> Optional[datetime]:
+    def date_checked(self) -> datetime:
         return self._date_checked
 
     @property
-    def gif_count(self) -> Optional[int]:
+    def gif_count(self) -> int:
         return self._gif_count
 
     @property
-    def pic_count(self) -> Optional[int]:
+    def pic_count(self) -> int:
         return self._pic_count
 
     @property
-    def video_count(self) -> Optional[int]:
+    def video_count(self) -> int:
         return self._video_count
 
     @property
-    def subscribers(self) -> Optional[int]:
+    def subscribers(self) -> int:
         return self._subscribers
 
     @property
@@ -136,40 +135,78 @@ class TelegramCache(ChannelCache):
         )
 
 
-@dataclasses.dataclass
-class TwitterCache:
-    handle: str
-    user_id: int
-    display_name: int
-    bio: str
-    user_location: str
-    user_url: str
-    creation_datetime: datetime
-    num_subs: int
-    num_tweets: int
-    latest_post: datetime
-    sample: "TwitterSample" = None
+class TwitterCache(ChannelCache):
+    def __init__(
+            self,
+            date_checked: datetime,
+            handle: str,
+            user_id: int,
+            display_name: int,
+            bio: str,
+            user_location: str,
+            user_url: str,
+            creation_datetime: datetime,
+            subscribers: int,
+            post_count: int,
+            latest_post: datetime,
+            sample: "TwitterSample" = None,
+    ):
+        self._date_checked = date_checked
+        self.handle = handle
+        self.user_id = user_id
+        self.display_name = display_name
+        self.bio = bio
+        self.user_location = user_location
+        self.user_url = user_url
+        self.creation_datetime = creation_datetime
+        self._subscribers = subscribers
+        self._post_count = post_count
+        self._latest_post = latest_post
+        self.sample = sample or TwitterSample()
 
     @property
-    def num_pics(self) -> Optional[int]:
-        if self.sample is None:
-            return None
-        pics_per_tweet = self.sample.num_pics / self.sample.num_tweets
-        return int(pics_per_tweet * self.num_tweets)
+    def date_checked(self) -> Optional[datetime]:
+        return self._date_checked
 
     @property
-    def num_vids(self) -> Optional[int]:
-        if self.sample is None:
-            return None
-        vids_per_tweet = self.sample.num_vids / self.sample.num_tweets
-        return int(vids_per_tweet * self.num_tweets)
-
-    @property
-    def num_gifs(self) -> Optional[int]:
+    def gif_count(self) -> Optional[int]:
         if self.sample is None:
             return None
         gifs_per_tweet = self.sample.num_gifs / self.sample.num_tweets
-        return int(gifs_per_tweet * self.num_tweets)
+        return int(gifs_per_tweet * self._post_count)
+
+    @property
+    def pic_count(self) -> Optional[int]:
+        if self.sample is None:
+            return None
+        pics_per_tweet = self.sample.num_pics / self.sample.num_tweets
+        return int(pics_per_tweet * self._post_count)
+
+    @property
+    def video_count(self) -> Optional[int]:
+        if self.sample is None:
+            return None
+        vids_per_tweet = self.sample.num_vids / self.sample.num_tweets
+        return int(vids_per_tweet * self._post_count)
+
+    @property
+    def post_count(self) -> int:
+        return self._post_count
+
+    @property
+    def subscribers(self) -> int:
+        return self._subscribers
+
+    @property
+    def latest_post(self) -> Optional[datetime]:
+        return self._latest_post
+
+    def to_json(self) -> Dict:
+        pass  # TODO
+
+    @classmethod
+    def from_json(cls, json_cache: Dict) -> "ChannelCache":
+        pass  # TODO
 
 
 @dataclasses.dataclass
@@ -184,7 +221,4 @@ class TwitterSample:
     num_gifs: int = 0
     num_other_media: int = 0
     num_pic_tweets: int = 0
-    num_vid_tweets: int = 0
-    num_gif_tweets: int = 0
-    num_other_media_tweets: int = 0
     num_no_media_tweets: int = 0
