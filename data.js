@@ -2242,20 +2242,6 @@ const telegramChannels = {
     },
     {
       "platform": "telegram",
-      "link": "https://t.me/FluffyFoxxos",
-      "handle": "FluffyFoxxos",
-      "animal": "Fox",
-      "owner": "starunderscorestar",
-      "num_posts": null,
-      "num_pics": 2886,
-      "num_gifs": 92,
-      "num_vids": 12,
-      "num_subs": 313,
-      "latest_post": "2021-02-23",
-      "notes": ""
-    },
-    {
-      "platform": "telegram",
       "link": "https://t.me/HourlyBleat",
       "handle": "HourlyBleat",
       "animal": "Deer",
@@ -2645,20 +2631,6 @@ const telegramChannels = {
       "num_subs": 1257,
       "latest_post": "2022-02-10",
       "notes": "Also uses @birbchat"
-    },
-    {
-      "platform": "telegram",
-      "link": "https://t.me/opossums",
-      "handle": "opossums",
-      "animal": "Opossum",
-      "owner": "?",
-      "num_posts": null,
-      "num_pics": 9067,
-      "num_gifs": 0,
-      "num_vids": 0,
-      "num_subs": 31,
-      "latest_post": "2021-10-28",
-      "notes": ""
     },
     {
       "platform": "telegram",
@@ -3334,20 +3306,6 @@ const telegramChannels = {
     },
     {
       "platform": "telegram",
-      "link": "https://t.me/dailyfoxes",
-      "handle": "dailyfoxes",
-      "animal": "Fox",
-      "owner": "?",
-      "num_posts": null,
-      "num_pics": 2,
-      "num_gifs": 0,
-      "num_vids": 0,
-      "num_subs": 2,
-      "latest_post": "2022-01-24",
-      "notes": ""
-    },
-    {
-      "platform": "telegram",
       "link": "https://t.me/wolfchannel",
       "handle": "wolfchannel",
       "animal": "Wolf",
@@ -3870,12 +3828,12 @@ const telegramChannels = {
       "handle": "monkegif",
       "animal": "Monkey",
       "owner": "panna_acidaa",
-      "num_posts": null,
-      "num_pics": 1,
-      "num_gifs": 106,
-      "num_vids": 1,
-      "num_subs": 3,
-      "latest_post": "2021-11-04",
+      "num_posts": 106,
+      "num_pics": 0,
+      "num_gifs": 103,
+      "num_vids": 0,
+      "num_subs": 25,
+      "latest_post": "2022-04-26",
       "notes": "Part of Panna Acida network"
     },
     {
@@ -4328,20 +4286,6 @@ const telegramChannels = {
     },
     {
       "platform": "telegram",
-      "link": "https://t.me/duckgif",
-      "handle": "duckgif",
-      "animal": "Duck",
-      "owner": "?",
-      "num_posts": null,
-      "num_pics": 0,
-      "num_gifs": 7,
-      "num_vids": 1,
-      "num_subs": 7,
-      "latest_post": "2021-08-10",
-      "notes": ""
-    },
-    {
-      "platform": "telegram",
       "link": "https://t.me/birds_channel",
       "handle": "birds_channel",
       "animal": "Bird",
@@ -4423,20 +4367,6 @@ const telegramChannels = {
       "num_subs": 2,
       "latest_post": "2021-05-04",
       "notes": "Russian"
-    },
-    {
-      "platform": "telegram",
-      "link": "https://t.me/kittens_kittens",
-      "handle": "kittens_kittens",
-      "animal": "Kitten",
-      "owner": "?",
-      "num_posts": null,
-      "num_pics": 26,
-      "num_gifs": 1,
-      "num_vids": 0,
-      "num_subs": 6,
-      "latest_post": "2021-03-01",
-      "notes": "cats and memes"
     },
     {
       "platform": "telegram",
@@ -4678,20 +4608,6 @@ const telegramChannels = {
     },
     {
       "platform": "telegram",
-      "link": "https://t.me/thecatsnews",
-      "handle": "thecatsnews",
-      "animal": "Cat",
-      "owner": "?",
-      "num_posts": null,
-      "num_pics": 58,
-      "num_gifs": 132,
-      "num_vids": 154,
-      "num_subs": 7,
-      "latest_post": "2021-07-26",
-      "notes": "Russian"
-    },
-    {
-      "platform": "telegram",
       "link": "https://t.me/thedailycat",
       "handle": "thedailycat",
       "animal": "Cat",
@@ -4832,20 +4748,6 @@ const telegramChannels = {
     },
     {
       "platform": "telegram",
-      "link": "https://t.me/dogpic",
-      "handle": "dogpic",
-      "animal": "Dog",
-      "owner": "?",
-      "num_posts": null,
-      "num_pics": 10,
-      "num_gifs": 0,
-      "num_vids": 2,
-      "num_subs": 18,
-      "latest_post": "2021-03-03",
-      "notes": ""
-    },
-    {
-      "platform": "telegram",
       "link": "https://t.me/dogpicture",
       "handle": "dogpicture",
       "animal": "Dog",
@@ -4857,20 +4759,6 @@ const telegramChannels = {
       "num_subs": 2,
       "latest_post": "2021-08-27",
       "notes": ""
-    },
-    {
-      "platform": "telegram",
-      "link": "https://t.me/dogsedits",
-      "handle": "dogsedits",
-      "animal": "Dog",
-      "owner": "?",
-      "num_posts": null,
-      "num_pics": 67,
-      "num_gifs": 0,
-      "num_vids": 0,
-      "num_subs": 2,
-      "latest_post": "2020-11-14",
-      "notes": "Russian"
     },
     {
       "platform": "telegram",
