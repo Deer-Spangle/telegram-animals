@@ -6,13 +6,15 @@ const telegramChannels = {
       "handle": "alpacagifs",
       "animal": "Alpaca",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 201,
       "num_pics": 1,
       "num_gifs": 198,
       "num_vids": 0,
       "num_subs": 83,
       "latest_post": "2022-05-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -20,13 +22,15 @@ const telegramChannels = {
       "handle": "chickengifs",
       "animal": "Chicken",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 380,
       "num_pics": 0,
       "num_gifs": 379,
       "num_vids": 0,
       "num_subs": 597,
       "latest_post": "2022-04-29",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -34,13 +38,15 @@ const telegramChannels = {
       "handle": "corvidgifs",
       "animal": "Corvid",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 144,
       "num_pics": 0,
       "num_gifs": 143,
       "num_vids": 0,
       "num_subs": 346,
       "latest_post": "2022-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -48,13 +54,15 @@ const telegramChannels = {
       "handle": "cowgifs",
       "animal": "Cow",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 1281,
       "num_pics": 0,
       "num_gifs": 1268,
       "num_vids": 10,
       "num_subs": 445,
       "latest_post": "2022-05-03",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -62,13 +70,15 @@ const telegramChannels = {
       "handle": "deergifs",
       "animal": "Deer",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 1352,
       "num_pics": 0,
       "num_gifs": 1349,
       "num_vids": 1,
       "num_subs": 1206,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -76,13 +86,15 @@ const telegramChannels = {
       "handle": "deersounds",
       "animal": "Deer",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 33,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 30,
       "num_subs": 107,
       "latest_post": "2021-06-24",
-      "notes": "Video channel"
+      "notes": "Video channel",
+      "notes_html": "Video channel"
     },
     {
       "platform": "telegram",
@@ -90,13 +102,15 @@ const telegramChannels = {
       "handle": "elephantgifs",
       "animal": "Elephant",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 146,
       "num_pics": 0,
       "num_gifs": 145,
       "num_vids": 0,
       "num_subs": 9,
       "latest_post": "2022-05-02",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -104,13 +118,15 @@ const telegramChannels = {
       "handle": "goatgifs",
       "animal": "Goat",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 270,
       "num_pics": 0,
       "num_gifs": 269,
       "num_vids": 0,
       "num_subs": 453,
       "latest_post": "2022-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -118,13 +134,15 @@ const telegramChannels = {
       "handle": "horsegifs",
       "animal": "Horse",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 469,
       "num_pics": 0,
       "num_gifs": 467,
       "num_vids": 0,
       "num_subs": 352,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -132,13 +150,15 @@ const telegramChannels = {
       "handle": "piggifs",
       "animal": "Pig",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 376,
       "num_pics": 0,
       "num_gifs": 374,
       "num_vids": 0,
       "num_subs": 182,
       "latest_post": "2022-04-12",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -146,13 +166,15 @@ const telegramChannels = {
       "handle": "sheepgifs",
       "animal": "Sheep",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 133,
       "num_pics": 0,
       "num_gifs": 131,
       "num_vids": 0,
       "num_subs": 191,
       "latest_post": "2022-04-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -160,13 +182,15 @@ const telegramChannels = {
       "handle": "tigergifs",
       "animal": "Tiger",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 401,
       "num_pics": 0,
       "num_gifs": 396,
       "num_vids": 3,
       "num_subs": 66,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -174,13 +198,15 @@ const telegramChannels = {
       "handle": "IllegalBirds",
       "animal": "Bird",
       "owner": "Zephyr42",
+      "owner_html": "Zephyr42",
       "num_posts": 13,
       "num_pics": 5,
       "num_gifs": 6,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2021-04-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -188,13 +214,15 @@ const telegramChannels = {
       "handle": "fox_gifs",
       "animal": "Fox",
       "owner": "Kubalzki",
+      "owner_html": "Kubalzki",
       "num_posts": 722,
       "num_pics": 0,
       "num_gifs": 719,
       "num_vids": 0,
       "num_subs": 702,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -202,13 +230,15 @@ const telegramChannels = {
       "handle": "seapuppies",
       "animal": "Seapuppy",
       "owner": "Zephyr42",
+      "owner_html": "Zephyr42",
       "num_posts": 42,
       "num_pics": 0,
       "num_gifs": 39,
       "num_vids": 1,
       "num_subs": 12,
       "latest_post": "2022-01-29",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -216,13 +246,15 @@ const telegramChannels = {
       "handle": "wolf_gifs",
       "animal": "Wolf",
       "owner": "Kubalzki",
+      "owner_html": "Kubalzki",
       "num_posts": 355,
       "num_pics": 0,
       "num_gifs": 352,
       "num_vids": 0,
       "num_subs": 498,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -230,13 +262,15 @@ const telegramChannels = {
       "handle": "Piggiest",
       "animal": "Pig",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 517,
       "num_pics": 183,
       "num_gifs": 292,
       "num_vids": 38,
       "num_subs": 282,
       "latest_post": "2021-11-10",
-      "notes": "Owner unknown"
+      "notes": "Owner unknown",
+      "notes_html": "Owner unknown"
     },
     {
       "platform": "telegram",
@@ -244,13 +278,15 @@ const telegramChannels = {
       "handle": "HourlyTiger",
       "animal": "Tiger",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11915,
       "num_pics": 11872,
       "num_gifs": 14,
       "num_vids": 1,
       "num_subs": 314,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -258,13 +294,15 @@ const telegramChannels = {
       "handle": "Dailyalpacas",
       "animal": "Alpaca",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 88,
       "num_pics": 51,
       "num_gifs": 11,
       "num_vids": 4,
       "num_subs": 22,
       "latest_post": "2021-05-10",
-      "notes": "Not english"
+      "notes": "Not english",
+      "notes_html": "Not english"
     },
     {
       "platform": "telegram",
@@ -272,13 +310,15 @@ const telegramChannels = {
       "handle": "alpacaland",
       "animal": "Alpaca",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1761,
       "num_pics": 1224,
       "num_gifs": 213,
       "num_vids": 304,
       "num_subs": 545,
       "latest_post": "2022-05-10",
-      "notes": "Not english"
+      "notes": "Not english",
+      "notes_html": "Not english"
     },
     {
       "platform": "telegram",
@@ -286,13 +326,15 @@ const telegramChannels = {
       "handle": "deerpics",
       "animal": "Deer",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 91,
       "num_pics": 84,
       "num_gifs": 5,
       "num_vids": 0,
       "num_subs": 7,
       "latest_post": "2017-02-01",
-      "notes": "Inactive"
+      "notes": "Inactive",
+      "notes_html": "Inactive"
     },
     {
       "platform": "telegram",
@@ -300,13 +342,15 @@ const telegramChannels = {
       "handle": "DeerPictures",
       "animal": "Deer",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 36,
       "num_pics": 18,
       "num_gifs": 14,
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2019-01-27",
-      "notes": "Inactive"
+      "notes": "Inactive",
+      "notes_html": "Inactive"
     },
     {
       "platform": "telegram",
@@ -314,13 +358,15 @@ const telegramChannels = {
       "handle": "dailygoat",
       "animal": "Goat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2361,
       "num_pics": 1888,
       "num_gifs": 12,
       "num_vids": 25,
       "num_subs": 169,
       "latest_post": "2022-05-09",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -328,13 +374,15 @@ const telegramChannels = {
       "handle": "dailygoats",
       "animal": "Goat",
       "owner": "?goatbotboibot",
+      "owner_html": "?goatbotboibot",
       "num_posts": 914,
       "num_pics": 442,
       "num_gifs": 5,
       "num_vids": 0,
       "num_subs": 6,
       "latest_post": "2022-05-09",
-      "notes": "Automatic bot"
+      "notes": "Automatic bot",
+      "notes_html": "Automatic bot"
     },
     {
       "platform": "telegram",
@@ -342,13 +390,15 @@ const telegramChannels = {
       "handle": "Horsesgif",
       "animal": "Horse",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 39,
       "num_pics": 0,
       "num_gifs": 7,
       "num_vids": 0,
       "num_subs": 5,
       "latest_post": "2020-01-26",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -356,13 +406,15 @@ const telegramChannels = {
       "handle": "loveforhorses",
       "animal": "Horse",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 120,
       "num_pics": 111,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 44,
       "latest_post": "2019-11-06",
-      "notes": "Owner deleted"
+      "notes": "Owner deleted",
+      "notes_html": "Owner deleted"
     },
     {
       "platform": "telegram",
@@ -370,13 +422,15 @@ const telegramChannels = {
       "handle": "DailyTigers",
       "animal": "Tiger",
       "owner": "Timidelune",
+      "owner_html": "Timidelune",
       "num_posts": 1964,
       "num_pics": 1828,
       "num_gifs": 77,
       "num_vids": 20,
       "num_subs": 159,
       "latest_post": "2022-04-30",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -384,13 +438,15 @@ const telegramChannels = {
       "handle": "tigerpictures",
       "animal": "Tiger",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 62,
       "num_pics": 60,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 8,
       "latest_post": "2016-10-13",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -398,13 +454,15 @@ const telegramChannels = {
       "handle": "FoxesHourlies",
       "animal": "~",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 21,
       "num_pics": 3,
       "num_gifs": 0,
       "num_vids": 3,
       "num_subs": 335,
       "latest_post": "2022-05-04",
-      "notes": "TinyZorro network hub"
+      "notes": "TinyZorro network hub",
+      "notes_html": "TinyZorro network hub"
     },
     {
       "platform": "telegram",
@@ -412,13 +470,15 @@ const telegramChannels = {
       "handle": "HourlyChi",
       "animal": "African Painted Dog",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11811,
       "num_pics": 11778,
       "num_gifs": 3,
       "num_vids": 2,
       "num_subs": 231,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -426,13 +486,15 @@ const telegramChannels = {
       "handle": "bigcatgifs",
       "animal": "Big Cat",
       "owner": "snownel",
+      "owner_html": "snownel",
       "num_posts": 582,
       "num_pics": 0,
       "num_gifs": 580,
       "num_vids": 0,
       "num_subs": 438,
       "latest_post": "2020-08-20",
-      "notes": "Currently down"
+      "notes": "Currently down",
+      "notes_html": "Currently down"
     },
     {
       "platform": "telegram",
@@ -440,13 +502,15 @@ const telegramChannels = {
       "handle": "qualitybirdgifs",
       "animal": "Bird",
       "owner": "XaneFeather",
+      "owner_html": "XaneFeather",
       "num_posts": 757,
       "num_pics": 0,
       "num_gifs": 737,
       "num_vids": 17,
       "num_subs": 1044,
       "latest_post": "2022-05-01",
-      "notes": "Doesn't seem to take submissions"
+      "notes": "Doesn't seem to take submissions",
+      "notes_html": "Doesn't seem to take submissions"
     },
     {
       "platform": "telegram",
@@ -454,13 +518,15 @@ const telegramChannels = {
       "handle": "HourlyCaracal",
       "animal": "Caracal",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11867,
       "num_pics": 11828,
       "num_gifs": 6,
       "num_vids": 6,
       "num_subs": 444,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -468,13 +534,15 @@ const telegramChannels = {
       "handle": "CheetahGifs",
       "animal": "Cheetah",
       "owner": "dmuth",
+      "owner_html": "dmuth",
       "num_posts": 14,
       "num_pics": 0,
       "num_gifs": 10,
       "num_vids": 0,
       "num_subs": 4,
       "latest_post": "2022-02-25",
-      "notes": "Doesn't take submissions"
+      "notes": "Doesn't take submissions",
+      "notes_html": "Doesn't take submissions"
     },
     {
       "platform": "telegram",
@@ -482,13 +550,15 @@ const telegramChannels = {
       "handle": "HourlyYotes",
       "animal": "Coyote",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11906,
       "num_pics": 11852,
       "num_gifs": 13,
       "num_vids": 9,
       "num_subs": 543,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -496,13 +566,15 @@ const telegramChannels = {
       "handle": "HourlyJaguars",
       "animal": "Jaguar",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11624,
       "num_pics": 11593,
       "num_gifs": 2,
       "num_vids": 3,
       "num_subs": 147,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -510,13 +582,15 @@ const telegramChannels = {
       "handle": "lynx_gifs",
       "animal": "Lynx",
       "owner": "Snynx, GreenFloofBall",
+      "owner_html": "Snynx, GreenFloofBall",
       "num_posts": 473,
       "num_pics": 0,
       "num_gifs": 460,
       "num_vids": 1,
       "num_subs": 274,
       "latest_post": "2021-02-21",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -524,13 +598,15 @@ const telegramChannels = {
       "handle": "HourlyPineMarten",
       "animal": "Pine Marten",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11730,
       "num_pics": 11659,
       "num_gifs": 29,
       "num_vids": 16,
       "num_subs": 578,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -538,13 +614,15 @@ const telegramChannels = {
       "handle": "HourlyBun",
       "animal": "Rabbit",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11930,
       "num_pics": 11869,
       "num_gifs": 22,
       "num_vids": 10,
       "num_subs": 614,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -552,13 +630,15 @@ const telegramChannels = {
       "handle": "HourlyCoon",
       "animal": "Raccoon",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 12420,
       "num_pics": 12342,
       "num_gifs": 28,
       "num_vids": 16,
       "num_subs": 577,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -566,13 +646,15 @@ const telegramChannels = {
       "handle": "snepgifs",
       "animal": "Snep",
       "owner": "snownel",
+      "owner_html": "snownel",
       "num_posts": 657,
       "num_pics": 0,
       "num_gifs": 655,
       "num_vids": 0,
       "num_subs": 568,
       "latest_post": "2020-09-23",
-      "notes": "Currently down"
+      "notes": "Currently down",
+      "notes_html": "Currently down"
     },
     {
       "platform": "telegram",
@@ -580,13 +662,15 @@ const telegramChannels = {
       "handle": "HourlySnep",
       "animal": "Snep",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11906,
       "num_pics": 11872,
       "num_gifs": 7,
       "num_vids": 0,
       "num_subs": 314,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -594,13 +678,15 @@ const telegramChannels = {
       "handle": "HourlyWoofs",
       "animal": "Wolf",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 12052,
       "num_pics": 12014,
       "num_gifs": 10,
       "num_vids": 1,
       "num_subs": 415,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -608,13 +694,15 @@ const telegramChannels = {
       "handle": "Cutehappystuffs",
       "animal": "*",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 24172,
       "num_pics": 9957,
       "num_gifs": 11389,
       "num_vids": 1112,
       "num_subs": 12644,
       "latest_post": "2022-05-10",
-      "notes": "Many animals"
+      "notes": "Many animals",
+      "notes_html": "Many animals"
     },
     {
       "platform": "telegram",
@@ -622,13 +710,15 @@ const telegramChannels = {
       "handle": "BatGifs",
       "animal": "Bat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 330,
       "num_pics": 0,
       "num_gifs": 316,
       "num_vids": 3,
       "num_subs": 15,
       "latest_post": "2022-04-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -636,13 +726,15 @@ const telegramChannels = {
       "handle": "batsdaily",
       "animal": "Bat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2354,
       "num_pics": 1426,
       "num_gifs": 78,
       "num_vids": 369,
       "num_subs": 752,
       "latest_post": "2022-02-26",
-      "notes": "Not english"
+      "notes": "Not english",
+      "notes_html": "Not english"
     },
     {
       "platform": "telegram",
@@ -650,13 +742,15 @@ const telegramChannels = {
       "handle": "hourlybats",
       "animal": "Bat",
       "owner": "Flamauzn",
+      "owner_html": "Flamauzn",
       "num_posts": 6046,
       "num_pics": 5818,
       "num_gifs": 125,
       "num_vids": 50,
       "num_subs": 706,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -664,13 +758,15 @@ const telegramChannels = {
       "handle": "novuscats",
       "animal": "Big Cat",
       "owner": "?Novus?",
+      "owner_html": "?Novus?",
       "num_posts": 88,
       "num_pics": 0,
       "num_gifs": 87,
       "num_vids": 0,
       "num_subs": 6,
       "latest_post": "2021-11-21",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -678,13 +774,15 @@ const telegramChannels = {
       "handle": "birdgifs",
       "animal": "Bird",
       "owner": "BlueberryCrow",
+      "owner_html": "BlueberryCrow",
       "num_posts": 3515,
       "num_pics": 0,
       "num_gifs": 3508,
       "num_vids": 0,
       "num_subs": 2943,
       "latest_post": "2021-12-14",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -692,13 +790,15 @@ const telegramChannels = {
       "handle": "birdpics",
       "animal": "Bird",
       "owner": "Sanqui, pyroalex",
+      "owner_html": "Sanqui, pyroalex",
       "num_posts": 105,
       "num_pics": 101,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 89,
       "latest_post": "2021-01-21",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -706,13 +806,15 @@ const telegramChannels = {
       "handle": "Birds",
       "animal": "Bird",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 541,
       "num_pics": 536,
       "num_gifs": 0,
       "num_vids": 2,
       "num_subs": 39265,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -720,13 +822,15 @@ const telegramChannels = {
       "handle": "HourlyCapybara",
       "animal": "Capybara",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 12692,
       "num_pics": 12650,
       "num_gifs": 8,
       "num_vids": 4,
       "num_subs": 1113,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -734,13 +838,15 @@ const telegramChannels = {
       "handle": "HourlyCaracals",
       "animal": "Caracal",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 25423,
       "num_pics": 25414,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 90,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -748,13 +854,15 @@ const telegramChannels = {
       "handle": "catgifcentral",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 5370,
       "num_pics": 0,
       "num_gifs": 5355,
       "num_vids": 0,
       "num_subs": 327,
       "latest_post": "2021-11-01",
-      "notes": "Lots of non-cats"
+      "notes": "Lots of non-cats",
+      "notes_html": "Lots of non-cats"
     },
     {
       "platform": "telegram",
@@ -762,13 +870,15 @@ const telegramChannels = {
       "handle": "catpic",
       "animal": "Cat",
       "owner": "trxye",
+      "owner_html": "trxye",
       "num_posts": 73,
       "num_pics": 54,
       "num_gifs": 6,
       "num_vids": 3,
       "num_subs": 40,
       "latest_post": "2018-11-14",
-      "notes": "Owner deleted"
+      "notes": "Owner deleted",
+      "notes_html": "Owner deleted"
     },
     {
       "platform": "telegram",
@@ -776,13 +886,15 @@ const telegramChannels = {
       "handle": "CatPics",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 168,
       "num_pics": 94,
       "num_gifs": 50,
       "num_vids": 23,
       "num_subs": 337,
       "latest_post": "2022-05-01",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -790,13 +902,15 @@ const telegramChannels = {
       "handle": "CatPicture",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 791,
       "num_pics": 790,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 266,
       "latest_post": "2022-03-13",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -804,13 +918,15 @@ const telegramChannels = {
       "handle": "CatPicturesAndGifs",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2472,
       "num_pics": 1731,
       "num_gifs": 689,
       "num_vids": 39,
       "num_subs": 112,
       "latest_post": "2020-06-17",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -818,13 +934,15 @@ const telegramChannels = {
       "handle": "FunnyCatsGifs",
       "animal": "Cat",
       "owner": "merchantik",
+      "owner_html": "merchantik",
       "num_posts": 21119,
       "num_pics": 3,
       "num_gifs": 21055,
       "num_vids": 1,
       "num_subs": 1233,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -832,13 +950,15 @@ const telegramChannels = {
       "handle": "hourlycheetahs",
       "animal": "Cheetah",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 39315,
       "num_pics": 39292,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 354,
       "latest_post": "2022-05-10",
-      "notes": "Mirrored to twitter.com/HourlyCheetahs"
+      "notes": "Mirrored to https://twitter.com/HourlyCheetahs",
+      "notes_html": "Mirrored to <a href=\"https://twitter.com/HourlyCheetahs\" target=\"_blank\">https://twitter.com/HourlyCheetahs</a>"
     },
     {
       "platform": "telegram",
@@ -846,13 +966,15 @@ const telegramChannels = {
       "handle": "dinodaily",
       "animal": "Dinosaur",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 590,
       "num_pics": 2,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 56,
       "latest_post": "2017-12-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -860,13 +982,15 @@ const telegramChannels = {
       "handle": "daily_dog",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1504,
       "num_pics": 0,
       "num_gifs": 1467,
       "num_vids": 0,
       "num_subs": 9,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -874,13 +998,15 @@ const telegramChannels = {
       "handle": "dailydoge",
       "animal": "Dog",
       "owner": "Timmy93",
+      "owner_html": "Timmy93",
       "num_posts": 194,
       "num_pics": 127,
       "num_gifs": 24,
       "num_vids": 33,
       "num_subs": 12,
       "latest_post": "2021-05-14",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -888,13 +1014,15 @@ const telegramChannels = {
       "handle": "DailyDogGifs",
       "animal": "Dog",
       "owner": "FinnTheDafter",
+      "owner_html": "FinnTheDafter",
       "num_posts": 1410,
       "num_pics": 29,
       "num_gifs": 1054,
       "num_vids": 186,
       "num_subs": 310,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -902,13 +1030,15 @@ const telegramChannels = {
       "handle": "dailydoggo",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 42,
       "num_pics": 9,
       "num_gifs": 30,
       "num_vids": 0,
       "num_subs": 5,
       "latest_post": "2018-03-22",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -916,13 +1046,15 @@ const telegramChannels = {
       "handle": "dailydoggos",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 453,
       "num_pics": 388,
       "num_gifs": 48,
       "num_vids": 5,
       "num_subs": 20,
       "latest_post": "2021-10-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -930,13 +1062,15 @@ const telegramChannels = {
       "handle": "dailydoggopic",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2020-10-10",
-      "notes": "Empty"
+      "notes": "Empty",
+      "notes_html": "Empty"
     },
     {
       "platform": "telegram",
@@ -944,13 +1078,15 @@ const telegramChannels = {
       "handle": "dailydogs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 14,
       "num_pics": 8,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 4,
       "latest_post": "2020-04-27",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -958,13 +1094,15 @@ const telegramChannels = {
       "handle": "dogdaily",
       "animal": "Dog",
       "owner": "raverumble",
+      "owner_html": "raverumble",
       "num_posts": 117,
       "num_pics": 113,
       "num_gifs": 1,
       "num_vids": 0,
       "num_subs": 16,
       "latest_post": "2018-09-04",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -972,13 +1110,15 @@ const telegramChannels = {
       "handle": "doggifs",
       "animal": "Dog",
       "owner": "HooliganHusky",
+      "owner_html": "HooliganHusky",
       "num_posts": 642,
       "num_pics": 0,
       "num_gifs": 320,
       "num_vids": 0,
       "num_subs": 106,
       "latest_post": "2019-06-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -986,13 +1126,15 @@ const telegramChannels = {
       "handle": "doggifstash",
       "animal": "Dog",
       "owner": "?Luke",
+      "owner_html": "?Luke",
       "num_posts": 910,
       "num_pics": 0,
       "num_gifs": 894,
       "num_vids": 6,
       "num_subs": 28,
       "latest_post": "2022-02-26",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1000,13 +1142,15 @@ const telegramChannels = {
       "handle": "doggify",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 349,
       "num_pics": 1,
       "num_gifs": 306,
       "num_vids": 0,
       "num_subs": 29,
       "latest_post": "2018-04-13",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1014,13 +1158,15 @@ const telegramChannels = {
       "handle": "dogiwow",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 15459,
       "num_pics": 12695,
       "num_gifs": 572,
       "num_vids": 2153,
       "num_subs": 215,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1028,13 +1174,15 @@ const telegramChannels = {
       "handle": "dogpics",
       "animal": "Dog",
       "owner": "dogpics@maff.im",
+      "owner_html": "dogpics@maff.im",
       "num_posts": 9083,
       "num_pics": 6786,
       "num_gifs": 1457,
       "num_vids": 223,
       "num_subs": 4052,
       "latest_post": "2022-05-09",
-      "notes": "email contact?"
+      "notes": "email contact?",
+      "notes_html": "email contact?"
     },
     {
       "platform": "telegram",
@@ -1042,13 +1190,15 @@ const telegramChannels = {
       "handle": "dogpictures",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 157273,
       "num_pics": 157139,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2022-05-10",
-      "notes": "Automated from subreddit"
+      "notes": "Automated from subreddit",
+      "notes_html": "Automated from subreddit"
     },
     {
       "platform": "telegram",
@@ -1056,13 +1206,15 @@ const telegramChannels = {
       "handle": "gooddoggifs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1676,
       "num_pics": 0,
       "num_gifs": 1598,
       "num_vids": 73,
       "num_subs": 329,
       "latest_post": "2022-05-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1070,13 +1222,15 @@ const telegramChannels = {
       "handle": "dailyduckpic",
       "animal": "Duck",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 718,
       "num_pics": 471,
       "num_gifs": 7,
       "num_vids": 233,
       "num_subs": 91,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1084,13 +1238,15 @@ const telegramChannels = {
       "handle": "dailyducks",
       "animal": "Duck",
       "owner": "everydaydeath",
+      "owner_html": "everydaydeath",
       "num_posts": 268,
       "num_pics": 202,
       "num_gifs": 13,
       "num_vids": 22,
       "num_subs": 455,
       "latest_post": "2022-01-12",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1098,13 +1254,15 @@ const telegramChannels = {
       "handle": "duckgifs",
       "animal": "Duck",
       "owner": "duckboymiro",
+      "owner_html": "duckboymiro",
       "num_posts": 322,
       "num_pics": 30,
       "num_gifs": 189,
       "num_vids": 81,
       "num_subs": 87,
       "latest_post": "2022-05-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1112,13 +1270,15 @@ const telegramChannels = {
       "handle": "ducksandgeese",
       "animal": "Duck",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 361,
       "num_pics": 275,
       "num_gifs": 23,
       "num_vids": 47,
       "num_subs": 39,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1126,13 +1286,15 @@ const telegramChannels = {
       "handle": "FennecFriends",
       "animal": "Fennec",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1807,
       "num_pics": 1316,
       "num_gifs": 191,
       "num_vids": 248,
       "num_subs": 1904,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1140,13 +1302,15 @@ const telegramChannels = {
       "handle": "FennecPost",
       "animal": "Fennec",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 921,
       "num_pics": 686,
       "num_gifs": 204,
       "num_vids": 19,
       "num_subs": 497,
       "latest_post": "2021-03-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1154,13 +1318,15 @@ const telegramChannels = {
       "handle": "fennecgifs",
       "animal": "Fennec",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 80,
       "num_pics": 0,
       "num_gifs": 77,
       "num_vids": 0,
       "num_subs": 62,
       "latest_post": "2021-07-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1168,13 +1334,15 @@ const telegramChannels = {
       "handle": "FerretGifs",
       "animal": "Ferret",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 233,
       "num_pics": 5,
       "num_gifs": 190,
       "num_vids": 13,
       "num_subs": 19,
       "latest_post": "2022-05-03",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1182,13 +1350,15 @@ const telegramChannels = {
       "handle": "ferretpics",
       "animal": "Ferret",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 34,
       "num_pics": 8,
       "num_gifs": 20,
       "num_vids": 0,
       "num_subs": 1,
       "latest_post": "2017-05-11",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1196,13 +1366,15 @@ const telegramChannels = {
       "handle": "HourlyFops",
       "animal": "Fox",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 19849,
       "num_pics": 19268,
       "num_gifs": 262,
       "num_vids": 219,
       "num_subs": 1966,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -1210,13 +1382,15 @@ const telegramChannels = {
       "handle": "HourlyFoxes",
       "animal": "Fox",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 41689,
       "num_pics": 41672,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2592,
       "latest_post": "2022-05-10",
-      "notes": "mirrored to https://twitter.com/hourlyfoxes"
+      "notes": "mirrored to https://twitter.com/hourlyfoxes",
+      "notes_html": "mirrored to <a href=\"https://twitter.com/hourlyfoxes\" target=\"_blank\">https://twitter.com/hourlyfoxes</a>"
     },
     {
       "platform": "telegram",
@@ -1224,13 +1398,15 @@ const telegramChannels = {
       "handle": "dailysadfrog",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 147,
       "num_pics": 138,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 16,
       "latest_post": "2022-03-24",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1238,13 +1414,15 @@ const telegramChannels = {
       "handle": "guineapigscavy",
       "animal": "Guinea Pig",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 218,
       "num_pics": 155,
       "num_gifs": 23,
       "num_vids": 25,
       "num_subs": 37,
       "latest_post": "2020-12-26",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1252,13 +1430,15 @@ const telegramChannels = {
       "handle": "hedgehoggifs",
       "animal": "Hedgehog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 110,
       "num_pics": 1,
       "num_gifs": 69,
       "num_vids": 34,
       "num_subs": 26,
       "latest_post": "2022-02-19",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1266,13 +1446,15 @@ const telegramChannels = {
       "handle": "HourlyHuskies",
       "animal": "Husky",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 11925,
       "num_pics": 11920,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 186,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1280,13 +1462,15 @@ const telegramChannels = {
       "handle": "insectpic",
       "animal": "Insect",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2,
       "num_pics": 1,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 0,
       "latest_post": "2017-08-26",
-      "notes": "Russian bio"
+      "notes": "Russian bio",
+      "notes_html": "Russian bio"
     },
     {
       "platform": "telegram",
@@ -1294,13 +1478,15 @@ const telegramChannels = {
       "handle": "dailykittens",
       "animal": "Kitten",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 0,
       "latest_post": "2020-07-26",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1308,13 +1494,15 @@ const telegramChannels = {
       "handle": "kittenGIFs",
       "animal": "Kitten",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 43,
       "num_pics": 0,
       "num_gifs": 39,
       "num_vids": 0,
       "num_subs": 25,
       "latest_post": "2018-11-24",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1322,13 +1510,15 @@ const telegramChannels = {
       "handle": "kittenpics",
       "animal": "Kitten",
       "owner": "unixLikee",
+      "owner_html": "unixLikee",
       "num_posts": 3,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2017-12-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1336,13 +1526,15 @@ const telegramChannels = {
       "handle": "kittens_daily",
       "animal": "Kitten",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 12,
       "num_pics": 8,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 0,
       "latest_post": "2018-11-11",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1350,13 +1542,15 @@ const telegramChannels = {
       "handle": "Lizardgifs",
       "animal": "Lizard",
       "owner": "lazylizard95",
+      "owner_html": "lazylizard95",
       "num_posts": 440,
       "num_pics": 41,
       "num_gifs": 331,
       "num_vids": 27,
       "num_subs": 40,
       "latest_post": "2021-12-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1364,13 +1558,15 @@ const telegramChannels = {
       "handle": "HourlyLynxes",
       "animal": "Lynx",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 41850,
       "num_pics": 41831,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 562,
       "latest_post": "2022-05-10",
-      "notes": "Mirrored to https://twitter.com/HourlyLynxes"
+      "notes": "Mirrored to https://twitter.com/HourlyLynxes",
+      "notes_html": "Mirrored to <a href=\"https://twitter.com/HourlyLynxes\" target=\"_blank\">https://twitter.com/HourlyLynxes</a>"
     },
     {
       "platform": "telegram",
@@ -1378,13 +1574,15 @@ const telegramChannels = {
       "handle": "lynxpics",
       "animal": "Lynx",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 20,
       "num_pics": 5,
       "num_gifs": 12,
       "num_vids": 0,
       "num_subs": 4,
       "latest_post": "2018-02-18",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1392,13 +1590,15 @@ const telegramChannels = {
       "handle": "HourlyManes",
       "animal": "Maned Wolf",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 14467,
       "num_pics": 14393,
       "num_gifs": 27,
       "num_vids": 11,
       "num_subs": 731,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -1406,13 +1606,15 @@ const telegramChannels = {
       "handle": "monkey_gif",
       "animal": "Monkey",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 79,
       "num_pics": 0,
       "num_gifs": 78,
       "num_vids": 0,
       "num_subs": 543,
       "latest_post": "2022-04-29",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -1420,13 +1622,15 @@ const telegramChannels = {
       "handle": "dailymoths",
       "animal": "Moth",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 391,
       "num_pics": 372,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 23,
       "latest_post": "2021-08-14",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1434,13 +1638,15 @@ const telegramChannels = {
       "handle": "HourlyMoths",
       "animal": "Moth",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 1,
       "latest_post": "2021-03-01",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1448,13 +1654,15 @@ const telegramChannels = {
       "handle": "daily_otter",
       "animal": "Otter",
       "owner": "gusenica",
+      "owner_html": "gusenica",
       "num_posts": 3400,
       "num_pics": 3098,
       "num_gifs": 134,
       "num_vids": 143,
       "num_subs": 177,
       "latest_post": "2017-07-18",
-      "notes": "Stopped"
+      "notes": "Stopped",
+      "notes_html": "Stopped"
     },
     {
       "platform": "telegram",
@@ -1462,13 +1670,15 @@ const telegramChannels = {
       "handle": "DailyOtter",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1771,
       "num_pics": 1719,
       "num_gifs": 6,
       "num_vids": 1,
       "num_subs": 143,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1476,13 +1686,15 @@ const telegramChannels = {
       "handle": "DailyOtters",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 23,
       "num_pics": 0,
       "num_gifs": 19,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2020-10-09",
-      "notes": "Owner deleted"
+      "notes": "Owner deleted",
+      "notes_html": "Owner deleted"
     },
     {
       "platform": "telegram",
@@ -1490,13 +1702,15 @@ const telegramChannels = {
       "handle": "otterdaily",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 26,
       "num_pics": 5,
       "num_gifs": 1,
       "num_vids": 5,
       "num_subs": 2,
       "latest_post": "2017-09-20",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1504,13 +1718,15 @@ const telegramChannels = {
       "handle": "ottergif",
       "animal": "Otter",
       "owner": "?benzi?",
+      "owner_html": "?benzi?",
       "num_posts": 1075,
       "num_pics": 0,
       "num_gifs": 1,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2022-05-10",
-      "notes": "All links"
+      "notes": "All links",
+      "notes_html": "All links"
     },
     {
       "platform": "telegram",
@@ -1518,13 +1734,15 @@ const telegramChannels = {
       "handle": "ottergifs",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 261,
       "num_pics": 0,
       "num_gifs": 258,
       "num_vids": 0,
       "num_subs": 189,
       "latest_post": "2021-05-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1532,13 +1750,15 @@ const telegramChannels = {
       "handle": "otterpics",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 8093,
       "num_pics": 8,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 156,
       "latest_post": "2021-09-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1546,13 +1766,15 @@ const telegramChannels = {
       "handle": "thedailyotter",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 120,
       "num_pics": 105,
       "num_gifs": 1,
       "num_vids": 0,
       "num_subs": 43,
       "latest_post": "2016-12-25",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1560,13 +1782,15 @@ const telegramChannels = {
       "handle": "ILoVeOwLs",
       "animal": "Owl",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3662,
       "num_pics": 3543,
       "num_gifs": 10,
       "num_vids": 97,
       "num_subs": 54,
       "latest_post": "2022-04-17",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1574,13 +1798,15 @@ const telegramChannels = {
       "handle": "panda_gif",
       "animal": "Panda",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 112,
       "num_pics": 0,
       "num_gifs": 108,
       "num_vids": 0,
       "num_subs": 155,
       "latest_post": "2018-03-19",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1588,13 +1814,15 @@ const telegramChannels = {
       "handle": "panda_gifs",
       "animal": "Panda",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 58,
       "num_pics": 0,
       "num_gifs": 56,
       "num_vids": 0,
       "num_subs": 37,
       "latest_post": "2021-02-03",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1602,13 +1830,15 @@ const telegramChannels = {
       "handle": "parrotgif",
       "animal": "Parrot",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 375,
       "num_pics": 47,
       "num_gifs": 199,
       "num_vids": 119,
       "num_subs": 28,
       "latest_post": "2022-03-31",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1616,13 +1846,15 @@ const telegramChannels = {
       "handle": "parrotgifs",
       "animal": "Parrot",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1051,
       "num_pics": 0,
       "num_gifs": 45,
       "num_vids": 1005,
       "num_subs": 5,
       "latest_post": "2020-09-17",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1630,13 +1862,15 @@ const telegramChannels = {
       "handle": "bunnygifs",
       "animal": "Rabbit",
       "owner": "BlueFurryBunny",
+      "owner_html": "BlueFurryBunny",
       "num_posts": 1267,
       "num_pics": 0,
       "num_gifs": 1219,
       "num_vids": 0,
       "num_subs": 877,
       "latest_post": "2022-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1644,13 +1878,15 @@ const telegramChannels = {
       "handle": "CatsRabbiTs",
       "animal": "Rabbit",
       "owner": "survrabbit",
+      "owner_html": "survrabbit",
       "num_posts": 220,
       "num_pics": 0,
       "num_gifs": 216,
       "num_vids": 3,
       "num_subs": 2,
       "latest_post": "2022-04-07",
-      "notes": "Cats and Rabbits"
+      "notes": "Cats and Rabbits",
+      "notes_html": "Cats and Rabbits"
     },
     {
       "platform": "telegram",
@@ -1658,13 +1894,15 @@ const telegramChannels = {
       "handle": "dailyrabbit",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 43,
       "num_pics": 41,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 7,
       "latest_post": "2019-08-19",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1672,13 +1910,15 @@ const telegramChannels = {
       "handle": "RabbitGifs",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 127,
       "num_pics": 3,
       "num_gifs": 119,
       "num_vids": 1,
       "num_subs": 62,
       "latest_post": "2020-01-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1686,13 +1926,15 @@ const telegramChannels = {
       "handle": "TomomoPlusArmando",
       "animal": "Rabbit",
       "owner": "guresawa, deervious",
+      "owner_html": "guresawa, deervious",
       "num_posts": 926,
       "num_pics": 271,
       "num_gifs": 214,
       "num_vids": 174,
       "num_subs": 156,
       "latest_post": "2022-05-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1700,13 +1942,15 @@ const telegramChannels = {
       "handle": "daily_raccoon",
       "animal": "Raccoon",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1331,
       "num_pics": 663,
       "num_gifs": 260,
       "num_vids": 350,
       "num_subs": 322,
       "latest_post": "2022-01-28",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -1714,13 +1958,15 @@ const telegramChannels = {
       "handle": "dailyraccoons",
       "animal": "Raccoon",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1799,
       "num_pics": 1740,
       "num_gifs": 15,
       "num_vids": 1,
       "num_subs": 212,
       "latest_post": "2021-11-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1728,13 +1974,15 @@ const telegramChannels = {
       "handle": "dailyraccs",
       "animal": "Raccoon",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1680,
       "num_pics": 1334,
       "num_gifs": 131,
       "num_vids": 135,
       "num_subs": 2426,
       "latest_post": "2022-05-09",
-      "notes": "Partnered with dailywahs"
+      "notes": "Partnered with dailywahs",
+      "notes_html": "Partnered with dailywahs"
     },
     {
       "platform": "telegram",
@@ -1742,13 +1990,15 @@ const telegramChannels = {
       "handle": "Racc_Attac",
       "animal": "Raccoon",
       "owner": "DegenerateRubbish",
+      "owner_html": "DegenerateRubbish",
       "num_posts": 8,
       "num_pics": 3,
       "num_gifs": 1,
       "num_vids": 1,
       "num_subs": 1,
       "latest_post": "2019-06-02",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1756,13 +2006,15 @@ const telegramChannels = {
       "handle": "daily_seals",
       "animal": "Seal",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 651,
       "num_pics": 418,
       "num_gifs": 42,
       "num_vids": 12,
       "num_subs": 84,
       "latest_post": "2021-11-28",
-      "notes": "Russian, Seals and guinea pigs, bot managed @SealDelivery_bot"
+      "notes": "Russian, Seals and guinea pigs, bot managed @SealDelivery_bot",
+      "notes_html": "Russian, Seals and guinea pigs, bot managed <a href=\"https://t.me/SealDelivery_bot\" target=\"_blank\">@SealDelivery_bot</a>"
     },
     {
       "platform": "telegram",
@@ -1770,13 +2022,15 @@ const telegramChannels = {
       "handle": "sealsandmanatees",
       "animal": "Seal",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 750,
       "num_pics": 578,
       "num_gifs": 23,
       "num_vids": 65,
       "num_subs": 21,
       "latest_post": "2022-05-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1784,13 +2038,15 @@ const telegramChannels = {
       "handle": "HourlyServals",
       "animal": "Serval",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 22650,
       "num_pics": 22640,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 494,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1798,13 +2054,15 @@ const telegramChannels = {
       "handle": "Servalpics",
       "animal": "Serval",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 8603,
       "num_pics": 242,
       "num_gifs": 14,
       "num_vids": 3,
       "num_subs": 75,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1812,13 +2070,15 @@ const telegramChannels = {
       "handle": "allthesharkgifs",
       "animal": "Shark",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 27,
       "num_pics": 0,
       "num_gifs": 26,
       "num_vids": 0,
       "num_subs": 6,
       "latest_post": "2019-07-31",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1826,13 +2086,15 @@ const telegramChannels = {
       "handle": "shorks",
       "animal": "Shark",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 12,
       "num_pics": 0,
       "num_gifs": 9,
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2018-05-29",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1840,13 +2102,15 @@ const telegramChannels = {
       "handle": "dailywahs",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 471,
       "num_pics": 450,
       "num_gifs": 11,
       "num_vids": 0,
       "num_subs": 426,
       "latest_post": "2022-02-03",
-      "notes": "Partnered with dailyraccs"
+      "notes": "Partnered with dailyraccs",
+      "notes_html": "Partnered with dailyraccs"
     },
     {
       "platform": "telegram",
@@ -1854,13 +2118,15 @@ const telegramChannels = {
       "handle": "HourlyWah",
       "animal": "Wah",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 13833,
       "num_pics": 13725,
       "num_gifs": 60,
       "num_vids": 13,
       "num_subs": 747,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -1868,13 +2134,15 @@ const telegramChannels = {
       "handle": "redpandagif",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 43,
       "num_pics": 0,
       "num_gifs": 41,
       "num_vids": 0,
       "num_subs": 63,
       "latest_post": "2020-06-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1882,13 +2150,15 @@ const telegramChannels = {
       "handle": "redpandapics",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 48,
       "num_pics": 42,
       "num_gifs": 2,
       "num_vids": 0,
       "num_subs": 30,
       "latest_post": "2021-06-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1896,13 +2166,15 @@ const telegramChannels = {
       "handle": "redpandasdaily",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 6,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2019-09-09",
-      "notes": "Owner deleted, links to twitter"
+      "notes": "Owner deleted, links to twitter",
+      "notes_html": "Owner deleted, links to twitter"
     },
     {
       "platform": "telegram",
@@ -1910,13 +2182,15 @@ const telegramChannels = {
       "handle": "WahGifs",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 36,
       "num_pics": 0,
       "num_gifs": 34,
       "num_vids": 0,
       "num_subs": 7,
       "latest_post": "2020-12-26",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1924,13 +2198,15 @@ const telegramChannels = {
       "handle": "wolfgifstash",
       "animal": "Wolf",
       "owner": "?luke?",
+      "owner_html": "?luke?",
       "num_posts": 86,
       "num_pics": 0,
       "num_gifs": 81,
       "num_vids": 1,
       "num_subs": 61,
       "latest_post": "2021-12-14",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1938,13 +2214,15 @@ const telegramChannels = {
       "handle": "HourlyWolves",
       "animal": "Wolf",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 39337,
       "num_pics": 39319,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2230,
       "latest_post": "2022-05-10",
-      "notes": "Mirrored to twitter.com/HourlyWolves"
+      "notes": "Mirrored to https://twitter.com/HourlyWolves",
+      "notes_html": "Mirrored to <a href=\"https://twitter.com/HourlyWolves\" target=\"_blank\">https://twitter.com/HourlyWolves</a>"
     },
     {
       "platform": "telegram",
@@ -1952,13 +2230,15 @@ const telegramChannels = {
       "handle": "gifs_yeens_like",
       "animal": "Hyena",
       "owner": "chocolatechipgoofer",
+      "owner_html": "chocolatechipgoofer",
       "num_posts": 923,
       "num_pics": 1,
       "num_gifs": 751,
       "num_vids": 2,
       "num_subs": 192,
       "latest_post": "2022-04-03",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1966,13 +2246,15 @@ const telegramChannels = {
       "handle": "HourlyYeen",
       "animal": "Hyena",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 16762,
       "num_pics": 16557,
       "num_gifs": 108,
       "num_vids": 50,
       "num_subs": 1431,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -1980,13 +2262,15 @@ const telegramChannels = {
       "handle": "hyenagifs",
       "animal": "Hyena",
       "owner": "itsfuckingdani",
+      "owner_html": "itsfuckingdani",
       "num_posts": 46,
       "num_pics": 0,
       "num_gifs": 42,
       "num_vids": 0,
       "num_subs": 20,
       "latest_post": "2020-03-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -1994,13 +2278,15 @@ const telegramChannels = {
       "handle": "hyenapics",
       "animal": "Hyena",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 153,
       "num_pics": 142,
       "num_gifs": 3,
       "num_vids": 3,
       "num_subs": 80,
       "latest_post": "2021-06-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2008,13 +2294,15 @@ const telegramChannels = {
       "handle": "yeenpics",
       "animal": "Hyena",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1918,
       "num_pics": 1580,
       "num_gifs": 95,
       "num_vids": 106,
       "num_subs": 1335,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2022,13 +2310,15 @@ const telegramChannels = {
       "handle": "dailyAWDs",
       "animal": "African Painted Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3226,
       "num_pics": 3187,
       "num_gifs": 8,
       "num_vids": 0,
       "num_subs": 117,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2036,13 +2326,15 @@ const telegramChannels = {
       "handle": "goodpupperfans",
       "animal": "Dog",
       "owner": "VulpesMechanicus",
+      "owner_html": "VulpesMechanicus",
       "num_posts": 8477,
       "num_pics": 4570,
       "num_gifs": 2876,
       "num_vids": 956,
       "num_subs": 2007,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2050,13 +2342,15 @@ const telegramChannels = {
       "handle": "HourlyPoss",
       "animal": "Opossum",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 10944,
       "num_pics": 10871,
       "num_gifs": 27,
       "num_vids": 21,
       "num_subs": 526,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -2064,13 +2358,15 @@ const telegramChannels = {
       "handle": "floppaedits",
       "animal": "Caracal",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4331,
       "num_pics": 3265,
       "num_gifs": 105,
       "num_vids": 713,
       "num_subs": 2953,
       "latest_post": "2022-05-10",
-      "notes": "Bot is @floppa_edits_submissions_bot"
+      "notes": "Bot is @floppa_edits_submissions_bot",
+      "notes_html": "Bot is <a href=\"https://t.me/floppa_edits_submissions_bot\" target=\"_blank\">@floppa_edits_submissions_bot</a>"
     },
     {
       "platform": "telegram",
@@ -2078,13 +2374,15 @@ const telegramChannels = {
       "handle": "flickrsneps",
       "animal": "Snep",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 13984,
       "num_pics": 13881,
       "num_gifs": 2,
       "num_vids": 1,
       "num_subs": 436,
       "latest_post": "2022-05-10",
-      "notes": "Posts every 3 hours, does not repeat. Has a bot @FlickrSnepBot and code exists on github: https://github.com/DariusMiu/hourly-photo-telegram-bot Mirrored to twitter also: https://twitter.com/flickrsneps"
+      "notes": "Posts every 3 hours, does not repeat. Has a bot @FlickrSnepBot and code exists on github: https://github.com/DariusMiu/hourly-photo-telegram-bot Mirrored to twitter also: https://twitter.com/flickrsneps",
+      "notes_html": "Posts every 3 hours, does not repeat. Has a bot <a href=\"https://t.me/FlickrSnepBot\" target=\"_blank\">@FlickrSnepBot</a> and code exists on github: <a href=\"https://github.com/DariusMiu/hourly-photo-telegram-bot\" target=\"_blank\">https://github.com/DariusMiu/hourly-photo-telegram-bot</a> Mirrored to twitter also: <a href=\"https://twitter.com/flickrsneps\" target=\"_blank\">https://twitter.com/flickrsneps</a>"
     },
     {
       "platform": "telegram",
@@ -2092,13 +2390,15 @@ const telegramChannels = {
       "handle": "redtaily",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2410,
       "num_pics": 2351,
       "num_gifs": 13,
       "num_vids": 7,
       "num_subs": 1507,
       "latest_post": "2022-05-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2106,13 +2406,15 @@ const telegramChannels = {
       "handle": "bestdogs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 6354,
       "num_pics": 5843,
       "num_gifs": 327,
       "num_vids": 178,
       "num_subs": 345,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2120,13 +2422,15 @@ const telegramChannels = {
       "handle": "brokencats",
       "animal": "Cat",
       "owner": "lesharodin",
+      "owner_html": "lesharodin",
       "num_posts": 6236,
       "num_pics": 3562,
       "num_gifs": 1566,
       "num_vids": 1099,
       "num_subs": 18949,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2134,13 +2438,15 @@ const telegramChannels = {
       "handle": "cats_cats",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 37879,
       "num_pics": 21257,
       "num_gifs": 14789,
       "num_vids": 1169,
       "num_subs": 80573,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2148,13 +2454,15 @@ const telegramChannels = {
       "handle": "catsc",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 119,
       "num_pics": 102,
       "num_gifs": 0,
       "num_vids": 3,
       "num_subs": 179,
       "latest_post": "2022-03-29",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2162,13 +2470,15 @@ const telegramChannels = {
       "handle": "cutedogs",
       "animal": "Dog",
       "owner": "Schr0dinger",
+      "owner_html": "Schr0dinger",
       "num_posts": 8040,
       "num_pics": 7975,
       "num_gifs": 3,
       "num_vids": 20,
       "num_subs": 2119,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2176,13 +2486,15 @@ const telegramChannels = {
       "handle": "CuteFrogges",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3338,
       "num_pics": 2517,
       "num_gifs": 103,
       "num_vids": 342,
       "num_subs": 1987,
       "latest_post": "2022-05-10",
-      "notes": "Happy Animally network"
+      "notes": "Happy Animally network",
+      "notes_html": "Happy Animally network"
     },
     {
       "platform": "telegram",
@@ -2190,13 +2502,15 @@ const telegramChannels = {
       "handle": "CowsCowsCows",
       "animal": "Cow",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2524,
       "num_pics": 1954,
       "num_gifs": 78,
       "num_vids": 327,
       "num_subs": 506,
       "latest_post": "2022-05-10",
-      "notes": "Happy Animally network"
+      "notes": "Happy Animally network",
+      "notes_html": "Happy Animally network"
     },
     {
       "platform": "telegram",
@@ -2204,13 +2518,15 @@ const telegramChannels = {
       "handle": "lionslionslions",
       "animal": "Lion",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 714,
       "num_pics": 549,
       "num_gifs": 48,
       "num_vids": 90,
       "num_subs": 184,
       "latest_post": "2022-05-10",
-      "notes": "Happy Animally network"
+      "notes": "Happy Animally network",
+      "notes_html": "Happy Animally network"
     },
     {
       "platform": "telegram",
@@ -2218,13 +2534,15 @@ const telegramChannels = {
       "handle": "ShibaInuDoge",
       "animal": "Shiba Inu",
       "owner": "Bestulo",
+      "owner_html": "Bestulo",
       "num_posts": 2988,
       "num_pics": 1997,
       "num_gifs": 652,
       "num_vids": 240,
       "num_subs": 809,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2232,13 +2550,15 @@ const telegramChannels = {
       "handle": "otterappreciation",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 93,
       "num_pics": 74,
       "num_gifs": 5,
       "num_vids": 3,
       "num_subs": 339,
       "latest_post": "2021-04-24",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2246,13 +2566,15 @@ const telegramChannels = {
       "handle": "HourlyBleat",
       "animal": "Deer",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 10890,
       "num_pics": 10862,
       "num_gifs": 6,
       "num_vids": 1,
       "num_subs": 217,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -2260,13 +2582,15 @@ const telegramChannels = {
       "handle": "KotEPaRtY",
       "animal": "Cat",
       "owner": "YaARTEMIY",
+      "owner_html": "YaARTEMIY",
       "num_posts": 52266,
       "num_pics": 26191,
       "num_gifs": 20209,
       "num_vids": 5655,
       "num_subs": 10691,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2274,13 +2598,15 @@ const telegramChannels = {
       "handle": "TheKittyHouse",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 18128,
       "num_pics": 12087,
       "num_gifs": 2430,
       "num_vids": 2174,
       "num_subs": 1624,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2288,13 +2614,15 @@ const telegramChannels = {
       "handle": "roumdcat",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 7614,
       "num_pics": 4584,
       "num_gifs": 1033,
       "num_vids": 1560,
       "num_subs": 2451,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2302,13 +2630,15 @@ const telegramChannels = {
       "handle": "cuteotters",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1461,
       "num_pics": 814,
       "num_gifs": 336,
       "num_vids": 191,
       "num_subs": 2010,
       "latest_post": "2022-05-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2316,13 +2646,15 @@ const telegramChannels = {
       "handle": "TheFoxNews",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3236,
       "num_pics": 1234,
       "num_gifs": 144,
       "num_vids": 932,
       "num_subs": 596,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2330,13 +2662,15 @@ const telegramChannels = {
       "handle": "fox_vulpes_renard_lis",
       "animal": "Fox",
       "owner": "pechenkovsky",
+      "owner_html": "pechenkovsky",
       "num_posts": 4085,
       "num_pics": 3436,
       "num_gifs": 187,
       "num_vids": 430,
       "num_subs": 464,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2344,13 +2678,15 @@ const telegramChannels = {
       "handle": "wah_gifs",
       "animal": "Wah",
       "owner": "Kubalzki",
+      "owner_html": "Kubalzki",
       "num_posts": 147,
       "num_pics": 0,
       "num_gifs": 145,
       "num_vids": 0,
       "num_subs": 61,
       "latest_post": "2022-05-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2358,13 +2694,15 @@ const telegramChannels = {
       "handle": "spanglegifs",
       "animal": "~",
       "owner": "DeerSpangle",
+      "owner_html": "DeerSpangle",
       "num_posts": 6,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 15,
       "latest_post": "2021-11-21",
-      "notes": "DeerSpangle gif channels network hub"
+      "notes": "DeerSpangle gif channels network hub",
+      "notes_html": "DeerSpangle gif channels network hub"
     },
     {
       "platform": "telegram",
@@ -2372,13 +2710,15 @@ const telegramChannels = {
       "handle": "JustDogs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1271,
       "num_pics": 928,
       "num_gifs": 304,
       "num_vids": 7,
       "num_subs": 590,
       "latest_post": "2020-07-26",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2386,13 +2726,15 @@ const telegramChannels = {
       "handle": "dogsandflowers",
       "animal": "Dog",
       "owner": "sellyourcat",
+      "owner_html": "sellyourcat",
       "num_posts": 1884,
       "num_pics": 1532,
       "num_gifs": 65,
       "num_vids": 63,
       "num_subs": 201,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2400,13 +2742,15 @@ const telegramChannels = {
       "handle": "GloryToMiku",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 290,
       "num_pics": 247,
       "num_gifs": 9,
       "num_vids": 9,
       "num_subs": 146,
       "latest_post": "2022-01-07",
-      "notes": "Miku the cat"
+      "notes": "Miku the cat",
+      "notes_html": "Miku the cat"
     },
     {
       "platform": "telegram",
@@ -2414,13 +2758,15 @@ const telegramChannels = {
       "handle": "iboopyeens",
       "animal": "Hyena",
       "owner": "OzzyC",
+      "owner_html": "OzzyC",
       "num_posts": 88,
       "num_pics": 68,
       "num_gifs": 5,
       "num_vids": 3,
       "num_subs": 255,
       "latest_post": "2019-07-02",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2428,13 +2774,15 @@ const telegramChannels = {
       "handle": "CuteFoxes",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4341,
       "num_pics": 4004,
       "num_gifs": 98,
       "num_vids": 1,
       "num_subs": 1263,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2442,13 +2790,15 @@ const telegramChannels = {
       "handle": "cute_meows_and_barks",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4693,
       "num_pics": 4684,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 50,
       "latest_post": "2021-04-20",
-      "notes": "Cats and dogs and others"
+      "notes": "Cats and dogs and others",
+      "notes_html": "Cats and dogs and others"
     },
     {
       "platform": "telegram",
@@ -2456,13 +2806,15 @@ const telegramChannels = {
       "handle": "FarmAnimals",
       "animal": "Cow",
       "owner": "Kroznick",
+      "owner_html": "Kroznick",
       "num_posts": 1135,
       "num_pics": 482,
       "num_gifs": 566,
       "num_vids": 30,
       "num_subs": 188,
       "latest_post": "2022-05-07",
-      "notes": "Various farm animals. Cats, dogs, goats, horses, etc"
+      "notes": "Various farm animals. Cats, dogs, goats, horses, etc",
+      "notes_html": "Various farm animals. Cats, dogs, goats, horses, etc"
     },
     {
       "platform": "telegram",
@@ -2470,13 +2822,15 @@ const telegramChannels = {
       "handle": "cutebunnies",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1839,
       "num_pics": 1698,
       "num_gifs": 127,
       "num_vids": 6,
       "num_subs": 722,
       "latest_post": "2021-10-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2484,13 +2838,15 @@ const telegramChannels = {
       "handle": "ratpost",
       "animal": "Rat",
       "owner": "mintyfoxxe",
+      "owner_html": "mintyfoxxe",
       "num_posts": 1485,
       "num_pics": 762,
       "num_gifs": 146,
       "num_vids": 215,
       "num_subs": 908,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2498,13 +2854,15 @@ const telegramChannels = {
       "handle": "pander_paradise",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2682,
       "num_pics": 1432,
       "num_gifs": 303,
       "num_vids": 79,
       "num_subs": 1107,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2512,13 +2870,15 @@ const telegramChannels = {
       "handle": "Catarium",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 5936,
       "num_pics": 482,
       "num_gifs": 3974,
       "num_vids": 1176,
       "num_subs": 9803,
       "latest_post": "2022-04-26",
-      "notes": "See @CatariumBot for submissions"
+      "notes": "See @CatariumBot for submissions",
+      "notes_html": "See <a href=\"https://t.me/CatariumBot\" target=\"_blank\">@CatariumBot</a> for submissions"
     },
     {
       "platform": "telegram",
@@ -2526,13 +2886,15 @@ const telegramChannels = {
       "handle": "imacat",
       "animal": "Cat",
       "owner": "nakxwest",
+      "owner_html": "nakxwest",
       "num_posts": 15842,
       "num_pics": 533,
       "num_gifs": 13756,
       "num_vids": 1270,
       "num_subs": 15540,
       "latest_post": "2022-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2540,13 +2902,15 @@ const telegramChannels = {
       "handle": "roundcats",
       "animal": "Cat",
       "owner": "tororooo",
+      "owner_html": "tororooo",
       "num_posts": 5964,
       "num_pics": 243,
       "num_gifs": 5142,
       "num_vids": 382,
       "num_subs": 7179,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2554,13 +2918,15 @@ const telegramChannels = {
       "handle": "toadschannel",
       "animal": "Toad",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 6729,
       "num_pics": 6188,
       "num_gifs": 132,
       "num_vids": 357,
       "num_subs": 3255,
       "latest_post": "2022-04-13",
-      "notes": "See @suggest_a_toad_bot for submissions"
+      "notes": "See @suggest_a_toad_bot for submissions",
+      "notes_html": "See <a href=\"https://t.me/suggest_a_toad_bot\" target=\"_blank\">@suggest_a_toad_bot</a> for submissions"
     },
     {
       "platform": "telegram",
@@ -2568,13 +2934,15 @@ const telegramChannels = {
       "handle": "notaraccoon",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2533,
       "num_pics": 1834,
       "num_gifs": 551,
       "num_vids": 127,
       "num_subs": 1298,
       "latest_post": "2022-05-07",
-      "notes": "See @notaraccoonBot for submissions"
+      "notes": "See @notaraccoonBot for submissions",
+      "notes_html": "See <a href=\"https://t.me/notaraccoonBot\" target=\"_blank\">@notaraccoonBot</a> for submissions"
     },
     {
       "platform": "telegram",
@@ -2582,13 +2950,15 @@ const telegramChannels = {
       "handle": "smolkitties",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1247,
       "num_pics": 684,
       "num_gifs": 373,
       "num_vids": 135,
       "num_subs": 1629,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2596,13 +2966,15 @@ const telegramChannels = {
       "handle": "birblife",
       "animal": "Bird",
       "owner": "crossbill",
+      "owner_html": "crossbill",
       "num_posts": 9619,
       "num_pics": 6321,
       "num_gifs": 1556,
       "num_vids": 1231,
       "num_subs": 3724,
       "latest_post": "2022-05-10",
-      "notes": "Has a chat, @birbchat"
+      "notes": "Has a chat, @birbchat",
+      "notes_html": "Has a chat, <a href=\"https://t.me/birbchat\" target=\"_blank\">@birbchat</a>"
     },
     {
       "platform": "telegram",
@@ -2610,13 +2982,15 @@ const telegramChannels = {
       "handle": "papugi",
       "animal": "Bird",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1628,
       "num_pics": 1175,
       "num_gifs": 360,
       "num_vids": 35,
       "num_subs": 5118,
       "latest_post": "2022-05-03",
-      "notes": "See @PopugaysBot for submissions. Also uses @birbchat"
+      "notes": "See @PopugaysBot for submissions. Also uses @birbchat",
+      "notes_html": "See <a href=\"https://t.me/PopugaysBot\" target=\"_blank\">@PopugaysBot</a> for submissions. Also uses <a href=\"https://t.me/birbchat\" target=\"_blank\">@birbchat</a>"
     },
     {
       "platform": "telegram",
@@ -2624,13 +2998,15 @@ const telegramChannels = {
       "handle": "thebirb",
       "animal": "Bird",
       "owner": "artkolp",
+      "owner_html": "artkolp",
       "num_posts": 3887,
       "num_pics": 2954,
       "num_gifs": 239,
       "num_vids": 254,
       "num_subs": 1256,
       "latest_post": "2022-02-10",
-      "notes": "Also uses @birbchat"
+      "notes": "Also uses @birbchat",
+      "notes_html": "Also uses <a href=\"https://t.me/birbchat\" target=\"_blank\">@birbchat</a>"
     },
     {
       "platform": "telegram",
@@ -2638,13 +3014,15 @@ const telegramChannels = {
       "handle": "PuppersAndBorks",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 82311,
       "num_pics": 80893,
       "num_gifs": 1318,
       "num_vids": 54,
       "num_subs": 625,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2652,13 +3030,15 @@ const telegramChannels = {
       "handle": "possums_here",
       "animal": "Opossum",
       "owner": "draggsconnor",
+      "owner_html": "draggsconnor",
       "num_posts": 3106,
       "num_pics": 2566,
       "num_gifs": 317,
       "num_vids": 180,
       "num_subs": 3404,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2666,13 +3046,15 @@ const telegramChannels = {
       "handle": "SlothLovers",
       "animal": "Sloth",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3361,
       "num_pics": 2544,
       "num_gifs": 479,
       "num_vids": 252,
       "num_subs": 448,
       "latest_post": "2022-04-30",
-      "notes": "See @cybersloth_bot for submissions"
+      "notes": "See @cybersloth_bot for submissions",
+      "notes_html": "See <a href=\"https://t.me/cybersloth_bot\" target=\"_blank\">@cybersloth_bot</a> for submissions"
     },
     {
       "platform": "telegram",
@@ -2680,13 +3062,15 @@ const telegramChannels = {
       "handle": "jezitto",
       "animal": "Hedgehog",
       "owner": "diashavs",
+      "owner_html": "diashavs",
       "num_posts": 1888,
       "num_pics": 1635,
       "num_gifs": 163,
       "num_vids": 59,
       "num_subs": 1040,
       "latest_post": "2022-04-15",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2694,13 +3078,15 @@ const telegramChannels = {
       "handle": "dookers",
       "animal": "Ferret",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2487,
       "num_pics": 2166,
       "num_gifs": 187,
       "num_vids": 100,
       "num_subs": 1597,
       "latest_post": "2022-04-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2708,13 +3094,15 @@ const telegramChannels = {
       "handle": "vidrochki",
       "animal": "Otter",
       "owner": "fullofmaggots",
+      "owner_html": "fullofmaggots",
       "num_posts": 17090,
       "num_pics": 11412,
       "num_gifs": 1968,
       "num_vids": 3087,
       "num_subs": 4378,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2722,13 +3110,15 @@ const telegramChannels = {
       "handle": "possumemes",
       "animal": "Opossum",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4350,
       "num_pics": 3576,
       "num_gifs": 233,
       "num_vids": 264,
       "num_subs": 2364,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2736,13 +3126,15 @@ const telegramChannels = {
       "handle": "cat_kv",
       "animal": "Cat",
       "owner": "orlanas",
+      "owner_html": "orlanas",
       "num_posts": 9105,
       "num_pics": 2085,
       "num_gifs": 290,
       "num_vids": 6669,
       "num_subs": 3459,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2750,13 +3142,15 @@ const telegramChannels = {
       "handle": "surfingbirds",
       "animal": "Bird",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1027,
       "num_pics": 615,
       "num_gifs": 233,
       "num_vids": 101,
       "num_subs": 695,
       "latest_post": "2022-02-07",
-      "notes": "See @CatualBot for submissions and feedback"
+      "notes": "See @CatualBot for submissions and feedback",
+      "notes_html": "See <a href=\"https://t.me/CatualBot\" target=\"_blank\">@CatualBot</a> for submissions and feedback"
     },
     {
       "platform": "telegram",
@@ -2764,13 +3158,15 @@ const telegramChannels = {
       "handle": "trippycats",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4129,
       "num_pics": 3206,
       "num_gifs": 727,
       "num_vids": 38,
       "num_subs": 1719,
       "latest_post": "2022-01-09",
-      "notes": "See @CatualBot for submissions and feedback"
+      "notes": "See @CatualBot for submissions and feedback",
+      "notes_html": "See <a href=\"https://t.me/CatualBot\" target=\"_blank\">@CatualBot</a> for submissions and feedback"
     },
     {
       "platform": "telegram",
@@ -2778,13 +3174,15 @@ const telegramChannels = {
       "handle": "trippydogs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 337,
       "num_pics": 228,
       "num_gifs": 101,
       "num_vids": 1,
       "num_subs": 187,
       "latest_post": "2021-09-28",
-      "notes": "See @CatualBot for submissions and feedback"
+      "notes": "See @CatualBot for submissions and feedback",
+      "notes_html": "See <a href=\"https://t.me/CatualBot\" target=\"_blank\">@CatualBot</a> for submissions and feedback"
     },
     {
       "platform": "telegram",
@@ -2792,13 +3190,15 @@ const telegramChannels = {
       "handle": "ratsssz",
       "animal": "Rat",
       "owner": "podvalmetal",
+      "owner_html": "podvalmetal",
       "num_posts": 1109,
       "num_pics": 1018,
       "num_gifs": 9,
       "num_vids": 54,
       "num_subs": 1323,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2806,13 +3206,15 @@ const telegramChannels = {
       "handle": "Chats_Cats_kocky_koty",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 9847,
       "num_pics": 8535,
       "num_gifs": 202,
       "num_vids": 429,
       "num_subs": 2653,
       "latest_post": "2022-05-10",
-      "notes": "See @koty_feedback_bot for submissions and feedback"
+      "notes": "See @koty_feedback_bot for submissions and feedback",
+      "notes_html": "See <a href=\"https://t.me/koty_feedback_bot\" target=\"_blank\">@koty_feedback_bot</a> for submissions and feedback"
     },
     {
       "platform": "telegram",
@@ -2820,13 +3222,15 @@ const telegramChannels = {
       "handle": "voce_bernese",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1131,
       "num_pics": 984,
       "num_gifs": 6,
       "num_vids": 110,
       "num_subs": 111,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2834,13 +3238,15 @@ const telegramChannels = {
       "handle": "HourlyOtt",
       "animal": "Otter",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11015,
       "num_pics": 10957,
       "num_gifs": 14,
       "num_vids": 23,
       "num_subs": 639,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -2848,13 +3254,15 @@ const telegramChannels = {
       "handle": "HourlyLeo",
       "animal": "Lion",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 11083,
       "num_pics": 11058,
       "num_gifs": 1,
       "num_vids": 2,
       "num_subs": 153,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -2862,13 +3270,15 @@ const telegramChannels = {
       "handle": "HourlySneks",
       "animal": "Snake",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 10422,
       "num_pics": 10392,
       "num_gifs": 6,
       "num_vids": 2,
       "num_subs": 153,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -2876,13 +3286,15 @@ const telegramChannels = {
       "handle": "StuffAboutCrows",
       "animal": "Corvid",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 533,
       "num_pics": 462,
       "num_gifs": 17,
       "num_vids": 17,
       "num_subs": 639,
       "latest_post": "2022-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2890,13 +3302,15 @@ const telegramChannels = {
       "handle": "birbchannel",
       "animal": "Bird",
       "owner": "knifewitch",
+      "owner_html": "knifewitch",
       "num_posts": 1375,
       "num_pics": 1045,
       "num_gifs": 114,
       "num_vids": 46,
       "num_subs": 293,
       "latest_post": "2022-04-23",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2904,13 +3318,15 @@ const telegramChannels = {
       "handle": "CougarPics",
       "animal": "Cougar",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 196,
       "num_pics": 195,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 40,
       "latest_post": "2021-07-31",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2918,13 +3334,15 @@ const telegramChannels = {
       "handle": "Samoyed_Channel",
       "animal": "Dog",
       "owner": "Zelts_Elis",
+      "owner_html": "Zelts_Elis",
       "num_posts": 2694,
       "num_pics": 2354,
       "num_gifs": 204,
       "num_vids": 54,
       "num_subs": 730,
       "latest_post": "2022-05-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -2932,13 +3350,15 @@ const telegramChannels = {
       "handle": "bagofcheetos",
       "animal": "Cheetah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": null,
       "num_pics": null,
       "num_gifs": null,
       "num_vids": null,
       "num_subs": null,
       "latest_post": null,
-      "notes": "Blocked my main account, which is a tad confusing"
+      "notes": "Blocked my main account, which is a tad confusing",
+      "notes_html": "Blocked my main account, which is a tad confusing"
     },
     {
       "platform": "telegram",
@@ -2946,13 +3366,15 @@ const telegramChannels = {
       "handle": "BURRS",
       "animal": "Bear",
       "owner": "spcbear",
+      "owner_html": "spcbear",
       "num_posts": 1165,
       "num_pics": 214,
       "num_gifs": 539,
       "num_vids": 86,
       "num_subs": 297,
       "latest_post": "2022-02-07",
-      "notes": "Discussion group at @discussburrs"
+      "notes": "Discussion group at @discussburrs",
+      "notes_html": "Discussion group at <a href=\"https://t.me/discussburrs\" target=\"_blank\">@discussburrs</a>"
     },
     {
       "platform": "telegram",
@@ -2960,13 +3382,15 @@ const telegramChannels = {
       "handle": "snekgifs",
       "animal": "Snake",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 47,
       "num_pics": 0,
       "num_gifs": 44,
       "num_vids": 0,
       "num_subs": 42,
       "latest_post": "2022-04-20",
-      "notes": "Same owner as mierde randm?"
+      "notes": "Same owner as mierde randm?",
+      "notes_html": "Same owner as mierde randm?"
     },
     {
       "platform": "telegram",
@@ -2974,13 +3398,15 @@ const telegramChannels = {
       "handle": "lapqpera",
       "animal": "Duck",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4507,
       "num_pics": 2749,
       "num_gifs": 466,
       "num_vids": 691,
       "num_subs": 1383,
       "latest_post": "2022-05-09",
-      "notes": "Italian, lapqpera network, part of @pagatelupizzu network"
+      "notes": "Italian, lapqpera network, part of @pagatelupizzu network",
+      "notes_html": "Italian, lapqpera network, part of <a href=\"https://t.me/pagatelupizzu\" target=\"_blank\">@pagatelupizzu</a> network"
     },
     {
       "platform": "telegram",
@@ -2988,13 +3414,15 @@ const telegramChannels = {
       "handle": "ilprocionw",
       "animal": "Raccoon",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 163,
       "num_pics": 107,
       "num_gifs": 13,
       "num_vids": 20,
       "num_subs": 187,
       "latest_post": "2021-09-07",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3002,13 +3430,15 @@ const telegramChannels = {
       "handle": "laranw",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 614,
       "num_pics": 425,
       "num_gifs": 23,
       "num_vids": 89,
       "num_subs": 214,
       "latest_post": "2022-04-06",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3016,13 +3446,15 @@ const telegramChannels = {
       "handle": "el_buni",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3884,
       "num_pics": 2580,
       "num_gifs": 309,
       "num_vids": 304,
       "num_subs": 288,
       "latest_post": "2022-05-10",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3030,13 +3462,15 @@ const telegramChannels = {
       "handle": "lalumacw",
       "animal": "Snail",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 558,
       "num_pics": 282,
       "num_gifs": 33,
       "num_vids": 33,
       "num_subs": 196,
       "latest_post": "2022-03-26",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3044,13 +3478,15 @@ const telegramChannels = {
       "handle": "capibqra",
       "animal": "Capybara",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 247,
       "num_pics": 146,
       "num_gifs": 12,
       "num_vids": 8,
       "num_subs": 145,
       "latest_post": "2022-05-08",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3058,13 +3494,15 @@ const telegramChannels = {
       "handle": "nulistheshiba",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1926,
       "num_pics": 1172,
       "num_gifs": 166,
       "num_vids": 120,
       "num_subs": 63,
       "latest_post": "2022-04-25",
-      "notes": "Specific shiba, lapqpera network"
+      "notes": "Specific shiba, lapqpera network",
+      "notes_html": "Specific shiba, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3072,13 +3510,15 @@ const telegramChannels = {
       "handle": "canepallareal",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 242,
       "num_pics": 158,
       "num_gifs": 6,
       "num_vids": 30,
       "num_subs": 20,
       "latest_post": "2022-05-05",
-      "notes": "Specific dog? Italian, lapqpera network"
+      "notes": "Specific dog? Italian, lapqpera network",
+      "notes_html": "Specific dog? Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3086,13 +3526,15 @@ const telegramChannels = {
       "handle": "bestioline",
       "animal": "*",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1585,
       "num_pics": 1241,
       "num_gifs": 77,
       "num_vids": 112,
       "num_subs": 848,
       "latest_post": "2022-05-10",
-      "notes": "Cute small animals, Italian, lapqpera network"
+      "notes": "Cute small animals, Italian, lapqpera network",
+      "notes_html": "Cute small animals, Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3100,13 +3542,15 @@ const telegramChannels = {
       "handle": "lalontrq",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 680,
       "num_pics": 368,
       "num_gifs": 121,
       "num_vids": 36,
       "num_subs": 306,
       "latest_post": "2022-04-28",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3114,13 +3558,15 @@ const telegramChannels = {
       "handle": "PAPERWCHESALTANO",
       "animal": "Parrot",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 404,
       "num_pics": 73,
       "num_gifs": 66,
       "num_vids": 160,
       "num_subs": 238,
       "latest_post": "2022-05-07",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3128,13 +3574,15 @@ const telegramChannels = {
       "handle": "ilriccip",
       "animal": "Hedgehog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 268,
       "num_pics": 132,
       "num_gifs": 75,
       "num_vids": 34,
       "num_subs": 326,
       "latest_post": "2022-03-10",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3142,13 +3590,15 @@ const telegramChannels = {
       "handle": "nyaasus",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 829,
       "num_pics": 406,
       "num_gifs": 286,
       "num_vids": 89,
       "num_subs": 97,
       "latest_post": "2022-05-09",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3156,13 +3606,15 @@ const telegramChannels = {
       "handle": "ilploplo",
       "animal": "Octopus",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 641,
       "num_pics": 491,
       "num_gifs": 60,
       "num_vids": 16,
       "num_subs": 284,
       "latest_post": "2022-05-10",
-      "notes": "Italian, lapqpera network"
+      "notes": "Italian, lapqpera network",
+      "notes_html": "Italian, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3170,13 +3622,15 @@ const telegramChannels = {
       "handle": "liltummy",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 669,
       "num_pics": 528,
       "num_gifs": 11,
       "num_vids": 101,
       "num_subs": 83,
       "latest_post": "2022-05-10",
-      "notes": "Specific 3 cats, lapqpera network"
+      "notes": "Specific 3 cats, lapqpera network",
+      "notes_html": "Specific 3 cats, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3184,13 +3638,15 @@ const telegramChannels = {
       "handle": "cogeshiiiiba",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2685,
       "num_pics": 1852,
       "num_gifs": 174,
       "num_vids": 248,
       "num_subs": 327,
       "latest_post": "2021-11-06",
-      "notes": "Specific shiba, lapqpera network"
+      "notes": "Specific shiba, lapqpera network",
+      "notes_html": "Specific shiba, lapqpera network"
     },
     {
       "platform": "telegram",
@@ -3198,13 +3654,15 @@ const telegramChannels = {
       "handle": "allprocyon",
       "animal": "Raccoon",
       "owner": "@come_to_me_my_inquisitor",
+      "owner_html": "<a href=\"https://t.me/come_to_me_my_inquisitor\" target=\"_blank\">@come_to_me_my_inquisitor</a>",
       "num_posts": 9864,
       "num_pics": 6552,
       "num_gifs": 1470,
       "num_vids": 1730,
       "num_subs": 942,
       "latest_post": "2022-05-10",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -3212,13 +3670,15 @@ const telegramChannels = {
       "handle": "musia_shuvalova",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 207,
       "num_pics": 187,
       "num_gifs": 10,
       "num_vids": 4,
       "num_subs": 60,
       "latest_post": "2022-01-26",
-      "notes": "Specific cat, Musi"
+      "notes": "Specific cat, Musi",
+      "notes_html": "Specific cat, Musi"
     },
     {
       "platform": "telegram",
@@ -3226,13 +3686,15 @@ const telegramChannels = {
       "handle": "HourlyCanine",
       "animal": "Dog",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 6744,
       "num_pics": 6720,
       "num_gifs": 8,
       "num_vids": 1,
       "num_subs": 102,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -3240,13 +3702,15 @@ const telegramChannels = {
       "handle": "HourlySkunk",
       "animal": "Skunk",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 10184,
       "num_pics": 10116,
       "num_gifs": 41,
       "num_vids": 4,
       "num_subs": 198,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -3254,13 +3718,15 @@ const telegramChannels = {
       "handle": "HourlyPuma",
       "animal": "Cougar",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 8580,
       "num_pics": 8562,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 105,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -3268,13 +3734,15 @@ const telegramChannels = {
       "handle": "horse_horse",
       "animal": "Horse",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2350,
       "num_pics": 1353,
       "num_gifs": 10,
       "num_vids": 360,
       "num_subs": 20,
       "latest_post": "2022-04-25",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3282,13 +3750,15 @@ const telegramChannels = {
       "handle": "FoxPic",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3,
       "num_pics": 1,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2021-04-17",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3296,13 +3766,15 @@ const telegramChannels = {
       "handle": "bestfoxes",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 766,
       "num_pics": 714,
       "num_gifs": 8,
       "num_vids": 5,
       "num_subs": 25,
       "latest_post": "2022-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3310,13 +3782,15 @@ const telegramChannels = {
       "handle": "wolfchannel",
       "animal": "Wolf",
       "owner": "@WolFi",
+      "owner_html": "<a href=\"https://t.me/WolFi\" target=\"_blank\">@WolFi</a>",
       "num_posts": 1584,
       "num_pics": 1423,
       "num_gifs": 55,
       "num_vids": 6,
       "num_subs": 129,
       "latest_post": "2022-05-07",
-      "notes": "Pictures and drawings"
+      "notes": "Pictures and drawings",
+      "notes_html": "Pictures and drawings"
     },
     {
       "platform": "telegram",
@@ -3324,13 +3798,15 @@ const telegramChannels = {
       "handle": "wolfgif",
       "animal": "Wolf",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 50,
       "num_pics": 0,
       "num_gifs": 30,
       "num_vids": 18,
       "num_subs": 24,
       "latest_post": "2022-03-30",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3338,13 +3814,15 @@ const telegramChannels = {
       "handle": "wolfgifs",
       "animal": "Wolf",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 40,
       "num_pics": 0,
       "num_gifs": 38,
       "num_vids": 0,
       "num_subs": 6,
       "latest_post": "2022-04-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3352,13 +3830,15 @@ const telegramChannels = {
       "handle": "whales_whales",
       "animal": "Whale",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 15,
       "num_pics": 0,
       "num_gifs": 14,
       "num_vids": 0,
       "num_subs": 1,
       "latest_post": "2021-05-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3366,13 +3846,15 @@ const telegramChannels = {
       "handle": "chickenslife",
       "animal": "Chicken",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1367,
       "num_pics": 886,
       "num_gifs": 6,
       "num_vids": 271,
       "num_subs": 25,
       "latest_post": "2022-04-25",
-      "notes": "Russian home farm, feedback to @feedback_chickenslife_bot"
+      "notes": "Russian home farm, feedback to @feedback_chickenslife_bot",
+      "notes_html": "Russian home farm, feedback to <a href=\"https://t.me/feedback_chickenslife_bot\" target=\"_blank\">@feedback_chickenslife_bot</a>"
     },
     {
       "platform": "telegram",
@@ -3380,13 +3862,15 @@ const telegramChannels = {
       "handle": "bestsheep",
       "animal": "Sheep",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 378,
       "num_pics": 181,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2020-12-29",
-      "notes": "Mostly farsi agriculture info"
+      "notes": "Mostly farsi agriculture info",
+      "notes_html": "Mostly farsi agriculture info"
     },
     {
       "platform": "telegram",
@@ -3394,13 +3878,15 @@ const telegramChannels = {
       "handle": "cuteowls",
       "animal": "Owl",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 58,
       "num_pics": 51,
       "num_gifs": 2,
       "num_vids": 2,
       "num_subs": 9,
       "latest_post": "2021-02-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3408,13 +3894,15 @@ const telegramChannels = {
       "handle": "otterchannel",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 142,
       "num_pics": 32,
       "num_gifs": 24,
       "num_vids": 1,
       "num_subs": 6,
       "latest_post": "2021-07-08",
-      "notes": "Russian, mostly instagram links"
+      "notes": "Russian, mostly instagram links",
+      "notes_html": "Russian, mostly instagram links"
     },
     {
       "platform": "telegram",
@@ -3422,13 +3910,15 @@ const telegramChannels = {
       "handle": "otterlife",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 133,
       "num_pics": 109,
       "num_gifs": 4,
       "num_vids": 7,
       "num_subs": 99,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3436,13 +3926,15 @@ const telegramChannels = {
       "handle": "ottersgif",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 333,
       "num_pics": 66,
       "num_gifs": 219,
       "num_vids": 15,
       "num_subs": 38,
       "latest_post": "2022-03-21",
-      "notes": "Italian, pulls content mostly from @ottergang and @cuteotters"
+      "notes": "Italian, pulls content mostly from @ottergang and @cuteotters",
+      "notes_html": "Italian, pulls content mostly from <a href=\"https://t.me/ottergang\" target=\"_blank\">@ottergang</a> and <a href=\"https://t.me/cuteotters\" target=\"_blank\">@cuteotters</a>"
     },
     {
       "platform": "telegram",
@@ -3450,13 +3942,15 @@ const telegramChannels = {
       "handle": "ottergang",
       "animal": "Otter",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4323,
       "num_pics": 2706,
       "num_gifs": 420,
       "num_vids": 406,
       "num_subs": 2285,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3464,13 +3958,15 @@ const telegramChannels = {
       "handle": "eaglepictures",
       "animal": "Eagle",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 24,
       "num_pics": 23,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 13,
       "latest_post": "2021-04-30",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3478,13 +3974,15 @@ const telegramChannels = {
       "handle": "shark_gifs",
       "animal": "Shark",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 20,
       "num_pics": 0,
       "num_gifs": 16,
       "num_vids": 0,
       "num_subs": 49,
       "latest_post": "2021-11-20",
-      "notes": "Has farsi on most the gifs"
+      "notes": "Has farsi on most the gifs",
+      "notes_html": "Has farsi on most the gifs"
     },
     {
       "platform": "telegram",
@@ -3492,13 +3990,15 @@ const telegramChannels = {
       "handle": "RexGSD",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 496,
       "num_pics": 373,
       "num_gifs": 116,
       "num_vids": 2,
       "num_subs": 221,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3506,13 +4006,15 @@ const telegramChannels = {
       "handle": "dailycorvid",
       "animal": "Corvid",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 420,
       "num_pics": 270,
       "num_gifs": 1,
       "num_vids": 3,
       "num_subs": 8,
       "latest_post": "2020-11-27",
-      "notes": "Drawings mostly"
+      "notes": "Drawings mostly",
+      "notes_html": "Drawings mostly"
     },
     {
       "platform": "telegram",
@@ -3520,13 +4022,15 @@ const telegramChannels = {
       "handle": "leggypics",
       "animal": "Maned Wolf",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2038,
       "num_pics": 1875,
       "num_gifs": 39,
       "num_vids": 20,
       "num_subs": 311,
       "latest_post": "2020-12-26",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3534,13 +4038,15 @@ const telegramChannels = {
       "handle": "servalchannel",
       "animal": "Big Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 55,
       "num_pics": 41,
       "num_gifs": 8,
       "num_vids": 0,
       "num_subs": 22,
       "latest_post": "2021-03-25",
-      "notes": "Warnings that the owner account may be deleted"
+      "notes": "Warnings that the owner account may be deleted",
+      "notes_html": "Warnings that the owner account may be deleted"
     },
     {
       "platform": "telegram",
@@ -3548,13 +4054,15 @@ const telegramChannels = {
       "handle": "justsloths",
       "animal": "Sloth",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 160,
       "num_pics": 84,
       "num_gifs": 30,
       "num_vids": 28,
       "num_subs": 14,
       "latest_post": "2021-05-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3562,13 +4070,15 @@ const telegramChannels = {
       "handle": "guineapig_channel",
       "animal": "Guinea Pig",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 430,
       "num_pics": 120,
       "num_gifs": 0,
       "num_vids": 99,
       "num_subs": 84,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3576,13 +4086,15 @@ const telegramChannels = {
       "handle": "bigcats",
       "animal": "Big Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1003,
       "num_pics": 726,
       "num_gifs": 174,
       "num_vids": 24,
       "num_subs": 404,
       "latest_post": "2021-08-23",
-      "notes": "Russian. Big cat news and stuff also. Has a group, @bigcats_ru"
+      "notes": "Russian. Big cat news and stuff also. Has a group, @bigcats_ru",
+      "notes_html": "Russian. Big cat news and stuff also. Has a group, <a href=\"https://t.me/bigcats_ru\" target=\"_blank\">@bigcats_ru</a>"
     },
     {
       "platform": "telegram",
@@ -3590,13 +4102,15 @@ const telegramChannels = {
       "handle": "bigcatschannel",
       "animal": "Big Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 10,
       "num_pics": 7,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 4,
       "latest_post": "2021-06-18",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3604,13 +4118,15 @@ const telegramChannels = {
       "handle": "justgoose",
       "animal": "Goose",
       "owner": "alifhh2",
+      "owner_html": "alifhh2",
       "num_posts": 142,
       "num_pics": 110,
       "num_gifs": 0,
       "num_vids": 5,
       "num_subs": 52,
       "latest_post": "2022-04-16",
-      "notes": "farsi livestock channel"
+      "notes": "farsi livestock channel",
+      "notes_html": "farsi livestock channel"
     },
     {
       "platform": "telegram",
@@ -3618,13 +4134,15 @@ const telegramChannels = {
       "handle": "hourlymartens",
       "animal": "Pine Marten",
       "owner": "Ra_Zim",
+      "owner_html": "Ra_Zim",
       "num_posts": 11707,
       "num_pics": 9322,
       "num_gifs": 640,
       "num_vids": 1654,
       "num_subs": 1353,
       "latest_post": "2022-05-10",
-      "notes": "Bot by a friend of theirs"
+      "notes": "Bot by a friend of theirs",
+      "notes_html": "Bot by a friend of theirs"
     },
     {
       "platform": "telegram",
@@ -3632,13 +4150,15 @@ const telegramChannels = {
       "handle": "marten_daily",
       "animal": "Pine Marten",
       "owner": "VirtualMarten",
+      "owner_html": "VirtualMarten",
       "num_posts": 41,
       "num_pics": 38,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 8,
       "latest_post": "2021-05-16",
-      "notes": "Bot has been broken for a while"
+      "notes": "Bot has been broken for a while",
+      "notes_html": "Bot has been broken for a while"
     },
     {
       "platform": "telegram",
@@ -3646,13 +4166,15 @@ const telegramChannels = {
       "handle": "sneppics",
       "animal": "Snep",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 16,
       "num_pics": 4,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 1,
       "latest_post": "2021-02-01",
-      "notes": "Pics sent as files"
+      "notes": "Pics sent as files",
+      "notes_html": "Pics sent as files"
     },
     {
       "platform": "telegram",
@@ -3660,13 +4182,15 @@ const telegramChannels = {
       "handle": "dailytoad",
       "animal": "Toad",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2699,
       "num_pics": 1756,
       "num_gifs": 25,
       "num_vids": 245,
       "num_subs": 36,
       "latest_post": "2022-05-10",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -3674,13 +4198,15 @@ const telegramChannels = {
       "handle": "cuteredpandas",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 138,
       "num_pics": 63,
       "num_gifs": 14,
       "num_vids": 57,
       "num_subs": 100,
       "latest_post": "2022-04-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3688,13 +4214,15 @@ const telegramChannels = {
       "handle": "daily_red_panda",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 213,
       "num_pics": 144,
       "num_gifs": 15,
       "num_vids": 7,
       "num_subs": 343,
       "latest_post": "2022-04-26",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3702,13 +4230,15 @@ const telegramChannels = {
       "handle": "red_pandas_channel",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 24,
       "num_pics": 19,
       "num_gifs": 1,
       "num_vids": 0,
       "num_subs": 1,
       "latest_post": "2021-02-12",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3716,13 +4246,15 @@ const telegramChannels = {
       "handle": "dailypossums",
       "animal": "Opossum",
       "owner": "PeachOpossum",
+      "owner_html": "PeachOpossum",
       "num_posts": 3252,
       "num_pics": 1732,
       "num_gifs": 99,
       "num_vids": 1391,
       "num_subs": 1269,
       "latest_post": "2022-03-03",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3730,13 +4262,15 @@ const telegramChannels = {
       "handle": "reptilegif",
       "animal": "Lizard",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 294,
       "num_pics": 0,
       "num_gifs": 288,
       "num_vids": 2,
       "num_subs": 122,
       "latest_post": "2022-04-30",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3744,13 +4278,15 @@ const telegramChannels = {
       "handle": "possum",
       "animal": "Opossum",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 48,
       "num_pics": 47,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 91,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3758,13 +4294,15 @@ const telegramChannels = {
       "handle": "possumgifs",
       "animal": "Opossum",
       "owner": "panna_acidaa",
+      "owner_html": "panna_acidaa",
       "num_posts": 594,
       "num_pics": 7,
       "num_gifs": 552,
       "num_vids": 30,
       "num_subs": 4,
       "latest_post": "2022-05-05",
-      "notes": "Lots of non-possum stuff too. Part of Panna Acida network"
+      "notes": "Lots of non-possum stuff too. Part of Panna Acida network",
+      "notes_html": "Lots of non-possum stuff too. Part of Panna Acida network"
     },
     {
       "platform": "telegram",
@@ -3772,13 +4310,15 @@ const telegramChannels = {
       "handle": "gatinicarini",
       "animal": "Cat",
       "owner": "panna_acidaa",
+      "owner_html": "panna_acidaa",
       "num_posts": 2539,
       "num_pics": 20,
       "num_gifs": 2353,
       "num_vids": 121,
       "num_subs": 19,
       "latest_post": "2022-05-10",
-      "notes": "Part of Panna Acida network"
+      "notes": "Part of Panna Acida network",
+      "notes_html": "Part of Panna Acida network"
     },
     {
       "platform": "telegram",
@@ -3786,13 +4326,15 @@ const telegramChannels = {
       "handle": "froggosfroggies",
       "animal": "Frog",
       "owner": "panna_acidaa",
+      "owner_html": "panna_acidaa",
       "num_posts": 470,
       "num_pics": 83,
       "num_gifs": 357,
       "num_vids": 25,
       "num_subs": 18,
       "latest_post": "2022-05-06",
-      "notes": "Part of Panna Acida network"
+      "notes": "Part of Panna Acida network",
+      "notes_html": "Part of Panna Acida network"
     },
     {
       "platform": "telegram",
@@ -3800,13 +4342,15 @@ const telegramChannels = {
       "handle": "doggoscute",
       "animal": "Dog",
       "owner": "panna_acidaa",
+      "owner_html": "panna_acidaa",
       "num_posts": 747,
       "num_pics": 4,
       "num_gifs": 721,
       "num_vids": 19,
       "num_subs": 5,
       "latest_post": "2022-05-07",
-      "notes": "Part of Panna Acida network. Sources from @muchshibe, @shibainugif, @doggoch, @shibeposting"
+      "notes": "Part of Panna Acida network. Sources from @muchshibe, @shibainugif, @doggoch, @shibeposting",
+      "notes_html": "Part of Panna Acida network. Sources from <a href=\"https://t.me/muchshibe\" target=\"_blank\">@muchshibe</a>, <a href=\"https://t.me/shibainugif\" target=\"_blank\">@shibainugif</a>, <a href=\"https://t.me/doggoch\" target=\"_blank\">@doggoch</a>, <a href=\"https://t.me/shibeposting\" target=\"_blank\">@shibeposting</a>"
     },
     {
       "platform": "telegram",
@@ -3814,13 +4358,15 @@ const telegramChannels = {
       "handle": "floppabooty",
       "animal": "Caracal",
       "owner": "panna_acidaa",
+      "owner_html": "panna_acidaa",
       "num_posts": 86,
       "num_pics": 8,
       "num_gifs": 67,
       "num_vids": 9,
       "num_subs": 6,
       "latest_post": "2022-05-09",
-      "notes": "Part of Panna Acida network"
+      "notes": "Part of Panna Acida network",
+      "notes_html": "Part of Panna Acida network"
     },
     {
       "platform": "telegram",
@@ -3828,13 +4374,15 @@ const telegramChannels = {
       "handle": "monkegif",
       "animal": "Monkey",
       "owner": "panna_acidaa",
+      "owner_html": "panna_acidaa",
       "num_posts": 106,
       "num_pics": 0,
       "num_gifs": 103,
       "num_vids": 0,
       "num_subs": 25,
       "latest_post": "2022-04-26",
-      "notes": "Part of Panna Acida network"
+      "notes": "Part of Panna Acida network",
+      "notes_html": "Part of Panna Acida network"
     },
     {
       "platform": "telegram",
@@ -3842,13 +4390,15 @@ const telegramChannels = {
       "handle": "muchshibe",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1287,
       "num_pics": 785,
       "num_gifs": 428,
       "num_vids": 61,
       "num_subs": 334,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3856,13 +4406,15 @@ const telegramChannels = {
       "handle": "doggoch",
       "animal": "Dog",
       "owner": "Leoman99",
+      "owner_html": "Leoman99",
       "num_posts": 6552,
       "num_pics": 4297,
       "num_gifs": 339,
       "num_vids": 323,
       "num_subs": 1385,
       "latest_post": "2022-05-09",
-      "notes": "Has a chat @doggochat"
+      "notes": "Has a chat @doggochat",
+      "notes_html": "Has a chat <a href=\"https://t.me/doggochat\" target=\"_blank\">@doggochat</a>"
     },
     {
       "platform": "telegram",
@@ -3870,13 +4422,15 @@ const telegramChannels = {
       "handle": "shibeposting",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 6810,
       "num_pics": 6763,
       "num_gifs": 22,
       "num_vids": 18,
       "num_subs": 192,
       "latest_post": "2022-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3884,13 +4438,15 @@ const telegramChannels = {
       "handle": "shibainugif",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4,
       "num_pics": 1,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 23,
       "latest_post": "2021-05-18",
-      "notes": "Shiba inu network hub, links to private channels by mood"
+      "notes": "Shiba inu network hub, links to private channels by mood",
+      "notes_html": "Shiba inu network hub, links to private channels by mood"
     },
     {
       "platform": "telegram",
@@ -3898,13 +4454,15 @@ const telegramChannels = {
       "handle": "shibapazzi",
       "animal": "Shiba Inu",
       "owner": "effepo",
+      "owner_html": "effepo",
       "num_posts": 17,
       "num_pics": 13,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 10,
       "latest_post": "2021-10-26",
-      "notes": "Shiba inu network, selected photos, Italian"
+      "notes": "Shiba inu network, selected photos, Italian",
+      "notes_html": "Shiba inu network, selected photos, Italian"
     },
     {
       "platform": "telegram",
@@ -3912,13 +4470,15 @@ const telegramChannels = {
       "handle": "pumagifs",
       "animal": "Cougar",
       "owner": "CyrusTarber, catameep",
+      "owner_html": "CyrusTarber, catameep",
       "num_posts": 213,
       "num_pics": 0,
       "num_gifs": 209,
       "num_vids": 2,
       "num_subs": 51,
       "latest_post": "2022-04-24",
-      "notes": "Tagged and stuff"
+      "notes": "Tagged and stuff",
+      "notes_html": "Tagged and stuff"
     },
     {
       "platform": "telegram",
@@ -3926,13 +4486,15 @@ const telegramChannels = {
       "handle": "capybaras",
       "animal": "Capybara",
       "owner": "quirischa",
+      "owner_html": "quirischa",
       "num_posts": 6183,
       "num_pics": 5836,
       "num_gifs": 17,
       "num_vids": 6,
       "num_subs": 365,
       "latest_post": "2022-05-10",
-      "notes": "Has a facebook, VK, and diary site too"
+      "notes": "Has a facebook, VK, and diary site too",
+      "notes_html": "Has a facebook, VK, and diary site too"
     },
     {
       "platform": "telegram",
@@ -3940,13 +4502,15 @@ const telegramChannels = {
       "handle": "squirrelgifs",
       "animal": "Squirrel",
       "owner": "Malgaro",
+      "owner_html": "Malgaro",
       "num_posts": 254,
       "num_pics": 1,
       "num_gifs": 247,
       "num_vids": 4,
       "num_subs": 31,
       "latest_post": "2021-11-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3954,13 +4518,15 @@ const telegramChannels = {
       "handle": "iloverat",
       "animal": "Rat",
       "owner": "dankozz1",
+      "owner_html": "dankozz1",
       "num_posts": 799,
       "num_pics": 701,
       "num_gifs": 14,
       "num_vids": 71,
       "num_subs": 5,
       "latest_post": "2020-10-10",
-      "notes": "retired, links a bunch of others"
+      "notes": "retired, links a bunch of others",
+      "notes_html": "retired, links a bunch of others"
     },
     {
       "platform": "telegram",
@@ -3968,13 +4534,15 @@ const telegramChannels = {
       "handle": "odessa_rat_club_szczurownia",
       "animal": "Rat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 233,
       "num_pics": 190,
       "num_gifs": 0,
       "num_vids": 2,
       "num_subs": 69,
       "latest_post": "2019-07-11",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -3982,13 +4550,15 @@ const telegramChannels = {
       "handle": "ratspets",
       "animal": "Rat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3876,
       "num_pics": 3279,
       "num_gifs": 57,
       "num_vids": 198,
       "num_subs": 1035,
       "latest_post": "2022-05-10",
-      "notes": "Russian, contact krysulkenbot"
+      "notes": "Russian, contact krysulkenbot",
+      "notes_html": "Russian, contact krysulkenbot"
     },
     {
       "platform": "telegram",
@@ -3996,13 +4566,15 @@ const telegramChannels = {
       "handle": "BreakingRat",
       "animal": "Rat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 401,
       "num_pics": 303,
       "num_gifs": 4,
       "num_vids": 8,
       "num_subs": 63,
       "latest_post": "2021-08-26",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4010,13 +4582,15 @@ const telegramChannels = {
       "handle": "dailymonkeys",
       "animal": "Monkey",
       "owner": "ne_pasha",
+      "owner_html": "ne_pasha",
       "num_posts": 1222,
       "num_pics": 349,
       "num_gifs": 26,
       "num_vids": 830,
       "num_subs": 1217,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4024,13 +4598,15 @@ const telegramChannels = {
       "handle": "monkeygifs",
       "animal": "Monkey",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 16,
       "num_pics": 0,
       "num_gifs": 14,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2021-04-26",
-      "notes": "-"
+      "notes": "-",
+      "notes_html": "-"
     },
     {
       "platform": "telegram",
@@ -4038,13 +4614,15 @@ const telegramChannels = {
       "handle": "monkeylovers",
       "animal": "Monkey",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 23,
       "latest_post": "2021-08-23",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4052,13 +4630,15 @@ const telegramChannels = {
       "handle": "insectlife",
       "animal": "Insect",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 183,
       "num_pics": 105,
       "num_gifs": 0,
       "num_vids": 66,
       "num_subs": 0,
       "latest_post": "2021-06-16",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4066,13 +4646,15 @@ const telegramChannels = {
       "handle": "huskiesgif",
       "animal": "Husky",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 222,
       "num_pics": 18,
       "num_gifs": 178,
       "num_vids": 14,
       "num_subs": 51,
       "latest_post": "2022-03-04",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4080,13 +4662,15 @@ const telegramChannels = {
       "handle": "ferretfriends",
       "animal": "Ferret",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 10,
       "num_pics": 6,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 9,
       "latest_post": "2021-02-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4094,13 +4678,15 @@ const telegramChannels = {
       "handle": "parrotlife",
       "animal": "Parrot",
       "owner": "Darniritta",
+      "owner_html": "Darniritta",
       "num_posts": 539,
       "num_pics": 305,
       "num_gifs": 10,
       "num_vids": 27,
       "num_subs": 401,
       "latest_post": "2022-05-09",
-      "notes": "Russian, has a chat at @parrotGrup"
+      "notes": "Russian, has a chat at @parrotGrup",
+      "notes_html": "Russian, has a chat at <a href=\"https://t.me/parrotGrup\" target=\"_blank\">@parrotGrup</a>"
     },
     {
       "platform": "telegram",
@@ -4108,13 +4694,15 @@ const telegramChannels = {
       "handle": "parrots",
       "animal": "Parrot",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 992,
       "num_pics": 796,
       "num_gifs": 17,
       "num_vids": 9,
       "num_subs": 1431,
       "latest_post": "2022-04-23",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4122,13 +4710,15 @@ const telegramChannels = {
       "handle": "parrotsland",
       "animal": "Parrot",
       "owner": "Piter833",
+      "owner_html": "Piter833",
       "num_posts": 191,
       "num_pics": 30,
       "num_gifs": 0,
       "num_vids": 16,
       "num_subs": 526,
       "latest_post": "2022-04-28",
-      "notes": "lots of farsi posts between videos"
+      "notes": "lots of farsi posts between videos",
+      "notes_html": "lots of farsi posts between videos"
     },
     {
       "platform": "telegram",
@@ -4136,13 +4726,15 @@ const telegramChannels = {
       "handle": "ilovefloppa",
       "animal": "Caracal",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 17,
       "num_pics": 8,
       "num_gifs": 0,
       "num_vids": 5,
       "num_subs": 2,
       "latest_post": "2021-03-19",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4150,13 +4742,15 @@ const telegramChannels = {
       "handle": "pigeonschannel",
       "animal": "Pigeon",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1749,
       "num_pics": 843,
       "num_gifs": 582,
       "num_vids": 211,
       "num_subs": 1456,
       "latest_post": "2022-05-05",
-      "notes": "Contact @pigeons_bot. Network @disagioinunclick"
+      "notes": "Contact @pigeons_bot. Network @disagioinunclick",
+      "notes_html": "Contact <a href=\"https://t.me/pigeons_bot.\" target=\"_blank\">@pigeons_bot.</a> Network <a href=\"https://t.me/disagioinunclick\" target=\"_blank\">@disagioinunclick</a>"
     },
     {
       "platform": "telegram",
@@ -4164,13 +4758,15 @@ const telegramChannels = {
       "handle": "pigeonslife",
       "animal": "Pigeon",
       "owner": "CartmanRus, P_Light",
+      "owner_html": "CartmanRus, P_Light",
       "num_posts": 512,
       "num_pics": 364,
       "num_gifs": 10,
       "num_vids": 119,
       "num_subs": 19,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4178,13 +4774,15 @@ const telegramChannels = {
       "handle": "pigeonspic",
       "animal": "Pigeon",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 10,
       "num_pics": 7,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 102,
       "latest_post": "2021-10-07",
-      "notes": "Ethiopian channel, misc other content"
+      "notes": "Ethiopian channel, misc other content",
+      "notes_html": "Ethiopian channel, misc other content"
     },
     {
       "platform": "telegram",
@@ -4192,13 +4790,15 @@ const telegramChannels = {
       "handle": "fengif",
       "animal": "Fennec",
       "owner": "FennEXE",
+      "owner_html": "FennEXE",
       "num_posts": 387,
       "num_pics": 0,
       "num_gifs": 386,
       "num_vids": 0,
       "num_subs": 145,
       "latest_post": "2022-03-11",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4206,13 +4806,15 @@ const telegramChannels = {
       "handle": "dailypanda",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 210,
       "num_pics": 136,
       "num_gifs": 3,
       "num_vids": 44,
       "num_subs": 25,
       "latest_post": "2022-05-06",
-      "notes": "personal cat feed"
+      "notes": "personal cat feed",
+      "notes_html": "personal cat feed"
     },
     {
       "platform": "telegram",
@@ -4220,13 +4822,15 @@ const telegramChannels = {
       "handle": "dailypandas",
       "animal": "Panda",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 10,
       "num_pics": 7,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2021-06-30",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4234,13 +4838,15 @@ const telegramChannels = {
       "handle": "panda",
       "animal": "Panda",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 70,
       "num_pics": 35,
       "num_gifs": 21,
       "num_vids": 11,
       "num_subs": 9032,
       "latest_post": "2022-02-24",
-      "notes": "Contact: panda.queen.tg@gmail.com"
+      "notes": "Contact: panda.queen.tg@gmail.com",
+      "notes_html": "Contact: panda.queen.tg<a href=\"https://t.me/gmail.com\" target=\"_blank\">@gmail.com</a>"
     },
     {
       "platform": "telegram",
@@ -4248,13 +4854,15 @@ const telegramChannels = {
       "handle": "pandagif",
       "animal": "Panda",
       "owner": "Blue_Sunday",
+      "owner_html": "Blue_Sunday",
       "num_posts": 160,
       "num_pics": 19,
       "num_gifs": 127,
       "num_vids": 8,
       "num_subs": 77,
       "latest_post": "2021-07-05",
-      "notes": "Has group, @Panda_Linked"
+      "notes": "Has group, @Panda_Linked",
+      "notes_html": "Has group, <a href=\"https://t.me/Panda_Linked\" target=\"_blank\">@Panda_Linked</a>"
     },
     {
       "platform": "telegram",
@@ -4262,13 +4870,15 @@ const telegramChannels = {
       "handle": "pandagifs",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 517,
       "num_pics": 0,
       "num_gifs": 513,
       "num_vids": 0,
       "num_subs": 5,
       "latest_post": "2021-10-10",
-      "notes": "cats and other stuff"
+      "notes": "cats and other stuff",
+      "notes_html": "cats and other stuff"
     },
     {
       "platform": "telegram",
@@ -4276,13 +4886,15 @@ const telegramChannels = {
       "handle": "cuteducks",
       "animal": "Duck",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 209,
       "num_pics": 199,
       "num_gifs": 2,
       "num_vids": 4,
       "num_subs": 132,
       "latest_post": "2022-05-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4290,13 +4902,15 @@ const telegramChannels = {
       "handle": "birds_channel",
       "animal": "Bird",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 112,
       "num_pics": 59,
       "num_gifs": 4,
       "num_vids": 31,
       "num_subs": 27,
       "latest_post": "2021-03-03",
-      "notes": "Farsi, with some bird care info"
+      "notes": "Farsi, with some bird care info",
+      "notes_html": "Farsi, with some bird care info"
     },
     {
       "platform": "telegram",
@@ -4304,13 +4918,15 @@ const telegramChannels = {
       "handle": "fluffybirbs",
       "animal": "Bird",
       "owner": "Shaheen",
+      "owner_html": "Shaheen",
       "num_posts": 1750,
       "num_pics": 728,
       "num_gifs": 6,
       "num_vids": 190,
       "num_subs": 35,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4318,13 +4934,15 @@ const telegramChannels = {
       "handle": "hourlybirds",
       "animal": "Bird",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 9759,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 5,
       "latest_post": "2022-05-10",
-      "notes": "repost of twitter @birdperhour"
+      "notes": "repost of twitter @birdperhour",
+      "notes_html": "repost of twitter <a href=\"https://t.me/birdperhour\" target=\"_blank\">@birdperhour</a>"
     },
     {
       "platform": "telegram",
@@ -4332,13 +4950,15 @@ const telegramChannels = {
       "handle": "roumdbirds",
       "animal": "Bird",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 659,
       "num_pics": 470,
       "num_gifs": 72,
       "num_vids": 93,
       "num_subs": 277,
       "latest_post": "2022-04-18",
-      "notes": "In the @pagatelupizzu network"
+      "notes": "In the @pagatelupizzu network",
+      "notes_html": "In the <a href=\"https://t.me/pagatelupizzu\" target=\"_blank\">@pagatelupizzu</a> network"
     },
     {
       "platform": "telegram",
@@ -4346,13 +4966,15 @@ const telegramChannels = {
       "handle": "bearpictures",
       "animal": "Bear",
       "owner": "Pastek_s",
+      "owner_html": "Pastek_s",
       "num_posts": 175,
       "num_pics": 101,
       "num_gifs": 7,
       "num_vids": 13,
       "num_subs": 8,
       "latest_post": "2022-05-03",
-      "notes": "?"
+      "notes": "?",
+      "notes_html": "?"
     },
     {
       "platform": "telegram",
@@ -4360,13 +4982,15 @@ const telegramChannels = {
       "handle": "cutekittens",
       "animal": "Kitten",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 19,
       "num_pics": 15,
       "num_gifs": 1,
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2021-05-04",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4374,13 +4998,15 @@ const telegramChannels = {
       "handle": "dailyfrog",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 387,
       "num_pics": 379,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 47,
       "latest_post": "2022-05-04",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4388,13 +5014,15 @@ const telegramChannels = {
       "handle": "dailyfrogs",
       "animal": "Frog",
       "owner": "nyanvillager",
+      "owner_html": "nyanvillager",
       "num_posts": 971,
       "num_pics": 768,
       "num_gifs": 19,
       "num_vids": 167,
       "num_subs": 60,
       "latest_post": "2022-05-07",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4402,13 +5030,15 @@ const telegramChannels = {
       "handle": "frog_channel",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 67,
       "num_pics": 4,
       "num_gifs": 1,
       "num_vids": 28,
       "num_subs": 27,
       "latest_post": "2021-07-15",
-      "notes": "Has linked discussion group"
+      "notes": "Has linked discussion group",
+      "notes_html": "Has linked discussion group"
     },
     {
       "platform": "telegram",
@@ -4416,13 +5046,15 @@ const telegramChannels = {
       "handle": "froggifs",
       "animal": "Frog",
       "owner": "armixyz",
+      "owner_html": "armixyz",
       "num_posts": 48,
       "num_pics": 0,
       "num_gifs": 42,
       "num_vids": 0,
       "num_subs": 13,
       "latest_post": "2021-10-03",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4430,13 +5062,15 @@ const telegramChannels = {
       "handle": "frogpost",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 375,
       "num_pics": 239,
       "num_gifs": 113,
       "num_vids": 18,
       "num_subs": 517,
       "latest_post": "2022-05-06",
-      "notes": "?"
+      "notes": "?",
+      "notes_html": "?"
     },
     {
       "platform": "telegram",
@@ -4444,13 +5078,15 @@ const telegramChannels = {
       "handle": "frogs_channel",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 6,
       "num_pics": 1,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2022-05-06",
-      "notes": "?"
+      "notes": "?",
+      "notes_html": "?"
     },
     {
       "platform": "telegram",
@@ -4458,13 +5094,15 @@ const telegramChannels = {
       "handle": "cat_gif",
       "animal": "Cat",
       "owner": "MrMillenomi",
+      "owner_html": "MrMillenomi",
       "num_posts": 542,
       "num_pics": 0,
       "num_gifs": 537,
       "num_vids": 0,
       "num_subs": 426,
       "latest_post": "2022-04-27",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4472,13 +5110,15 @@ const telegramChannels = {
       "handle": "catchannel",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 374,
       "num_pics": 147,
       "num_gifs": 173,
       "num_vids": 7,
       "num_subs": 59,
       "latest_post": "2021-07-17",
-      "notes": "cats and Italian memes and stuff. Concat: @AcademyWPBot"
+      "notes": "cats and Italian memes and stuff. Concat: @AcademyWPBot",
+      "notes_html": "cats and Italian memes and stuff. Concat: <a href=\"https://t.me/AcademyWPBot\" target=\"_blank\">@AcademyWPBot</a>"
     },
     {
       "platform": "telegram",
@@ -4486,13 +5126,15 @@ const telegramChannels = {
       "handle": "catland",
       "animal": "Cat",
       "owner": "BotCat",
+      "owner_html": "BotCat",
       "num_posts": 61,
       "num_pics": 40,
       "num_gifs": 12,
       "num_vids": 5,
       "num_subs": 22,
       "latest_post": "2020-10-06",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4500,13 +5142,15 @@ const telegramChannels = {
       "handle": "catpictures",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 317,
       "num_pics": 313,
       "num_gifs": 1,
       "num_vids": 2,
       "num_subs": 5,
       "latest_post": "2022-05-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4514,13 +5158,15 @@ const telegramChannels = {
       "handle": "catpost",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 60,
       "num_pics": 39,
       "num_gifs": 1,
       "num_vids": 14,
       "num_subs": 7,
       "latest_post": "2021-09-11",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4528,13 +5174,15 @@ const telegramChannels = {
       "handle": "catsappreciation",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 409,
       "num_pics": 270,
       "num_gifs": 48,
       "num_vids": 5,
       "num_subs": 10,
       "latest_post": "2022-02-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4542,13 +5190,15 @@ const telegramChannels = {
       "handle": "catsgifs",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 179,
       "num_pics": 34,
       "num_gifs": 138,
       "num_vids": 1,
       "num_subs": 27,
       "latest_post": "2021-03-08",
-      "notes": "?"
+      "notes": "?",
+      "notes_html": "?"
     },
     {
       "platform": "telegram",
@@ -4556,13 +5206,15 @@ const telegramChannels = {
       "handle": "catsland",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2457,
       "num_pics": 1167,
       "num_gifs": 1002,
       "num_vids": 184,
       "num_subs": 4858,
       "latest_post": "2022-03-26",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4570,13 +5222,15 @@ const telegramChannels = {
       "handle": "catspics",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 272,
       "num_pics": 229,
       "num_gifs": 10,
       "num_vids": 30,
       "num_subs": 1,
       "latest_post": "2022-05-08",
-      "notes": "Chinese"
+      "notes": "Chinese",
+      "notes_html": "Chinese"
     },
     {
       "platform": "telegram",
@@ -4584,13 +5238,15 @@ const telegramChannels = {
       "handle": "daily_cats",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 412,
       "num_pics": 399,
       "num_gifs": 11,
       "num_vids": 0,
       "num_subs": 178,
       "latest_post": "2022-05-03",
-      "notes": "Networked with programming channels"
+      "notes": "Networked with programming channels",
+      "notes_html": "Networked with programming channels"
     },
     {
       "platform": "telegram",
@@ -4598,13 +5254,15 @@ const telegramChannels = {
       "handle": "loveforcats",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 30,
       "num_pics": 22,
       "num_gifs": 0,
       "num_vids": 7,
       "num_subs": 1,
       "latest_post": "2021-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4612,13 +5270,15 @@ const telegramChannels = {
       "handle": "thedailycat",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1961,
       "num_pics": 1220,
       "num_gifs": 293,
       "num_vids": 442,
       "num_subs": 54,
       "latest_post": "2022-02-25",
-      "notes": "Russian memes"
+      "notes": "Russian memes",
+      "notes_html": "Russian memes"
     },
     {
       "platform": "telegram",
@@ -4626,13 +5286,15 @@ const telegramChannels = {
       "handle": "bunchannel",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 470,
       "num_pics": 317,
       "num_gifs": 8,
       "num_vids": 24,
       "num_subs": 20,
       "latest_post": "2022-04-29",
-      "notes": "Personal feed of Melonpan and Baozi"
+      "notes": "Personal feed of Melonpan and Baozi",
+      "notes_html": "Personal feed of Melonpan and Baozi"
     },
     {
       "platform": "telegram",
@@ -4640,13 +5302,15 @@ const telegramChannels = {
       "handle": "hourlybuns",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3,
       "num_pics": 0,
       "num_gifs": 1,
       "num_vids": 0,
       "num_subs": 1,
       "latest_post": "2020-12-13",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4654,13 +5318,15 @@ const telegramChannels = {
       "handle": "bestdoggos",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 771,
       "num_pics": 183,
       "num_gifs": 182,
       "num_vids": 303,
       "num_subs": 27,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4668,13 +5334,15 @@ const telegramChannels = {
       "handle": "dog_gifs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 10,
       "num_pics": 0,
       "num_gifs": 7,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2022-05-04",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4682,13 +5350,15 @@ const telegramChannels = {
       "handle": "doge_gifs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 17,
       "num_pics": 0,
       "num_gifs": 12,
       "num_vids": 0,
       "num_subs": 7,
       "latest_post": "2021-05-11",
-      "notes": "Farsi written over most gifs"
+      "notes": "Farsi written over most gifs",
+      "notes_html": "Farsi written over most gifs"
     },
     {
       "platform": "telegram",
@@ -4696,13 +5366,15 @@ const telegramChannels = {
       "handle": "dogedits",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 82,
       "num_pics": 5,
       "num_gifs": 0,
       "num_vids": 50,
       "num_subs": 3,
       "latest_post": "2021-06-01",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4710,13 +5382,15 @@ const telegramChannels = {
       "handle": "dogegif",
       "animal": "Dog",
       "owner": "qeuka",
+      "owner_html": "qeuka",
       "num_posts": 74,
       "num_pics": 30,
       "num_gifs": 42,
       "num_vids": 0,
       "num_subs": 202,
       "latest_post": "2022-01-03",
-      "notes": "Linked chat @dogesohbet"
+      "notes": "Linked chat @dogesohbet",
+      "notes_html": "Linked chat <a href=\"https://t.me/dogesohbet\" target=\"_blank\">@dogesohbet</a>"
     },
     {
       "platform": "telegram",
@@ -4724,13 +5398,15 @@ const telegramChannels = {
       "handle": "doggochannel",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 49,
       "num_pics": 40,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 7,
       "latest_post": "2020-11-16",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4738,13 +5414,15 @@ const telegramChannels = {
       "handle": "doggodaily",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3,
       "num_pics": 1,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 1,
       "latest_post": "2021-09-13",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4752,13 +5430,15 @@ const telegramChannels = {
       "handle": "dogpicture",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 8,
       "num_pics": 5,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2021-08-27",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4766,13 +5446,15 @@ const telegramChannels = {
       "handle": "dogsgif",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 783,
       "num_pics": 0,
       "num_gifs": 773,
       "num_vids": 0,
       "num_subs": 278,
       "latest_post": "2022-01-13",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4780,13 +5462,15 @@ const telegramChannels = {
       "handle": "dogspic",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 41,
       "num_pics": 12,
       "num_gifs": 1,
       "num_vids": 1,
       "num_subs": 18,
       "latest_post": "2021-07-08",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4794,13 +5478,15 @@ const telegramChannels = {
       "handle": "dogspics",
       "animal": "Dog",
       "owner": "justanativeman",
+      "owner_html": "justanativeman",
       "num_posts": 782,
       "num_pics": 599,
       "num_gifs": 112,
       "num_vids": 57,
       "num_subs": 49,
       "latest_post": "2021-07-14",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4808,13 +5494,15 @@ const telegramChannels = {
       "handle": "dogspictures",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 329,
       "num_pics": 326,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 61,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4822,13 +5510,15 @@ const telegramChannels = {
       "handle": "fluffysamoyed",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 117,
       "num_pics": 79,
       "num_gifs": 8,
       "num_vids": 24,
       "num_subs": 9,
       "latest_post": "2021-04-28",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -4836,13 +5526,15 @@ const telegramChannels = {
       "handle": "puppiesgifs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 325,
       "num_pics": 0,
       "num_gifs": 320,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2020-11-22",
-      "notes": "Some other animal stuff too"
+      "notes": "Some other animal stuff too",
+      "notes_html": "Some other animal stuff too"
     },
     {
       "platform": "telegram",
@@ -4850,13 +5542,15 @@ const telegramChannels = {
       "handle": "puppygif",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4,
       "num_pics": 0,
       "num_gifs": 1,
       "num_vids": 1,
       "num_subs": 326,
       "latest_post": "2022-03-14",
-      "notes": "All sorts of animals"
+      "notes": "All sorts of animals",
+      "notes_html": "All sorts of animals"
     },
     {
       "platform": "telegram",
@@ -4864,13 +5558,15 @@ const telegramChannels = {
       "handle": "samoyedgif",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 58,
       "num_pics": 0,
       "num_gifs": 56,
       "num_vids": 0,
       "num_subs": 13,
       "latest_post": "2021-12-08",
-      "notes": "Chinese, just samoyeds"
+      "notes": "Chinese, just samoyeds",
+      "notes_html": "Chinese, just samoyeds"
     },
     {
       "platform": "telegram",
@@ -4878,13 +5574,15 @@ const telegramChannels = {
       "handle": "samoyedgifs",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 264,
       "num_pics": 0,
       "num_gifs": 258,
       "num_vids": 1,
       "num_subs": 33,
       "latest_post": "2022-03-31",
-      "notes": "Just samoyeds"
+      "notes": "Just samoyeds",
+      "notes_html": "Just samoyeds"
     },
     {
       "platform": "telegram",
@@ -4892,13 +5590,15 @@ const telegramChannels = {
       "handle": "shiba_gif",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 470,
       "num_pics": 223,
       "num_gifs": 11,
       "num_vids": 108,
       "num_subs": 2687,
       "latest_post": "2022-05-10",
-      "notes": "Just shiba inu"
+      "notes": "Just shiba inu",
+      "notes_html": "Just shiba inu"
     },
     {
       "platform": "telegram",
@@ -4906,13 +5606,15 @@ const telegramChannels = {
       "handle": "shibagif",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 15,
       "num_pics": 0,
       "num_gifs": 14,
       "num_vids": 0,
       "num_subs": 35,
       "latest_post": "2021-05-06",
-      "notes": "Farsi on most gifs"
+      "notes": "Farsi on most gifs",
+      "notes_html": "Farsi on most gifs"
     },
     {
       "platform": "telegram",
@@ -4920,13 +5622,15 @@ const telegramChannels = {
       "handle": "reptilepets",
       "animal": "Lizard",
       "owner": "Markbritney",
+      "owner_html": "Markbritney",
       "num_posts": 86,
       "num_pics": 76,
       "num_gifs": 0,
       "num_vids": 2,
       "num_subs": 4,
       "latest_post": "2021-10-08",
-      "notes": "Pet sales channel"
+      "notes": "Pet sales channel",
+      "notes_html": "Pet sales channel"
     },
     {
       "platform": "telegram",
@@ -4934,13 +5638,15 @@ const telegramChannels = {
       "handle": "shibainuch",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 27,
       "num_pics": 20,
       "num_gifs": 2,
       "num_vids": 1,
       "num_subs": 2,
       "latest_post": "2022-05-04",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4948,13 +5654,15 @@ const telegramChannels = {
       "handle": "dailyshibainu",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 100,
       "num_pics": 71,
       "num_gifs": 7,
       "num_vids": 3,
       "num_subs": 47,
       "latest_post": "2021-06-16",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4962,13 +5670,15 @@ const telegramChannels = {
       "handle": "shibainupics",
       "animal": "Shiba Inu",
       "owner": "ConnorShibe, FishhFinns",
+      "owner_html": "ConnorShibe, FishhFinns",
       "num_posts": 163,
       "num_pics": 144,
       "num_gifs": 4,
       "num_vids": 0,
       "num_subs": 31,
       "latest_post": "2018-02-14",
-      "notes": "pics and memes"
+      "notes": "pics and memes",
+      "notes_html": "pics and memes"
     },
     {
       "platform": "telegram",
@@ -4976,13 +5686,15 @@ const telegramChannels = {
       "handle": "shibechannel",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 15514,
       "num_pics": 6,
       "num_gifs": 3,
       "num_vids": 4,
       "num_subs": 8,
       "latest_post": "2018-03-06",
-      "notes": "Mostly instagram links"
+      "notes": "Mostly instagram links",
+      "notes_html": "Mostly instagram links"
     },
     {
       "platform": "telegram",
@@ -4990,13 +5702,15 @@ const telegramChannels = {
       "handle": "shibegang",
       "animal": "Shiba Inu",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 39,
       "num_pics": 21,
       "num_gifs": 10,
       "num_vids": 5,
       "num_subs": 6,
       "latest_post": "2020-11-24",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5004,13 +5718,15 @@ const telegramChannels = {
       "handle": "ratscute",
       "animal": "Rat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 614,
       "num_pics": 437,
       "num_gifs": 36,
       "num_vids": 113,
       "num_subs": 40,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5018,13 +5734,15 @@ const telegramChannels = {
       "handle": "birbposting",
       "animal": "Bird",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 453,
       "num_pics": 162,
       "num_gifs": 10,
       "num_vids": 146,
       "num_subs": 16,
       "latest_post": "2022-05-10",
-      "notes": "Friends with @cutedogeposting"
+      "notes": "Friends with @cutedogeposting",
+      "notes_html": "Friends with <a href=\"https://t.me/cutedogeposting\" target=\"_blank\">@cutedogeposting</a>"
     },
     {
       "platform": "telegram",
@@ -5032,13 +5750,15 @@ const telegramChannels = {
       "handle": "cutedogeposting",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 332,
       "num_pics": 269,
       "num_gifs": 9,
       "num_vids": 29,
       "num_subs": 26,
       "latest_post": "2022-02-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5046,13 +5766,15 @@ const telegramChannels = {
       "handle": "catsch",
       "animal": "Cat",
       "owner": "bunk100",
+      "owner_html": "bunk100",
       "num_posts": 26450,
       "num_pics": 20009,
       "num_gifs": 2803,
       "num_vids": 3519,
       "num_subs": 52,
       "latest_post": "2022-05-06",
-      "notes": "Pictures from @kesylkenbot"
+      "notes": "Pictures from @kesylkenbot",
+      "notes_html": "Pictures from <a href=\"https://t.me/kesylkenbot\" target=\"_blank\">@kesylkenbot</a>"
     },
     {
       "platform": "telegram",
@@ -5060,13 +5782,15 @@ const telegramChannels = {
       "handle": "catsbooty",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 68,
       "num_pics": 57,
       "num_gifs": 3,
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2022-05-07",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -5074,13 +5798,15 @@ const telegramChannels = {
       "handle": "sealposting",
       "animal": "Seal",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2092,
       "num_pics": 787,
       "num_gifs": 72,
       "num_vids": 40,
       "num_subs": 25,
       "latest_post": "2022-05-10",
-      "notes": "Mostly Youtube links"
+      "notes": "Mostly Youtube links",
+      "notes_html": "Mostly Youtube links"
     },
     {
       "platform": "telegram",
@@ -5088,13 +5814,15 @@ const telegramChannels = {
       "handle": "dogposting",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 490,
       "num_pics": 376,
       "num_gifs": 27,
       "num_vids": 16,
       "num_subs": 130,
       "latest_post": "2022-05-08",
-      "notes": "Italian. Part of Mattonella network, @mattonellanetwork"
+      "notes": "Italian. Part of Mattonella network, @mattonellanetwork",
+      "notes_html": "Italian. Part of Mattonella network, <a href=\"https://t.me/mattonellanetwork\" target=\"_blank\">@mattonellanetwork</a>"
     },
     {
       "platform": "telegram",
@@ -5102,13 +5830,15 @@ const telegramChannels = {
       "handle": "MonkeLee",
       "animal": "Monkey",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1428,
       "num_pics": 303,
       "num_gifs": 734,
       "num_vids": 266,
       "num_subs": 1223,
       "latest_post": "2022-05-10",
-      "notes": "Pics and memes. Italian. Part of Mattonella network, @mattonellanetwork"
+      "notes": "Pics and memes. Italian. Part of Mattonella network, @mattonellanetwork",
+      "notes_html": "Pics and memes. Italian. Part of Mattonella network, <a href=\"https://t.me/mattonellanetwork\" target=\"_blank\">@mattonellanetwork</a>"
     },
     {
       "platform": "telegram",
@@ -5116,13 +5846,15 @@ const telegramChannels = {
       "handle": "arthropodlove",
       "animal": "Insect",
       "owner": "trvmanblack",
+      "owner_html": "trvmanblack",
       "num_posts": 651,
       "num_pics": 487,
       "num_gifs": 4,
       "num_vids": 4,
       "num_subs": 390,
       "latest_post": "2022-05-07",
-      "notes": "Italian. Has some facts also. Part of Mattonella network, @mattonellanetwork"
+      "notes": "Italian. Has some facts also. Part of Mattonella network, @mattonellanetwork",
+      "notes_html": "Italian. Has some facts also. Part of Mattonella network, <a href=\"https://t.me/mattonellanetwork\" target=\"_blank\">@mattonellanetwork</a>"
     },
     {
       "platform": "telegram",
@@ -5130,13 +5862,15 @@ const telegramChannels = {
       "handle": "procionimagici",
       "animal": "Raccoon",
       "owner": "GiornoDiMaggio",
+      "owner_html": "GiornoDiMaggio",
       "num_posts": 612,
       "num_pics": 9,
       "num_gifs": 580,
       "num_vids": 1,
       "num_subs": 374,
       "latest_post": "2022-05-10",
-      "notes": "Italian. Has some facts also. Part of Mattonella network, @mattonellanetwork"
+      "notes": "Italian. Has some facts also. Part of Mattonella network, @mattonellanetwork",
+      "notes_html": "Italian. Has some facts also. Part of Mattonella network, <a href=\"https://t.me/mattonellanetwork\" target=\"_blank\">@mattonellanetwork</a>"
     },
     {
       "platform": "telegram",
@@ -5144,13 +5878,15 @@ const telegramChannels = {
       "handle": "gifscimia",
       "animal": "Monkey",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2876,
       "num_pics": 824,
       "num_gifs": 626,
       "num_vids": 430,
       "num_subs": 147,
       "latest_post": "2022-05-10",
-      "notes": "Italian. Part of Mattonella network, @mattonellanetwork"
+      "notes": "Italian. Part of Mattonella network, @mattonellanetwork",
+      "notes_html": "Italian. Part of Mattonella network, <a href=\"https://t.me/mattonellanetwork\" target=\"_blank\">@mattonellanetwork</a>"
     },
     {
       "platform": "telegram",
@@ -5158,13 +5894,15 @@ const telegramChannels = {
       "handle": "ScimmiaPostaggio",
       "animal": "Monkey",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 759,
       "num_pics": 116,
       "num_gifs": 293,
       "num_vids": 300,
       "num_subs": 158,
       "latest_post": "2022-05-07",
-      "notes": "Italian. Part of Mattonella network, @mattonellanetwork"
+      "notes": "Italian. Part of Mattonella network, @mattonellanetwork",
+      "notes_html": "Italian. Part of Mattonella network, <a href=\"https://t.me/mattonellanetwork\" target=\"_blank\">@mattonellanetwork</a>"
     },
     {
       "platform": "telegram",
@@ -5172,13 +5910,15 @@ const telegramChannels = {
       "handle": "otterposting",
       "animal": "Otter",
       "owner": "Novolobo",
+      "owner_html": "Novolobo",
       "num_posts": 172,
       "num_pics": 141,
       "num_gifs": 14,
       "num_vids": 8,
       "num_subs": 4,
       "latest_post": "2021-08-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5186,13 +5926,15 @@ const telegramChannels = {
       "handle": "bunnyposting",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 772,
       "num_pics": 620,
       "num_gifs": 24,
       "num_vids": 122,
       "num_subs": 43,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5200,13 +5942,15 @@ const telegramChannels = {
       "handle": "bunniesposting",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 106,
       "num_pics": 103,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 4,
       "latest_post": "2022-03-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5214,13 +5958,15 @@ const telegramChannels = {
       "handle": "turtleposting",
       "animal": "Turtle",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 36,
       "num_pics": 20,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 8,
       "latest_post": "2021-01-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5228,13 +5974,15 @@ const telegramChannels = {
       "handle": "frogsposting",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 91,
       "num_pics": 52,
       "num_gifs": 3,
       "num_vids": 0,
       "num_subs": 26,
       "latest_post": "2021-09-29",
-      "notes": "Memes and artwork"
+      "notes": "Memes and artwork",
+      "notes_html": "Memes and artwork"
     },
     {
       "platform": "telegram",
@@ -5242,13 +5990,15 @@ const telegramChannels = {
       "handle": "monkegifs",
       "animal": "Monkey",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 68,
       "num_pics": 4,
       "num_gifs": 61,
       "num_vids": 0,
       "num_subs": 43,
       "latest_post": "2022-01-28",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5256,13 +6006,15 @@ const telegramChannels = {
       "handle": "cowposting",
       "animal": "Cow",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 199,
       "num_pics": 102,
       "num_gifs": 33,
       "num_vids": 55,
       "num_subs": 37,
       "latest_post": "2022-05-06",
-      "notes": "Memes and pics"
+      "notes": "Memes and pics",
+      "notes_html": "Memes and pics"
     },
     {
       "platform": "telegram",
@@ -5270,13 +6022,15 @@ const telegramChannels = {
       "handle": "foxesposting",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 62656,
       "num_pics": 61112,
       "num_gifs": 6,
       "num_vids": 95,
       "num_subs": 43,
       "latest_post": "2022-05-10",
-      "notes": "Russian. Gathers fox pics from VK"
+      "notes": "Russian. Gathers fox pics from VK",
+      "notes_html": "Russian. Gathers fox pics from VK"
     },
     {
       "platform": "telegram",
@@ -5284,13 +6038,15 @@ const telegramChannels = {
       "handle": "snakeslove",
       "animal": "Snake",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 7,
       "num_pics": 4,
       "num_gifs": 0,
       "num_vids": 2,
       "num_subs": 4,
       "latest_post": "2021-09-22",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5298,13 +6054,15 @@ const telegramChannels = {
       "handle": "squirrellove",
       "animal": "Squirrel",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 12,
       "num_pics": 0,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 6,
       "latest_post": "2021-01-16",
-      "notes": "All YouTube links though"
+      "notes": "All YouTube links though",
+      "notes_html": "All YouTube links though"
     },
     {
       "platform": "telegram",
@@ -5312,13 +6070,15 @@ const telegramChannels = {
       "handle": "snailslove",
       "animal": "Snail",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 104,
       "num_pics": 74,
       "num_gifs": 11,
       "num_vids": 18,
       "num_subs": 1,
       "latest_post": "2021-04-17",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5326,13 +6086,15 @@ const telegramChannels = {
       "handle": "HourlyBears",
       "animal": "Bear",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 5377,
       "num_pics": 5365,
       "num_gifs": 0,
       "num_vids": 2,
       "num_subs": 227,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -5340,13 +6102,15 @@ const telegramChannels = {
       "handle": "rats_rats",
       "animal": "Rat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 319,
       "num_pics": 284,
       "num_gifs": 0,
       "num_vids": 32,
       "num_subs": 1,
       "latest_post": "2022-04-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5354,13 +6118,15 @@ const telegramChannels = {
       "handle": "friesian_horses",
       "animal": "Horse",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3091,
       "num_pics": 1838,
       "num_gifs": 30,
       "num_vids": 1084,
       "num_subs": 339,
       "latest_post": "2022-05-07",
-      "notes": "Russian"
+      "notes": "Russian",
+      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
@@ -5368,13 +6134,15 @@ const telegramChannels = {
       "handle": "yeentt",
       "animal": "Hyena",
       "owner": "whimsycality",
+      "owner_html": "whimsycality",
       "num_posts": 224,
       "num_pics": 0,
       "num_gifs": 173,
       "num_vids": 45,
       "num_subs": 206,
       "latest_post": "2022-05-07",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5382,13 +6150,15 @@ const telegramChannels = {
       "handle": "HourlyServal",
       "animal": "Serval",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 2319,
       "num_pics": 2305,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 88,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -5396,13 +6166,15 @@ const telegramChannels = {
       "handle": "HourlyShibe",
       "animal": "Shiba Inu",
       "owner": "TinyZorro",
+      "owner_html": "TinyZorro",
       "num_posts": 2306,
       "num_pics": 2300,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 69,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network"
+      "notes": "TinyZorro network",
+      "notes_html": "TinyZorro network"
     },
     {
       "platform": "telegram",
@@ -5410,13 +6182,15 @@ const telegramChannels = {
       "handle": "altaygoats",
       "animal": "Goat",
       "owner": "Aruna @shtnb",
+      "owner_html": "Aruna @shtnb",
       "num_posts": 203,
       "num_pics": 69,
       "num_gifs": 14,
       "num_vids": 77,
       "num_subs": 91,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5424,13 +6198,15 @@ const telegramChannels = {
       "handle": "TrueFoxNews",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3236,
       "num_pics": 1234,
       "num_gifs": 144,
       "num_vids": 932,
       "num_subs": 596,
       "latest_post": "2022-05-10",
-      "notes": "Mirrored to twitter https://twitter.com/TrueFoxNews"
+      "notes": "Mirrored to twitter https://twitter.com/TrueFoxNews",
+      "notes_html": "Mirrored to twitter <a href=\"https://twitter.com/TrueFoxNews\" target=\"_blank\">https://twitter.com/TrueFoxNews</a>"
     },
     {
       "platform": "telegram",
@@ -5438,13 +6214,15 @@ const telegramChannels = {
       "handle": "dailyarcticfox",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 108,
       "num_pics": 101,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 138,
       "latest_post": "2022-04-01",
-      "notes": "Mirrored to twitter https://twitter.com/DailyArcticFox"
+      "notes": "Mirrored to twitter https://twitter.com/DailyArcticFox",
+      "notes_html": "Mirrored to twitter <a href=\"https://twitter.com/DailyArcticFox\" target=\"_blank\">https://twitter.com/DailyArcticFox</a>"
     },
     {
       "platform": "twitter",
@@ -5452,13 +6230,15 @@ const telegramChannels = {
       "handle": "FennecsDaily",
       "animal": "Fennec",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1758,
       "num_pics": 1459,
       "num_gifs": 3,
       "num_vids": 298,
       "num_subs": 81058,
       "latest_post": "2022-05-10",
-      "notes": "Fennec photos/videos posted every day at 12 AM, 8 AM & 5 PM CST!"
+      "notes": "Fennec photos/videos posted every day at 12 AM, 8 AM & 5 PM CST!",
+      "notes_html": "Fennec photos/videos posted every day at 12 AM, 8 AM & 5 PM CST!"
     },
     {
       "platform": "twitter",
@@ -5466,13 +6246,15 @@ const telegramChannels = {
       "handle": "platinumfoxes",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 18317,
       "num_pics": 15718,
       "num_gifs": 0,
       "num_vids": 2653,
       "num_subs": 34887,
       "latest_post": "2022-05-10",
-      "notes": "Platinum Foxes are often confused with Marble, Whitemark or Sibirian Foxes"
+      "notes": "Platinum Foxes are often confused with Marble, Whitemark or Sibirian Foxes",
+      "notes_html": "Platinum Foxes are often confused with Marble, Whitemark or Sibirian Foxes"
     },
     {
       "platform": "twitter",
@@ -5480,13 +6262,15 @@ const telegramChannels = {
       "handle": "HourlyCheetahs",
       "animal": "Cheetah",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 39351,
       "num_pics": 39351,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 8779,
       "latest_post": "2022-05-10",
-      "notes": "Mirror of telegram @hourlycheetahs"
+      "notes": "Mirror of telegram @hourlycheetahs",
+      "notes_html": "Mirror of telegram <a href=\"https://twitter.com/hourlycheetahs\" target=\"_blank\">@hourlycheetahs</a>"
     },
     {
       "platform": "twitter",
@@ -5494,13 +6278,15 @@ const telegramChannels = {
       "handle": "hourlyfoxes",
       "animal": "Fox",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 43981,
       "num_pics": 43981,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 34029,
       "latest_post": "2022-05-10",
-      "notes": "Mirror of telegram @HourlyFoxes"
+      "notes": "Mirror of telegram @HourlyFoxes",
+      "notes_html": "Mirror of telegram <a href=\"https://twitter.com/HourlyFoxes\" target=\"_blank\">@HourlyFoxes</a>"
     },
     {
       "platform": "twitter",
@@ -5508,13 +6294,15 @@ const telegramChannels = {
       "handle": "HourlyLynxes",
       "animal": "Lynx",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 46099,
       "num_pics": 46099,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 24278,
       "latest_post": "2022-05-10",
-      "notes": "Mirror of telegram @HourlyLynxes"
+      "notes": "Mirror of telegram @HourlyLynxes",
+      "notes_html": "Mirror of telegram <a href=\"https://twitter.com/HourlyLynxes\" target=\"_blank\">@HourlyLynxes</a>"
     },
     {
       "platform": "twitter",
@@ -5522,13 +6310,15 @@ const telegramChannels = {
       "handle": "flickrsneps",
       "animal": "Snep",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 9473,
       "num_pics": 9473,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2122,
       "latest_post": "2022-05-10",
-      "notes": "Mirror of telegram @flickrsneps"
+      "notes": "Mirror of telegram @flickrsneps",
+      "notes_html": "Mirror of telegram <a href=\"https://twitter.com/flickrsneps\" target=\"_blank\">@flickrsneps</a>"
     },
     {
       "platform": "twitter",
@@ -5536,13 +6326,15 @@ const telegramChannels = {
       "handle": "hourlywolvesbot",
       "animal": "Wolf",
       "owner": "LeonatoLynx",
+      "owner_html": "LeonatoLynx",
       "num_posts": 39366,
       "num_pics": 39366,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 132396,
       "latest_post": "2022-05-10",
-      "notes": "Mirror of telegram @HourlyWolves"
+      "notes": "Mirror of telegram @HourlyWolves",
+      "notes_html": "Mirror of telegram <a href=\"https://twitter.com/HourlyWolves\" target=\"_blank\">@HourlyWolves</a>"
     },
     {
       "platform": "twitter",
@@ -5550,13 +6342,15 @@ const telegramChannels = {
       "handle": "redpandasdaily",
       "animal": "Wah",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 3003,
       "num_pics": 2385,
       "num_gifs": 47,
       "num_vids": 217,
       "num_subs": 39729,
       "latest_post": "2022-04-27",
-      "notes": "Not a bot. Linked by telegram @redpandasdaily, but not affiliated with them"
+      "notes": "Not a bot. Linked by telegram @redpandasdaily, but not affiliated with them",
+      "notes_html": "Not a bot. Linked by telegram <a href=\"https://twitter.com/redpandasdaily\" target=\"_blank\">@redpandasdaily</a>, but not affiliated with them"
     },
     {
       "platform": "twitter",
@@ -5564,13 +6358,15 @@ const telegramChannels = {
       "handle": "DeerHourly",
       "animal": "Deer",
       "owner": "@SamTheRaccDeer",
+      "owner_html": "<a href=\"https://twitter.com/SamTheRaccDeer\" target=\"_blank\">@SamTheRaccDeer</a>",
       "num_posts": 7623,
       "num_pics": 7623,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 16785,
       "latest_post": "2022-05-10",
-      "notes": "-"
+      "notes": "-",
+      "notes_html": "-"
     },
     {
       "platform": "twitter",
@@ -5578,13 +6374,15 @@ const telegramChannels = {
       "handle": "cowsjpg",
       "animal": "Cow",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 173,
       "num_pics": 291,
       "num_gifs": 0,
       "num_vids": 37,
       "num_subs": 15723,
       "latest_post": "2022-04-26",
-      "notes": "-"
+      "notes": "-",
+      "notes_html": "-"
     },
     {
       "platform": "twitter",
@@ -5592,13 +6390,15 @@ const telegramChannels = {
       "handle": "CapybaraDaily",
       "animal": "Capybara",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1563,
       "num_pics": 1321,
       "num_gifs": 12,
       "num_vids": 194,
       "num_subs": 47183,
       "latest_post": "2022-05-04",
-      "notes": "-"
+      "notes": "-",
+      "notes_html": "-"
     },
     {
       "platform": "twitter",
@@ -5606,13 +6406,15 @@ const telegramChannels = {
       "handle": "hourlyFox",
       "animal": "Fox",
       "owner": "@marudor",
+      "owner_html": "<a href=\"https://twitter.com/marudor\" target=\"_blank\">@marudor</a>",
       "num_posts": 42160,
       "num_pics": 42160,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 239432,
       "latest_post": "2022-05-10",
-      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://foxrudor.de/"
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://foxrudor.de/",
+      "notes_html": "Marudor network. <a href=\"https://github.com/marudor/randomPictures\" target=\"_blank\">https://github.com/marudor/randomPictures</a> Website: <a href=\"https://foxrudor.de/\" target=\"_blank\">https://foxrudor.de/</a>"
     },
     {
       "platform": "twitter",
@@ -5620,13 +6422,15 @@ const telegramChannels = {
       "handle": "hourlycats",
       "animal": "Cat",
       "owner": "@marudor",
+      "owner_html": "<a href=\"https://twitter.com/marudor\" target=\"_blank\">@marudor</a>",
       "num_posts": 75642,
       "num_pics": 75642,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 8462,
       "latest_post": "2022-05-10",
-      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://maurudor.de/"
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://maurudor.de/",
+      "notes_html": "Marudor network. <a href=\"https://github.com/marudor/randomPictures\" target=\"_blank\">https://github.com/marudor/randomPictures</a> Website: <a href=\"https://maurudor.de/\" target=\"_blank\">https://maurudor.de/</a>"
     },
     {
       "platform": "twitter",
@@ -5634,13 +6438,15 @@ const telegramChannels = {
       "handle": "hourlypanda",
       "animal": "Panda",
       "owner": "@marudor",
+      "owner_html": "<a href=\"https://twitter.com/marudor\" target=\"_blank\">@marudor</a>",
       "num_posts": 40470,
       "num_pics": 40470,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2944,
       "latest_post": "2021-09-19",
-      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://pandarudor.de/"
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://pandarudor.de/",
+      "notes_html": "Marudor network. <a href=\"https://github.com/marudor/randomPictures\" target=\"_blank\">https://github.com/marudor/randomPictures</a> Website: <a href=\"https://pandarudor.de/\" target=\"_blank\">https://pandarudor.de/</a>"
     },
     {
       "platform": "twitter",
@@ -5648,13 +6454,15 @@ const telegramChannels = {
       "handle": "hourlytiger",
       "animal": "Tiger",
       "owner": "@marudor",
+      "owner_html": "<a href=\"https://twitter.com/marudor\" target=\"_blank\">@marudor</a>",
       "num_posts": 28957,
       "num_pics": 28957,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 18837,
       "latest_post": "2022-05-10",
-      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://tigrudor.de/"
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://tigrudor.de/",
+      "notes_html": "Marudor network. <a href=\"https://github.com/marudor/randomPictures\" target=\"_blank\">https://github.com/marudor/randomPictures</a> Website: <a href=\"https://tigrudor.de/\" target=\"_blank\">https://tigrudor.de/</a>"
     },
     {
       "platform": "twitter",
@@ -5662,13 +6470,15 @@ const telegramChannels = {
       "handle": "DailyPengus",
       "animal": "Penguin",
       "owner": "@jukeboxlifemc",
+      "owner_html": "<a href=\"https://twitter.com/jukeboxlifemc\" target=\"_blank\">@jukeboxlifemc</a>",
       "num_posts": 108,
       "num_pics": 65,
       "num_gifs": 27,
       "num_vids": 2,
       "num_subs": 92,
       "latest_post": "2022-03-24",
-      "notes": "Daily, despite the handle"
+      "notes": "Daily, despite the handle",
+      "notes_html": "Daily, despite the handle"
     },
     {
       "platform": "twitter",
@@ -5676,13 +6486,15 @@ const telegramChannels = {
       "handle": "HourlyPinguins",
       "animal": "Penguin",
       "owner": "@marudor",
+      "owner_html": "<a href=\"https://twitter.com/marudor\" target=\"_blank\">@marudor</a>",
       "num_posts": 40078,
       "num_pics": 40078,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2151,
       "latest_post": "2022-05-10",
-      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://pingudor.de/"
+      "notes": "Marudor network. https://github.com/marudor/randomPictures Website: https://pingudor.de/",
+      "notes_html": "Marudor network. <a href=\"https://github.com/marudor/randomPictures\" target=\"_blank\">https://github.com/marudor/randomPictures</a> Website: <a href=\"https://pingudor.de/\" target=\"_blank\">https://pingudor.de/</a>"
     },
     {
       "platform": "twitter",
@@ -5690,13 +6502,15 @@ const telegramChannels = {
       "handle": "DailyHyenas",
       "animal": "Hyena",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2172,
       "num_pics": 802,
       "num_gifs": 32,
       "num_vids": 297,
       "num_subs": 18006,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5704,13 +6518,15 @@ const telegramChannels = {
       "handle": "EelsDaily",
       "animal": "Eel",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 11,
       "num_pics": 8,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 9,
       "latest_post": "2021-05-23",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5718,13 +6534,15 @@ const telegramChannels = {
       "handle": "birdperhour",
       "animal": "Bird",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 54406,
       "num_pics": 54082,
       "num_gifs": 0,
       "num_vids": 53,
       "num_subs": 76951,
       "latest_post": "2022-05-10",
-      "notes": "Contact birdperhour@tutanova.com"
+      "notes": "Contact birdperhour@tutanova.com",
+      "notes_html": "Contact birdperhour<a href=\"https://twitter.com/tutanova.com\" target=\"_blank\">@tutanova.com</a>"
     },
     {
       "platform": "twitter",
@@ -5732,13 +6550,15 @@ const telegramChannels = {
       "handle": "SnakeHour",
       "animal": "Snake",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 25401,
       "num_pics": 16908,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 32178,
       "latest_post": "2022-05-10",
-      "notes": "Has a little website here: https://snakehour.carrd.co/ to send submissions and such"
+      "notes": "Has a little website here: https://snakehour.carrd.co/ to send submissions and such",
+      "notes_html": "Has a little website here: <a href=\"https://snakehour.carrd.co/\" target=\"_blank\">https://snakehour.carrd.co/</a> to send submissions and such"
     },
     {
       "platform": "twitter",
@@ -5746,13 +6566,15 @@ const telegramChannels = {
       "handle": "rabbiteveryhour",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 11358,
       "num_pics": 11301,
       "num_gifs": 45,
       "num_vids": 0,
       "num_subs": 206023,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5760,13 +6582,15 @@ const telegramChannels = {
       "handle": "deerchive",
       "animal": "Deer",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 145,
       "num_pics": 265,
       "num_gifs": 19,
       "num_vids": 27,
       "num_subs": 3506,
       "latest_post": "2022-05-05",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5774,13 +6598,15 @@ const telegramChannels = {
       "handle": "HourlyYeen",
       "animal": "Hyena",
       "owner": "NotTheZorro",
+      "owner_html": "NotTheZorro",
       "num_posts": 15313,
       "num_pics": 14371,
       "num_gifs": 30,
       "num_vids": 212,
       "num_subs": 30842,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyYeen"
+      "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyYeen",
+      "notes_html": "TinyZorro network. Mirror of telegram channel, <a href=\"https://t.me/HourlyYeen\" target=\"_blank\">https://t.me/HourlyYeen</a>"
     },
     {
       "platform": "twitter",
@@ -5788,13 +6614,15 @@ const telegramChannels = {
       "handle": "TheDailyPossums",
       "animal": "Opossum",
       "owner": "",
+      "owner_html": "",
       "num_posts": 1813,
       "num_pics": 1940,
       "num_gifs": 3,
       "num_vids": 5,
       "num_subs": 8177,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5802,13 +6630,15 @@ const telegramChannels = {
       "handle": "Foxwthreataura",
       "animal": "Fox",
       "owner": "FoxynTheWolfox",
+      "owner_html": "FoxynTheWolfox",
       "num_posts": 589,
       "num_pics": 272,
       "num_gifs": 2,
       "num_vids": 207,
       "num_subs": 23165,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5816,13 +6646,15 @@ const telegramChannels = {
       "handle": "DailyMarten",
       "animal": "Pine Marten",
       "owner": "ZGFGaming",
+      "owner_html": "ZGFGaming",
       "num_posts": 357,
       "num_pics": 166,
       "num_gifs": 0,
       "num_vids": 134,
       "num_subs": 8299,
       "latest_post": "2022-05-10",
-      "notes": "Linked to telegram channel, t.me/HourlyMartens"
+      "notes": "Linked to telegram channel, https://t.me/HourlyMartens",
+      "notes_html": "Linked to telegram channel, <a href=\"https://t.me/HourlyMartens\" target=\"_blank\">https://t.me/HourlyMartens</a>"
     },
     {
       "platform": "twitter",
@@ -5830,13 +6662,15 @@ const telegramChannels = {
       "handle": "PossumEveryHour",
       "animal": "Opossum",
       "owner": "@ThunderySteak",
+      "owner_html": "<a href=\"https://twitter.com/ThunderySteak\" target=\"_blank\">@ThunderySteak</a>",
       "num_posts": 32568,
       "num_pics": 32503,
       "num_gifs": 64,
       "num_vids": 0,
       "num_subs": 530676,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5844,13 +6678,15 @@ const telegramChannels = {
       "handle": "cat_dot_exe",
       "animal": "Cat",
       "owner": "Cloudy__Jay",
+      "owner_html": "Cloudy__Jay",
       "num_posts": 33759,
       "num_pics": 28998,
       "num_gifs": 0,
       "num_vids": 4693,
       "num_subs": 46261,
       "latest_post": "2022-05-10",
-      "notes": "Has a discord server: https://discord.gg/mmrFESFCbc"
+      "notes": "Has a discord server: https://discord.gg/mmrFESFCbc",
+      "notes_html": "Has a discord server: <a href=\"https://discord.gg/mmrFESFCbc\" target=\"_blank\">https://discord.gg/mmrFESFCbc</a>"
     },
     {
       "platform": "twitter",
@@ -5858,13 +6694,15 @@ const telegramChannels = {
       "handle": "TrueFoxNews",
       "animal": "Fox",
       "owner": "RinAkaia",
+      "owner_html": "RinAkaia",
       "num_posts": 101,
       "num_pics": 48,
       "num_gifs": 0,
       "num_vids": 29,
       "num_subs": 2361,
       "latest_post": "2022-05-10",
-      "notes": "Mirrored to telegram https://t.me/TrueFoxNews"
+      "notes": "Mirrored to telegram https://t.me/TrueFoxNews",
+      "notes_html": "Mirrored to telegram <a href=\"https://t.me/TrueFoxNews\" target=\"_blank\">https://t.me/TrueFoxNews</a>"
     },
     {
       "platform": "twitter",
@@ -5872,13 +6710,15 @@ const telegramChannels = {
       "handle": "WikiFoxSpain__",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 5906,
       "num_pics": 4723,
       "num_gifs": 63,
       "num_vids": 782,
       "num_subs": 3972,
       "latest_post": "2022-05-08",
-      "notes": "Spanish"
+      "notes": "Spanish",
+      "notes_html": "Spanish"
     },
     {
       "platform": "twitter",
@@ -5886,13 +6726,15 @@ const telegramChannels = {
       "handle": "FopsHourly",
       "animal": "Fox",
       "owner": "NotTheZorro",
+      "owner_html": "NotTheZorro",
       "num_posts": 8120,
       "num_pics": 7910,
       "num_gifs": 0,
       "num_vids": 209,
       "num_subs": 5818,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyFops"
+      "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyFops",
+      "notes_html": "TinyZorro network. Mirror of telegram channel, <a href=\"https://t.me/HourlyFops\" target=\"_blank\">https://t.me/HourlyFops</a>"
     },
     {
       "platform": "twitter",
@@ -5900,13 +6742,15 @@ const telegramChannels = {
       "handle": "HourlyWah",
       "animal": "Wah",
       "owner": "NotTheZorro",
+      "owner_html": "NotTheZorro",
       "num_posts": 4465,
       "num_pics": 4442,
       "num_gifs": 0,
       "num_vids": 13,
       "num_subs": 3718,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyWah"
+      "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyWah",
+      "notes_html": "TinyZorro network. Mirror of telegram channel, <a href=\"https://t.me/HourlyWah\" target=\"_blank\">https://t.me/HourlyWah</a>"
     },
     {
       "platform": "twitter",
@@ -5914,13 +6758,15 @@ const telegramChannels = {
       "handle": "HourlyYote",
       "animal": "Coyote",
       "owner": "NotTheZorro",
+      "owner_html": "NotTheZorro",
       "num_posts": 3517,
       "num_pics": 3464,
       "num_gifs": 0,
       "num_vids": 17,
       "num_subs": 10040,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyYotes"
+      "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyYotes",
+      "notes_html": "TinyZorro network. Mirror of telegram channel, <a href=\"https://t.me/HourlyYotes\" target=\"_blank\">https://t.me/HourlyYotes</a>"
     },
     {
       "platform": "twitter",
@@ -5928,13 +6774,15 @@ const telegramChannels = {
       "handle": "HourlyMarten",
       "animal": "Pine Marten",
       "owner": "NotTheZorro",
+      "owner_html": "NotTheZorro",
       "num_posts": 1211,
       "num_pics": 1209,
       "num_gifs": 0,
       "num_vids": 1,
       "num_subs": 1820,
       "latest_post": "2022-05-10",
-      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyPineMarten"
+      "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyPineMarten",
+      "notes_html": "TinyZorro network. Mirror of telegram channel, <a href=\"https://t.me/HourlyPineMarten\" target=\"_blank\">https://t.me/HourlyPineMarten</a>"
     },
     {
       "platform": "twitter",
@@ -5942,13 +6790,15 @@ const telegramChannels = {
       "handle": "aqualuvsuotd",
       "animal": "*",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2312,
       "num_pics": 177,
       "num_gifs": 69,
       "num_vids": 0,
       "num_subs": 2803,
       "latest_post": "2022-05-10",
-      "notes": "Aquatic fauna"
+      "notes": "Aquatic fauna",
+      "notes_html": "Aquatic fauna"
     },
     {
       "platform": "twitter",
@@ -5956,13 +6806,15 @@ const telegramChannels = {
       "handle": "obscure_otd",
       "animal": "*",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 337,
       "num_pics": 8,
       "num_gifs": 1,
       "num_vids": 0,
       "num_subs": 15470,
       "latest_post": "2022-05-10",
-      "notes": "Obscure animals each day"
+      "notes": "Obscure animals each day",
+      "notes_html": "Obscure animals each day"
     },
     {
       "platform": "twitter",
@@ -5970,13 +6822,15 @@ const telegramChannels = {
       "handle": "insect_otd",
       "animal": "Insect",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1527,
       "num_pics": 224,
       "num_gifs": 3,
       "num_vids": 21,
       "num_subs": 1559,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5984,13 +6838,15 @@ const telegramChannels = {
       "handle": "batsdotexe",
       "animal": "Bat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 8418,
       "num_pics": 7440,
       "num_gifs": 977,
       "num_vids": 0,
       "num_subs": 6969,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -5998,13 +6854,15 @@ const telegramChannels = {
       "handle": "otdbat",
       "animal": "Bat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2730,
       "num_pics": 1076,
       "num_gifs": 2,
       "num_vids": 2,
       "num_subs": 431,
       "latest_post": "2022-05-06",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6012,13 +6870,15 @@ const telegramChannels = {
       "handle": "gayocats",
       "animal": "Cat",
       "owner": "@Foone",
+      "owner_html": "<a href=\"https://twitter.com/Foone\" target=\"_blank\">@Foone</a>",
       "num_posts": 35838,
       "num_pics": 35660,
       "num_gifs": 142,
       "num_vids": 35,
       "num_subs": 160596,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6026,13 +6886,15 @@ const telegramChannels = {
       "handle": "CalicoDaily",
       "animal": "Cat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1885,
       "num_pics": 853,
       "num_gifs": 33,
       "num_vids": 3,
       "num_subs": 1266,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6040,13 +6902,15 @@ const telegramChannels = {
       "handle": "chinchillahour",
       "animal": "Chinchilla",
       "owner": "@BeGrapa77",
+      "owner_html": "<a href=\"https://twitter.com/BeGrapa77\" target=\"_blank\">@BeGrapa77</a>",
       "num_posts": 11253,
       "num_pics": 11241,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 10724,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6054,13 +6918,15 @@ const telegramChannels = {
       "handle": "CorgiEveryHour",
       "animal": "Dog",
       "owner": "iamcorgii",
+      "owner_html": "iamcorgii",
       "num_posts": 10194,
       "num_pics": 10194,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 14674,
       "latest_post": "2022-05-10",
-      "notes": "Just corgis"
+      "notes": "Just corgis",
+      "notes_html": "Just corgis"
     },
     {
       "platform": "twitter",
@@ -6068,13 +6934,15 @@ const telegramChannels = {
       "handle": "CowoftheDay1",
       "animal": "Cow",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2912,
       "num_pics": 1571,
       "num_gifs": 37,
       "num_vids": 86,
       "num_subs": 126795,
       "latest_post": "2022-05-10",
-      "notes": "OftheDay1 network"
+      "notes": "OftheDay1 network",
+      "notes_html": "OftheDay1 network"
     },
     {
       "platform": "twitter",
@@ -6082,13 +6950,15 @@ const telegramChannels = {
       "handle": "cow_everyhour",
       "animal": "Cow",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 890,
       "num_pics": 751,
       "num_gifs": 2,
       "num_vids": 132,
       "num_subs": 561,
       "latest_post": "2022-05-08",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6096,13 +6966,15 @@ const telegramChannels = {
       "handle": "dogeveryhour",
       "animal": "Dog",
       "owner": "@jasper9",
+      "owner_html": "<a href=\"https://twitter.com/jasper9\" target=\"_blank\">@jasper9</a>",
       "num_posts": 23516,
       "num_pics": 23516,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 4779,
       "latest_post": "2022-05-10",
-      "notes": "Content from dog.ceo dog API"
+      "notes": "Content from dog.ceo dog API",
+      "notes_html": "Content from dog.ceo dog API"
     },
     {
       "platform": "twitter",
@@ -6110,13 +6982,15 @@ const telegramChannels = {
       "handle": "COdogstalker",
       "animal": "Dog",
       "owner": "@jasper9",
+      "owner_html": "<a href=\"https://twitter.com/jasper9\" target=\"_blank\">@jasper9</a>",
       "num_posts": 30936,
       "num_pics": 23999,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 206,
       "latest_post": "2022-05-10",
-      "notes": "Posts pics of dogs up for adoption in Colorado"
+      "notes": "Posts pics of dogs up for adoption in Colorado",
+      "notes_html": "Posts pics of dogs up for adoption in Colorado"
     },
     {
       "platform": "twitter",
@@ -6124,13 +6998,15 @@ const telegramChannels = {
       "handle": "Dogofthe_",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1498,
       "num_pics": 1271,
       "num_gifs": 33,
       "num_vids": 8,
       "num_subs": 11048,
       "latest_post": "2022-05-10",
-      "notes": "OftheDay1 network"
+      "notes": "OftheDay1 network",
+      "notes_html": "OftheDay1 network"
     },
     {
       "platform": "twitter",
@@ -6138,13 +7014,15 @@ const telegramChannels = {
       "handle": "borzbot",
       "animal": "Dog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 95391,
       "num_pics": 93119,
       "num_gifs": 94,
       "num_vids": 94,
       "num_subs": 29864,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6152,13 +7030,15 @@ const telegramChannels = {
       "handle": "DonkeyoftheDay1",
       "animal": "Donkey",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 491,
       "num_pics": 439,
       "num_gifs": 1,
       "num_vids": 15,
       "num_subs": 5313,
       "latest_post": "2022-05-10",
-      "notes": "OftheDay1 network"
+      "notes": "OftheDay1 network",
+      "notes_html": "OftheDay1 network"
     },
     {
       "platform": "twitter",
@@ -6166,13 +7046,15 @@ const telegramChannels = {
       "handle": "hourly_fish",
       "animal": "Fish",
       "owner": "@dragonuniverse3",
+      "owner_html": "<a href=\"https://twitter.com/dragonuniverse3\" target=\"_blank\">@dragonuniverse3</a>",
       "num_posts": 5077,
       "num_pics": 4235,
       "num_gifs": 90,
       "num_vids": 392,
       "num_subs": 3916,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6180,13 +7062,15 @@ const telegramChannels = {
       "handle": "frogofthe",
       "animal": "Frog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2109,
       "num_pics": 1334,
       "num_gifs": 16,
       "num_vids": 52,
       "num_subs": 39372,
       "latest_post": "2022-05-10",
-      "notes": "OftheDay1 network"
+      "notes": "OftheDay1 network",
+      "notes_html": "OftheDay1 network"
     },
     {
       "platform": "twitter",
@@ -6194,13 +7078,15 @@ const telegramChannels = {
       "handle": "bot_fox_",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 4874,
       "num_pics": 4874,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 2080,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6208,13 +7094,15 @@ const telegramChannels = {
       "handle": "DailyArcticFox",
       "animal": "Fox",
       "owner": "@BlepFox",
+      "owner_html": "<a href=\"https://twitter.com/BlepFox\" target=\"_blank\">@BlepFox</a>",
       "num_posts": 226,
       "num_pics": 231,
       "num_gifs": 0,
       "num_vids": 15,
       "num_subs": 7089,
       "latest_post": "2022-05-03",
-      "notes": "Mirrored to telegram https://t.me/dailyarcticfox"
+      "notes": "Mirrored to telegram https://t.me/dailyarcticfox",
+      "notes_html": "Mirrored to telegram <a href=\"https://t.me/dailyarcticfox\" target=\"_blank\">https://t.me/dailyarcticfox</a>"
     },
     {
       "platform": "twitter",
@@ -6222,13 +7110,15 @@ const telegramChannels = {
       "handle": "the_dailyfox",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2081,
       "num_pics": 2047,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 15529,
       "latest_post": "2022-05-10",
-      "notes": "Has a website: https://TheDailyFox.org"
+      "notes": "Has a website: https://TheDailyFox.org",
+      "notes_html": "Has a website: <a href=\"https://TheDailyFox.org\" target=\"_blank\">https://TheDailyFox.org</a>"
     },
     {
       "platform": "twitter",
@@ -6236,13 +7126,15 @@ const telegramChannels = {
       "handle": "qonqon_biyori",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1853,
       "num_pics": 1421,
       "num_gifs": 7,
       "num_vids": 58,
       "num_subs": 15023,
       "latest_post": "2022-05-06",
-      "notes": "Japanese"
+      "notes": "Japanese",
+      "notes_html": "Japanese"
     },
     {
       "platform": "twitter",
@@ -6250,13 +7142,15 @@ const telegramChannels = {
       "handle": "kitunegazou",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 53071,
       "num_pics": 40856,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 7512,
       "latest_post": "2022-05-10",
-      "notes": "Japanese"
+      "notes": "Japanese",
+      "notes_html": "Japanese"
     },
     {
       "platform": "twitter",
@@ -6264,13 +7158,15 @@ const telegramChannels = {
       "handle": "mofumofu_fooox",
       "animal": "Fox",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1783,
       "num_pics": 2398,
       "num_gifs": 0,
       "num_vids": 10,
       "num_subs": 148,
       "latest_post": "2022-04-19",
-      "notes": "Japanese"
+      "notes": "Japanese",
+      "notes_html": "Japanese"
     },
     {
       "platform": "twitter",
@@ -6278,13 +7174,15 @@ const telegramChannels = {
       "handle": "GatorsDaily",
       "animal": "Crocodile",
       "owner": "@gatorsafterdark",
+      "owner_html": "<a href=\"https://twitter.com/gatorsafterdark\" target=\"_blank\">@gatorsafterdark</a>",
       "num_posts": 12993,
       "num_pics": 7642,
       "num_gifs": 0,
       "num_vids": 1178,
       "num_subs": 429184,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6292,13 +7190,15 @@ const telegramChannels = {
       "handle": "goatofthe",
       "animal": "Goat",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1684,
       "num_pics": 1495,
       "num_gifs": 1,
       "num_vids": 23,
       "num_subs": 17738,
       "latest_post": "2022-05-10",
-      "notes": "OftheDay1 network"
+      "notes": "OftheDay1 network",
+      "notes_html": "OftheDay1 network"
     },
     {
       "platform": "twitter",
@@ -6306,13 +7206,15 @@ const telegramChannels = {
       "handle": "hamsterybot",
       "animal": "Hamster",
       "owner": "@ativhanna",
+      "owner_html": "<a href=\"https://twitter.com/ativhanna\" target=\"_blank\">@ativhanna</a>",
       "num_posts": 10337,
       "num_pics": 10213,
       "num_gifs": 123,
       "num_vids": 0,
       "num_subs": 24571,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6320,13 +7222,15 @@ const telegramChannels = {
       "handle": "hamsterofthe",
       "animal": "Hamster",
       "owner": "",
+      "owner_html": "",
       "num_posts": 1705,
       "num_pics": 1623,
       "num_gifs": 3,
       "num_vids": 6,
       "num_subs": 18663,
       "latest_post": "2022-05-10",
-      "notes": "OftheDay1 network"
+      "notes": "OftheDay1 network",
+      "notes_html": "OftheDay1 network"
     },
     {
       "platform": "twitter",
@@ -6334,13 +7238,15 @@ const telegramChannels = {
       "handle": "daily__hedgehog",
       "animal": "Hedgehog",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 1825,
       "num_pics": 2210,
       "num_gifs": 0,
       "num_vids": 3,
       "num_subs": 89071,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6348,13 +7254,15 @@ const telegramChannels = {
       "handle": "huskersbot",
       "animal": "Husky",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 84602,
       "num_pics": 84434,
       "num_gifs": 83,
       "num_vids": 0,
       "num_subs": 12474,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6362,13 +7270,15 @@ const telegramChannels = {
       "handle": "koalaseveryhr",
       "animal": "Koala",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 14320,
       "num_pics": 14320,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 4624,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6376,13 +7286,15 @@ const telegramChannels = {
       "handle": "hourlylizards",
       "animal": "Lizard",
       "owner": "@RaptorHoundRune",
+      "owner_html": "<a href=\"https://twitter.com/RaptorHoundRune\" target=\"_blank\">@RaptorHoundRune</a>",
       "num_posts": 7037,
       "num_pics": 5752,
       "num_gifs": 76,
       "num_vids": 335,
       "num_subs": 46087,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6390,13 +7302,15 @@ const telegramChannels = {
       "handle": "OtterAnHour",
       "animal": "Otter",
       "owner": "Nate Stutte",
+      "owner_html": "Nate Stutte",
       "num_posts": 8466,
       "num_pics": 8440,
       "num_gifs": 0,
       "num_vids": 8,
       "num_subs": 3964,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6404,13 +7318,15 @@ const telegramChannels = {
       "handle": "PandaEveryHour",
       "animal": "Panda",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 6487,
       "num_pics": 6487,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 4316,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6418,13 +7334,15 @@ const telegramChannels = {
       "handle": "pigofthe",
       "animal": "Pig",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 853,
       "num_pics": 785,
       "num_gifs": 0,
       "num_vids": 12,
       "num_subs": 15673,
       "latest_post": "2022-05-10",
-      "notes": "OftheDay1 network"
+      "notes": "OftheDay1 network",
+      "notes_html": "OftheDay1 network"
     },
     {
       "platform": "twitter",
@@ -6432,13 +7350,15 @@ const telegramChannels = {
       "handle": "quokkaeveryhour",
       "animal": "Quokka",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 17199,
       "num_pics": 13564,
       "num_gifs": 3634,
       "num_vids": 0,
       "num_subs": 83126,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6446,13 +7366,15 @@ const telegramChannels = {
       "handle": "rabbitoftheday",
       "animal": "Rabbit",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 2140,
       "num_pics": 1840,
       "num_gifs": 4,
       "num_vids": 17,
       "num_subs": 40302,
       "latest_post": "2022-05-10",
-      "notes": "OftheDay1 network"
+      "notes": "OftheDay1 network",
+      "notes_html": "OftheDay1 network"
     },
     {
       "platform": "twitter",
@@ -6460,13 +7382,15 @@ const telegramChannels = {
       "handle": "rabbit_isle_bot",
       "animal": "Rabbit",
       "owner": "@ASISOR",
+      "owner_html": "<a href=\"https://twitter.com/ASISOR\" target=\"_blank\">@ASISOR</a>",
       "num_posts": 19820,
       "num_pics": 26269,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 25889,
       "latest_post": "2022-05-10",
-      "notes": "Japanese"
+      "notes": "Japanese",
+      "notes_html": "Japanese"
     },
     {
       "platform": "twitter",
@@ -6474,13 +7398,15 @@ const telegramChannels = {
       "handle": "raccoonhourly",
       "animal": "Raccoon",
       "owner": "@ggstoneforge",
+      "owner_html": "<a href=\"https://twitter.com/ggstoneforge\" target=\"_blank\">@ggstoneforge</a>",
       "num_posts": 23262,
       "num_pics": 23262,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 147768,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6488,13 +7414,15 @@ const telegramChannels = {
       "handle": "ServalEveryHr",
       "animal": "Serval",
       "owner": "serval@janniqz.moe",
+      "owner_html": "serval@janniqz.moe",
       "num_posts": 8068,
       "num_pics": 8068,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 40188,
       "latest_post": "2022-05-10",
-      "notes": "Same network as @RedPandaEveryHr and @FennecEveryHr"
+      "notes": "Same network as @RedPandaEveryHr and @FennecEveryHr",
+      "notes_html": "Same network as <a href=\"https://twitter.com/RedPandaEveryHr\" target=\"_blank\">@RedPandaEveryHr</a> and <a href=\"https://twitter.com/FennecEveryHr\" target=\"_blank\">@FennecEveryHr</a>"
     },
     {
       "platform": "twitter",
@@ -6502,13 +7430,15 @@ const telegramChannels = {
       "handle": "RedPandaEveryHr",
       "animal": "Wah",
       "owner": "redpanda@janniqz.moe",
+      "owner_html": "redpanda@janniqz.moe",
       "num_posts": 17221,
       "num_pics": 17135,
       "num_gifs": 85,
       "num_vids": 0,
       "num_subs": 204739,
       "latest_post": "2022-05-10",
-      "notes": "Same network as @ServalEveryHr and @FennecEveryHr"
+      "notes": "Same network as @ServalEveryHr and @FennecEveryHr",
+      "notes_html": "Same network as <a href=\"https://twitter.com/ServalEveryHr\" target=\"_blank\">@ServalEveryHr</a> and <a href=\"https://twitter.com/FennecEveryHr\" target=\"_blank\">@FennecEveryHr</a>"
     },
     {
       "platform": "twitter",
@@ -6516,13 +7446,15 @@ const telegramChannels = {
       "handle": "FennecEveryHr",
       "animal": "Fennec",
       "owner": "fennec@janniqz.moe",
+      "owner_html": "fennec@janniqz.moe",
       "num_posts": 8144,
       "num_pics": 8144,
       "num_gifs": 0,
       "num_vids": 0,
       "num_subs": 61626,
       "latest_post": "2022-05-10",
-      "notes": "Same network as @ServalEveryHr and @RedPandaEveryHr"
+      "notes": "Same network as @ServalEveryHr and @RedPandaEveryHr",
+      "notes_html": "Same network as <a href=\"https://twitter.com/ServalEveryHr\" target=\"_blank\">@ServalEveryHr</a> and <a href=\"https://twitter.com/RedPandaEveryHr\" target=\"_blank\">@RedPandaEveryHr</a>"
     },
     {
       "platform": "twitter",
@@ -6530,13 +7462,15 @@ const telegramChannels = {
       "handle": "SharksEveryDayy",
       "animal": "Shark",
       "owner": "@adroxyz",
+      "owner_html": "<a href=\"https://twitter.com/adroxyz\" target=\"_blank\">@adroxyz</a>",
       "num_posts": 3519,
       "num_pics": 1417,
       "num_gifs": 17,
       "num_vids": 153,
       "num_subs": 44355,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6544,13 +7478,15 @@ const telegramChannels = {
       "handle": "shoebillhours",
       "animal": "Shoebill",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 7843,
       "num_pics": 7570,
       "num_gifs": 272,
       "num_vids": 0,
       "num_subs": 65277,
       "latest_post": "2022-05-10",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6558,13 +7494,15 @@ const telegramChannels = {
       "handle": "snailOTD",
       "animal": "Snail",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 449,
       "num_pics": 73,
       "num_gifs": 6,
       "num_vids": 0,
       "num_subs": 990,
       "latest_post": "2022-05-09",
-      "notes": ""
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6572,13 +7510,15 @@ const telegramChannels = {
       "handle": "MexicanWolves",
       "animal": "Wolf",
       "owner": "?",
+      "owner_html": "?",
       "num_posts": 9278,
       "num_pics": 451,
       "num_gifs": 0,
       "num_vids": 18,
       "num_subs": 12641,
       "latest_post": "2022-05-10",
-      "notes": "Website: https://mexicanwolves.org"
+      "notes": "Website: https://mexicanwolves.org",
+      "notes_html": "Website: <a href=\"https://mexicanwolves.org\" target=\"_blank\">https://mexicanwolves.org</a>"
     }
   ]
 }
