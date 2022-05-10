@@ -1,4 +1,5 @@
 import json
+import re
 from dataclasses import dataclass
 from datetime import datetime
 from enum import Enum
@@ -14,6 +15,16 @@ from telegram_animals.data.cache import TelegramCache, TwitterCache, ChannelCach
 class ChannelType(Enum):
     TELEGRAM = "telegram"
     TWITTER = "twitter"
+
+    @property
+    def link_base(self) -> str:
+        return {
+            ChannelType.TELEGRAM: "https://t.me/",
+            ChannelType.TWITTER: f"https://twitter.com/"
+        }[self]
+
+    def link(self, handle: str) -> str:
+        return f"{self.link_base}{handle}"
 
 
 @dataclass
@@ -42,23 +53,22 @@ class Channel:
         latest_post = cache.latest_post if cache else None
         if latest_post:
             latest_post = latest_post.strftime("%Y-%m-%d")
-        link = {
-            ChannelType.TELEGRAM: f"https://t.me/{self.handle}",
-            ChannelType.TWITTER: f"https://twitter.com/{self.handle}"
-        }[self.channel_type]
+        link = self.channel_type.link(self.handle)
         return {
             "platform": self.channel_type.value,
             "link": link,
             "handle": self.handle,
             "animal": self.animal,
             "owner": self.owner,
+            "owner_html": self.owner_html,
             "num_posts": cache.post_count if cache else None,
             "num_pics": cache.pic_count if cache else None,
             "num_gifs": cache.gif_count if cache else None,
             "num_vids": cache.video_count if cache else None,
             "num_subs": cache.subscribers if cache else None,
             "latest_post": latest_post,
-            "notes": self.notes
+            "notes": self.notes,
+            "notes_html": self.notes_html
         }
 
     def get_cache(self, datastore: "Datastore") -> Optional["TelegramCache"]:
@@ -79,6 +89,30 @@ class Channel:
 
     def __hash__(self):
         return hash(self.handle.casefold())
+
+    @property
+    def notes_html(self) -> str:
+        link_regex = re.compile(r"https://.+?(?=[,\s\"]|$)")
+        handle_regex = re.compile("@(.+?)(?=[,\s\"]|$)")
+        notes = self.notes
+        for match in link_regex.finditer(notes):
+            notes = notes.replace(
+                match.group(0),
+                f"<a href=\"{match.group(0)}\" target=\"_blank\">{match.group(0)}</a>"
+            )
+        for match in handle_regex.finditer(notes):
+            notes = notes.replace(
+                match.group(0),
+                f"<a href=\"{self.channel_type.link(match.group(1))}\" target=\"_blank\">{match.group(0)}</a>"
+            )
+        return notes
+
+    @property
+    def owner_html(self) -> str:
+        if self.owner.startswith("@") and all(char not in self.owner for char in [" ", ",", "\""]):
+            owner_handle = self.owner[1:]
+            return f"<a href=\"{self.channel_type.link(owner_handle)}\" target=\"_blank\">{self.owner}</a>"
+        return self.owner
 
 
 @dataclass

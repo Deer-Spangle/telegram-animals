@@ -50,7 +50,7 @@
             <td><img src="icon_{{channel.channel_type.value}}.svg" alt="{{channel.channel_type.value}}" style="height: 1em;"/></td>
             <td><a href="https://t.me/{{ channel.handle }}" target="_blank">@{{ channel.handle }}</a></td>
             <td>{{ channel.animal }}</td>
-            <td>{{ channel.owner }}</td>
+            <td>{{ channel.owner_html | safe }}</td>
             {% set cache = channel.get_cache(datastore) %}
             {% if cache %}
                 <td style="{{ count_scale.style_for_value(cache.post_count) }}">{{ cache.post_count | default("?") }}</td>
@@ -71,7 +71,7 @@
                 <td>?</td>
                 <td>?</td>
             {% endif %}
-            <td>{{ channel.notes }}</td>
+            <td>{{ channel.notes_html | safe }}</td>
         </tr>
     {% endfor %}
     </tbody>

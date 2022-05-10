@@ -263,7 +263,7 @@ function addRow(channel, tableBody, newAnimal, countScale, dateScale) {
     tr.appendChild(animalCell)
 
     const ownerCell = document.createElement("td")
-    ownerCell.innerHTML = channel['owner']
+    ownerCell.innerHTML = channel['owner_html']
     tr.appendChild(ownerCell)
 
     const postsCell = document.createElement("td")
@@ -299,7 +299,7 @@ function addRow(channel, tableBody, newAnimal, countScale, dateScale) {
     tr.appendChild(latestCell)
 
     const notesCell = document.createElement("td")
-    notesCell.innerHTML = channel['notes']
+    notesCell.innerHTML = channel['notes_html']
     tr.appendChild(notesCell)
     tableBody.appendChild(tr)
 }
