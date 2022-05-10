@@ -60,21 +60,21 @@
       "handle": "DeerHourly",
       "owner": "@SamTheRaccDeer",
       "animal": "Deer",
-      "notes": "-",
+      "notes": "",
       "handle_pattern": "?hourly"
     },
     {
       "handle": "cowsjpg",
       "owner": "?",
       "animal": "Cow",
-      "notes": "-",
+      "notes": "",
       "handle_pattern": "?jpg"
     },
     {
       "handle": "CapybaraDaily",
       "owner": "?",
       "animal": "Capybara",
-      "notes": "-",
+      "notes": "",
       "handle_pattern": "?daily"
     },
     {

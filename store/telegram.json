@@ -2314,7 +2314,7 @@
       "handle": "monkeygifs",
       "owner": "?",
       "animal": "Monkey",
-      "notes": "-",
+      "notes": "",
       "handle_pattern": "?gifs"
     },
     {
@@ -2475,7 +2475,7 @@
       "handle": "bearpictures",
       "owner": "Pastek_s",
       "animal": "Bear",
-      "notes": "?",
+      "notes": "",
       "handle_pattern": "?pictures"
     },
     {
@@ -2517,14 +2517,14 @@
       "handle": "frogpost",
       "owner": "?",
       "animal": "Frog",
-      "notes": "?",
+      "notes": "",
       "handle_pattern": "?post"
     },
     {
       "handle": "frogs_channel",
       "owner": "?",
       "animal": "Frog",
-      "notes": "?",
+      "notes": "",
       "handle_pattern": "?_channel"
     },
     {
@@ -2573,7 +2573,7 @@
       "handle": "catsgifs",
       "owner": "?",
       "animal": "Cat",
-      "notes": "?",
+      "notes": "",
       "handle_pattern": "?gifs"
     },
     {
