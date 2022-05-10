@@ -10,7 +10,7 @@ import twitter
 from twitter import Status
 
 from telegram_animals.data.cache import TwitterCache, TwitterSample
-from telegram_animals.data.datastore import Datastore
+from telegram_animals.data.datastore import Datastore, Channel
 from telegram_animals.subparser import SubParserAdder
 
 WAIT_BEFORE_REFRESH = timedelta(hours=6)
@@ -143,6 +143,33 @@ def update_twitter_cache(twitter_cache: TwitterCache, user: twitter.User) -> Twi
     twitter_cache._latest_post = latest_post_datetime
 
 
+def update_cache_for_channel(api: twitter.Api, datastore: Datastore, channel: Channel) -> None:
+    user_cache = datastore.fetch_twitter_cache(channel.handle)
+    if user_cache is None:
+        print("Creating new twitter cache")
+        time.sleep(2)
+        user = api.GetUser(screen_name=channel.handle)
+        user_cache = create_twitter_cache(user)
+    if datetime.now() - user_cache.date_checked > WAIT_BEFORE_REFRESH:
+        print("Updating twitter user cache")
+        time.sleep(2)
+        user = api.GetUser(user_id=user_cache.user_id)
+        update_twitter_cache(user_cache, user)
+    if datetime.now() - user_cache.date_checked > WAIT_BEFORE_REFRESH or user_cache.sample.num_tweets == 0:
+        if user_cache.sample.num_tweets == 0:
+            print("Fetching initial tweet sample")
+            tweets = fetch_initial_tweets(api, user.id)
+        else:
+            print("Updating tweet sample")
+            tweets = fetch_new_tweets(api, user.id, user_cache.sample.latest_id, user_cache.sample.latest_datetime)
+        for tweet in tweets:
+            add_tweet_to_sample(user_cache.sample, tweet)
+    print(
+        f"{channel.handle}: {user_cache.post_count} tweets ({user_cache.sample.num_tweets} sampled), "
+        f"{user_cache.subscribers} subscribers"
+    )
+
+
 def do_twitter_scrape(ns: Namespace):
     api = twitter.Api(
         consumer_key=ns.api_key,
@@ -152,29 +179,10 @@ def do_twitter_scrape(ns: Namespace):
     )
     datastore = Datastore()
     for channel in datastore.twitter_feeds:
-        user_cache = datastore.fetch_twitter_cache(channel.handle)
-        if user_cache is None:
-            print("Creating new twitter cache")
-            time.sleep(2)
-            user = api.GetUser(screen_name=channel.handle)
-            user_cache = create_twitter_cache(user)
-        if datetime.now() - user_cache.date_checked > WAIT_BEFORE_REFRESH:
-            print("Updating twitter user cache")
-            time.sleep(2)
-            user = api.GetUser(user_id=user_cache.user_id)
-            update_twitter_cache(user_cache, user)
-        if datetime.now() - user_cache.date_checked > WAIT_BEFORE_REFRESH or user_cache.sample.num_tweets == 0:
-            if user_cache.sample.num_tweets == 0:
-                print("Fetching initial tweet sample")
-                tweets = fetch_initial_tweets(api, user.id)
-            else:
-                print("Updating tweet sample")
-                tweets = fetch_new_tweets(api, user.id, user_cache.sample.latest_id, user_cache.sample.latest_datetime)
-            for tweet in tweets:
-                add_tweet_to_sample(user_cache.sample, tweet)
-        print(
-            f"{channel.handle}: {user_cache.post_count} tweets ({user_cache.sample.num_tweets} sampled), "
-            f"{user_cache.subscribers} subscribers"
-        )
-        datastore.update_twitter_cache(channel.handle, user_cache)
-        datastore.save_twitter_cache()
+        try:
+            update_cache_for_channel(api, datastore, channel)
+            datastore.update_twitter_cache(channel.handle, user_cache)
+            datastore.save_twitter_cache()
+        except Exception as e:
+            print(f"{channel.handle} could not be cached: {e}")
+    datastore.save_telegram_cache()
