@@ -4605,8 +4605,8 @@ const telegramChannels = {
       "num_vids": 0,
       "num_subs": 3,
       "latest_post": "2021-04-26",
-      "notes": "-",
-      "notes_html": "-"
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -4973,8 +4973,8 @@ const telegramChannels = {
       "num_vids": 13,
       "num_subs": 8,
       "latest_post": "2022-05-03",
-      "notes": "?",
-      "notes_html": "?"
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5069,8 +5069,8 @@ const telegramChannels = {
       "num_vids": 18,
       "num_subs": 517,
       "latest_post": "2022-05-06",
-      "notes": "?",
-      "notes_html": "?"
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5085,8 +5085,8 @@ const telegramChannels = {
       "num_vids": 0,
       "num_subs": 2,
       "latest_post": "2022-05-06",
-      "notes": "?",
-      "notes_html": "?"
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -5197,8 +5197,8 @@ const telegramChannels = {
       "num_vids": 1,
       "num_subs": 27,
       "latest_post": "2021-03-08",
-      "notes": "?",
-      "notes_html": "?"
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "telegram",
@@ -6365,8 +6365,8 @@ const telegramChannels = {
       "num_vids": 0,
       "num_subs": 16785,
       "latest_post": "2022-05-10",
-      "notes": "-",
-      "notes_html": "-"
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6381,8 +6381,8 @@ const telegramChannels = {
       "num_vids": 37,
       "num_subs": 15723,
       "latest_post": "2022-04-26",
-      "notes": "-",
-      "notes_html": "-"
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
@@ -6397,8 +6397,8 @@ const telegramChannels = {
       "num_vids": 194,
       "num_subs": 47183,
       "latest_post": "2022-05-04",
-      "notes": "-",
-      "notes_html": "-"
+      "notes": "",
+      "notes_html": ""
     },
     {
       "platform": "twitter",
