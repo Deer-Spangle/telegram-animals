@@ -145,11 +145,12 @@ def update_twitter_cache(twitter_cache: TwitterCache, user: twitter.User) -> Non
 
 def update_twitter_sample(api: twitter.Api, user: twitter.User, user_cache: TwitterCache) -> None:
     if user_cache.sample.num_tweets == 0:
-        print("Fetching initial tweet sample")
+        print("Fetching initial tweet sample...", end="")
         tweets = fetch_initial_tweets(api, user.id)
     else:
-        print("Updating tweet sample")
+        print("Updating tweet sample...", end="")
         tweets = fetch_new_tweets(api, user.id, user_cache.sample.latest_id, user_cache.sample.latest_datetime)
+    print(f"Got {len(tweets)} tweets")
     for tweet in tweets:
         add_tweet_to_sample(user_cache.sample, tweet)
 
