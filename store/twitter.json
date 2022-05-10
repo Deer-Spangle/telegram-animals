@@ -163,9 +163,9 @@
     },
     {
       "handle": "HourlyYeen",
-      "owner": "TinyZorro",
+      "owner": "NotTheZorro",
       "animal": "Hyena",
-      "notes": "Mirror of telegram channel, t.me/HourlyYeen",
+      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyYeen",
       "handle_pattern": "hourly?"
     },
     {
@@ -202,6 +202,48 @@
       "animal": "Cat",
       "notes": "Has a discord server: https://discord.gg/mmrFESFCbc",
       "handle_pattern": "?_dot_exe"
+    },
+    {
+      "handle": "TrueFoxNews",
+      "owner": "RinAkaia",
+      "animal": "Fox",
+      "notes": "Mirrored to telegram https://t.me/TrueFoxNews",
+      "handle_pattern": "true?news"
+    },
+    {
+      "handle": "WikiFoxSpain__",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Spanish",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "FopsHourly",
+      "owner": "NotTheZorro",
+      "animal": "Fox",
+      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyFops",
+      "handle_pattern": "?hourly"
+    },
+    {
+      "handle": "HourlyWah",
+      "owner": "NotTheZorro",
+      "animal": "Fox",
+      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyWah",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyYote",
+      "owner": "NotTheZorro",
+      "animal": "Fox",
+      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyYotes",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "HourlyMarten",
+      "owner": "NotTheZorro",
+      "animal": "Fox",
+      "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyPineMarten",
+      "handle_pattern": "hourly?"
     }
   ],
   "removed": [
