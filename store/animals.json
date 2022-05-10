@@ -21,7 +21,8 @@
     "cat",
     "cats",
     "kitty",
-    "kitties"
+    "kitties",
+    "calico"
   ],
   "Seal": [
     "seal",
@@ -39,7 +40,12 @@
     "canine",
     "canines",
     "puppy",
-    "puppies"
+    "puppies",
+    "corgi",
+    "corgis",
+    "borz",
+    "borzoi",
+    "borzois"
   ],
   "Shiba Inu": [
     "shiba",
@@ -170,7 +176,11 @@
     "crocodile",
     "crocodiles",
     "croc",
-    "crocs"
+    "crocs",
+    "alligator",
+    "alligators",
+    "gator",
+    "gators"
   ],
   "Eagle": [
     "eagle",
@@ -449,7 +459,11 @@
     "foxes",
     "fops",
     "foxxo",
-    "foxxos"
+    "foxxos",
+    "arcticfox",
+    "arcticfoxes",
+    "arctic_fox",
+    "arctic_foxes"
   ],
   "Wolf": [
     "wolf",
@@ -519,7 +533,9 @@
     "huskydog",
     "huskydogs",
     "husky_dog",
-    "husky_dogs"
+    "husky_dogs",
+    "husker",
+    "huskers"
   ],
   "Opossum": [
     "opossum",
@@ -583,5 +599,38 @@
     "penwings",
     "pinguin",
     "pinguins"
+  ],
+  "Chinchilla": [
+    "chinchilla",
+    "chinchillas"
+  ],
+  "Fish": [
+    "fish",
+    "fishes",
+    "fishies"
+  ],
+  "Hamster": [
+    "hamster",
+    "hamsters"
+  ],
+  "Koala": [
+    "koala",
+    "koalas"
+  ],
+  "Quokka": [
+    "quokka",
+    "quokka"
+  ],
+  "Shoebill": [
+    "shoebill",
+    "shoebills",
+    "shoe_bill",
+    "shoe_bills"
+  ],
+  "Donkey": [
+    "donkey",
+    "donkeys",
+    "donk",
+    "donks"
   ]
 }

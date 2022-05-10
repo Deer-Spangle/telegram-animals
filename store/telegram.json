@@ -3023,6 +3023,20 @@
       "animal": "Goat",
       "notes": "",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "TrueFoxNews",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Mirrored to twitter https://twitter.com/TrueFoxNews",
+      "handle_pattern": "true?news"
+    },
+    {
+      "handle": "dailyarcticfox",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Mirrored to twitter https://twitter.com/DailyArcticFox",
+      "handle_pattern": "daily?"
     }
   ],
   "removed": [
