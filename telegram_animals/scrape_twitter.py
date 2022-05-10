@@ -3,6 +3,7 @@ import os
 from argparse import Namespace
 from datetime import datetime, timedelta
 from typing import List, Optional
+import time
 
 import dateutil.parser
 import twitter
@@ -11,6 +12,9 @@ from twitter import Status
 from telegram_animals.data.cache import TwitterCache, TwitterSample
 from telegram_animals.data.datastore import Datastore
 from telegram_animals.subparser import SubParserAdder
+
+WAIT_BEFORE_REFRESH = timedelta(hours=6)
+INITIAL_TWEET_SAMPLE = 1000
 
 
 def min_not_null(a: Optional[int], b: Optional[int]) -> Optional[int]:
@@ -76,6 +80,7 @@ def fetch_new_tweets(api: twitter.Api, user_id: int, since_id: int, since_dateti
     max_id = None
     new_tweets = []
     while True:
+        time.sleep(1)
         timeline = api.GetUserTimeline(user_id=user_id, since_id=since_id, max_id=max_id)
         new_batch = []
         for tweet in timeline:
@@ -93,6 +98,7 @@ def fetch_initial_tweets(api: twitter.Api, user_id: int) -> List[Status]:
     tweets = []
     max_id = None
     while True:
+        time.sleep(1)
         timeline = api.GetUserTimeline(user_id=user_id, max_id=max_id)
         new_batch = []
         for tweet in timeline:
@@ -100,7 +106,7 @@ def fetch_initial_tweets(api: twitter.Api, user_id: int) -> List[Status]:
                 tweets.append(tweet)
                 new_batch.append(tweet)
             max_id = min_not_null(tweet.id, max_id)
-        if not new_batch or len(tweets) > 1000:
+        if not new_batch or len(tweets) > INITIAL_TWEET_SAMPLE:
             break
     return tweets
 
@@ -148,14 +154,21 @@ def do_twitter_scrape(ns: Namespace):
     for channel in datastore.twitter_feeds:
         user_cache = datastore.fetch_twitter_cache(channel.handle)
         if user_cache is None:
+            print("Creating new twitter cache")
+            time.sleep(2)
             user = api.GetUser(screen_name=channel.handle)
             user_cache = create_twitter_cache(user)
-        if datetime.now() - user_cache.date_checked > timedelta(hours=6) or user_cache.sample.num_tweets == 0:
+        if datetime.now() - user_cache.date_checked > WAIT_BEFORE_REFRESH:
+            print("Updating twitter user cache")
+            time.sleep(2)
             user = api.GetUser(user_id=user_cache.user_id)
             update_twitter_cache(user_cache, user)
+        if datetime.now() - user_cache.date_checked > WAIT_BEFORE_REFRESH or user_cache.sample.num_tweets == 0:
             if user_cache.sample.num_tweets == 0:
+                print("Fetching initial tweet sample")
                 tweets = fetch_initial_tweets(api, user.id)
             else:
+                print("Updating tweet sample")
                 tweets = fetch_new_tweets(api, user.id, user_cache.sample.latest_id, user_cache.sample.latest_datetime)
             for tweet in tweets:
                 add_tweet_to_sample(user_cache.sample, tweet)
