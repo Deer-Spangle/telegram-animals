@@ -21,6 +21,8 @@ from telegram_animals.data.datastore import Channel, Datastore
 from telegram_animals.data.cache import TelegramCache
 from telegram_animals.subparser import SubParserAdder
 
+WAIT_BEFORE_REFRESH = timedelta(hours=6)
+
 
 class MediaType(Enum):
     Image = InputMessagesFilterPhotos()
@@ -160,13 +162,13 @@ async def generate_all_caches(client: TelegramClient, datastore: Datastore):
     channels = datastore.telegram_channels
     cache = datastore.telegram_cache
     now = datetime.utcnow().replace(tzinfo=pytz.utc)
-    wait_before_refresh = timedelta(hours=6)
+    WAIT_BEFORE_REFRESH = timedelta(hours=6)
     searcher = CachedSearcher.load_from_json()
     for channel in channels:
         old_channel_cache = cache.get(channel.handle.casefold())
         if old_channel_cache:
             time_since_cache = now - old_channel_cache.date_checked
-            if time_since_cache < wait_before_refresh:
+            if time_since_cache < WAIT_BEFORE_REFRESH:
                 print(f"{channel.handle} was cached recently ({time_since_cache}), skipping.")
                 continue
         try:
