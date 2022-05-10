@@ -72,9 +72,7 @@ class Channel:
         }
 
     def get_cache(self, datastore: "Datastore") -> Optional["TelegramCache"]:
-        if self.channel_type == ChannelType.TELEGRAM:
-            return datastore.telegram_cache.get(self.handle.casefold())
-        return None
+        return datastore.fetch_cache(self.channel_type, self.handle)
 
     @property
     def is_bot(self) -> bool:
