@@ -5159,5 +5159,18 @@
     "channel_hash": -1401344691015809681,
     "bio": "\u0432\u0441\u044f \u043f\u0440\u0430\u0432\u0434\u0430 \u043e \u043a\u043e\u0437\u0430\u0445 \u043a\u043e\u0437\u043b\u0430\u0445 \u0438 \u043a\u043e\u0437\u043b\u0438\u043a\u0430\u0445",
     "title": "\u044d\u0447\u043a\u0438\u043b\u0435\u0440 \u043b\u0435 \u0442\u0435\u043a\u0435\u043b\u0435\u0440"
+  },
+  "monkegif": {
+    "date_checked": "2022-05-10T00:09:13.951585+00:00",
+    "gif_count": 103,
+    "pic_count": 0,
+    "video_count": 0,
+    "subscriber_count": 25,
+    "post_count": 106,
+    "latest_post": "2022-04-26T20:03:33+00:00",
+    "channel_id": 1599438442,
+    "channel_hash": -95724056821278301,
+    "bio": "monkey gifs",
+    "title": "Monkey Gifs"
   }
 }
