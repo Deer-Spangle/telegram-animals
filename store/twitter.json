@@ -191,7 +191,7 @@
     },
     {
       "handle": "PossumEveryHour",
-      "owner": "ThunderySteak",
+      "owner": "@ThunderySteak",
       "animal": "Opossum",
       "notes": "",
       "handle_pattern": "?everyhour"
@@ -244,7 +244,192 @@
       "animal": "Fox",
       "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyPineMarten",
       "handle_pattern": "hourly?"
-    }
+    },
+    {
+      "handle": "aqualuvsuotd",
+      "owner": "?",
+      "animal": "*",
+      "notes": "Aquatic fauna",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "obscure_otd",
+      "owner": "?",
+      "animal": "*",
+      "notes": "Obscure animals each day",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "insect_otd",
+      "owner": "?",
+      "animal": "Insect",
+      "notes": "",
+      "handle_pattern": "?_otd"
+    },
+    {
+      "handle": "batsdotexe",
+      "owner": "?",
+      "animal": "Bat",
+      "notes": "",
+      "handle_pattern": "?dotexe"
+    },
+    {
+      "handle": "otdbat",
+      "owner": "?",
+      "animal": "Bat",
+      "notes": "",
+      "handle_pattern": "otd?"
+    },
+    {
+      "handle": "gayocats",
+      "owner": "@Foone",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "gayo?"
+    },
+    {
+      "handle": "CalicoDaily",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "?daily"
+    },
+    {
+      "handle": "chinchillahour",
+      "owner": "@BeGrapa77",
+      "animal": "Chinchilla",
+      "notes": "",
+      "handle_pattern": "?hour"
+    },
+    {
+      "handle": "CorgiEveryHour",
+      "owner": "iamcorgii",
+      "animal": "Dog",
+      "notes": "Just corgis",
+      "handle_pattern": "?everyhour"
+    },
+    {
+      "handle": "CowoftheDay1",
+      "owner": "?",
+      "animal": "Cow",
+      "notes": "OftheDay1 network",
+      "handle_pattern": "?oftheday1"
+    },
+    {
+      "handle": "cow_everyhour",
+      "owner": "?",
+      "animal": "Cow",
+      "notes": "",
+      "handle_pattern": "?_everyhour"
+    },
+    {
+      "handle": "dogeveryhour",
+      "owner": "@jasper9",
+      "animal": "Dog",
+      "notes": "Content from dog.ceo dog API",
+      "handle_pattern": "?everyhour"
+    },
+    {
+      "handle": "COdogstalker",
+      "owner": "@jasper9",
+      "animal": "Dog",
+      "notes": "Posts pics of dogs up for adoption in Colorado",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "Dogofthe_",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "OftheDay1 network",
+      "handle_pattern": "?ofthe_"
+    },
+    {
+      "handle": "borzbot",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?bot"
+    },
+    {
+      "handle": "DonkeyoftheDay1",
+      "owner": "?",
+      "animal": "Donkey",
+      "notes": "OftheDay1 network",
+      "handle_pattern": "?oftheday1"
+    },
+    {
+      "handle": "hourly_fish",
+      "owner": "@dragonuniverse3",
+      "animal": "Fish",
+      "notes": "",
+      "handle_pattern": "hourly_?"
+    },
+    {
+      "handle": "frogofthe",
+      "owner": "?",
+      "animal": "Frog",
+      "notes": "OftheDay1 network",
+      "handle_pattern": "?ofthe"
+    },
+    {
+      "handle": "bot_fox_",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "bot_?_"
+    },
+    {
+      "handle": "DailyArcticFox",
+      "owner": "@BlepFox",
+      "animal": "Fox",
+      "notes": "Mirrored to telegram https://t.me/dailyarcticfox",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "the_dailyfox",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Has a website: https://TheDailyFox.org",
+      "handle_pattern": "the_daily?"
+    },
+    {
+      "handle": "qonqon_biyori",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "kitsunegazou"
+    },
+    {
+      "handle": "mofumofu_fooox"
+    },
+    {
+      "handle": "GatorsDaily"
+    },
+    {
+      "handle": "goatofthe",
+      "notes": "OftheDay1 network"
+    },
+    {
+      "handle": "hamsterybot"
+    },
+    {
+      "handle": "hamsterofthe",
+      "notes": "OftheDay1 network"
+    },
+    {
+      "handles": "daily__hedgehog", "huskerybot", "koalaseveryhr","hourlylizards"
+    },
+    {
+      "handle": "rabbitoftheday",
+      "notes": "OftheDay1 network"
+    },
+    {
+      "handle": "pigofthe",
+      "notes": "OftheDay1 network"
+    },
   ],
   "removed": [
     {
