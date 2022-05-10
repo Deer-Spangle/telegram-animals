@@ -2,84 +2,84 @@
   "entities": [
     {
       "handle": "alpacagifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Alpaca",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "chickengifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Chicken",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "corvidgifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Corvid",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "cowgifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Cow",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "deergifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Deer",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "deersounds",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Deer",
       "notes": "Video channel",
       "handle_pattern": "?sounds"
     },
     {
       "handle": "elephantgifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Elephant",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "goatgifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Goat",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "horsegifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Horse",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "piggifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Pig",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "sheepgifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Sheep",
       "notes": "",
       "handle_pattern": "?gifs"
     },
     {
       "handle": "tigergifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "Tiger",
       "notes": "",
       "handle_pattern": "?gifs"
@@ -121,14 +121,14 @@
     },
     {
       "handle": "HourlyTiger",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Tiger",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyTigerBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Tiger",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -240,14 +240,14 @@
     },
     {
       "handle": "FoxesHourlies",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "~",
       "notes": "TinyZorro network hub",
       "handle_pattern": "-"
     },
     {
       "handle": "HourlyChi",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "African Painted Dog",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -268,7 +268,7 @@
     },
     {
       "handle": "HourlyCaracal",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Caracal",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -282,14 +282,14 @@
     },
     {
       "handle": "HourlyYotes",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Coyote",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyJaguars",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Jaguar",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -303,21 +303,21 @@
     },
     {
       "handle": "HourlyPineMarten",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Pine Marten",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyBun",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Rabbit",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyCoon",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Raccoon",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -331,77 +331,77 @@
     },
     {
       "handle": "HourlySnep",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Snep",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyWoofs",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Wolf",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyChiBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "African Painted Dog",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyCaracalBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Caracal",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyYoteBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Coyote",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyJaguarBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Jaguar",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyPineMartenBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Pine Marten",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyBunBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Rabbit",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyRaccBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Raccoon",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlySnepBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Snep",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyWoofBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Wolf",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -464,7 +464,7 @@
     },
     {
       "handle": "HourlyCapybara",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Capybara",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -702,7 +702,7 @@
     },
     {
       "handle": "HourlyFops",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Fox",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -800,7 +800,7 @@
     },
     {
       "handle": "HourlyManes",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Maned Wolf",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -1031,7 +1031,7 @@
     },
     {
       "handle": "HourlyWah",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Wah",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -1087,7 +1087,7 @@
     },
     {
       "handle": "HourlyYeen",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Hyena",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
@@ -1122,7 +1122,7 @@
     },
     {
       "handle": "HourlyCapybaraBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Capybara",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -1164,7 +1164,7 @@
     },
     {
       "handle": "ZPiFoxBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Fox",
       "notes": "TinyZorro network",
       "handle_pattern": "-"
@@ -1185,7 +1185,7 @@
     },
     {
       "handle": "HourlyManeBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Maned Wolf",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -1213,14 +1213,14 @@
     },
     {
       "handle": "hourlywahbot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Wah",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyYeenBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Hyena",
       "notes": "Bot for HourlyYeen",
       "handle_pattern": "hourly?bot"
@@ -1255,14 +1255,14 @@
     },
     {
       "handle": "HourlyPoss",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Opossum",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyPossBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Opossum",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -1374,14 +1374,14 @@
     },
     {
       "handle": "HourlyBleat",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Deer",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyDeerBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Deer",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -1437,7 +1437,7 @@
     },
     {
       "handle": "spanglegifs",
-      "owner": "DeerSpangle",
+      "owner": "@DeerSpangle",
       "animal": "~",
       "notes": "DeerSpangle gif channels network hub",
       "handle_pattern": "-"
@@ -1675,42 +1675,42 @@
     },
     {
       "handle": "HourlyOtt",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Otter",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyOttBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Otter",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyLeo",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Lion",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyLeoBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Lion",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlySneks",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Snake",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlySnekBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Snake",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -1892,42 +1892,42 @@
     },
     {
       "handle": "HourlyCanine",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Dog",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyCanineBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Dog",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlySkunk",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Skunk",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlySkunkBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Skunk",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
     },
     {
       "handle": "HourlyPuma",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Cougar",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyPumaBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Cougar",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -2970,14 +2970,14 @@
     },
     {
       "handle": "HourlyBears",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Bear",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyBearBot",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Bear",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?bot"
@@ -3005,14 +3005,14 @@
     },
     {
       "handle": "HourlyServal",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Serval",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyShibe",
-      "owner": "TinyZorro",
+      "owner": "@TinyZorro",
       "animal": "Shiba Inu",
       "notes": "TinyZorro network",
       "handle_pattern": "hourly?"
