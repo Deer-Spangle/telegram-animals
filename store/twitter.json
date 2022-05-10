@@ -227,21 +227,21 @@
     {
       "handle": "HourlyWah",
       "owner": "NotTheZorro",
-      "animal": "Fox",
+      "animal": "Wah",
       "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyWah",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyYote",
       "owner": "NotTheZorro",
-      "animal": "Fox",
+      "animal": "Coyote",
       "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyYotes",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyMarten",
       "owner": "NotTheZorro",
-      "animal": "Fox",
+      "animal": "Pine Marten",
       "notes": "TinyZorro network. Mirror of telegram channel, t.me/HourlyPineMarten",
       "handle_pattern": "hourly?"
     },
@@ -528,7 +528,7 @@
     {
       "handle": "RedPandaEveryHr",
       "owner": "redpanda@janniqz.moe",
-      "animal": "Red Panda",
+      "animal": "Wah",
       "notes": "Same network as @ServalEveryHr and @FennecEveryHr",
       "handle_pattern": "?everyhr"
     },
