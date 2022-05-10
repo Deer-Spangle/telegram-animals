@@ -176,7 +176,11 @@
     "crocodile",
     "crocodiles",
     "croc",
-    "crocs"
+    "crocs",
+    "alligator",
+    "alligators",
+    "gator",
+    "gators"
   ],
   "Eagle": [
     "eagle",
@@ -529,7 +533,9 @@
     "huskydog",
     "huskydogs",
     "husky_dog",
-    "husky_dogs"
+    "husky_dogs",
+    "husker",
+    "huskers"
   ],
   "Opossum": [
     "opossum",
@@ -602,5 +608,23 @@
     "fish",
     "fishes",
     "fishies"
+  ],
+  "Hamster": [
+    "hamster",
+    "hamsters"
+  ],
+  "Koala": [
+    "koala",
+    "koalas"
+  ],
+  "Quokka": [
+    "quokka",
+    "quokka"
+  ],
+  "Shoebill": [
+    "shoebill",
+    "shoebills",
+    "shoe_bill",
+    "shoe_bills"
   ]
 }

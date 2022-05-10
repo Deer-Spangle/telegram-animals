@@ -3036,7 +3036,7 @@
       "owner": "?",
       "animal": "Fox",
       "notes": "Mirrored to twitter https://twitter.com/DailyArcticFox",
-      "handle_pattern": "daily?",
+      "handle_pattern": "daily?"
     }
   ],
   "removed": [

@@ -396,40 +396,177 @@
       "handle": "qonqon_biyori",
       "owner": "?",
       "animal": "Fox",
-      "notes": "",
+      "notes": "Japanese",
       "handle_pattern": "-"
     },
     {
-      "handle": "kitsunegazou"
+      "handle": "kitsunegazou",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Japanese",
+      "handle_pattern": "-"
     },
     {
-      "handle": "mofumofu_fooox"
+      "handle": "mofumofu_fooox",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Japanese",
+      "handle_pattern": "-"
     },
     {
-      "handle": "GatorsDaily"
+      "handle": "GatorsDaily",
+      "owner": "@gatorsafterdark",
+      "animal": "Crocodile",
+      "notes": "",
+      "handle_pattern": "?daily"
     },
     {
       "handle": "goatofthe",
-      "notes": "OftheDay1 network"
+      "owner": "?",
+      "animal": "Goat",
+      "notes": "OftheDay1 network",
+      "handle_pattern": "?ofthe"
     },
     {
-      "handle": "hamsterybot"
+      "handle": "hamsterybot",
+      "owner": "@ativhanna",
+      "animal": "Hamster",
+      "notes": "",
+      "handle_pattern": "?ybot"
     },
     {
       "handle": "hamsterofthe",
-      "notes": "OftheDay1 network"
+      "owner": "",
+      "animal": "Hamster",
+      "notes": "OftheDay1 network",
+      "handle_pattern": "?ofthe"
     },
     {
-      "handles": "daily__hedgehog", "huskerybot", "koalaseveryhr","hourlylizards"
+      "handle": "daily__hedgehog",
+      "owner": "?",
+      "animal": "Hedgehog",
+      "notes": "",
+      "handle_pattern": "daily__?"
     },
     {
-      "handle": "rabbitoftheday",
-      "notes": "OftheDay1 network"
+      "handle": "huskersbot",
+      "owner": "?",
+      "animal": "Husky",
+      "notes": "",
+      "handle_pattern": "?bot"
+    }
+    {
+       "handle": "koalaseveryhr",
+       "owner": "?",
+       "animal": "Koala",
+       "notes": "",
+       "handle_pattern": "?everyhr"
+    },
+    {
+      "handle": "hourlylizards",
+      "owner": "@RaptorHoundRune",
+      "animal": "Lizard",
+      "notes": "",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "OtterAnHour",
+      "owner": "Nate Stutte",
+      "animal": "Otter",
+      "notes": "",
+      "handle_pattern": "?anhour"
+    },
+    {
+      "handle": "PandaEveryHour",
+      "owner": "?",
+      "animal": "Panda",
+      "notes": "",
+      "handle_pattern": "?everyhour"
     },
     {
       "handle": "pigofthe",
-      "notes": "OftheDay1 network"
+      "owner": "?",
+      "animal": "Pig",
+      "notes": "OftheDay1 network",
+      "handle_pattern": "?ofthe"
     },
+    {
+      "handle": "quokkaeveryhour",
+      "owner": "?",
+      "animal": "Quokka",
+      "notes": "",
+      "handle_pattern": "?everyhour"
+    },
+    {
+      "handle": "rabbitoftheday",
+      "owner": "?",
+      "animal": "Rabbit",
+      "notes": "OftheDay1 network",
+      "handle_pattern": "?oftheday"
+    },
+    {
+      "handle": "rabbit_isle_bot",
+      "owner": "@ASISOR",
+      "animal": "Rabbit",
+      "notes": "Japanese",
+      "handle_pattern": "?_isle_bot"
+    },
+    {
+      "handle": "raccoonhourly",
+      "owner": "@ggstoneforge",
+      "animal": "Raccoon",
+      "notes": "",
+      "handle_pattern": "?hourly"
+    },
+    {
+      "handle": "ServalEveryHr",
+      "owner": "serval@janniqz.moe",
+      "animal": "Serval",
+      "notes": "Same network as @RedPandaEveryHr and @FennecEveryHr",
+      "handle_pattern": "?everyhr"
+    },
+    {
+      "handle": "RedPandaEveryHr",
+      "owner": "redpanda@janniqz.moe",
+      "animal": "Red Panda",
+      "notes": "Same network as @ServalEveryHr and @FennecEveryHr",
+      "handle_pattern": "?everyhr"
+    },
+    {
+      "handle": "FennecEveryHr",
+      "owner": "fennec@janniqz.moe",
+      "animal": "Fennec",
+      "notes": "Same network as @ServalEveryHr and @RedPandaEveryHr",
+      "handle_pattern": "?everyhr"
+    },
+    {
+      "handle": "SharksEveryDayy",
+      "owner": "@adroxyz",
+      "animal": "Shark",
+      "notes": "",
+      "handle_pattern": "?everydayy"
+    },
+    {
+      "handle": "shoebillhours",
+      "owner": "?",
+      "animal": "Shoebill",
+      "notes": "",
+      "handle_pattern": "?hours"
+    },
+    {
+      "handle": "snailOTD",
+      "owner": "?",
+      "animal": "Snail",
+      "notes": "",
+      "handle_pattern": "?otd"
+    },
+    {
+      "handle": "MexicanWolves",
+      "owner": "?",
+      "animal": "Wolf",
+      "notes": "Website: https://mexicanwolves.org",
+      "handle_pattern": "-"
+    }
   ],
   "removed": [
     {
