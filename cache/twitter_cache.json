@@ -1998,5 +1998,30 @@
       "num_pic_tweets": 49,
       "num_no_media_tweets": 957
     }
+  },
+  "kitunegazou": {
+    "date_checked": "2022-05-10T20:51:41.912874",
+    "user_id": 3108200539,
+    "display_name": "\u72d0\u753b\u50cf",
+    "bio": "\u72d0\u306e\u753b\u50cf\u3092\u8cbc\u3063\u3066\u304d\u307e\u3059",
+    "user_location": "",
+    "user_url": null,
+    "creation_datetime": "2015-03-26T09:30:14+00:00",
+    "subscribers": 7512,
+    "post_count": 53071,
+    "latest_post": "2022-05-10T19:54:46+00:00",
+    "sample": {
+      "num_tweets": 1008,
+      "latest_id": 1524115750449192960,
+      "latest_datetime": "2022-05-10T19:54:46+00:00",
+      "earliest_id": 1507536505002430474,
+      "earliest_datetime": "2022-03-26T01:54:46+00:00",
+      "num_pics": 776,
+      "num_vids": 0,
+      "num_gifs": 0,
+      "num_other_media": 0,
+      "num_pic_tweets": 776,
+      "num_no_media_tweets": 232
+    }
   }
 }
