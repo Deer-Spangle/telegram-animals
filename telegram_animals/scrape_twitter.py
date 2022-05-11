@@ -85,7 +85,7 @@ def fetch_new_tweets(api: twitter.Api, user_id: int, since_id: int, since_dateti
         new_batch = []
         for tweet in timeline:
             tweet_datetime = dateutil.parser.parse(tweet.created_at)
-            if tweet_datetime < since_datetime and tweet.id not in [t.id for t in new_tweets] + [since_id]:
+            if tweet_datetime > since_datetime and tweet.id not in [t.id for t in new_tweets] + [since_id]:
                 new_tweets.append(tweet)
                 new_batch.append(tweet)
             max_id = min_not_null(tweet.id, max_id)
