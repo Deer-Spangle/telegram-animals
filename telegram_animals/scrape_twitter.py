@@ -40,7 +40,7 @@ def setup_parser(subparsers: SubParserAdder) -> None:
         "scrape_twitter",
         description="Scrapes the known twitter feeds and updates cached values for dates, message counts, etc.",
         help="Scrapes the known twitter feed list and updated the cached values for dates, message counts, etc.\n"
-             "Saves the data to cache/twitter_cache.json",
+             "Saves the data to cache/twitter_data_cache.json",
         aliases=["update_twitter"]
     )
     parser.set_defaults(func=do_twitter_scrape)

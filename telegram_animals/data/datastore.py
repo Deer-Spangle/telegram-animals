@@ -152,7 +152,7 @@ class Datastore:
             self.twitter_feeds = [Channel.from_json(entity, ChannelType.TWITTER) for entity in twitter_data["entities"]]
         # Telegram data cache
         try:
-            with open("cache/channel_cache.json") as f:
+            with open("cache/telegram_data_cache.json") as f:
                 telegram_cache = json.load(f)
         except FileNotFoundError:
             self._telegram_cache = {}
@@ -167,7 +167,7 @@ class Datastore:
             ]
         # Twitter data cache
         try:
-            with open("cache/twitter_cache.json") as f:
+            with open("cache/twitter_data_cache.json") as f:
                 feed_cache = json.load(f)
         except FileNotFoundError:
             self._twitter_cache = {}
@@ -182,7 +182,7 @@ class Datastore:
             ]
         # Telegram search cache
         try:
-            with open("cache/search_cache.json") as f:
+            with open("cache/telegram_search_cache.json") as f:
                 self.telegram_search_cache = json.load(f)
         except FileNotFoundError:
             self.telegram_search_cache = {"cache": {}}
@@ -238,7 +238,7 @@ class Datastore:
             "errors": [err.to_json() for err in all_errors]
         }
         os.makedirs("cache", exist_ok=True)
-        with open("cache/channel_cache.json", "w+") as f:
+        with open("cache/telegram_data_cache.json", "w+") as f:
             json.dump(json_cache, f, indent=2)
 
     def fetch_twitter_cache(self, handle: str) -> Optional[TwitterCache]:
@@ -258,5 +258,5 @@ class Datastore:
             "errors": [err.to_json() for err in all_errors]
         }
         os.makedirs("cache", exist_ok=True)
-        with open("cache/twitter_cache.json", "w+") as f:
+        with open("cache/twitter_data_cache.json", "w+") as f:
             json.dump(json_cache, f, indent=2)

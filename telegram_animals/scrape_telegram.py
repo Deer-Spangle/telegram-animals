@@ -191,7 +191,7 @@ def setup_parser(subparsers: SubParserAdder) -> None:
         "scrape_telegram",
         description="Scrapes the known telegram channel list and updates cached values for dates, message counts, etc.",
         help="Scrapes the known telegram channel list and updates cached values for dates, message counts, etc.\n"
-             "Saves the data to cache/channel_cache.json",
+             "Saves the data to cache/telegram_data_cache.json",
         aliases=["update_telegram", "update_cache", "scrape_cache"]
     )
     parser.set_defaults(func=do_scrape)

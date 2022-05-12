@@ -221,12 +221,12 @@ class Searcher:
                 entry.handle: entry.to_json() for entry in self.cache.values()
             }
         }
-        with open("cache/search_cache.json", "w") as f:
+        with open("cache/telegram_search_cache.json", "w") as f:
             json.dump(data, f, indent=2)
 
     def load_cache_from_json(self) -> None:
         try:
-            with open("cache/search_cache.json", "r") as f:
+            with open("cache/telegram_search_cache.json", "r") as f:
                 data = json.load(f)
         except FileNotFoundError:
             data = {}
@@ -310,7 +310,7 @@ def setup_parser(subparsers: SubParserAdder) -> None:
         "search_handles",
         description="Search for new channels, based on animal names and handle patterns",
         help="Search for new channels, based on animal names and handle patterns.\n"
-             "Saves channel cache information to cache/search_cache.json",
+             "Saves channel cache information to cache/telegram_search_cache.json",
         aliases=["find_channels", "hunt_channels"]
     )
     parser.set_defaults(func=do_search)

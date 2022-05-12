@@ -39,7 +39,7 @@ jobs:
     - name: Save cache
       uses: EndBug/add-and-commit@v7
       with:
-        add: '["cache/channel_cache.json", "cache/twitter_cache.json"]'
+        add: '["cache/telegram_data_cache.json", "cache/twitter_data_cache.json"]'
         message: "Updating telegram and twitter cache"
     - name: Create index.html
       run: python main.py create_html
