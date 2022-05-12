@@ -217,7 +217,7 @@ class Datastore:
         return self._telegram_cache.get(handle.casefold())
     
     def update_telegram_cache(self, handle: str, cache: TelegramCache) -> None:
-        return self._telegram_cache[handle.casefold()] = cache
+        self._telegram_cache[handle.casefold()] = cache
 
     def save_telegram_cache(self) -> None:
         json_cache = {
