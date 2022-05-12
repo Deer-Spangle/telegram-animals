@@ -91,6 +91,10 @@ def create_error_file(datastore: Datastore) -> str:
 def create_error_report(datastore: Datastore) -> str:
     telegram_data_errors = datastore._telegram_cache_errors
     twitter_data_errors = datastore._twitter_cache_errors
+    env = Environment(
+        loader=PackageLoader("telegram_animals"),
+        autoescape=select_autoescape()
+    )
     template = env.get_template("errors.html")
     return template.render(
         telegram_errors=telegram_data_errors,
