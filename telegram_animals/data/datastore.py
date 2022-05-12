@@ -9,7 +9,7 @@ import os
 import pytz
 from dateutil import parser
 
-from telegram_animals.data.cache import TelegramCache, TwitterCache, ChannelCache
+from telegram_animals.data.cache import TelegramCache, TwitterCache, ChannelCache, CacheError
 
 
 class ChannelType(Enum):
@@ -153,25 +153,33 @@ class Datastore:
         # Telegram data cache
         try:
             with open("cache/channel_cache.json") as f:
-                channel_cache = json.load(f)
+                telegram_cache = json.load(f)
         except FileNotFoundError:
             self._telegram_cache = {}
+            self._telegram_cache_errors = []
         else:
             self._telegram_cache = {
                 handle: TelegramCache.from_json(value)
-                for handle, value in channel_cache.items()
+                for handle, value in telegram_cache["cache"].items()
             }
+            self._telegram_cache_errors = [
+                CacheError.from_json(data) for data in telegram_cache["errors"]
+            ]
         # Twitter data cache
         try:
             with open("cache/twitter_cache.json") as f:
                 feed_cache = json.load(f)
         except FileNotFoundError:
             self._twitter_cache = {}
+            self._twitter_cache_errors = []
         else:
             self._twitter_cache = {
                 handle: TwitterCache.from_json(value)
-                for handle, value in feed_cache.items()
+                for handle, value in feed_cache["cache"].items()
             }
+            self._twitter_cache_errors = [
+                CacheError.from_json(data) for data in feed_cache["errors"]
+            ]
         # Telegram search cache
         try:
             with open("cache/search_cache.json") as f:
@@ -219,10 +227,15 @@ class Datastore:
     def update_telegram_cache(self, handle: str, cache: TelegramCache) -> None:
         self._telegram_cache[handle.casefold()] = cache
 
-    def save_telegram_cache(self) -> None:
+    def save_telegram_cache(self, all_errors: List[CacheError] = None) -> None:
+        all_errors = all_errors or []
+        self._telegram_cache_errors = all_errors
         json_cache = {
-            handle: channel_cache.to_json()
-            for handle, channel_cache in self._telegram_cache.items()
+            "cache": {
+                handle: channel_cache.to_json()
+                for handle, channel_cache in self._telegram_cache.items()
+            },
+            "errors": [err.to_json() for err in all_errors]
         }
         os.makedirs("cache", exist_ok=True)
         with open("cache/channel_cache.json", "w+") as f:
@@ -234,10 +247,15 @@ class Datastore:
     def update_twitter_cache(self, handle: str, cache: TwitterCache) -> None:
         self._twitter_cache[handle.casefold()] = cache
 
-    def save_twitter_cache(self) -> None:
+    def save_twitter_cache(self, all_errors: List[CacheError] = None) -> None:
+        all_errors = all_errors or []
+        self._twitter_cache_errors = all_errors
         json_cache = {
-            handle: channel_cache.to_json()
-            for handle, channel_cache in self._twitter_cache.items()
+            "cache": {
+                handle: channel_cache.to_json()
+                for handle, channel_cache in self._twitter_cache.items()
+            },
+            "errors": [err.to_json() for err in all_errors]
         }
         os.makedirs("cache", exist_ok=True)
         with open("cache/twitter_cache.json", "w+") as f:

@@ -288,3 +288,25 @@ class TwitterSample:
             json_data["num_pic_tweets"],
             json_data["num_no_media_tweets"]
         )
+
+
+@dataclasses.dataclass
+class CacheError:
+    handle: str
+    error: str
+    timestamp: datetime
+
+    def to_json(self) -> Dict:
+        return {
+            "handle": self.handle,
+            "error": self.error,
+            "timestamp": self.timestamp.isoformat()
+        }
+    
+    @classmethod
+    def from_json(cls, data: Dict) -> "CacheError":
+        return CacheError(
+            data["handle"],
+            data["error"],
+            dateutil.parser.parse(data["timestamp"])
+        )
