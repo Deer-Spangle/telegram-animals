@@ -18,7 +18,7 @@ from telethon.tl.types import InputMessagesFilterPhotos, InputMessagesFilterGif,
 from telethon.tl.types.messages import Messages
 
 from telegram_animals.data.datastore import Channel, Datastore
-from telegram_animals.data.cache import TelegramCache
+from telegram_animals.data.cache import TelegramCache, CacheError
 from telegram_animals.subparser import SubParserAdder
 
 WAIT_BEFORE_REFRESH = timedelta(hours=6)
@@ -163,6 +163,7 @@ async def generate_all_caches(client: TelegramClient, datastore: Datastore):
     now = datetime.utcnow().replace(tzinfo=pytz.utc)
     WAIT_BEFORE_REFRESH = timedelta(hours=6)
     searcher = CachedSearcher.load_from_json()
+    errors = []
     for channel in channels:
         old_channel_cache = datastore.fetch_telegram_cache(channel.handle)
         if old_channel_cache:
@@ -173,11 +174,15 @@ async def generate_all_caches(client: TelegramClient, datastore: Datastore):
         try:
             channel_cache = await generate_cache(client, channel, searcher, old_channel_cache)
             datastore.update_telegram_cache(channel.handle, channel_cache)
-            datastore.save_telegram_cache()
+            datastore.save_telegram_cache(errors)
             print(f"{channel.handle} cache updated.")
         except Exception as e:
             print(f"{channel.handle} could not be cached: {e}")
-    datastore.save_telegram_cache()
+            errors.append(CacheError(
+                channel.handle,
+                f"Cache update failed: {e}"
+            ))
+    datastore.save_telegram_cache(errors)
     searcher.save_to_json()
 
 

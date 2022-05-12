@@ -294,7 +294,7 @@ class TwitterSample:
 class CacheError:
     handle: str
     error: str
-    timestamp: datetime
+    timestamp: datetime = dataclasses.field(default_factory=datetime.now)
 
     def to_json(self) -> Dict:
         return {

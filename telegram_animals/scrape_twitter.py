@@ -9,7 +9,7 @@ import dateutil.parser
 import twitter
 from twitter import Status
 
-from telegram_animals.data.cache import TwitterCache, TwitterSample
+from telegram_animals.data.cache import TwitterCache, TwitterSample, CacheError
 from telegram_animals.data.datastore import Datastore, Channel
 from telegram_animals.subparser import SubParserAdder
 
@@ -184,11 +184,16 @@ def do_twitter_scrape(ns: Namespace):
         access_token_secret=ns.access_token_secret
     )
     datastore = Datastore()
+    errors = []
     for channel in datastore.twitter_feeds:
         try:
             user_cache = update_cache_for_channel(api, datastore, channel)
             datastore.update_twitter_cache(channel.handle, user_cache)
-            datastore.save_twitter_cache()
+            datastore.save_twitter_cache(errors)
         except Exception as e:
             print(f"{channel.handle} could not be cached: {e}")
-    datastore.save_telegram_cache()
+            errors.append(CacheError(
+                channel.handle,
+                f"Cache update failed: {e}"
+            ))
+    datastore.save_twitter_cache(errors)
