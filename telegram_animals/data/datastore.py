@@ -150,7 +150,7 @@ class Datastore:
         with open("store/twitter.json") as f:
             twitter_data = json.load(f)
             self.twitter_feeds = [Channel.from_json(entity, ChannelType.TWITTER) for entity in twitter_data["entities"]]
-        # Telegram cache
+        # Telegram data cache
         try:
             with open("cache/channel_cache.json") as f:
                 channel_cache = json.load(f)
@@ -161,7 +161,7 @@ class Datastore:
                 handle: TelegramCache.from_json(value)
                 for handle, value in channel_cache.items()
             }
-        # Twitter cache
+        # Twitter data cache
         try:
             with open("cache/twitter_cache.json") as f:
                 feed_cache = json.load(f)
