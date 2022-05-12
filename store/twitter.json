@@ -16,21 +16,21 @@
     },
     {
       "handle": "HourlyCheetahs",
-      "owner": "LeonatoLynx",
+      "owner": "@LeonatoLynx",
       "animal": "Cheetah",
       "notes": "Mirror of telegram @hourlycheetahs",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "hourlyfoxes",
-      "owner": "LeonatoLynx",
+      "owner": "@LeonatoLynx",
       "animal": "Fox",
       "notes": "Mirror of telegram @HourlyFoxes",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyLynxes",
-      "owner": "LeonatoLynx",
+      "owner": "@LeonatoLynx",
       "animal": "Lynx",
       "notes": "Mirror of telegram @HourlyLynxes",
       "handle_pattern": "hourly?"
@@ -44,7 +44,7 @@
     },
     {
       "handle": "hourlywolvesbot",
-      "owner": "LeonatoLynx",
+      "owner": "@LeonatoLynx",
       "animal": "Wolf",
       "notes": "Mirror of telegram @HourlyWolves",
       "handle_pattern": "hourly?bot"
@@ -163,7 +163,7 @@
     },
     {
       "handle": "HourlyYeen",
-      "owner": "NotTheZorro",
+      "owner": "@NotTheZorro",
       "animal": "Hyena",
       "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyYeen",
       "handle_pattern": "hourly?"
@@ -177,14 +177,14 @@
     },
     {
       "handle": "Foxwthreataura",
-      "owner": "FoxynTheWolfox",
+      "owner": "@FoxynTheWolfox",
       "animal": "Fox",
       "notes": "",
       "handle_pattern": "?wthreataura"
     },
     {
       "handle": "DailyMarten",
-      "owner": "ZGFGaming",
+      "owner": "@ZGFGaming",
       "animal": "Pine Marten",
       "notes": "Linked to telegram channel, https://t.me/HourlyMartens",
       "handle_pattern": "daily?"
@@ -198,14 +198,14 @@
     },
     {
       "handle": "cat_dot_exe",
-      "owner": "Cloudy__Jay",
+      "owner": "@Cloudy__Jay",
       "animal": "Cat",
       "notes": "Has a discord server: https://discord.gg/mmrFESFCbc",
       "handle_pattern": "?_dot_exe"
     },
     {
       "handle": "TrueFoxNews",
-      "owner": "RinAkaia",
+      "owner": "@Rin_Akaia_eth",
       "animal": "Fox",
       "notes": "Mirrored to telegram https://t.me/TrueFoxNews",
       "handle_pattern": "true?news"
@@ -219,28 +219,28 @@
     },
     {
       "handle": "FopsHourly",
-      "owner": "NotTheZorro",
+      "owner": "@NotTheZorro",
       "animal": "Fox",
       "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyFops",
       "handle_pattern": "?hourly"
     },
     {
       "handle": "HourlyWah",
-      "owner": "NotTheZorro",
+      "owner": "@NotTheZorro",
       "animal": "Wah",
       "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyWah",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyYote",
-      "owner": "NotTheZorro",
+      "owner": "@NotTheZorro",
       "animal": "Coyote",
       "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyYotes",
       "handle_pattern": "hourly?"
     },
     {
       "handle": "HourlyMarten",
-      "owner": "NotTheZorro",
+      "owner": "@NotTheZorro",
       "animal": "Pine Marten",
       "notes": "TinyZorro network. Mirror of telegram channel, https://t.me/HourlyPineMarten",
       "handle_pattern": "hourly?"
@@ -303,7 +303,7 @@
     },
     {
       "handle": "CorgiEveryHour",
-      "owner": "iamcorgii",
+      "owner": "@iamcorgii",
       "animal": "Dog",
       "notes": "Just corgis",
       "handle_pattern": "?everyhour"
@@ -471,7 +471,7 @@
     },
     {
       "handle": "OtterAnHour",
-      "owner": "Nate Stutte",
+      "owner": "@magisnate",
       "animal": "Otter",
       "notes": "",
       "handle_pattern": "?anhour"
