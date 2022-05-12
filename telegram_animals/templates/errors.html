@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta http-equiv="Content-Style-Type" content="text/css" />
+        <title>Animal channel scrape error report</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+<body>
+<h1>Error report</h1>
+<p>A report of the errors that occurred in the last updates of twitter and telegram data cache</p>
+<h2>Telegram errors</h2>
+<p>There were {len(telegram_errors)} errors in the telegram scraper update:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Handle</th>
+            <th>Datetime</th>
+            <th>Error</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for error in telegram_errors %}
+        <tr>
+            <td><a href="https://t.me/{{ error.handle }}">{{ error.handle }}</a></td>
+            <td>{{ error.timestamp.isoformat() }}</td>
+            <td>{{ error.error }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<h2>Twitter errors</h2>
+<p>There were {len(twitter_errors)} errors in the twitter scraper update:</p>
+<table>
+    <thead>
+        <tr>
+            <th>Handle</th>
+            <th>Datetime</th>
+            <th>Error</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for error in twitter_errors %}
+        <tr>
+            <td><a href="https://twitter.com/{{ error.handle }}">{{ error.handle }}</a></td>
+            <td>{{ error.timestamp.isoformat() }}</td>
+            <td>{{ error.error }}</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+<p>
+    If you would like to request any changes, please file an issue on the
+    <a href="https://github.com/Deer-Spangle/telegram-animals/">github repository</a>.
+    (Pull requests are also welcome!)
+</p>
+<! -- Some basic, privacy-focused analytics -->
+<script src="https://getinsights.io/js/insights.js"></script>
+<script>
+    insights.init("lrFaPwGuDpIqLUXt");
+    insights.trackPages();
+</script>
+<script src="errors.js"></script>
+</body>
+</html>

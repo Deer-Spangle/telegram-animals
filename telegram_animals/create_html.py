@@ -76,6 +76,28 @@ def create_doc(datastore: Datastore) -> str:
     )
 
 
+def create_error_file(datastore: Datastore) -> str:
+    data = {
+        "telegram_cache_errors": [
+            err.to_json() for err in datastore._telegram_cache_errors
+        ],
+        "twitter_cache_errors": [
+            err.to_json() for err in datastore._twitter_cache_errors
+        ]
+    }
+    return f"const telegramChannels = {json.dumps(data, indent=2)}"
+
+
+def create_error_report(datastore: Datastore) -> str:
+    telegram_data_errors = datastore._telegram_cache_errors
+    twitter_data_errors = datastore._twitter_cache_errors
+    template = env.get_template("errors.html")
+    return template.render(
+        telegram_errors=telegram_data_errors,
+        twitter_errors=twitter_data_errors
+    )
+
+
 def setup_parser(subparsers: SubParserAdder) -> None:
     parser = subparsers.add_parser(
         "create_html",
@@ -90,11 +112,20 @@ def setup_parser(subparsers: SubParserAdder) -> None:
 def do_html(args: Namespace):
     datastore = Datastore()
     os.makedirs("public", exist_ok=True)
+    # Public site data
     with open("public/data.js", "w") as w:
         w.write(create_data_file(datastore))
+    # Public site
     html = create_doc(datastore)
     with open(args.filename, "w") as w:
         w.write(html)
+    # Error page data
+    with open("public/errors.js", "w") as w:
+        w.write(create_error_file(datastore))
+    # Error page
+    error_doc = create_error_report(datastore)
+    with open("public/errors.html", "w") as w:
+        w.write(create_error_report(datastore))
 
 
 if __name__ == "__main__":
