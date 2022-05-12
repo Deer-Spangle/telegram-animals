@@ -155,11 +155,22 @@ class Datastore:
             with open("cache/channel_cache.json") as f:
                 channel_cache = json.load(f)
         except FileNotFoundError:
-            self.telegram_cache = {}
+            self._telegram_cache = {}
         else:
-            self.telegram_cache = {
+            self._telegram_cache = {
                 handle: TelegramCache.from_json(value)
                 for handle, value in channel_cache.items()
+            }
+        # Twitter cache
+        try:
+            with open("cache/twitter_cache.json") as f:
+                feed_cache = json.load(f)
+        except FileNotFoundError:
+            self._twitter_cache = {}
+        else:
+            self._twitter_cache = {
+                handle: TwitterCache.from_json(value)
+                for handle, value in feed_cache.items()
             }
         # Telegram search cache
         try:
@@ -167,17 +178,6 @@ class Datastore:
                 self.telegram_search_cache = json.load(f)
         except FileNotFoundError:
             self.telegram_search_cache = {"cache": {}}
-        # Twitter cache
-        try:
-            with open("cache/twitter_cache.json") as f:
-                feed_cache = json.load(f)
-        except FileNotFoundError:
-            self.twitter_cache = {}
-        else:
-            self.twitter_cache = {
-                handle: TwitterCache.from_json(value)
-                for handle, value in feed_cache.items()
-            }
 
     @property
     def all_channels(self) -> List[Channel]:
@@ -195,15 +195,6 @@ class Datastore:
             channel for channel in self.telegram_entities if channel.is_bot
         ]
 
-    def save_telegram_cache(self) -> None:
-        json_cache = {
-            handle: channel_cache.to_json()
-            for handle, channel_cache in self.telegram_cache.items()
-        }
-        os.makedirs("cache", exist_ok=True)
-        with open("cache/channel_cache.json", "w+") as f:
-            json.dump(json_cache, f, indent=2)
-
     @property
     def list_animals(self) -> List[str]:
         return list(self.animal_data.keys())
@@ -217,21 +208,36 @@ class Datastore:
 
     def fetch_cache(self, platform: ChannelType, handle: str) -> Optional[ChannelCache]:
         if platform == ChannelType.TELEGRAM:
-            return self.telegram_cache.get(handle.casefold())
+            return self.fetch_telegram_cache(handle)
         if platform == ChannelType.TWITTER:
             return self.fetch_twitter_cache(handle)
         return None
 
+    def fetch_telegram_cache(self, handle: str) -> Optional[TelegramCache]:
+        return self._telegram_cache.get(handle.casefold())
+    
+    def update_telegram_cache(self, handle: str, cache: TelegramCache) -> None:
+        return self._telegram_cache[handle.casefold()] = cache
+
+    def save_telegram_cache(self) -> None:
+        json_cache = {
+            handle: channel_cache.to_json()
+            for handle, channel_cache in self._telegram_cache.items()
+        }
+        os.makedirs("cache", exist_ok=True)
+        with open("cache/channel_cache.json", "w+") as f:
+            json.dump(json_cache, f, indent=2)
+
     def fetch_twitter_cache(self, handle: str) -> Optional[TwitterCache]:
-        return self.twitter_cache.get(handle.casefold())
+        return self._twitter_cache.get(handle.casefold())
 
     def update_twitter_cache(self, handle: str, cache: TwitterCache) -> None:
-        self.twitter_cache[handle.casefold()] = cache
+        self._twitter_cache[handle.casefold()] = cache
 
     def save_twitter_cache(self) -> None:
         json_cache = {
             handle: channel_cache.to_json()
-            for handle, channel_cache in self.twitter_cache.items()
+            for handle, channel_cache in self._twitter_cache.items()
         }
         os.makedirs("cache", exist_ok=True)
         with open("cache/twitter_cache.json", "w+") as f:

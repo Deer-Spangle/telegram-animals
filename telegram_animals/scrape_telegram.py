@@ -160,12 +160,11 @@ async def generate_cache(
 
 async def generate_all_caches(client: TelegramClient, datastore: Datastore):
     channels = datastore.telegram_channels
-    cache = datastore.telegram_cache
     now = datetime.utcnow().replace(tzinfo=pytz.utc)
     WAIT_BEFORE_REFRESH = timedelta(hours=6)
     searcher = CachedSearcher.load_from_json()
     for channel in channels:
-        old_channel_cache = cache.get(channel.handle.casefold())
+        old_channel_cache = datastore.fetch_telegram_cache(channel.handle)
         if old_channel_cache:
             time_since_cache = now - old_channel_cache.date_checked
             if time_since_cache < WAIT_BEFORE_REFRESH:
@@ -173,7 +172,7 @@ async def generate_all_caches(client: TelegramClient, datastore: Datastore):
                 continue
         try:
             channel_cache = await generate_cache(client, channel, searcher, old_channel_cache)
-            datastore.telegram_cache[channel.handle.casefold()] = channel_cache
+            datastore.update_telegram_cache(channel.handle, channel_cache)
             datastore.save_telegram_cache()
             print(f"{channel.handle} cache updated.")
         except Exception as e:
