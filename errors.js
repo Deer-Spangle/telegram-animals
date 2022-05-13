@@ -3,7 +3,7 @@ const telegramChannels = {
     {
       "handle": "bagofcheetos",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-05-12T17:10:06.064311"
+      "timestamp": "2022-05-13T02:10:18.412606"
     }
   ],
   "twitter_cache_errors": []
