@@ -566,6 +566,48 @@
       "animal": "Wolf",
       "notes": "Website: https://mexicanwolves.org",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "weirdlilguys",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "Thereisnocat_",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Or are there? Same network as @TranslatedCats and @CatWorkers",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "TranslatedCats",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Same network as @Thereisnocat_ and @CatWorkers",
+      "handle_pattern": "translated?"
+    },
+    {
+      "handle": "CatWorkers",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Same network as @Thereisnocat_ and @TranslatedCats",
+      "handle_pattern": "?workers"
+    },
+    {
+      "handle": "nocontextscats",
+      "owner": "@doctorsmeow",
+      "animal": "Cat",
+      "notes": "Also has @nocontextsdogs",
+      "handle_pattern": "nocontexts?",
+    },
+    {
+      "handle": "nocontextsdogs",
+      "owner": "@doctorsmeow",
+      "animal": "Dog",
+      "notes": "Also has @nocontextscats",
+      "handle_pattern": "nocontexts?"
     }
   ],
   "removed": [
