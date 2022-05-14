@@ -600,7 +600,7 @@
       "owner": "@doctorsmeow",
       "animal": "Cat",
       "notes": "Also has @nocontextsdogs",
-      "handle_pattern": "nocontexts?",
+      "handle_pattern": "nocontexts?"
     },
     {
       "handle": "nocontextsdogs",
