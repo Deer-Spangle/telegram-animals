@@ -608,6 +608,13 @@
       "animal": "Dog",
       "notes": "Also has @nocontextscats",
       "handle_pattern": "nocontexts?"
+    },
+    {
+      "handle": "VulpesPerson",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Japanese",
+      "handle_pattern": "?person"
     }
   ],
   "removed": [
