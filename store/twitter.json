@@ -109,7 +109,7 @@
       "handle": "DailyPengus",
       "owner": "@jukeboxlifemc",
       "animal": "Penguin",
-      "notes": "Daily, despite the handle",
+      "notes": "",
       "handle_pattern": "daily?"
     },
     {
@@ -615,6 +615,13 @@
       "animal": "Fox",
       "notes": "Japanese",
       "handle_pattern": "?person"
+    },
+    {
+      "handle": "hourly_lion",
+      "owner": "@purkkafi",
+      "animal": "Lion",
+      "notes": "",
+      "handle_pattern": "hourly_?"
     }
   ],
   "removed": [
