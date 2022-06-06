@@ -622,6 +622,13 @@
       "animal": "Lion",
       "notes": "",
       "handle_pattern": "hourly_?"
+    },
+    {
+      "handle": "deergifs",
+      "owner": "@drspangle",
+      "animal": "Deer",
+      "notes": "Mirror of https://t.me/deergifs",
+      "handle_pattern": "?gifs"
     }
   ],
   "removed": [
