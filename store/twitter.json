@@ -627,8 +627,15 @@
       "handle": "deergifs",
       "owner": "@drspangle",
       "animal": "Deer",
-      "notes": "Mirror of https://t.me/deergifs",
+      "notes": "Mirror of https://t.me/deergifs, uses @deergifs_sources to post source info",
       "handle_pattern": "?gifs"
+    },
+    {
+      "handle": "PazyBirds",
+      "owner": "?",
+      "animal": "Bird",
+      "notes": "",
+      "handle_pattern": "-"
     }
   ],
   "removed": [
