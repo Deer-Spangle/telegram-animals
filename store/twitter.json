@@ -636,6 +636,13 @@
       "animal": "Bird",
       "notes": "",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "CuteLilRedBois",
+      "owner": "?",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "-"
     }
   ],
   "removed": [
