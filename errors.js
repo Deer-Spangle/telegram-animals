@@ -3,27 +3,27 @@ const telegramChannels = {
     {
       "handle": "SlothLovers",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-07-01T02:29:02.891025"
+      "timestamp": "2022-07-02T02:09:40.677087"
     },
     {
       "handle": "bagofcheetos",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-07-01T02:29:27.163598"
+      "timestamp": "2022-07-02T02:10:01.697394"
     },
     {
       "handle": "thedailycat",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-07-01T02:31:43.981086"
+      "timestamp": "2022-07-02T02:12:07.707674"
     },
     {
       "handle": "dog_gifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-07-01T02:31:47.724060"
+      "timestamp": "2022-07-02T02:12:13.931269"
     },
     {
       "handle": "dogspic",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-07-01T02:31:56.123021"
+      "timestamp": "2022-07-02T02:12:20.755061"
     }
   ],
   "twitter_cache_errors": []
