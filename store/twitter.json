@@ -643,6 +643,34 @@
       "animal": "Wah",
       "notes": "",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "Happydog___",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "happy?___"
+    },
+    {
+      "handle": "shouldhaveaduck",
+      "owner": "?",
+      "animal": "Duck",
+      "notes": "",
+      "handle_pattern": "shouldhavea?"
+    },
+    {
+      "handle": "standardpuppies",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "standard?"
+    },
+    {
+      "handle": "PuppiesIover",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?iover"
     }
   ],
   "removed": [
