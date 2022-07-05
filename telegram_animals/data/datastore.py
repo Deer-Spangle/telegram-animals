@@ -143,13 +143,12 @@ class Datastore:
         # Telegram data
         with open("store/telegram.json") as f:
             telegram_data = json.load(f)
-            self.telegram_entities = [Channel.from_json(entity) for entity in telegram_data["entities"]]
-            self.telegram_removed = [Channel.from_json(entity) for entity in telegram_data["removed"]]
+            self._telegram_all = [Channel.from_json(entity) for entity in telegram_data["entities"] + telegram_data.get("removed", [])]
             self.telegram_ignored = [Ignore.from_json(ignore) for ignore in telegram_data["ignored"]]
         # Twitter data
         with open("store/twitter.json") as f:
             twitter_data = json.load(f)
-            self.twitter_feeds = [Channel.from_json(entity, ChannelType.TWITTER) for entity in twitter_data["entities"]]
+            self._twitter_all = [Channel.from_json(entity, ChannelType.TWITTER) for entity in twitter_data["entities"] + twitter_data.get("removed", [])]
         # Telegram data cache
         try:
             with open("cache/telegram_data_cache.json") as f:
@@ -190,6 +189,20 @@ class Datastore:
     @property
     def all_channels(self) -> List[Channel]:
         return self.telegram_channels + self.twitter_feeds
+    
+    @property
+    def telegram_entities(self) -> List[Channel]:
+        "Telegram channels and bots which have not been removed"
+        return [
+            entity for entity in self._telegram_all if not entity.is_removed
+        ]
+
+    @property
+    def telegram_removed(self) -> List[Channel]:
+        "Telegram channels and bots which have been removed"
+        return [
+            entity for entity in self._telegram_all if entity.is_removed
+        ]
 
     @property
     def telegram_channels(self) -> List[Channel]:
@@ -200,7 +213,13 @@ class Datastore:
     @property
     def telegram_bots(self) -> List[Channel]:
         return [
-            channel for channel in self.telegram_entities if channel.is_bot
+            bot for bot in self.telegram_entities if channel.is_bot
+        ]
+    
+    @property
+    def twitter_feeds(self) -> List[Channel]:
+        return [
+            feed for feed in self._twitter_all if not feed.is_removed
         ]
 
     @property
