@@ -5212,13 +5212,26 @@
       "channel_hash": 8052084170818825390,
       "bio": "",
       "title": "Just some fens"
+    },
+    "cucach": {
+      "date_checked": "2022-07-05T11:07:31.753387+00:00",
+      "gif_count": 1284,
+      "pic_count": 7450,
+      "video_count": 3278,
+      "subscriber_count": 4622,
+      "post_count": 12043,
+      "latest_post": "2022-07-05T09:50:10+00:00",
+      "channel_id": 1145284805,
+      "channel_hash": 2774812692497078507,
+      "bio": "For Cat Lovers ! \ud83d\ude38\u270c\ud83c\udffb\nSend me your cats' photos & videos:\n\n@Devout25",
+      "title": "Cute Cats Channel \ud83d\ude38\ud83d\ude3b\ud83d\ude3d"
     }
   },
   "errors": [
     {
       "handle": "bagofcheetos",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-07-05T11:03:36.705102"
+      "timestamp": "2022-07-05T11:07:27.955659"
     }
   ]
 }
