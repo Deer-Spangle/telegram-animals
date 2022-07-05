@@ -7759,6 +7759,22 @@ const telegramChannels = {
       "latest_post": "2022-07-04",
       "notes": "Photos of crows of Vienna",
       "notes_html": "Photos of crows of Vienna"
+    },
+    {
+      "platform": "twitter",
+      "link": "https://twitter.com/dailystoat",
+      "handle": "dailystoat",
+      "animal": "Ferret",
+      "owner": "?",
+      "owner_html": "?",
+      "num_posts": 186,
+      "num_pics": 173,
+      "num_gifs": 1,
+      "num_vids": 9,
+      "num_subs": 1129,
+      "latest_post": "2022-07-04",
+      "notes": "Stoats",
+      "notes_html": "Stoats"
     }
   ]
 }
