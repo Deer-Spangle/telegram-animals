@@ -3042,22 +3042,6 @@ const telegramChannels = {
     },
     {
       "platform": "telegram",
-      "link": "https://t.me/SlothLovers",
-      "handle": "SlothLovers",
-      "animal": "Sloth",
-      "owner": "?",
-      "owner_html": "?",
-      "num_posts": 3369,
-      "num_pics": 2548,
-      "num_gifs": 479,
-      "num_vids": 254,
-      "num_subs": 436,
-      "latest_post": "2022-05-23",
-      "notes": "See @cybersloth_bot for submissions",
-      "notes_html": "See <a href=\"https://t.me/cybersloth_bot\" target=\"_blank\">@cybersloth_bot</a> for submissions"
-    },
-    {
-      "platform": "telegram",
       "link": "https://t.me/jezitto",
       "handle": "jezitto",
       "animal": "Hedgehog",
