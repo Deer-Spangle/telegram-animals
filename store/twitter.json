@@ -700,6 +700,48 @@
       "animal": "Ferret",
       "notes": "Stoats",
       "handle_pattern": "daily?"
+    },
+    {
+      "handle": "ShibaEveryHour",
+      "owner": "?",
+      "animal": "Shiba Inu",
+      "notes": "Powered by https://shibe.online/",
+      "handle_pattern": "?everyhour"
+    },
+    {
+      "handle": "fox_info_net",
+      "owner": "?",
+      "animal": "Fox",
+      "notes": "Photos and tweets from Zao Fox Village",
+      "handle_pattern": "?_info_net"
+    },
+    {
+      "handle": "DailyManedWolf",
+      "owner": "@yotemachine",
+      "animal": "Maned Wolf",
+      "notes": "",
+      "handle_pattern": "daily?"
+    },
+    {
+      "handle": "HourlySamoyeds",
+      "owner": "@fenwoof",
+      "animal": "Dog",
+      "notes": "Samoyeds",
+      "handle_pattern": "hourly?"
+    },
+    {
+      "handle": "azarasi_bot1",
+      "owner": "?",
+      "animal": "Seal",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "nywolforg",
+      "owner": "Wolf Conservation Centre",
+      "animal": "Wolf",
+      "notes": "https://nywolf.org conservation account",
+      "handle_pattern": "-"
     }
   ]
 }
