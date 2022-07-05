@@ -1594,7 +1594,8 @@
       "owner": "?",
       "animal": "Sloth",
       "notes": "See @cybersloth_bot for submissions",
-      "handle_pattern": "?lovers"
+      "handle_pattern": "?lovers",
+      "removal_reason": "Channel has been deleted"
     },
     {
       "handle": "jezitto",
