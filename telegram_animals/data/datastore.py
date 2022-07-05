@@ -213,7 +213,7 @@ class Datastore:
     @property
     def telegram_bots(self) -> List[Channel]:
         return [
-            bot for bot in self.telegram_entities if channel.is_bot
+            bot for bot in self.telegram_entities if bot.is_bot
         ]
     
     @property
