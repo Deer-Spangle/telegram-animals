@@ -693,6 +693,13 @@
       "notes": "I think the fennec is their pet",
       "handle_pattern": "-",
       "removal_reason": "Account deleted"
+    },
+    {
+      "handle": "dailystoat",
+      "owner": "?",
+      "animal": "Ferret",
+      "notes": "Stoats",
+      "handle_pattern": "daily?"
     }
   ]
 }
