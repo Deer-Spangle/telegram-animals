@@ -5266,22 +5266,6 @@ const telegramChannels = {
     },
     {
       "platform": "telegram",
-      "link": "https://t.me/thedailycat",
-      "handle": "thedailycat",
-      "animal": "Cat",
-      "owner": "?",
-      "owner_html": "?",
-      "num_posts": 1960,
-      "num_pics": 1219,
-      "num_gifs": 293,
-      "num_vids": 442,
-      "num_subs": 54,
-      "latest_post": "2022-02-23",
-      "notes": "Russian memes",
-      "notes_html": "Russian memes"
-    },
-    {
-      "platform": "telegram",
       "link": "https://t.me/bunchannel",
       "handle": "bunchannel",
       "animal": "Rabbit",
@@ -5325,22 +5309,6 @@ const telegramChannels = {
       "num_vids": 327,
       "num_subs": 28,
       "latest_post": "2022-07-04",
-      "notes": "",
-      "notes_html": ""
-    },
-    {
-      "platform": "telegram",
-      "link": "https://t.me/dog_gifs",
-      "handle": "dog_gifs",
-      "animal": "Dog",
-      "owner": "?",
-      "owner_html": "?",
-      "num_posts": 11,
-      "num_pics": 0,
-      "num_gifs": 7,
-      "num_vids": 0,
-      "num_subs": 3,
-      "latest_post": "2022-05-14",
       "notes": "",
       "notes_html": ""
     },
@@ -5455,22 +5423,6 @@ const telegramChannels = {
       "latest_post": "2022-01-13",
       "notes": "",
       "notes_html": ""
-    },
-    {
-      "platform": "telegram",
-      "link": "https://t.me/dogspic",
-      "handle": "dogspic",
-      "animal": "Dog",
-      "owner": "?",
-      "owner_html": "?",
-      "num_posts": 41,
-      "num_pics": 12,
-      "num_gifs": 1,
-      "num_vids": 1,
-      "num_subs": 18,
-      "latest_post": "2021-07-08",
-      "notes": "Russian",
-      "notes_html": "Russian"
     },
     {
       "platform": "telegram",
