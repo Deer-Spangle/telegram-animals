@@ -2605,13 +2605,6 @@
       "handle_pattern": "lovefor?"
     },
     {
-      "handle": "thedailycat",
-      "owner": "?",
-      "animal": "Cat",
-      "notes": "Russian memes",
-      "handle_pattern": "thedaily?"
-    },
-    {
       "handle": "bunchannel",
       "owner": "?",
       "animal": "Rabbit",
@@ -2631,13 +2624,6 @@
       "animal": "Dog",
       "notes": "",
       "handle_pattern": "best?"
-    },
-    {
-      "handle": "dog_gifs",
-      "owner": "?",
-      "animal": "Dog",
-      "notes": "",
-      "handle_pattern": "?_gifs"
     },
     {
       "handle": "doge_gifs",
@@ -2687,13 +2673,6 @@
       "animal": "Dog",
       "notes": "",
       "handle_pattern": "?gif"
-    },
-    {
-      "handle": "dogspic",
-      "owner": "?",
-      "animal": "Dog",
-      "notes": "Russian",
-      "handle_pattern": "?pic"
     },
     {
       "handle": "dogspics",
@@ -3142,6 +3121,30 @@
       "notes": "",
       "handle_pattern": "?gif",
       "removal_reason": "Channel removed, handle is parked for sale"
+    },
+    {
+      "handle": "thedailycat",
+      "owner": "?",
+      "animal": "Cat",
+      "notes": "Russian memes",
+      "handle_pattern": "thedaily?",
+      "removal_reason": "Channel has been deleted"
+    },
+    {
+      "handle": "dog_gifs",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "",
+      "handle_pattern": "?_gifs",
+      "removal_reason": "Channel has been deleted"
+    },
+    {
+      "handle": "dogspic",
+      "owner": "?",
+      "animal": "Dog",
+      "notes": "Russian",
+      "handle_pattern": "?pic",
+      "removal_reason": "Channel has been deleted"
     }
   ],
   "ignored": [
