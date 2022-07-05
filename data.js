@@ -6177,6 +6177,22 @@ const telegramChannels = {
       "notes_html": ""
     },
     {
+      "platform": "telegram",
+      "link": "https://t.me/CuCaCh",
+      "handle": "CuCaCh",
+      "animal": "Cat",
+      "owner": "@Devout25",
+      "owner_html": "<a href=\"https://t.me/Devout25\" target=\"_blank\">@Devout25</a>",
+      "num_posts": 12043,
+      "num_pics": 7450,
+      "num_gifs": 1284,
+      "num_vids": 3278,
+      "num_subs": 4622,
+      "latest_post": "2022-07-05",
+      "notes": "",
+      "notes_html": ""
+    },
+    {
       "platform": "twitter",
       "link": "https://twitter.com/FennecsDaily",
       "handle": "FennecsDaily",
