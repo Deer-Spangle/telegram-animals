@@ -671,6 +671,20 @@
       "animal": "Dog",
       "notes": "",
       "handle_pattern": "?iover"
+    },
+    {
+      "handle": "CrowMonthly",
+      "owner": "?",
+      "animal": "Corvid",
+      "notes": "Watermarks all images, no sources?",
+      "handle_pattern": "?monthly"
+    },
+    {
+      "handle": "city_crows",
+      "owner": "?",
+      "animal": "Corvid",
+      "notes": "Photos of crows of Vienna",
+      "handle_pattern": "city_?"
     }
   ],
   "removed": [
