@@ -2449,6 +2449,31 @@
         "num_pic_tweets": 219,
         "num_no_media_tweets": 754
       }
+    },
+    "dailystoat": {
+      "date_checked": "2022-07-05T11:39:52.594122",
+      "user_id": 1456020552221614080,
+      "display_name": "daily stoat!",
+      "bio": "posting at least one stoat everyday! || general dni criteria ||",
+      "user_location": "",
+      "user_url": null,
+      "creation_datetime": "2021-11-03T22:09:01+00:00",
+      "subscribers": 1129,
+      "post_count": 186,
+      "latest_post": "2022-07-04T13:46:14+00:00",
+      "sample": {
+        "num_tweets": 186,
+        "latest_id": 1543954339441647619,
+        "latest_datetime": "2022-07-04T13:46:14+00:00",
+        "earliest_id": 1492971126858866692,
+        "earliest_datetime": "2022-02-13T21:17:09+00:00",
+        "num_pics": 173,
+        "num_vids": 9,
+        "num_gifs": 1,
+        "num_other_media": 0,
+        "num_pic_tweets": 156,
+        "num_no_media_tweets": 20
+      }
     }
   },
   "errors": []
