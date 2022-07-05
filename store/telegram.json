@@ -3144,6 +3144,13 @@
       "notes": "Russian",
       "handle_pattern": "?pic",
       "removal_reason": "Channel has been deleted"
+    },
+    {
+      "handle": "CuCaCh",
+      "owner": "@Devout25",
+      "animal": "Cat",
+      "notes": "",
+      "handle_pattern": "-"
     }
   ],
   "ignored": [
