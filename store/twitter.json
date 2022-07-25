@@ -742,6 +742,13 @@
       "animal": "Wolf",
       "notes": "https://nywolf.org conservation account",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "BatsDaily",
+      "owner": "?",
+      "animal": "Bat",
+      "notes": "",
+      "handle_pattern": "?daily"
     }
   ]
 }
