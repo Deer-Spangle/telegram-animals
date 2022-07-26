@@ -2655,7 +2655,7 @@
     {
       "handle": "batsdotexe",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-07-25T21:01:58.889768"
+      "timestamp": "2022-07-26T02:26:02.709956"
     }
   ]
 }
