@@ -3151,6 +3151,76 @@
       "animal": "Cat",
       "notes": "",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "skunkstash",
+      "owner": "@harp_er",
+      "animal": "Skunk",
+      "notes": "",
+      "handle_pattern": "?stash"
+    },
+    {
+      "handle": "pangolins_here",
+      "owner": "@draggsconnor",
+      "animal": "Pangolin",
+      "notes": "",
+      "handle_pattern": "?_here"
+    },
+    {
+      "handle": "ooohyena",
+      "owner": "?",
+      "animal": "Hyena",
+      "notes": "Russian",
+      "handle_pattern": "ooo?"
+    },
+    {
+      "handle": "capymema",
+      "owner": "?",
+      "animal": "Capybara",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "acsltl",
+      "owner": "@Fagocitromb",
+      "animal": "Axolotl",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "laski_hori",
+      "owner": "@batone1994",
+      "animal": "Ferret",
+      "notes": "",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "lovehusky",
+      "owner": "@Skyrimy",
+      "animal": "Husky",
+      "notes": "Russian",
+      "handle_pattern": "love?"
+    },
+    {
+      "handle": "hrushechki",
+      "owner": "?",
+      "animal": "Pig",
+      "notes": "Russian, @hrushkobot for submissions",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "plan_kinaki",
+      "owner": "splase",
+      "animal": "Otter",
+      "notes": "Russian, memes of other animals also",
+      "handle_pattern": "-"
+    },
+    {
+      "handle": "ara_chno",
+      "owner": "?",
+      "animal": "Spider",
+      "notes": "Russian, submissions via @ara_chno_bot",
+      "handle_pattern": "-"
     }
   ],
   "ignored": [

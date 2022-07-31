@@ -372,7 +372,8 @@
     "pandas"
   ],
   "Pangolin": [
-    "pangolin"
+    "pangolin",
+    "pangolins"
   ],
   "Peacock": [
     "peacock",
@@ -632,5 +633,14 @@
     "donkeys",
     "donk",
     "donks"
+  ],
+  "Axolotl": [
+    "axolotl"
+  ],
+  "Spider": [
+    "spider",
+    "spiders",
+    "arachnid",
+    "arachnids"
   ]
 }
