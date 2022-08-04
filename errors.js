@@ -3,19 +3,19 @@ const telegramChannels = {
     {
       "handle": "bagofcheetos",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-08-03T02:15:51.640963"
+      "timestamp": "2022-08-04T02:08:42.295302"
     }
   ],
   "twitter_cache_errors": [
     {
       "handle": "batsdotexe",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-08-03T02:22:17.947796"
+      "timestamp": "2022-08-04T02:15:14.142460"
     },
     {
       "handle": "PuppiesIover",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2022-08-03T02:26:33.230675"
+      "timestamp": "2022-08-04T02:19:29.421551"
     }
   ]
 }
