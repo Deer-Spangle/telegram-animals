@@ -749,6 +749,13 @@
       "animal": "Bat",
       "notes": "",
       "handle_pattern": "?daily"
+    },
+    {
+      "handle": "pandafloofs",
+      "owner": "?",
+      "animal": "Wah",
+      "notes": "",
+      "handle_pattern": "?floofs"
     }
   ]
 }
