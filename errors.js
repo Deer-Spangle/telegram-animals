@@ -3,444 +3,444 @@ const telegramChannels = {
     {
       "handle": "Dailyalpacas",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:37:42.611291"
+      "timestamp": "2022-09-12T02:41:32.218221"
     },
     {
       "handle": "deerpics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:37:43.469091"
+      "timestamp": "2022-09-12T02:41:33.255031"
     },
     {
       "handle": "DeerPictures",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:37:43.568766"
+      "timestamp": "2022-09-12T02:41:33.387702"
     },
     {
       "handle": "Horsesgif",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:37:45.348338"
+      "timestamp": "2022-09-12T02:41:35.349592"
     },
     {
       "handle": "loveforhorses",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:37:45.448372"
+      "timestamp": "2022-09-12T02:41:35.473029"
     },
     {
       "handle": "catpic",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:13.060124"
+      "timestamp": "2022-09-12T02:42:06.249706"
     },
     {
       "handle": "dinodaily",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:17.026471"
+      "timestamp": "2022-09-12T02:42:11.062864"
     },
     {
       "handle": "dailydoge",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:17.950068"
+      "timestamp": "2022-09-12T02:42:12.107521"
     },
     {
       "handle": "dailydoggo",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:18.972999"
+      "timestamp": "2022-09-12T02:42:13.170008"
     },
     {
       "handle": "dailydoggopic",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:19.810333"
+      "timestamp": "2022-09-12T02:42:14.228949"
     },
     {
       "handle": "dailydogs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:19.908744"
+      "timestamp": "2022-09-12T02:42:14.349122"
     },
     {
       "handle": "dogdaily",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:20.006357"
+      "timestamp": "2022-09-12T02:42:14.472276"
     },
     {
       "handle": "doggifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:20.105706"
+      "timestamp": "2022-09-12T02:42:14.594509"
     },
     {
       "handle": "doggify",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:20.979437"
+      "timestamp": "2022-09-12T02:42:15.635728"
     },
     {
       "handle": "FennecPost",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:35.130378"
+      "timestamp": "2022-09-12T02:42:27.583908"
     },
     {
       "handle": "ferretpics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:36.784536"
+      "timestamp": "2022-09-12T02:42:29.670678"
     },
     {
       "handle": "guineapigscavy",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:39.146038"
+      "timestamp": "2022-09-12T02:42:32.761432"
     },
     {
       "handle": "insectpic",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:40.739693"
+      "timestamp": "2022-09-12T02:42:34.724693"
     },
     {
       "handle": "dailykittens",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:40.849401"
+      "timestamp": "2022-09-12T02:42:34.848095"
     },
     {
       "handle": "kittenGIFs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:40.982775"
+      "timestamp": "2022-09-12T02:42:34.974549"
     },
     {
       "handle": "kittenpics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:41.079704"
+      "timestamp": "2022-09-12T02:42:35.103667"
     },
     {
       "handle": "kittens_daily",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:41.179558"
+      "timestamp": "2022-09-12T02:42:35.227300"
     },
     {
       "handle": "lynxpics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:42.792555"
+      "timestamp": "2022-09-12T02:42:37.477800"
     },
     {
       "handle": "dailymoths",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:44.420927"
+      "timestamp": "2022-09-12T02:42:39.449734"
     },
     {
       "handle": "HourlyMoths",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:44.529397"
+      "timestamp": "2022-09-12T02:42:39.572963"
     },
     {
       "handle": "daily_otter",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:44.637034"
+      "timestamp": "2022-09-12T02:42:39.696019"
     },
     {
       "handle": "DailyOtters",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:45.497390"
+      "timestamp": "2022-09-12T02:42:40.748369"
     },
     {
       "handle": "otterdaily",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:45.597188"
+      "timestamp": "2022-09-12T02:42:40.874328"
     },
     {
       "handle": "ottergifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:46.458510"
+      "timestamp": "2022-09-12T02:42:41.929093"
     },
     {
       "handle": "thedailyotter",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:47.332218"
+      "timestamp": "2022-09-12T02:42:42.977620"
     },
     {
       "handle": "panda_gif",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:48.173891"
+      "timestamp": "2022-09-12T02:42:44.064932"
     },
     {
       "handle": "panda_gifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:48.272043"
+      "timestamp": "2022-09-12T02:42:44.186500"
     },
     {
       "handle": "parrotgifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:49.131930"
+      "timestamp": "2022-09-12T02:42:45.263497"
     },
     {
       "handle": "dailyrabbit",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:50.735129"
+      "timestamp": "2022-09-12T02:42:47.234238"
     },
     {
       "handle": "RabbitGifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:50.841595"
+      "timestamp": "2022-09-12T02:42:47.367090"
     },
     {
       "handle": "Racc_Attac",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:38:54.444909"
+      "timestamp": "2022-09-12T02:42:51.213076"
     },
     {
       "handle": "allthesharkgifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:02.697222"
+      "timestamp": "2022-09-12T02:42:55.059740"
     },
     {
       "handle": "shorks",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:02.795437"
+      "timestamp": "2022-09-12T02:42:55.186104"
     },
     {
       "handle": "redpandagif",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:04.396754"
+      "timestamp": "2022-09-12T02:42:57.182717"
     },
     {
       "handle": "redpandapics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:04.504140"
+      "timestamp": "2022-09-12T02:42:57.307705"
     },
     {
       "handle": "redpandasdaily",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:04.601753"
+      "timestamp": "2022-09-12T02:42:57.429935"
     },
     {
       "handle": "WahGifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:04.700410"
+      "timestamp": "2022-09-12T02:42:57.554452"
     },
     {
       "handle": "hyenagifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:07.824688"
+      "timestamp": "2022-09-12T02:43:01.338762"
     },
     {
       "handle": "hyenapics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:07.926864"
+      "timestamp": "2022-09-12T02:43:01.463542"
     },
     {
       "handle": "JustDogs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:39:35.331087"
+      "timestamp": "2022-09-12T02:43:29.857605"
     },
     {
       "handle": "CougarPics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:11.202666"
+      "timestamp": "2022-09-12T02:44:06.928512"
     },
     {
       "handle": "bagofcheetos",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:15.154081"
+      "timestamp": "2022-09-12T02:44:11.104090"
     },
     {
       "handle": "FoxPic",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:38.268736"
+      "timestamp": "2022-09-12T02:44:33.865948"
     },
     {
       "handle": "bestsheep",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:43.064459"
+      "timestamp": "2022-09-12T02:44:39.665217"
     },
     {
       "handle": "cuteowls",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:43.161884"
+      "timestamp": "2022-09-12T02:44:39.787941"
     },
     {
       "handle": "otterchannel",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:43.260721"
+      "timestamp": "2022-09-12T02:44:39.911223"
     },
     {
       "handle": "eaglepictures",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:45.812439"
+      "timestamp": "2022-09-12T02:44:42.788102"
     },
     {
       "handle": "dailycorvid",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:47.499872"
+      "timestamp": "2022-09-12T02:44:44.717598"
     },
     {
       "handle": "servalchannel",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:48.454528"
+      "timestamp": "2022-09-12T02:44:45.737935"
     },
     {
       "handle": "justsloths",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:48.553821"
+      "timestamp": "2022-09-12T02:44:45.860334"
     },
     {
       "handle": "bigcatschannel",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:50.212475"
+      "timestamp": "2022-09-12T02:44:47.807284"
     },
     {
       "handle": "sneppics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:40:52.864445"
+      "timestamp": "2022-09-12T02:44:50.652040"
     },
     {
       "handle": "shibainugif",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:11.749888"
+      "timestamp": "2022-09-12T02:45:08.943171"
     },
     {
       "handle": "iloverat",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:14.886043"
+      "timestamp": "2022-09-12T02:45:12.906904"
     },
     {
       "handle": "monkeygifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:18.267547"
+      "timestamp": "2022-09-12T02:45:16.792771"
     },
     {
       "handle": "monkeylovers",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:18.367291"
+      "timestamp": "2022-09-12T02:45:16.917007"
     },
     {
       "handle": "insectlife",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:18.464675"
+      "timestamp": "2022-09-12T02:45:17.039607"
     },
     {
       "handle": "ferretfriends",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:19.316413"
+      "timestamp": "2022-09-12T02:45:18.135665"
     },
     {
       "handle": "ilovefloppa",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:21.822984"
+      "timestamp": "2022-09-12T02:45:21.303017"
     },
     {
       "handle": "dailypandas",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:26.096089"
+      "timestamp": "2022-09-12T02:45:26.308430"
     },
     {
       "handle": "birds_channel",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:29.290697"
+      "timestamp": "2022-09-12T02:45:30.412048"
     },
     {
       "handle": "cutekittens",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:38.765603"
+      "timestamp": "2022-09-12T02:45:34.178644"
     },
     {
       "handle": "frogs_channel",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:42.673243"
+      "timestamp": "2022-09-12T02:45:38.964694"
     },
     {
       "handle": "catchannel",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:43.522521"
+      "timestamp": "2022-09-12T02:45:39.975217"
     },
     {
       "handle": "catland",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:43.623538"
+      "timestamp": "2022-09-12T02:45:40.097874"
     },
     {
       "handle": "catsgifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:46.092777"
+      "timestamp": "2022-09-12T02:45:43.122596"
     },
     {
       "handle": "loveforcats",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:48.532109"
+      "timestamp": "2022-09-12T02:45:46.070543"
     },
     {
       "handle": "hourlybuns",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:49.488347"
+      "timestamp": "2022-09-12T02:45:47.166828"
     },
     {
       "handle": "doge_gifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:50.344618"
+      "timestamp": "2022-09-12T02:45:48.364487"
     },
     {
       "handle": "dogedits",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:50.445480"
+      "timestamp": "2022-09-12T02:45:48.487040"
     },
     {
       "handle": "doggodaily",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:52.074267"
+      "timestamp": "2022-09-12T02:45:50.493737"
     },
     {
       "handle": "dogpicture",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:52.174322"
+      "timestamp": "2022-09-12T02:45:50.621805"
     },
     {
       "handle": "dogspics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:53.031115"
+      "timestamp": "2022-09-12T02:45:51.654428"
     },
     {
       "handle": "fluffysamoyed",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:53.887151"
+      "timestamp": "2022-09-12T02:45:52.701290"
     },
     {
       "handle": "puppiesgifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:41:53.987309"
+      "timestamp": "2022-09-12T02:45:52.828050"
     },
     {
       "handle": "shibainupics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:42:00.300053"
+      "timestamp": "2022-09-12T02:46:00.556729"
     },
     {
       "handle": "shibechannel",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:42:00.399559"
+      "timestamp": "2022-09-12T02:46:00.681191"
     },
     {
       "handle": "shibegang",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:42:00.499101"
+      "timestamp": "2022-09-12T02:46:00.806464"
     },
     {
       "handle": "otterposting",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:42:16.686342"
+      "timestamp": "2022-09-12T02:46:13.170066"
     },
     {
       "handle": "turtleposting",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:42:18.374827"
+      "timestamp": "2022-09-12T02:46:15.204363"
     },
     {
       "handle": "squirrellove",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-09-11T02:42:22.479470"
+      "timestamp": "2022-09-12T02:46:20.079061"
     }
   ],
   "twitter_cache_errors": [
     {
       "handle": "batsdotexe",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-09-11T02:45:54.567944"
+      "timestamp": "2022-09-12T02:49:53.996729"
     },
     {
       "handle": "PuppiesIover",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2022-09-11T02:50:20.029604"
+      "timestamp": "2022-09-12T02:54:23.242326"
     }
   ]
 }
