@@ -3221,6 +3221,20 @@
       "animal": "Spider",
       "notes": "Russian, submissions via @ara_chno_bot",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "chaosfoxes",
+      "owner": "chaoticryptidz",
+      "animal": "Fox",
+      "notes": "",
+      "handle_pattern": "chaos?"
+    },
+    {
+      "handle": "chaossneps",
+      "owner": "chaoticryptidz",
+      "animal": "Snep",
+      "notes": "",
+      "handle_pattern": "chaos?"
     }
   ],
   "ignored": [
