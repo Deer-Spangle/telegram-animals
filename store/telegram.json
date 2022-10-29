@@ -138,7 +138,8 @@
       "owner": "?",
       "animal": "Alpaca",
       "notes": "Not english",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "alpacaland",
@@ -152,14 +153,16 @@
       "owner": "?",
       "animal": "Deer",
       "notes": "Inactive",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "DeerPictures",
       "owner": "?",
       "animal": "Deer",
       "notes": "Inactive",
-      "handle_pattern": "?pictures"
+      "handle_pattern": "?pictures",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dailygoat",
@@ -180,14 +183,16 @@
       "owner": "?",
       "animal": "Horse",
       "notes": "Russian",
-      "handle_pattern": "?gif"
+      "handle_pattern": "?gif",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "loveforhorses",
       "owner": "?",
       "animal": "Horse",
       "notes": "Owner deleted",
-      "handle_pattern": "lovefor?"
+      "handle_pattern": "lovefor?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "DailyTigers",
@@ -488,7 +493,8 @@
       "owner": "trxye",
       "animal": "Cat",
       "notes": "Owner deleted",
-      "handle_pattern": "?pic"
+      "handle_pattern": "?pic",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "CatPics",
@@ -530,7 +536,8 @@
       "owner": "?",
       "animal": "Dinosaur",
       "notes": "",
-      "handle_pattern": "?daily"
+      "handle_pattern": "?daily",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "daily_dog",
@@ -544,7 +551,8 @@
       "owner": "Timmy93",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "DailyDogGifs",
@@ -558,7 +566,8 @@
       "owner": "?",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dailydoggos",
@@ -572,28 +581,32 @@
       "owner": "?",
       "animal": "Dog",
       "notes": "Empty",
-      "handle_pattern": "daily?pic"
+      "handle_pattern": "daily?pic",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dailydogs",
       "owner": "?",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dogdaily",
       "owner": "raverumble",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "?daily"
+      "handle_pattern": "?daily",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "doggifs",
       "owner": "HooliganHusky",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "doggifstash",
@@ -607,7 +620,8 @@
       "owner": "?",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "?gify"
+      "handle_pattern": "?gify",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dogiwow",
@@ -677,7 +691,8 @@
       "owner": "?",
       "animal": "Fennec",
       "notes": "",
-      "handle_pattern": "?post"
+      "handle_pattern": "?post",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "fennecgifs",
@@ -698,7 +713,8 @@
       "owner": "?",
       "animal": "Ferret",
       "notes": "",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "HourlyFops",
@@ -726,7 +742,8 @@
       "owner": "?",
       "animal": "Guinea Pig",
       "notes": "",
-      "handle_pattern": "-"
+      "handle_pattern": "-",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "hedgehoggifs",
@@ -747,35 +764,40 @@
       "owner": "?",
       "animal": "Insect",
       "notes": "Russian bio",
-      "handle_pattern": "?pic"
+      "handle_pattern": "?pic",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dailykittens",
       "owner": "?",
       "animal": "Kitten",
       "notes": "",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "kittenGIFs",
       "owner": "?",
       "animal": "Kitten",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "kittenpics",
       "owner": "unixLikee",
       "animal": "Kitten",
       "notes": "",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "kittens_daily",
       "owner": "?",
       "animal": "Kitten",
       "notes": "",
-      "handle_pattern": "?_daily"
+      "handle_pattern": "?_daily",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "Lizardgifs",
@@ -796,7 +818,8 @@
       "owner": "?",
       "animal": "Lynx",
       "notes": "",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "HourlyManes",
@@ -817,21 +840,24 @@
       "owner": "?",
       "animal": "Moth",
       "notes": "",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "HourlyMoths",
       "owner": "?",
       "animal": "Moth",
       "notes": "",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "hourly?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "daily_otter",
       "owner": "gusenica",
       "animal": "Otter",
       "notes": "Stopped",
-      "handle_pattern": "daily_?"
+      "handle_pattern": "daily_?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "DailyOtter",
@@ -845,7 +871,8 @@
       "owner": "?",
       "animal": "Otter",
       "notes": "Owner deleted",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "otterdaily",
@@ -866,7 +893,8 @@
       "owner": "?",
       "animal": "Otter",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "otterpics",
@@ -880,7 +908,8 @@
       "owner": "?",
       "animal": "Otter",
       "notes": "",
-      "handle_pattern": "thedaily?"
+      "handle_pattern": "thedaily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "ILoVeOwLs",
@@ -894,14 +923,16 @@
       "owner": "?",
       "animal": "Panda",
       "notes": "",
-      "handle_pattern": "?_gif"
+      "handle_pattern": "?_gif",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "panda_gifs",
       "owner": "?",
       "animal": "Panda",
       "notes": "",
-      "handle_pattern": "?_gifs"
+      "handle_pattern": "?_gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "parrotgif",
@@ -915,7 +946,8 @@
       "owner": "?",
       "animal": "Parrot",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "bunnygifs",
@@ -943,7 +975,8 @@
       "owner": "?",
       "animal": "Rabbit",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "TomomoPlusArmando",
@@ -978,7 +1011,8 @@
       "owner": "DegenerateRubbish",
       "animal": "Raccoon",
       "notes": "",
-      "handle_pattern": "-"
+      "handle_pattern": "-",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "daily_seals",
@@ -1013,14 +1047,16 @@
       "owner": "?",
       "animal": "Shark",
       "notes": "",
-      "handle_pattern": "allthe?gifs"
+      "handle_pattern": "allthe?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "shorks",
       "owner": "?",
       "animal": "Shark",
       "notes": "",
-      "handle_pattern": "?"
+      "handle_pattern": "?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dailywahs",
@@ -1041,28 +1077,32 @@
       "owner": "?",
       "animal": "Wah",
       "notes": "",
-      "handle_pattern": "?gif"
+      "handle_pattern": "?gif",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "redpandapics",
       "owner": "?",
       "animal": "Wah",
       "notes": "",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "redpandasdaily",
       "owner": "?",
       "animal": "Wah",
       "notes": "Owner deleted, links to twitter",
-      "handle_pattern": "?daily"
+      "handle_pattern": "?daily",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "WahGifs",
       "owner": "?",
       "animal": "Wah",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "wolfgifstash",
@@ -1097,14 +1137,16 @@
       "owner": "itsfuckingdani",
       "animal": "Hyena",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "hyenapics",
       "owner": "?",
       "animal": "Hyena",
       "notes": "",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "yeenpics",
@@ -1447,7 +1489,8 @@
       "owner": "?",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "just?"
+      "handle_pattern": "just?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dogsandflowers",
@@ -1482,7 +1525,8 @@
       "owner": "?",
       "animal": "Cat",
       "notes": "Cats and dogs and others",
-      "handle_pattern": "-"
+      "handle_pattern": "-",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "FarmAnimals",
@@ -1735,7 +1779,8 @@
       "owner": "?",
       "animal": "Cougar",
       "notes": "",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "Samoyed_Channel",
@@ -1945,7 +1990,8 @@
       "owner": "?",
       "animal": "Fox",
       "notes": "",
-      "handle_pattern": "?pic"
+      "handle_pattern": "?pic",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "bestfoxes",
@@ -1994,21 +2040,24 @@
       "owner": "?",
       "animal": "Sheep",
       "notes": "Mostly farsi agriculture info",
-      "handle_pattern": "best?"
+      "handle_pattern": "best?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "cuteowls",
       "owner": "?",
       "animal": "Owl",
       "notes": "",
-      "handle_pattern": "cute?"
+      "handle_pattern": "cute?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "otterchannel",
       "owner": "?",
       "animal": "Otter",
       "notes": "Russian, mostly instagram links",
-      "handle_pattern": "?channel"
+      "handle_pattern": "?channel",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "otterlife",
@@ -2036,7 +2085,8 @@
       "owner": "?",
       "animal": "Eagle",
       "notes": "",
-      "handle_pattern": "?pictures"
+      "handle_pattern": "?pictures",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "shark_gifs",
@@ -2057,7 +2107,8 @@
       "owner": "?",
       "animal": "Corvid",
       "notes": "Drawings mostly",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "leggypics",
@@ -2071,14 +2122,16 @@
       "owner": "?",
       "animal": "Big Cat",
       "notes": "Warnings that the owner account may be deleted",
-      "handle_pattern": "-"
+      "handle_pattern": "-",
+      "removal_reason": "Removed in telegram username purge"
     },
         {
       "handle": "justsloths",
       "owner": "?",
       "animal": "Sloth",
       "notes": "",
-      "handle_pattern": "just?"
+      "handle_pattern": "just?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "guineapig_channel",
@@ -2099,7 +2152,8 @@
       "owner": "?",
       "animal": "Big Cat",
       "notes": "",
-      "handle_pattern": "?channel"
+      "handle_pattern": "?channel",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "justgoose",
@@ -2127,7 +2181,8 @@
       "owner": "?",
       "animal": "Snep",
       "notes": "Pics sent as files",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dailytoad",
@@ -2141,7 +2196,8 @@
       "owner": "?",
       "animal": "Wah",
       "notes": "",
-      "handle_pattern": "cute?"
+      "handle_pattern": "cute?",
+      "removal_reason": "Deleted, is a user handle now"
     },
     {
       "handle": "daily_red_panda",
@@ -2281,7 +2337,8 @@
       "owner": "dankozz1",
       "animal": "Rat",
       "notes": "retired, links a bunch of others",
-      "handle_pattern": "ilove?"
+      "handle_pattern": "ilove?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "odessa_rat_club_szczurownia",
@@ -2316,21 +2373,24 @@
       "owner": "?",
       "animal": "Monkey",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "monkeylovers",
       "owner": "?",
       "animal": "Monkey",
       "notes": "",
-      "handle_pattern": "?lovers"
+      "handle_pattern": "?lovers",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "insectlife",
       "owner": "?",
       "animal": "Insect",
       "notes": "",
-      "handle_pattern": "?life"
+      "handle_pattern": "?life",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "huskiesgif",
@@ -2344,7 +2404,8 @@
       "owner": "?",
       "animal": "Ferret",
       "notes": "",
-      "handle_pattern": "?friends"
+      "handle_pattern": "?friends",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "parrotlife",
@@ -2372,7 +2433,8 @@
       "owner": "?",
       "animal": "Caracal",
       "notes": "Russian",
-      "handle_pattern": "ilove?"
+      "handle_pattern": "ilove?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "pigeonschannel",
@@ -2414,7 +2476,8 @@
       "owner": "?",
       "animal": "Panda",
       "notes": "",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "panda",
@@ -2449,7 +2512,8 @@
       "owner": "?",
       "animal": "Bird",
       "notes": "Farsi, with some bird care info",
-      "handle_pattern": "?_channel"
+      "handle_pattern": "?_channel",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "fluffybirbs",
@@ -2484,7 +2548,8 @@
       "owner": "?",
       "animal": "Kitten",
       "notes": "Russian",
-      "handle_pattern": "cute?"
+      "handle_pattern": "cute?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dailyfrog",
@@ -2526,7 +2591,8 @@
       "owner": "?",
       "animal": "Frog",
       "notes": "",
-      "handle_pattern": "?_channel"
+      "handle_pattern": "?_channel",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "cat_gif",
@@ -2540,14 +2606,16 @@
       "owner": "?",
       "animal": "Cat",
       "notes": "cats and Italian memes and stuff. Concat: @AcademyWPBot",
-      "handle_pattern": "?channel"
+      "handle_pattern": "?channel",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "catland",
       "owner": "BotCat",
       "animal": "Cat",
       "notes": "Russian",
-      "handle_pattern": "?land"
+      "handle_pattern": "?land",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "catpictures",
@@ -2575,7 +2643,8 @@
       "owner": "?",
       "animal": "Cat",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "catsland",
@@ -2603,7 +2672,8 @@
       "owner": "?",
       "animal": "Cat",
       "notes": "",
-      "handle_pattern": "lovefor?"
+      "handle_pattern": "lovefor?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "bunchannel",
@@ -2617,7 +2687,8 @@
       "owner": "?",
       "animal": "Rabbit",
       "notes": "",
-      "handle_pattern": "hourly?"
+      "handle_pattern": "hourly?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "bestdoggos",
@@ -2631,14 +2702,16 @@
       "owner": "?",
       "animal": "Dog",
       "notes": "Farsi written over most gifs",
-      "handle_pattern": "?_gifs"
+      "handle_pattern": "?_gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dogedits",
       "owner": "?",
       "animal": "Dog",
       "notes": "Russian",
-      "handle_pattern": "?edits"
+      "handle_pattern": "?edits",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dogegif",
@@ -2659,14 +2732,16 @@
       "owner": "?",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "?daily"
+      "handle_pattern": "?daily",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dogpicture",
       "owner": "?",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "?picture"
+      "handle_pattern": "?picture",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dogsgif",
@@ -2680,7 +2755,8 @@
       "owner": "justanativeman",
       "animal": "Dog",
       "notes": "Russian",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "dogspictures",
@@ -2694,14 +2770,16 @@
       "owner": "?",
       "animal": "Dog",
       "notes": "Russian",
-      "handle_pattern": "fluffy?"
+      "handle_pattern": "fluffy?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "puppiesgifs",
       "owner": "?",
       "animal": "Dog",
       "notes": "Some other animal stuff too",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "puppygif",
@@ -2764,21 +2842,24 @@
       "owner": "ConnorShibe, FishhFinns",
       "animal": "Shiba Inu",
       "notes": "pics and memes",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "shibechannel",
       "owner": "?",
       "animal": "Shiba Inu",
       "notes": "Mostly instagram links",
-      "handle_pattern": "?channel"
+      "handle_pattern": "?channel",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "shibegang",
       "owner": "?",
       "animal": "Shiba Inu",
       "notes": "",
-      "handle_pattern": "?gang"
+      "handle_pattern": "?gang",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "ratscute",
@@ -2876,7 +2957,8 @@
       "owner": "Novolobo",
       "animal": "Otter",
       "notes": "",
-      "handle_pattern": "?posting"
+      "handle_pattern": "?posting",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "bunnyposting",
@@ -2897,7 +2979,8 @@
       "owner": "?",
       "animal": "Turtle",
       "notes": "",
-      "handle_pattern": "?posting"
+      "handle_pattern": "?posting",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "frogsposting",
@@ -2939,7 +3022,8 @@
       "owner": "?",
       "animal": "Squirrel",
       "notes": "All YouTube links though",
-      "handle_pattern": "?love"
+      "handle_pattern": "?love",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "snailslove",
