@@ -879,7 +879,8 @@
       "owner": "?",
       "animal": "Otter",
       "notes": "",
-      "handle_pattern": "?daily"
+      "handle_pattern": "?daily",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "ottergif",
@@ -968,7 +969,8 @@
       "owner": "?",
       "animal": "Rabbit",
       "notes": "",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "RabbitGifs",
