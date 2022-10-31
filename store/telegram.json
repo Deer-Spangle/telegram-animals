@@ -92,7 +92,7 @@
       "handle_pattern": "illegal?"
     },
     {
-      "handle": "fox_gifs",
+      "handle": "Fox_gifs",
       "owner": "Kubalzki",
       "animal": "Fox",
       "notes": "",
@@ -172,7 +172,7 @@
       "handle_pattern": "daily?"
     },
     {
-      "handle": "dailygoats",
+      "handle": "DailyGoats",
       "owner": "?goatbotboibot",
       "animal": "Goat",
       "notes": "Automatic bot",
@@ -206,7 +206,8 @@
       "owner": "?",
       "animal": "Tiger",
       "notes": "",
-      "handle_pattern": "?pictures"
+      "handle_pattern": "?pictures",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "Cowsbot",
@@ -262,7 +263,8 @@
       "owner": "snownel",
       "animal": "Big Cat",
       "notes": "Currently down",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "qualitybirdgifs",
@@ -283,7 +285,8 @@
       "owner": "dmuth",
       "animal": "Cheetah",
       "notes": "Doesn't take submissions",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "HourlyYotes",
@@ -304,7 +307,8 @@
       "owner": "Snynx, GreenFloofBall",
       "animal": "Lynx",
       "notes": "",
-      "handle_pattern": "?_gifs"
+      "handle_pattern": "?_gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "HourlyPineMarten",
@@ -332,7 +336,8 @@
       "owner": "snownel",
       "animal": "Snep",
       "notes": "Currently down",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifs",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "HourlySnep",
@@ -419,7 +424,7 @@
       "handle_pattern": "-"
     },
     {
-      "handle": "BatGifs",
+      "handle": "BatGifArchive",
       "owner": "?",
       "animal": "Bat",
       "notes": "",
@@ -458,10 +463,11 @@
       "owner": "Sanqui, pyroalex",
       "animal": "Bird",
       "notes": "",
-      "handle_pattern": "?pics"
+      "handle_pattern": "?pics",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
-      "handle": "Birds",
+      "handle": "birds",
       "owner": "?",
       "animal": "Bird",
       "notes": "",
@@ -1024,7 +1030,7 @@
       "handle_pattern": "daily_?"
     },
     {
-      "handle": "sealsandmanatees",
+      "handle": "Sealsandmanatees",
       "owner": "?",
       "animal": "Seal",
       "notes": "",
@@ -1459,11 +1465,11 @@
       "handle_pattern": "cute?"
     },
     {
-      "handle": "TheFoxNews",
+      "handle": "TrueFoxNews",
       "owner": "?",
       "animal": "Fox",
       "notes": "",
-      "handle_pattern": "the?news"
+      "handle_pattern": "true?news"
     },
     {
       "handle": "fox_vulpes_renard_lis",
@@ -1473,7 +1479,7 @@
       "handle_pattern": "-"
     },
     {
-      "handle": "wah_gifs",
+      "handle": "Wah_gifs",
       "owner": "Kubalzki",
       "animal": "Wah",
       "notes": "",
@@ -1545,7 +1551,7 @@
       "handle_pattern": "cute?"
     },
     {
-      "handle": "ratpost",
+      "handle": "Ratpost",
       "owner": "mintyfoxxe",
       "animal": "Rat",
       "notes": "",
@@ -1700,10 +1706,10 @@
       "handle_pattern": "trippy?"
     },
     {
-      "handle": "ratsssz",
+      "handle": "ratscapies",
       "owner": "podvalmetal",
       "animal": "Rat",
-      "notes": "",
+      "notes": "Rats, rats, rats and capybaras",
       "handle_pattern": "-"
     },
     {
@@ -1763,11 +1769,11 @@
       "handle_pattern": "hourly?bot"
     },
     {
-      "handle": "StuffAboutCrows",
+      "handle": "Crowposting",
       "owner": "?",
       "animal": "Corvid",
       "notes": "",
-      "handle_pattern": "stuffabout?"
+      "handle_pattern": "?posting"
     },
     {
       "handle": "birbchannel",
@@ -1813,7 +1819,7 @@
       "handle_pattern": "?gifs"
     },
     {
-      "handle": "lapqpera",
+      "handle": "LAPQPERA",
       "owner": "?",
       "animal": "Duck",
       "notes": "Italian, lapqpera network, part of @pagatelupizzu network",
@@ -1841,7 +1847,7 @@
       "handle_pattern": "-"
     },
     {
-      "handle": "lalumacw",
+      "handle": "LALUMACW",
       "owner": "?",
       "animal": "Snail",
       "notes": "Italian, lapqpera network",
@@ -2062,7 +2068,7 @@
       "removal_reason": "Removed in telegram username purge"
     },
     {
-      "handle": "otterlife",
+      "handle": "Otterlife",
       "owner": "?",
       "animal": "Otter",
       "notes": "",
@@ -2140,7 +2146,8 @@
       "owner": "?",
       "animal": "Guinea Pig",
       "notes": "",
-      "handle_pattern": "?_channel"
+      "handle_pattern": "?_channel",
+      "removal_reason": "Renamed to @ann_livee, just a personal channel"
     },
     {
       "handle": "bigcats",
@@ -2165,7 +2172,7 @@
       "handle_pattern": "just?"
     },
     {
-      "handle": "hourlymartens",
+      "handle": "HourlyMartens",
       "owner": "Ra_Zim",
       "animal": "Pine Marten",
       "notes": "Bot by a friend of theirs",
@@ -2187,7 +2194,7 @@
       "removal_reason": "Removed in telegram username purge"
     },
     {
-      "handle": "dailytoad",
+      "handle": "dailyToad",
       "owner": "?",
       "animal": "Toad",
       "notes": "Russian",
@@ -2216,14 +2223,14 @@
       "handle_pattern": "?_channel"
     },
     {
-      "handle": "dailypossums",
+      "handle": "DailyPossums",
       "owner": "PeachOpossum",
       "animal": "Opossum",
       "notes": "",
       "handle_pattern": "daily?"
     },
     {
-      "handle": "reptilegif",
+      "handle": "ReptileGif",
       "owner": "?",
       "animal": "Lizard",
       "notes": "",
@@ -2237,10 +2244,10 @@
       "handle_pattern": "?"
     },
     {
-      "handle": "possumgifs",
+      "handle": "animalicarinii",
       "owner": "panna_acidaa",
       "animal": "Opossum",
-      "notes": "Lots of non-possum stuff too. Part of Panna Acida network",
+      "notes": "Lots of raccoons and non-possum stuff too. Part of Panna Acida network",
       "handle_pattern": "?gifs"
     },
     {
@@ -2300,11 +2307,11 @@
       "handle_pattern": "?posting"
     },
     {
-      "handle": "shibainugif",
+      "handle": "shibaeffepo",
       "owner": "?",
       "animal": "Shiba Inu",
       "notes": "Shiba inu network hub, links to private channels by mood",
-      "handle_pattern": "?gif"
+      "handle_pattern": "-"
     },
     {
       "handle": "shibapazzi",
@@ -2328,7 +2335,7 @@
       "handle_pattern": "?"
     },
     {
-      "handle": "squirrelgifs",
+      "handle": "SquirrelGifs",
       "owner": "Malgaro",
       "animal": "Squirrel",
       "notes": "",
@@ -2395,7 +2402,7 @@
       "removal_reason": "Removed in telegram username purge"
     },
     {
-      "handle": "huskiesgif",
+      "handle": "Huskiesgif",
       "owner": "?",
       "animal": "Husky",
       "notes": "",
@@ -2410,7 +2417,7 @@
       "removal_reason": "Removed in telegram username purge"
     },
     {
-      "handle": "parrotlife",
+      "handle": "parrotLife",
       "owner": "Darniritta",
       "animal": "Parrot",
       "notes": "Russian, has a chat at @parrotGrup",
@@ -2424,7 +2431,7 @@
       "handle_pattern": "?"
     },
     {
-      "handle": "parrotsland",
+      "handle": "Parrotsland",
       "owner": "Piter833",
       "animal": "Parrot",
       "notes": "lots of farsi posts between videos",
@@ -2446,7 +2453,7 @@
       "handle_pattern": "?channel"
     },
     {
-      "handle": "pigeonslife",
+      "handle": "PigeonsLife",
       "owner": "CartmanRus, P_Light",
       "animal": "Pigeon",
       "notes": "",
@@ -2457,10 +2464,11 @@
       "owner": "?",
       "animal": "Pigeon",
       "notes": "Ethiopian channel, misc other content",
-      "handle_pattern": "?pic"
+      "handle_pattern": "?pic",
+      "removal_reason": "Channel renamed and changed into betting ads"
     },
     {
-      "handle": "fengif",
+      "handle": "FenGIF",
       "owner": "FennEXE",
       "animal": "Fennec",
       "notes": "",
@@ -2493,7 +2501,8 @@
       "owner": "Blue_Sunday",
       "animal": "Panda",
       "notes": "Has group, @Panda_Linked",
-      "handle_pattern": "?gif"
+      "handle_pattern": "?gif",
+      "removal_reason": "Removed in telegram username purge"
     },
     {
       "handle": "pandagifs",
@@ -2539,7 +2548,7 @@
       "handle_pattern": "roumd?"
     },
     {
-      "handle": "bearpictures",
+      "handle": "BearPictures",
       "owner": "Pastek_s",
       "animal": "Bear",
       "notes": "",
@@ -2582,7 +2591,7 @@
       "handle_pattern": "?gifs"
     },
     {
-      "handle": "frogpost",
+      "handle": "FrogPost",
       "owner": "?",
       "animal": "Frog",
       "notes": "",
@@ -2597,7 +2606,7 @@
       "removal_reason": "Removed in telegram username purge"
     },
     {
-      "handle": "cat_gif",
+      "handle": "Cat_GIF",
       "owner": "MrMillenomi",
       "animal": "Cat",
       "notes": "",
@@ -2620,7 +2629,7 @@
       "removal_reason": "Removed in telegram username purge"
     },
     {
-      "handle": "catpictures",
+      "handle": "CatPictures",
       "owner": "?",
       "animal": "Cat",
       "notes": "",
@@ -2649,18 +2658,18 @@
       "removal_reason": "Removed in telegram username purge"
     },
     {
-      "handle": "catsland",
+      "handle": "CatsLand",
       "owner": "?",
       "animal": "Cat",
       "notes": "Russian",
       "handle_pattern": "?land"
     },
     {
-      "handle": "catspics",
+      "handle": "maomaomeow",
       "owner": "?",
       "animal": "Cat",
       "notes": "Chinese",
-      "handle_pattern": "?pics"
+      "handle_pattern": "-"
     },
     {
       "handle": "daily_cats",
@@ -2791,7 +2800,7 @@
       "handle_pattern": "?gif"
     },
     {
-      "handle": "samoyedgif",
+      "handle": "SamoyedGif",
       "owner": "?",
       "animal": "Dog",
       "notes": "Chinese, just samoyeds",
@@ -2809,7 +2818,8 @@
       "owner": "?",
       "animal": "Shiba Inu",
       "notes": "Just shiba inu",
-      "handle_pattern": "?_gif"
+      "handle_pattern": "?_gif",
+      "removal_reason": "Channel renamed to @PersianAnaliz, and changed to random persian videos and stuff"
     },
     {
       "handle": "shibagif",
@@ -2826,7 +2836,7 @@
       "handle_pattern": "?pets"
     },
     {
-      "handle": "shibainuch",
+      "handle": "ShibainuCH",
       "owner": "?",
       "animal": "Shiba Inu",
       "notes": "",
@@ -2906,7 +2916,7 @@
       "handle_pattern": "?booty"
     },
     {
-      "handle": "sealposting",
+      "handle": "Sealposting",
       "owner": "?",
       "animal": "Seal",
       "notes": "Mostly Youtube links",
@@ -2934,7 +2944,7 @@
       "handle_pattern": "?love"
     },
     {
-      "handle": "procionimagici",
+      "handle": "ProcioniMagici",
       "owner": "GiornoDiMaggio",
       "animal": "Raccoon",
       "notes": "Italian. Has some facts also. Part of Mattonella network, @mattonellanetwork",
@@ -2970,7 +2980,7 @@
       "handle_pattern": "?posting"
     },
     {
-      "handle": "bunniesposting",
+      "handle": "BunniesPosting",
       "owner": "?",
       "animal": "Rabbit",
       "notes": "",
@@ -2992,7 +3002,7 @@
       "handle_pattern": "?posting"
     },
     {
-      "handle": "monkegifs",
+      "handle": "MonkeGifs",
       "owner": "?",
       "animal": "Monkey",
       "notes": "",
@@ -3006,14 +3016,14 @@
       "handle_pattern": "?posting"
     },
     {
-      "handle": "foxesposting",
+      "handle": "foxespost",
       "owner": "?",
       "animal": "Fox",
       "notes": "Russian. Gathers fox pics from VK",
       "handle_pattern": "?posting"
     },
     {
-      "handle": "snakeslove",
+      "handle": "SnakesLove",
       "owner": "?",
       "animal": "Snake",
       "notes": "",
