@@ -5381,103 +5381,104 @@
       "channel_hash": 6383654229592003790,
       "bio": "snep: a kind of small cat the size of a big cat\n\nsee also: @chaosfoxes\n\nby @chaoticryptids, send takedown reqs there",
       "title": "sneps!"
+    },
+    "batgifarchive": {
+      "date_checked": "2022-10-31T22:19:40.653217+00:00",
+      "gif_count": 316,
+      "pic_count": 0,
+      "video_count": 3,
+      "subscriber_count": 17,
+      "post_count": 331,
+      "latest_post": "2022-06-24T14:50:49+00:00",
+      "channel_id": 1209272168,
+      "channel_hash": -4476578487162622808,
+      "bio": "Bat gifs! \ud83e\udd87",
+      "title": "Bat Gif Archive"
+    },
+    "ratscapies": {
+      "date_checked": "2022-10-31T22:19:45.267363+00:00",
+      "gif_count": 12,
+      "pic_count": 1357,
+      "video_count": 84,
+      "subscriber_count": 1388,
+      "post_count": 1501,
+      "latest_post": "2022-10-29T22:11:36+00:00",
+      "channel_id": 1283197525,
+      "channel_hash": 2097766067746445749,
+      "bio": "adm: @podvalmetal\nu can always send rats to us \n\n\nother channels:\n@Chats_Cats_kocky_koty catsss\n@utomlyaemost picss\n\n\u0442\u044b \u043a\u0440\u044b\u0441\u0430 \u0434\u0430\u0430\u0430 \u044f \u043a\u0440\u044b\u0441\u0430",
+      "title": "rats & rats & rats & rats & capybaras"
+    },
+    "crowposting": {
+      "date_checked": "2022-10-31T22:19:49.599869+00:00",
+      "gif_count": 18,
+      "pic_count": 634,
+      "video_count": 18,
+      "subscriber_count": 1065,
+      "post_count": 721,
+      "latest_post": "2022-10-31T18:04:16+00:00",
+      "channel_id": 1183677867,
+      "channel_hash": 7885503137700279827,
+      "bio": "A place where you can find crows and corvids alike",
+      "title": "Crowposting"
+    },
+    "animalicarinii": {
+      "date_checked": "2022-10-31T22:19:57.318376+00:00",
+      "gif_count": 760,
+      "pic_count": 9,
+      "video_count": 32,
+      "subscriber_count": 14,
+      "post_count": 808,
+      "latest_post": "2022-10-31T08:49:11+00:00",
+      "channel_id": 1560166227,
+      "channel_hash": 4810593336981794029,
+      "bio": "opossum, topini, raconi e altri animali belli\n\n\n@gatinicarini\n\n@froggosfroggies \n\n@doggoscute \n\n@floppabooty\n\n@gustavocapybara",
+      "title": "animali carini"
+    },
+    "shibaeffepo": {
+      "date_checked": "2022-10-31T22:20:01.629049+00:00",
+      "gif_count": 0,
+      "pic_count": 1,
+      "video_count": 0,
+      "subscriber_count": 23,
+      "post_count": 4,
+      "latest_post": "2021-05-18T07:19:50+00:00",
+      "channel_id": 1411254925,
+      "channel_hash": -1829178906361876786,
+      "bio": "",
+      "title": "\ud83d\udc15gli shiba di effepo\ud83d\udc15"
+    },
+    "maomaomeow": {
+      "date_checked": "2022-10-31T22:20:05.965321+00:00",
+      "gif_count": 24,
+      "pic_count": 380,
+      "video_count": 80,
+      "subscriber_count": 2,
+      "post_count": 488,
+      "latest_post": "2022-10-28T12:47:14+00:00",
+      "channel_id": 1353889845,
+      "channel_hash": -6779754938139225965,
+      "bio": "",
+      "title": "\u732b\u732b\u55b5\ud83d\udc31"
+    },
+    "foxespost": {
+      "date_checked": "2022-10-31T22:20:10.303716+00:00",
+      "gif_count": 11,
+      "pic_count": 67561,
+      "video_count": 101,
+      "subscriber_count": 45,
+      "post_count": 69431,
+      "latest_post": "2022-10-31T21:35:55+00:00",
+      "channel_id": 1281894729,
+      "channel_hash": 4758436474463989364,
+      "bio": "\u0411\u043e\u0442, \u0441\u043e\u0431\u0438\u0440\u0430\u044e\u0449\u0438\u0439 \u043b\u0438\u0441 \u0441\u043e \u0432\u0441\u0435\u0433\u043e \u0432\u043a.",
+      "title": "\u041b\u0438\u0441\u044b"
     }
   },
   "errors": [
     {
-      "handle": "tigerpictures",
-      "error": "Cache update failed: Channel tigerpictures no longer has a username",
-      "timestamp": "2022-10-31T20:01:59.626563"
-    },
-    {
-      "handle": "bigcatgifs",
-      "error": "Cache update failed: Channel bigcatgifs no longer has a username",
-      "timestamp": "2022-10-31T20:02:03.209956"
-    },
-    {
-      "handle": "CheetahGifs",
-      "error": "Cache update failed: Channel CheetahGifs no longer has a username",
-      "timestamp": "2022-10-31T20:02:06.882124"
-    },
-    {
-      "handle": "lynx_gifs",
-      "error": "Cache update failed: Channel lynx_gifs no longer has a username",
-      "timestamp": "2022-10-31T20:02:10.544331"
-    },
-    {
-      "handle": "snepgifs",
-      "error": "Cache update failed: Channel snepgifs no longer has a username",
-      "timestamp": "2022-10-31T20:02:14.972153"
-    },
-    {
-      "handle": "BatGifs",
-      "error": "Cache update failed: Channel handle should be BatGifs but it is BatGifArchive",
-      "timestamp": "2022-10-31T20:02:19.507822"
-    },
-    {
-      "handle": "birdpics",
-      "error": "Cache update failed: Channel birdpics no longer has a username",
-      "timestamp": "2022-10-31T20:02:25.132274"
-    },
-    {
-      "handle": "TheFoxNews",
-      "error": "Cache update failed: Channel handle should be TheFoxNews but it is TrueFoxNews",
-      "timestamp": "2022-10-31T20:03:59.673295"
-    },
-    {
-      "handle": "ratsssz",
-      "error": "Cache update failed: Channel handle should be ratsssz but it is ratscapies",
-      "timestamp": "2022-10-31T20:04:38.354935"
-    },
-    {
-      "handle": "StuffAboutCrows",
-      "error": "Cache update failed: Channel handle should be StuffAboutCrows but it is Crowposting",
-      "timestamp": "2022-10-31T20:04:45.316802"
-    },
-    {
       "handle": "bagofcheetos",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-10-31T20:04:51.196101"
-    },
-    {
-      "handle": "guineapig_channel",
-      "error": "Cache update failed: Channel handle should be guineapig_channel but it is ann_livee",
-      "timestamp": "2022-10-31T20:05:37.331734"
-    },
-    {
-      "handle": "possumgifs",
-      "error": "Cache update failed: Channel handle should be possumgifs but it is animalicarinii",
-      "timestamp": "2022-10-31T20:05:50.797382"
-    },
-    {
-      "handle": "shibainugif",
-      "error": "Cache update failed: Channel handle should be shibainugif but it is shibaeffepo",
-      "timestamp": "2022-10-31T20:06:00.973226"
-    },
-    {
-      "handle": "pigeonspic",
-      "error": "Cache update failed: Channel handle should be pigeonspic but it is freefixedtip365",
-      "timestamp": "2022-10-31T20:06:19.837711"
-    },
-    {
-      "handle": "pandagif",
-      "error": "Cache update failed: Channel pandagif no longer has a username",
-      "timestamp": "2022-10-31T20:06:24.099267"
-    },
-    {
-      "handle": "catspics",
-      "error": "Cache update failed: Channel handle should be catspics but it is maomaomeow",
-      "timestamp": "2022-10-31T20:06:44.438284"
-    },
-    {
-      "handle": "shiba_gif",
-      "error": "Cache update failed: Channel handle should be shiba_gif but it is PersianAnaliz",
-      "timestamp": "2022-10-31T20:06:58.058040"
-    },
-    {
-      "handle": "foxesposting",
-      "error": "Cache update failed: Channel handle should be foxesposting but it is foxespost",
-      "timestamp": "2022-10-31T20:07:24.846989"
+      "timestamp": "2022-10-31T22:19:52.946246"
     }
   ]
 }
