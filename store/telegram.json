@@ -428,7 +428,7 @@
       "owner": "?",
       "animal": "Bat",
       "notes": "",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "?gifarchive"
     },
     {
       "handle": "batsdaily",
@@ -2248,7 +2248,7 @@
       "owner": "panna_acidaa",
       "animal": "Opossum",
       "notes": "Lots of raccoons and non-possum stuff too. Part of Panna Acida network",
-      "handle_pattern": "?gifs"
+      "handle_pattern": "-"
     },
     {
       "handle": "gatinicarini",
@@ -3020,7 +3020,7 @@
       "owner": "?",
       "animal": "Fox",
       "notes": "Russian. Gathers fox pics from VK",
-      "handle_pattern": "?posting"
+      "handle_pattern": "?post"
     },
     {
       "handle": "SnakesLove",
