@@ -135,6 +135,12 @@ async def generate_cache(
     videos = await count_media_type(client, input_entity, MediaType.Video)
     post_count = await count_posts(client, input_entity)
     entity = await client.get_entity(input_entity)
+    if entity.username is None:
+        raise Exception(f"Channel {channel.handle} no longer has a username")
+    if entity.username.casefold() != channel.handle.casefold():
+        raise Exception(f"Channel handle should be {channel.handle} but it is {entity.username}")
+    if entity.username != channel.handle:
+        print(f"Capitalisation incorrect for channel {channel.handle}, should be {entity.username}")
     title = entity.title
     full_entity = await client(GetFullChannelRequest(channel=input_entity))
     sub_count = full_entity.full_chat.participants_count
