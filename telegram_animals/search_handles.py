@@ -102,7 +102,7 @@ class SearchCacheEntry:
         path = f"https://t.me/{self.handle}"
         resp = requests.get(path)
         assert resp.status_code == 200
-        exists = f'href="/s/{self.handle}">Preview channel</span>' in resp.text
+        exists = f'href="/s/{self.handle}">Preview channel</a>' in resp.text
         self.exists_in_telegram = exists
         self.last_checked = datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         if exists:
