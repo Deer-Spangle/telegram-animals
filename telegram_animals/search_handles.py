@@ -94,6 +94,9 @@ class SearchCacheEntry:
     def older_than(self, age: datetime.timedelta, now: Optional[datetime.datetime] = None) -> bool:
         if self.last_checked is None:
             return True
+        # Invalidate cache before this point in time, because the check was broken before that
+        if self.last_checked < datetime.datetime.fromisoformat("2022-11-01T16:00:00").replace(tzinfo=pytz.utc):
+            return True
         now = now or datetime.datetime.utcnow().replace(tzinfo=pytz.utc)
         my_age = now - self.last_checked
         return my_age > age
