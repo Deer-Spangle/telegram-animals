@@ -110,7 +110,7 @@ async def get_input_entity(
         searcher: CachedSearcher,
         old_cache: Optional[TelegramCache]
 ) -> InputPeerChannel:
-    if old_cache and old_cache.channel_id:
+    if old_cache and old_cache.channel_id and old_cache.channel_hash:
         return InputPeerChannel(old_cache.channel_id, old_cache.channel_hash)
     try:
         entity = await client.get_input_entity(channel.handle)
@@ -130,10 +130,6 @@ async def generate_cache(
         old_cache: Optional[TelegramCache]
 ) -> TelegramCache:
     input_entity = await get_input_entity(client, channel, searcher, old_cache)
-    images = await count_media_type(client, input_entity, MediaType.Image)
-    gifs = await count_media_type(client, input_entity, MediaType.Gif)
-    videos = await count_media_type(client, input_entity, MediaType.Video)
-    post_count = await count_posts(client, input_entity)
     entity = await client.get_entity(input_entity)
     if entity.username is None:
         raise Exception(f"Channel {channel.handle} no longer has a username")
@@ -142,6 +138,10 @@ async def generate_cache(
     if entity.username != channel.handle:
         print(f"Capitalisation incorrect for channel {channel.handle}, should be {entity.username}")
     title = entity.title
+    images = await count_media_type(client, input_entity, MediaType.Image)
+    gifs = await count_media_type(client, input_entity, MediaType.Gif)
+    videos = await count_media_type(client, input_entity, MediaType.Video)
+    post_count = await count_posts(client, input_entity)
     full_entity = await client(GetFullChannelRequest(channel=input_entity))
     sub_count = full_entity.full_chat.participants_count
     bio = full_entity.full_chat.about

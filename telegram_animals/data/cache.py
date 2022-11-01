@@ -68,8 +68,8 @@ class TelegramCache(ChannelCache):
     def __init__(
             self,
             date_checked: datetime,
-            channel_id: int,
-            channel_hash: int,
+            channel_id: Optional[int],
+            channel_hash: Optional[int],
             gif_count: int,
             pic_count: int,
             video_count: int,
