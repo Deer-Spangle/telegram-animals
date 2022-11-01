@@ -2,35 +2,35 @@ const telegramChannels = {
   "telegram_cache_errors": [
     {
       "handle": "bagofcheetos",
-      "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by SearchRequest)",
-      "timestamp": "2022-11-01T02:37:30.899870"
+      "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
+      "timestamp": "2022-11-01T08:27:53.736002"
     }
   ],
   "twitter_cache_errors": [
     {
       "handle": "batsdotexe",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-11-01T02:42:22.451046"
+      "timestamp": "2022-11-01T08:28:01.942985"
     },
     {
       "handle": "CuteLilRedBois",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-11-01T02:45:49.190992"
+      "timestamp": "2022-11-01T08:28:04.578752"
     },
     {
       "handle": "standardpuppies",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2022-11-01T02:45:58.789098"
+      "timestamp": "2022-11-01T08:28:06.717212"
     },
     {
       "handle": "PuppiesIover",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2022-11-01T02:46:00.899223"
+      "timestamp": "2022-11-01T08:28:08.819868"
     },
     {
       "handle": "DailyManedWolf",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-11-01T02:46:21.176453"
+      "timestamp": "2022-11-01T08:28:10.917956"
     }
   ]
 }
