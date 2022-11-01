@@ -271,7 +271,8 @@
       "owner": "?",
       "animal": "Bat",
       "notes": "",
-      "handle_pattern": "?dotexe"
+      "handle_pattern": "?dotexe",
+      "removal_reason": "Twitter account deleted"
     },
     {
       "handle": "otdbat",
@@ -642,7 +643,8 @@
       "owner": "?",
       "animal": "Wah",
       "notes": "",
-      "handle_pattern": "-"
+      "handle_pattern": "-",
+      "removal_reason": "Twitter account deleted"
     },
     {
       "handle": "Happydog___",
@@ -663,14 +665,16 @@
       "owner": "?",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "standard?"
+      "handle_pattern": "standard?",
+      "removal_reason": "Twitter account deleted"
     },
     {
       "handle": "PuppiesIover",
       "owner": "?",
       "animal": "Dog",
       "notes": "",
-      "handle_pattern": "?iover"
+      "handle_pattern": "?iover",
+      "removal_reason": "Twitter account deleted"
     },
     {
       "handle": "CrowMonthly",
@@ -720,7 +724,8 @@
       "owner": "@yotemachine",
       "animal": "Maned Wolf",
       "notes": "",
-      "handle_pattern": "daily?"
+      "handle_pattern": "daily?",
+      "removal_reason": "Twitter account deleted"
     },
     {
       "handle": "HourlySamoyeds",
