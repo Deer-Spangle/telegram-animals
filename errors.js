@@ -4,27 +4,27 @@ const telegramChannels = {
     {
       "handle": "batsdotexe",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-11-01T14:51:11.356306"
+      "timestamp": "2022-11-01T15:04:06.085044"
     },
     {
       "handle": "CuteLilRedBois",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-11-01T14:51:13.861406"
+      "timestamp": "2022-11-01T15:04:08.625279"
     },
     {
       "handle": "standardpuppies",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2022-11-01T14:51:15.986378"
+      "timestamp": "2022-11-01T15:04:10.680906"
     },
     {
       "handle": "PuppiesIover",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2022-11-01T14:51:18.105918"
+      "timestamp": "2022-11-01T15:04:12.713668"
     },
     {
       "handle": "DailyManedWolf",
       "error": "Cache update failed: [{'code': 50, 'message': 'User not found.'}]",
-      "timestamp": "2022-11-01T14:51:20.249464"
+      "timestamp": "2022-11-01T15:04:14.800631"
     }
   ]
 }
