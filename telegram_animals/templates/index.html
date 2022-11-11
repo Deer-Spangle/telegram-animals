@@ -48,7 +48,7 @@
         {% endif %}
         {% set ns.last_animal = channel.animal %}
             <td><img src="icon_{{channel.channel_type.value}}.svg" alt="{{channel.channel_type.value}}" style="height: 1em;"/></td>
-            <td><a href="https://t.me/{{ channel.handle }}" target="_blank">@{{ channel.handle }}</a></td>
+            <td><a href="{{ channel.channel_type.link(channel.handle) }}" target="_blank">@{{ channel.handle }}</a></td>
             <td>{{ channel.animal }}</td>
             <td>{{ channel.owner_html | safe }}</td>
             {% set cache = channel.get_cache(datastore) %}
@@ -60,7 +60,7 @@
                 <td style="{{ count_scale.style_for_value(cache.subscribers) }}">{{ cache.subscribers | default("?") }}</td>
                 {% if cache.latest_post %}
                     <td style="{{ date_scale.style_for_value(cache.latest_post) }}">{{ cache.latest_post.strftime('%Y-%m-%d') }}</td>
-                {% else %}}
+                {% else %}
                     <td>-</td>
                 {% endif %}
             {% else %}
