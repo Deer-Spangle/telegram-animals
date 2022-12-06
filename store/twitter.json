@@ -761,6 +761,13 @@
       "animal": "Wah",
       "notes": "",
       "handle_pattern": "?floofs"
+    },
+    {
+      "handle": "skunkeveryhour",
+      "owner": "?",
+      "animal": "Skunk",
+      "notes": "",
+      "handle_pattern": "?everyhour"
     }
   ]
 }

@@ -3338,6 +3338,12 @@
       "animal": "Cat",
       "notes": "",
       "handle_pattern": "-"
+    },
+    {
+      "handle": "skonktime",
+      "owner": "?",
+      "animal": "Skunk",
+      "notes": "Mostly feedreader posts from https://twitter.com/skunkeveryhour"
     }
   ],
   "ignored": [
