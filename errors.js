@@ -3,8 +3,14 @@ const telegramChannels = {
     {
       "handle": "puppygif",
       "error": "Cache update failed: Channel handle should be puppygif but it is uwontbelieve",
-      "timestamp": "2022-12-06T01:41:56.117206"
+      "timestamp": "2022-12-07T12:57:53.911117"
     }
   ],
-  "twitter_cache_errors": []
+  "twitter_cache_errors": [
+    {
+      "handle": "platinumfoxes",
+      "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
+      "timestamp": "2022-12-07T12:59:16.604394"
+    }
+  ]
 }
