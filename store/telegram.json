@@ -3343,7 +3343,8 @@
       "handle": "skonktime",
       "owner": "?",
       "animal": "Skunk",
-      "notes": "Mostly feedreader posts from https://twitter.com/skunkeveryhour"
+      "notes": "Mostly feedreader posts from https://twitter.com/skunkeveryhour",
+      "handle_pattern": "?time"
     }
   ],
   "ignored": [
