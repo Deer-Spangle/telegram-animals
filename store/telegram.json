@@ -3345,6 +3345,13 @@
       "animal": "Skunk",
       "notes": "Mostly feedreader posts from https://twitter.com/skunkeveryhour",
       "handle_pattern": "?time"
+    },
+    {
+      "handle": "fennecforecast",
+      "owner": "https://t.me/Kenaz",
+      "animal": "Fennec",
+      "notes": "",
+      "handle_pattern": "?forecast"
     }
   ],
   "ignored": [
