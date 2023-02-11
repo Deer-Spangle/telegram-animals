@@ -3,19 +3,19 @@ const telegramChannels = {
     {
       "handle": "froggosfroggies",
       "error": "Cache update failed: Channel handle should be froggosfroggies but it is vivalerane",
-      "timestamp": "2023-02-10T01:50:11.568255"
+      "timestamp": "2023-02-11T01:39:05.066359"
     },
     {
       "handle": "puppygif",
       "error": "Cache update failed: Channel handle should be puppygif but it is uwontbelieve",
-      "timestamp": "2023-02-10T01:51:02.369066"
+      "timestamp": "2023-02-11T01:40:01.786743"
     }
   ],
   "twitter_cache_errors": [
     {
       "handle": "platinumfoxes",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2023-02-10T01:52:03.792565"
+      "timestamp": "2023-02-11T01:41:09.381665"
     }
   ]
 }
