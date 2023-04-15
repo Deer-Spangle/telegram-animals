@@ -5530,17 +5530,17 @@
     {
       "handle": "froggosfroggies",
       "error": "Cache update failed: Channel handle should be froggosfroggies but it is vivalerane",
-      "timestamp": "2023-04-14T21:46:46.899986"
+      "timestamp": "2023-04-15T01:25:15.959027"
     },
     {
       "handle": "puppygif",
       "error": "Cache update failed: Channel handle should be puppygif but it is uwontbelieve",
-      "timestamp": "2023-04-14T21:47:39.644542"
+      "timestamp": "2023-04-15T01:25:16.078927"
     },
     {
       "handle": "reptilepets",
       "error": "Cache update failed: Channel handle should be reptilepets but it is joeperronsreptile",
-      "timestamp": "2023-04-14T21:47:42.472451"
+      "timestamp": "2023-04-15T01:25:16.200615"
     }
   ]
 }

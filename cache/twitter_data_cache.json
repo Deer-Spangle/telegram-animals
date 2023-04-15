@@ -2401,28 +2401,28 @@
       }
     },
     "crowmonthly": {
-      "date_checked": "2023-04-14T01:34:30.366047",
+      "date_checked": "2023-04-15T01:25:23.991253",
       "user_id": 998876040209534978,
       "display_name": "Crow Monthly",
       "bio": "Not an actual publication, but don\u2019t tell the crows or they\u2019ll cancel their subscriptions.",
       "user_location": "London, England",
       "user_url": "https://t.co/8Hs0oFrnqJ",
       "creation_datetime": "2018-05-22T10:39:40+00:00",
-      "subscribers": 13759,
-      "post_count": 17070,
-      "latest_post": "2023-04-13T18:21:01+00:00",
+      "subscribers": 13779,
+      "post_count": 17073,
+      "latest_post": "2023-04-14T13:20:50+00:00",
       "sample": {
-        "num_tweets": 3759,
-        "latest_id": 1646579257122881536,
-        "latest_datetime": "2023-04-13T18:21:01+00:00",
+        "num_tweets": 3762,
+        "latest_id": 1646866101387550722,
+        "latest_datetime": "2023-04-14T13:20:50+00:00",
         "earliest_id": 1498661233884639239,
         "earliest_datetime": "2022-03-01T14:07:36+00:00",
-        "num_pics": 1046,
+        "num_pics": 1050,
         "num_vids": 5,
         "num_gifs": 8,
         "num_other_media": 0,
-        "num_pic_tweets": 769,
-        "num_no_media_tweets": 2977
+        "num_pic_tweets": 770,
+        "num_no_media_tweets": 2979
       }
     },
     "city_crows": {
@@ -2705,17 +2705,12 @@
     {
       "handle": "platinumfoxes",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2023-04-14T21:48:40.342731"
+      "timestamp": "2023-04-15T01:25:19.145907"
     },
     {
       "handle": "cat_dot_exe",
       "error": "Cache update failed: [{'code': 63, 'message': 'User has been suspended.'}]",
-      "timestamp": "2023-04-14T21:50:16.339865"
-    },
-    {
-      "handle": "CrowMonthly",
-      "error": "Cache update failed: [{'message': 'Internal error', 'code': 131}]",
-      "timestamp": "2023-04-14T21:54:39.669293"
+      "timestamp": "2023-04-15T01:25:21.399146"
     }
   ]
 }
