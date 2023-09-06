@@ -3320,14 +3320,14 @@
     },
     {
       "handle": "chaosfoxes",
-      "owner": "chaoticryptidz",
+      "owner": "@chaoticryptidz",
       "animal": "Fox",
       "notes": "",
       "handle_pattern": "chaos?"
     },
     {
       "handle": "chaossneps",
-      "owner": "chaoticryptidz",
+      "owner": "@chaoticryptidz",
       "animal": "Snep",
       "notes": "",
       "handle_pattern": "chaos?"
@@ -3348,10 +3348,17 @@
     },
     {
       "handle": "fennecforecast",
-      "owner": "https://t.me/Kenaz",
+      "owner": "@Kenaz",
       "animal": "Fennec",
       "notes": "",
       "handle_pattern": "?forecast"
+    },
+    {
+      "handle": "ChaosYotes",
+      "owner": "@chaoticryptidz",
+      "animal": "Coyote",
+      "notes": "",
+      "handle_pattern": "chaos?"
     }
   ],
   "ignored": [
