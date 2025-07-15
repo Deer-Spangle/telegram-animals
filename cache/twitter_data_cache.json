@@ -2705,517 +2705,517 @@
     {
       "handle": "FennecsDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:40:59.851607"
+      "timestamp": "2025-07-15T00:40:20.518274"
     },
     {
       "handle": "platinumfoxes",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:01.907230"
+      "timestamp": "2025-07-15T00:40:22.571236"
     },
     {
       "handle": "HourlyCheetahs",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:03.963765"
+      "timestamp": "2025-07-15T00:40:24.635743"
     },
     {
       "handle": "hourlyfoxes",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:06.009954"
+      "timestamp": "2025-07-15T00:40:26.683446"
     },
     {
       "handle": "HourlyLynxes",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:08.057443"
+      "timestamp": "2025-07-15T00:40:28.729436"
     },
     {
       "handle": "flickrsneps",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:10.114540"
+      "timestamp": "2025-07-15T00:40:30.772384"
     },
     {
       "handle": "hourlywolvesbot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:12.163156"
+      "timestamp": "2025-07-15T00:40:32.820009"
     },
     {
       "handle": "redpandasdaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:14.213904"
+      "timestamp": "2025-07-15T00:40:34.862492"
     },
     {
       "handle": "DeerHourly",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:16.269469"
+      "timestamp": "2025-07-15T00:40:36.906360"
     },
     {
       "handle": "cowsjpg",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:18.316826"
+      "timestamp": "2025-07-15T00:40:38.951477"
     },
     {
       "handle": "CapybaraDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:20.364658"
+      "timestamp": "2025-07-15T00:40:41.174658"
     },
     {
       "handle": "hourlyFox",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:22.415848"
+      "timestamp": "2025-07-15T00:40:43.218576"
     },
     {
       "handle": "hourlycats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:24.467309"
+      "timestamp": "2025-07-15T00:40:45.264264"
     },
     {
       "handle": "hourlypanda",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:26.516711"
+      "timestamp": "2025-07-15T00:40:47.311880"
     },
     {
       "handle": "hourlytiger",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:28.565503"
+      "timestamp": "2025-07-15T00:40:49.360152"
     },
     {
       "handle": "DailyPengus",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:30.614550"
+      "timestamp": "2025-07-15T00:40:51.405976"
     },
     {
       "handle": "HourlyPinguins",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:32.665110"
+      "timestamp": "2025-07-15T00:40:53.450869"
     },
     {
       "handle": "DailyHyenas",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:34.712529"
+      "timestamp": "2025-07-15T00:40:55.511926"
     },
     {
       "handle": "EelsDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:36.759607"
+      "timestamp": "2025-07-15T00:40:57.579112"
     },
     {
       "handle": "birdperhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:38.810638"
+      "timestamp": "2025-07-15T00:40:59.623108"
     },
     {
       "handle": "SnakeHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:40.856972"
+      "timestamp": "2025-07-15T00:41:01.668979"
     },
     {
       "handle": "rabbiteveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:42.907097"
+      "timestamp": "2025-07-15T00:41:03.724531"
     },
     {
       "handle": "deerchive",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:44.953844"
+      "timestamp": "2025-07-15T00:41:05.776168"
     },
     {
       "handle": "HourlyYeen",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:47.003476"
+      "timestamp": "2025-07-15T00:41:07.821407"
     },
     {
       "handle": "TheDailyPossums",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:49.052973"
+      "timestamp": "2025-07-15T00:41:09.865364"
     },
     {
       "handle": "Foxwthreataura",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:51.107956"
+      "timestamp": "2025-07-15T00:41:11.912299"
     },
     {
       "handle": "DailyMarten",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:53.160951"
+      "timestamp": "2025-07-15T00:41:13.955139"
     },
     {
       "handle": "PossumEveryHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:55.208500"
+      "timestamp": "2025-07-15T00:41:15.999649"
     },
     {
       "handle": "cat_dot_exe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:57.265833"
+      "timestamp": "2025-07-15T00:41:18.046243"
     },
     {
       "handle": "TrueFoxNews",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:41:59.315434"
+      "timestamp": "2025-07-15T00:41:20.094441"
     },
     {
       "handle": "WikiFoxSpain__",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:01.365917"
+      "timestamp": "2025-07-15T00:41:22.140271"
     },
     {
       "handle": "FopsHourly",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:03.416806"
+      "timestamp": "2025-07-15T00:41:24.185652"
     },
     {
       "handle": "HourlyWah",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:05.464086"
+      "timestamp": "2025-07-15T00:41:26.237483"
     },
     {
       "handle": "HourlyYote",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:07.511953"
+      "timestamp": "2025-07-15T00:41:28.299012"
     },
     {
       "handle": "HourlyMarten",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:09.568807"
+      "timestamp": "2025-07-15T00:41:30.352219"
     },
     {
       "handle": "aqualuvsuotd",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:11.615347"
+      "timestamp": "2025-07-15T00:41:32.398704"
     },
     {
       "handle": "obscure_otd",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:13.663993"
+      "timestamp": "2025-07-15T00:41:34.445541"
     },
     {
       "handle": "insect_otd",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:15.713481"
+      "timestamp": "2025-07-15T00:41:36.503654"
     },
     {
       "handle": "otdbat",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:17.764799"
+      "timestamp": "2025-07-15T00:41:38.551053"
     },
     {
       "handle": "gayocats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:19.814285"
+      "timestamp": "2025-07-15T00:41:40.605583"
     },
     {
       "handle": "CalicoDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:21.864785"
+      "timestamp": "2025-07-15T00:41:42.649585"
     },
     {
       "handle": "chinchillahour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:23.915682"
+      "timestamp": "2025-07-15T00:41:44.700708"
     },
     {
       "handle": "CorgiEveryHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:25.962630"
+      "timestamp": "2025-07-15T00:41:46.745333"
     },
     {
       "handle": "CowoftheDay1",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:28.011755"
+      "timestamp": "2025-07-15T00:41:48.813113"
     },
     {
       "handle": "cow_everyhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:30.059920"
+      "timestamp": "2025-07-15T00:41:50.861404"
     },
     {
       "handle": "dogeveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:32.109004"
+      "timestamp": "2025-07-15T00:41:52.908983"
     },
     {
       "handle": "COdogstalker",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:34.161700"
+      "timestamp": "2025-07-15T00:41:54.953220"
     },
     {
       "handle": "Dogofthe_",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:36.214713"
+      "timestamp": "2025-07-15T00:41:56.996097"
     },
     {
       "handle": "borzbot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:38.263370"
+      "timestamp": "2025-07-15T00:41:59.041839"
     },
     {
       "handle": "DonkeyoftheDay1",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:40.320105"
+      "timestamp": "2025-07-15T00:42:01.089620"
     },
     {
       "handle": "hourly_fish",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:42.375394"
+      "timestamp": "2025-07-15T00:42:03.140250"
     },
     {
       "handle": "frogofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:44.423288"
+      "timestamp": "2025-07-15T00:42:05.194179"
     },
     {
       "handle": "bot_fox_",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:46.470262"
+      "timestamp": "2025-07-15T00:42:07.241417"
     },
     {
       "handle": "DailyArcticFox",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:48.517934"
+      "timestamp": "2025-07-15T00:42:09.300416"
     },
     {
       "handle": "the_dailyfox",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:50.570215"
+      "timestamp": "2025-07-15T00:42:11.346097"
     },
     {
       "handle": "qonqon_biyori",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:52.621388"
+      "timestamp": "2025-07-15T00:42:13.391814"
     },
     {
       "handle": "kitunegazou",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:54.670922"
+      "timestamp": "2025-07-15T00:42:15.439513"
     },
     {
       "handle": "mofumofu_fooox",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:56.724385"
+      "timestamp": "2025-07-15T00:42:17.498455"
     },
     {
       "handle": "GatorsDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:42:58.772610"
+      "timestamp": "2025-07-15T00:42:19.546359"
     },
     {
       "handle": "goatofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:00.821200"
+      "timestamp": "2025-07-15T00:42:21.592485"
     },
     {
       "handle": "hamsterybot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:02.871435"
+      "timestamp": "2025-07-15T00:42:23.641181"
     },
     {
       "handle": "hamsterofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:04.922081"
+      "timestamp": "2025-07-15T00:42:25.686481"
     },
     {
       "handle": "daily__hedgehog",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:06.974003"
+      "timestamp": "2025-07-15T00:42:27.731569"
     },
     {
       "handle": "huskersbot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:09.026332"
+      "timestamp": "2025-07-15T00:42:29.779367"
     },
     {
       "handle": "koalaseveryhr",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:11.076105"
+      "timestamp": "2025-07-15T00:42:31.822674"
     },
     {
       "handle": "hourlylizards",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:13.134058"
+      "timestamp": "2025-07-15T00:42:33.867174"
     },
     {
       "handle": "OtterAnHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:15.182055"
+      "timestamp": "2025-07-15T00:42:35.915006"
     },
     {
       "handle": "PandaEveryHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:17.239619"
+      "timestamp": "2025-07-15T00:42:37.962787"
     },
     {
       "handle": "pigofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:19.290432"
+      "timestamp": "2025-07-15T00:42:40.010372"
     },
     {
       "handle": "quokkaeveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:21.340518"
+      "timestamp": "2025-07-15T00:42:42.055401"
     },
     {
       "handle": "rabbitoftheday",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:23.389233"
+      "timestamp": "2025-07-15T00:42:44.099810"
     },
     {
       "handle": "rabbit_isle_bot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:25.437407"
+      "timestamp": "2025-07-15T00:42:46.143123"
     },
     {
       "handle": "raccoonhourly",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:27.487624"
+      "timestamp": "2025-07-15T00:42:48.190234"
     },
     {
       "handle": "ServalEveryHr",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:29.534823"
+      "timestamp": "2025-07-15T00:42:50.235803"
     },
     {
       "handle": "RedPandaEveryHr",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:31.581981"
+      "timestamp": "2025-07-15T00:42:52.291793"
     },
     {
       "handle": "FennecEveryHr",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:33.637077"
+      "timestamp": "2025-07-15T00:42:54.346151"
     },
     {
       "handle": "SharksEveryDayy",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:35.686372"
+      "timestamp": "2025-07-15T00:42:56.394330"
     },
     {
       "handle": "shoebillhours",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:37.734137"
+      "timestamp": "2025-07-15T00:42:58.439279"
     },
     {
       "handle": "snailOTD",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:39.783790"
+      "timestamp": "2025-07-15T00:43:00.484666"
     },
     {
       "handle": "MexicanWolves",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:41.836734"
+      "timestamp": "2025-07-15T00:43:02.541914"
     },
     {
       "handle": "weirdlilguys",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:43.886203"
+      "timestamp": "2025-07-15T00:43:04.590169"
     },
     {
       "handle": "Thereisnocat_",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:45.934140"
+      "timestamp": "2025-07-15T00:43:06.637228"
     },
     {
       "handle": "TranslatedCats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:47.981551"
+      "timestamp": "2025-07-15T00:43:08.707927"
     },
     {
       "handle": "CatWorkers",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:50.031519"
+      "timestamp": "2025-07-15T00:43:10.754750"
     },
     {
       "handle": "nocontextscats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:52.083201"
+      "timestamp": "2025-07-15T00:43:12.796653"
     },
     {
       "handle": "nocontextsdogs",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:54.132531"
+      "timestamp": "2025-07-15T00:43:14.852810"
     },
     {
       "handle": "VulpesPerson",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:56.179967"
+      "timestamp": "2025-07-15T00:43:16.902950"
     },
     {
       "handle": "hourly_lion",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:43:58.227966"
+      "timestamp": "2025-07-15T00:43:18.955489"
     },
     {
       "handle": "deergifs",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:00.277508"
+      "timestamp": "2025-07-15T00:43:20.999860"
     },
     {
       "handle": "PazyBirds",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:02.322712"
+      "timestamp": "2025-07-15T00:43:23.043243"
     },
     {
       "handle": "Happydog___",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:04.373601"
+      "timestamp": "2025-07-15T00:43:25.090106"
     },
     {
       "handle": "shouldhaveaduck",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:06.423016"
+      "timestamp": "2025-07-15T00:43:27.133884"
     },
     {
       "handle": "CrowMonthly",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:08.484529"
+      "timestamp": "2025-07-15T00:43:29.177967"
     },
     {
       "handle": "city_crows",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:10.531737"
+      "timestamp": "2025-07-15T00:43:31.219138"
     },
     {
       "handle": "dailystoat",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:12.578387"
+      "timestamp": "2025-07-15T00:43:33.269887"
     },
     {
       "handle": "ShibaEveryHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:14.624567"
+      "timestamp": "2025-07-15T00:43:35.318788"
     },
     {
       "handle": "fox_info_net",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:16.677036"
+      "timestamp": "2025-07-15T00:43:37.363403"
     },
     {
       "handle": "HourlySamoyeds",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:18.728246"
+      "timestamp": "2025-07-15T00:43:39.410831"
     },
     {
       "handle": "azarasi_bot1",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:20.777657"
+      "timestamp": "2025-07-15T00:43:41.455146"
     },
     {
       "handle": "nywolforg",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:22.829092"
+      "timestamp": "2025-07-15T00:43:43.499052"
     },
     {
       "handle": "BatsDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:24.882405"
+      "timestamp": "2025-07-15T00:43:45.547778"
     },
     {
       "handle": "pandafloofs",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:26.930147"
+      "timestamp": "2025-07-15T00:43:47.599828"
     },
     {
       "handle": "skunkeveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2025-07-14T00:44:28.977670"
+      "timestamp": "2025-07-15T00:43:49.645450"
     }
   ]
 }
