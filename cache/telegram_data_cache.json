@@ -1,7 +1,7 @@
 {
   "cache": {
     "alpacagifs": {
-      "date_checked": "2025-08-18T00:35:53.155957+00:00",
+      "date_checked": "2025-08-19T00:31:59.809790+00:00",
       "gif_count": 254,
       "pic_count": 1,
       "video_count": 0,
@@ -14,7 +14,7 @@
       "title": "Alpaca gifs"
     },
     "chickengifs": {
-      "date_checked": "2025-08-18T00:35:54.320707+00:00",
+      "date_checked": "2025-08-19T00:32:00.528416+00:00",
       "gif_count": 440,
       "pic_count": 0,
       "video_count": 0,
@@ -27,7 +27,7 @@
       "title": "Chicken gifs (&friends)"
     },
     "corvidgifs": {
-      "date_checked": "2025-08-18T00:35:55.464568+00:00",
+      "date_checked": "2025-08-19T00:32:01.248294+00:00",
       "gif_count": 189,
       "pic_count": 0,
       "video_count": 0,
@@ -40,11 +40,11 @@
       "title": "Corvid gifs"
     },
     "cowgifs": {
-      "date_checked": "2025-08-18T00:35:56.621413+00:00",
+      "date_checked": "2025-08-19T00:32:02.054183+00:00",
       "gif_count": 1332,
       "pic_count": 0,
       "video_count": 10,
-      "subscriber_count": 434,
+      "subscriber_count": 433,
       "post_count": 1345,
       "latest_post": "2024-11-30T22:42:39+00:00",
       "channel_id": 1343602417,
@@ -53,11 +53,11 @@
       "title": "Cow gifs"
     },
     "deergifs": {
-      "date_checked": "2025-08-18T00:35:57.770306+00:00",
+      "date_checked": "2025-08-19T00:32:02.771325+00:00",
       "gif_count": 1663,
       "pic_count": 0,
       "video_count": 1,
-      "subscriber_count": 1591,
+      "subscriber_count": 1590,
       "post_count": 1666,
       "latest_post": "2025-07-16T09:06:34+00:00",
       "channel_id": 1286979444,
@@ -66,7 +66,7 @@
       "title": "Deer gifs"
     },
     "deersounds": {
-      "date_checked": "2025-08-18T00:35:58.902324+00:00",
+      "date_checked": "2025-08-19T00:32:03.554601+00:00",
       "gif_count": 0,
       "pic_count": 0,
       "video_count": 34,
@@ -79,7 +79,7 @@
       "title": "Deer sounds"
     },
     "elephantgifs": {
-      "date_checked": "2025-08-18T00:36:00.143343+00:00",
+      "date_checked": "2025-08-19T00:32:04.380010+00:00",
       "gif_count": 191,
       "pic_count": 0,
       "video_count": 0,
@@ -92,7 +92,7 @@
       "title": "Elephant gifs"
     },
     "goatgifs": {
-      "date_checked": "2025-08-18T00:36:01.281413+00:00",
+      "date_checked": "2025-08-19T00:32:05.094112+00:00",
       "gif_count": 318,
       "pic_count": 0,
       "video_count": 0,
@@ -105,11 +105,11 @@
       "title": "Goat gifs"
     },
     "horsegifs": {
-      "date_checked": "2025-08-18T00:36:02.691847+00:00",
+      "date_checked": "2025-08-19T00:32:05.798959+00:00",
       "gif_count": 535,
       "pic_count": 0,
       "video_count": 0,
-      "subscriber_count": 350,
+      "subscriber_count": 351,
       "post_count": 537,
       "latest_post": "2024-09-03T21:10:21+00:00",
       "channel_id": 1390660697,
@@ -118,11 +118,11 @@
       "title": "Horse gifs"
     },
     "piggifs": {
-      "date_checked": "2025-08-18T00:36:03.848225+00:00",
+      "date_checked": "2025-08-19T00:32:06.557653+00:00",
       "gif_count": 429,
       "pic_count": 0,
       "video_count": 0,
-      "subscriber_count": 182,
+      "subscriber_count": 181,
       "post_count": 431,
       "latest_post": "2025-03-06T10:21:40+00:00",
       "channel_id": 1303185235,
@@ -131,7 +131,7 @@
       "title": "Pig gifs"
     },
     "sheepgifs": {
-      "date_checked": "2025-08-18T00:36:05.058925+00:00",
+      "date_checked": "2025-08-19T00:32:07.337528+00:00",
       "gif_count": 183,
       "pic_count": 0,
       "video_count": 0,
@@ -144,7 +144,7 @@
       "title": "Sheep gifs"
     },
     "tigergifs": {
-      "date_checked": "2025-08-18T00:36:06.372187+00:00",
+      "date_checked": "2025-08-19T00:32:08.053730+00:00",
       "gif_count": 423,
       "pic_count": 0,
       "video_count": 3,
@@ -157,7 +157,7 @@
       "title": "Tiger gifs"
     },
     "illegalbirds": {
-      "date_checked": "2025-08-18T00:36:07.520141+00:00",
+      "date_checked": "2025-08-19T00:32:08.783876+00:00",
       "gif_count": 6,
       "pic_count": 5,
       "video_count": 0,
@@ -170,7 +170,7 @@
       "title": "Illegal Birds"
     },
     "fox_gifs": {
-      "date_checked": "2025-08-18T00:36:08.691093+00:00",
+      "date_checked": "2025-08-19T00:32:09.497559+00:00",
       "gif_count": 907,
       "pic_count": 1,
       "video_count": 0,
@@ -183,7 +183,7 @@
       "title": "Fox Gif's \ud83e\udd8a"
     },
     "seapuppies": {
-      "date_checked": "2025-08-18T00:36:09.856105+00:00",
+      "date_checked": "2025-08-19T00:32:10.225226+00:00",
       "gif_count": 39,
       "pic_count": 0,
       "video_count": 1,
@@ -196,7 +196,7 @@
       "title": "Seapuppy gifs"
     },
     "wolf_gifs": {
-      "date_checked": "2025-08-18T00:36:10.989942+00:00",
+      "date_checked": "2025-08-19T00:32:10.926629+00:00",
       "gif_count": 639,
       "pic_count": 0,
       "video_count": 0,
@@ -209,7 +209,7 @@
       "title": "Wolf Gifs \ud83d\udc3a"
     },
     "piggiest": {
-      "date_checked": "2025-08-18T00:36:12.130281+00:00",
+      "date_checked": "2025-08-19T00:32:11.642539+00:00",
       "gif_count": 292,
       "pic_count": 180,
       "video_count": 39,
@@ -222,13 +222,13 @@
       "title": "The piggiest channel"
     },
     "hourlytiger": {
-      "date_checked": "2025-08-18T00:36:13.263369+00:00",
+      "date_checked": "2025-08-19T00:32:12.361173+00:00",
       "gif_count": 19,
-      "pic_count": 40438,
+      "pic_count": 40462,
       "video_count": 4,
       "subscriber_count": 548,
-      "post_count": 40530,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 40554,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1156531661,
       "channel_hash": -1229246992037263037,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
@@ -248,7 +248,7 @@
       "title": "Forever Alpaca"
     },
     "alpacaland": {
-      "date_checked": "2025-08-18T00:36:14.390611+00:00",
+      "date_checked": "2025-08-19T00:32:13.154976+00:00",
       "gif_count": 220,
       "pic_count": 1576,
       "video_count": 539,
@@ -287,20 +287,20 @@
       "title": "Deer! \ud83e\udd8c"
     },
     "dailygoat": {
-      "date_checked": "2025-08-18T00:36:15.526849+00:00",
+      "date_checked": "2025-08-19T00:32:13.870851+00:00",
       "gif_count": 14,
-      "pic_count": 2874,
+      "pic_count": 2875,
       "video_count": 135,
       "subscriber_count": 155,
-      "post_count": 3549,
-      "latest_post": "2025-08-17T08:05:46+00:00",
+      "post_count": 3550,
+      "latest_post": "2025-08-18T12:24:25+00:00",
       "channel_id": 1094707388,
       "channel_hash": -4176043209039894178,
       "bio": "\u0427\u0435\u043b\u043e\u0432\u0435\u043a\u043e\u043b\u044e\u0431\u0438\u0435 \u043a \u043c\u0435\u043b\u043a\u0438\u043c \u0441\u043a\u043e\u0442\u0430\u043c",
       "title": "Daily Goat"
     },
     "dailygoats": {
-      "date_checked": "2025-08-18T00:36:16.673330+00:00",
+      "date_checked": "2025-08-19T00:32:14.598424+00:00",
       "gif_count": 6,
       "pic_count": 647,
       "video_count": 0,
@@ -339,7 +339,7 @@
       "title": "horses pictures"
     },
     "dailytigers": {
-      "date_checked": "2025-08-18T00:36:17.812852+00:00",
+      "date_checked": "2025-08-19T00:32:15.327823+00:00",
       "gif_count": 79,
       "pic_count": 1859,
       "video_count": 21,
@@ -365,7 +365,7 @@
       "title": "Tigers"
     },
     "foxeshourlies": {
-      "date_checked": "2025-08-18T00:36:18.969220+00:00",
+      "date_checked": "2025-08-19T00:32:16.051574+00:00",
       "gif_count": 1,
       "pic_count": 37,
       "video_count": 1,
@@ -378,13 +378,13 @@
       "title": "HourlyBots"
     },
     "hourlychi": {
-      "date_checked": "2025-08-18T00:36:20.114666+00:00",
+      "date_checked": "2025-08-19T00:32:16.760234+00:00",
       "gif_count": 8,
-      "pic_count": 40411,
+      "pic_count": 40435,
       "video_count": 4,
       "subscriber_count": 285,
-      "post_count": 40492,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 40516,
+      "latest_post": "2025-08-19T00:00:01+00:00",
       "channel_id": 1156514808,
       "channel_hash": -598958156077104520,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
@@ -404,7 +404,7 @@
       "title": "BigCatGIFs"
     },
     "qualitybirdgifs": {
-      "date_checked": "2025-08-18T00:36:21.266294+00:00",
+      "date_checked": "2025-08-19T00:32:17.525194+00:00",
       "gif_count": 844,
       "pic_count": 0,
       "video_count": 27,
@@ -417,13 +417,13 @@
       "title": "High Quality Bird GIFs"
     },
     "hourlycaracal": {
-      "date_checked": "2025-08-18T00:36:22.493704+00:00",
+      "date_checked": "2025-08-19T00:32:18.252306+00:00",
       "gif_count": 7,
-      "pic_count": 40448,
+      "pic_count": 40472,
       "video_count": 8,
       "subscriber_count": 454,
-      "post_count": 40529,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 40553,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1334919632,
       "channel_hash": -3388347598312503380,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
@@ -443,26 +443,26 @@
       "title": "Cheetah Gifs"
     },
     "hourlyyotes": {
-      "date_checked": "2025-08-18T00:36:23.726697+00:00",
+      "date_checked": "2025-08-19T00:32:19.011590+00:00",
       "gif_count": 56,
-      "pic_count": 40459,
+      "pic_count": 40483,
       "video_count": 73,
-      "subscriber_count": 1395,
-      "post_count": 40702,
-      "latest_post": "2025-08-18T00:00:01+00:00",
+      "subscriber_count": 1394,
+      "post_count": 40726,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1410314904,
       "channel_hash": -193283343785369489,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "OnlyYotes"
     },
     "hourlyjaguars": {
-      "date_checked": "2025-08-18T00:36:24.908802+00:00",
+      "date_checked": "2025-08-19T00:32:19.732295+00:00",
       "gif_count": 2,
-      "pic_count": 40198,
+      "pic_count": 40222,
       "video_count": 4,
       "subscriber_count": 188,
-      "post_count": 40270,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 40294,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1194111938,
       "channel_hash": 8896523117842855387,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
@@ -482,26 +482,26 @@
       "title": "Lynx GIFs"
     },
     "hourlypinemarten": {
-      "date_checked": "2025-08-18T00:36:26.078496+00:00",
+      "date_checked": "2025-08-19T00:32:20.434899+00:00",
       "gif_count": 31,
-      "pic_count": 40273,
+      "pic_count": 40297,
       "video_count": 20,
       "subscriber_count": 581,
-      "post_count": 40391,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 40415,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1416346583,
       "channel_hash": 10598930792370162,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Noodles"
     },
     "hourlybun": {
-      "date_checked": "2025-08-18T00:36:27.376752+00:00",
+      "date_checked": "2025-08-19T00:32:21.360704+00:00",
       "gif_count": 29,
-      "pic_count": 40474,
+      "pic_count": 40498,
       "video_count": 23,
       "subscriber_count": 1246,
-      "post_count": 40596,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 40620,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1193180170,
       "channel_hash": -2156047134992517888,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
@@ -534,39 +534,39 @@
       "title": "SnepGIFs"
     },
     "hourlysnep": {
-      "date_checked": "2025-08-18T00:36:28.680579+00:00",
+      "date_checked": "2025-08-19T00:32:31.450508+00:00",
       "gif_count": 9,
-      "pic_count": 40500,
+      "pic_count": 40524,
       "video_count": 1,
       "subscriber_count": 917,
-      "post_count": 40576,
-      "latest_post": "2025-08-18T00:00:03+00:00",
+      "post_count": 40600,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1228430689,
       "channel_hash": -3050772330327969066,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Sneps"
     },
     "hourlywoofs": {
-      "date_checked": "2025-08-18T00:36:29.868930+00:00",
+      "date_checked": "2025-08-19T00:32:32.173838+00:00",
       "gif_count": 14,
-      "pic_count": 40613,
+      "pic_count": 40637,
       "video_count": 9,
-      "subscriber_count": 807,
-      "post_count": 40703,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "subscriber_count": 808,
+      "post_count": 40727,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1305942553,
       "channel_hash": 8414999877397658397,
       "bio": "Hourly Wolves\n\nPlease keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Woofs"
     },
     "cutehappystuffs": {
-      "date_checked": "2025-08-18T00:36:31.050809+00:00",
+      "date_checked": "2025-08-19T00:32:32.883368+00:00",
       "gif_count": 13254,
-      "pic_count": 17590,
-      "video_count": 4666,
-      "subscriber_count": 15834,
-      "post_count": 38623,
-      "latest_post": "2025-08-18T00:35:37+00:00",
+      "pic_count": 17592,
+      "video_count": 4667,
+      "subscriber_count": 15836,
+      "post_count": 38626,
+      "latest_post": "2025-08-19T00:30:17+00:00",
       "channel_id": 1206582385,
       "channel_hash": -6965558081088106888,
       "bio": "If you\u2019re ever feeling down just come and take a look around and cheer yourself up.\n\nAlso go check out our chat @cutehappychat\n\nOr check out my plant channel \n@cutehappyplants",
@@ -586,11 +586,11 @@
       "title": "Bat Gif Archive"
     },
     "batsdaily": {
-      "date_checked": "2025-08-18T00:36:33.515484+00:00",
+      "date_checked": "2025-08-19T00:32:34.369146+00:00",
       "gif_count": 78,
       "pic_count": 1531,
       "video_count": 378,
-      "subscriber_count": 539,
+      "subscriber_count": 540,
       "post_count": 2482,
       "latest_post": "2025-01-09T17:11:13+00:00",
       "channel_id": 1196121666,
@@ -599,20 +599,20 @@
       "title": "Daily portion of bats\ud83e\udd87"
     },
     "hourlybats": {
-      "date_checked": "2025-08-18T00:36:34.895803+00:00",
+      "date_checked": "2025-08-19T00:32:35.167051+00:00",
       "gif_count": 269,
-      "pic_count": 6822,
+      "pic_count": 6823,
       "video_count": 227,
       "subscriber_count": 1304,
-      "post_count": 7494,
-      "latest_post": "2025-08-16T19:29:25+00:00",
+      "post_count": 7495,
+      "latest_post": "2025-08-18T20:26:35+00:00",
       "channel_id": 1333240189,
       "channel_hash": 7985294353149020261,
       "bio": "I post pictures of bats because I lack the skill to start a conversation:)",
       "title": "Flappy mouse posting\ud83e\udd87"
     },
     "novuscats": {
-      "date_checked": "2025-08-18T00:36:36.060915+00:00",
+      "date_checked": "2025-08-19T00:32:35.878010+00:00",
       "gif_count": 131,
       "pic_count": 0,
       "video_count": 0,
@@ -625,13 +625,13 @@
       "title": "Novus Big Cat GIFs"
     },
     "birdgifs": {
-      "date_checked": "2025-08-18T00:36:37.185819+00:00",
+      "date_checked": "2025-08-19T00:32:36.587971+00:00",
       "gif_count": 3635,
       "pic_count": 250,
-      "video_count": 250,
-      "subscriber_count": 2174,
-      "post_count": 4407,
-      "latest_post": "2025-08-13T11:30:33+00:00",
+      "video_count": 254,
+      "subscriber_count": 2173,
+      "post_count": 4411,
+      "latest_post": "2025-08-19T00:14:52+00:00",
       "channel_id": 1080290984,
       "channel_hash": 981783710678362365,
       "bio": "feel free to pm bird gifs to @AlphaTheRaptor to add them here",
@@ -651,33 +651,33 @@
       "title": "birds"
     },
     "hourlycapybara": {
-      "date_checked": "2025-08-18T00:36:39.444688+00:00",
+      "date_checked": "2025-08-19T00:32:38.087838+00:00",
       "gif_count": 11,
-      "pic_count": 41257,
+      "pic_count": 41281,
       "video_count": 9,
-      "subscriber_count": 1446,
-      "post_count": 41346,
-      "latest_post": "2025-08-18T00:00:01+00:00",
+      "subscriber_count": 1445,
+      "post_count": 41370,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1321865132,
       "channel_hash": 8116525782524883344,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Capybara"
     },
     "hourlycaracals": {
-      "date_checked": "2025-08-18T00:36:40.635423+00:00",
+      "date_checked": "2025-08-19T00:32:38.851200+00:00",
       "gif_count": 0,
-      "pic_count": 53740,
+      "pic_count": 53764,
       "video_count": 0,
       "subscriber_count": 78,
-      "post_count": 53750,
-      "latest_post": "2025-08-18T00:01:26+00:00",
+      "post_count": 53774,
+      "latest_post": "2025-08-19T00:01:32+00:00",
       "channel_id": 1305083912,
       "channel_hash": -167852814318015390,
       "bio": "Hourly Caracal Pics to help you through your day.  Want the bot to auto forward to your group on Telegram? Just message @LeonatoLynx to set it up for you! Enjoy! This bot is now in the Mastodon Fediverse at: @caracals@hourly.photo",
       "title": "HourlyCaracals"
     },
     "catgifcentral": {
-      "date_checked": "2025-08-18T00:36:41.768055+00:00",
+      "date_checked": "2025-08-19T00:32:39.619546+00:00",
       "gif_count": 5355,
       "pic_count": 0,
       "video_count": 0,
@@ -703,7 +703,7 @@
       "title": "Daily Cat Pic"
     },
     "catpics": {
-      "date_checked": "2025-08-18T00:36:43.143184+00:00",
+      "date_checked": "2025-08-19T00:32:40.697858+00:00",
       "gif_count": 55,
       "pic_count": 99,
       "video_count": 31,
@@ -716,7 +716,7 @@
       "title": "Cats | Pics | Videos"
     },
     "catpicture": {
-      "date_checked": "2025-08-18T00:36:44.352758+00:00",
+      "date_checked": "2025-08-19T00:32:41.595613+00:00",
       "gif_count": 0,
       "pic_count": 800,
       "video_count": 0,
@@ -729,7 +729,7 @@
       "title": "Cat Picture"
     },
     "catpicturesandgifs": {
-      "date_checked": "2025-08-18T00:36:45.493731+00:00",
+      "date_checked": "2025-08-19T00:32:42.653225+00:00",
       "gif_count": 689,
       "pic_count": 1731,
       "video_count": 39,
@@ -742,11 +742,11 @@
       "title": "Meow"
     },
     "funnycatsgifs": {
-      "date_checked": "2025-08-18T00:36:46.627761+00:00",
+      "date_checked": "2025-08-19T00:32:43.444328+00:00",
       "gif_count": 39464,
       "pic_count": 3,
       "video_count": 1,
-      "subscriber_count": 1299,
+      "subscriber_count": 1303,
       "post_count": 39572,
       "latest_post": "2025-06-10T18:00:06+00:00",
       "channel_id": 1212019106,
@@ -755,13 +755,13 @@
       "title": "Funny Cats Gifs"
     },
     "hourlycheetahs": {
-      "date_checked": "2025-08-18T00:36:47.767886+00:00",
+      "date_checked": "2025-08-19T00:32:44.187443+00:00",
       "gif_count": 1,
-      "pic_count": 67841,
+      "pic_count": 67865,
       "video_count": 1,
       "subscriber_count": 486,
-      "post_count": 67868,
-      "latest_post": "2025-08-18T00:01:22+00:00",
+      "post_count": 67892,
+      "latest_post": "2025-08-19T00:01:30+00:00",
       "channel_id": 1141634568,
       "channel_hash": -2861847429982518984,
       "bio": "Hourly Cheetah Pics to help you through your day.  Want the bot to auto forward to your group on Telegram? Just message @LeonatoLynx to set it up for you! Enjoy! This bot is now in the Mastodon Fediverse at: @cheetahs@hourly.photo",
@@ -781,7 +781,7 @@
       "title": "Dinosaur Daily"
     },
     "daily_dog": {
-      "date_checked": "2025-08-18T00:36:48.896480+00:00",
+      "date_checked": "2025-08-19T00:32:44.899356+00:00",
       "gif_count": 1615,
       "pic_count": 0,
       "video_count": 0,
@@ -807,7 +807,7 @@
       "title": "Daily Doge"
     },
     "dailydoggifs": {
-      "date_checked": "2025-08-18T00:36:50.072078+00:00",
+      "date_checked": "2025-08-19T00:32:45.731595+00:00",
       "gif_count": 1067,
       "pic_count": 59,
       "video_count": 213,
@@ -833,7 +833,7 @@
       "title": "Cute Doggos"
     },
     "dailydoggos": {
-      "date_checked": "2025-08-18T00:36:51.227583+00:00",
+      "date_checked": "2025-08-19T00:32:46.550595+00:00",
       "gif_count": 48,
       "pic_count": 388,
       "video_count": 5,
@@ -898,7 +898,7 @@
       "title": "Dog Gifs"
     },
     "doggifstash": {
-      "date_checked": "2025-08-18T00:36:52.387723+00:00",
+      "date_checked": "2025-08-19T00:32:47.319107+00:00",
       "gif_count": 916,
       "pic_count": 0,
       "video_count": 7,
@@ -924,24 +924,24 @@
       "title": "Doggify"
     },
     "dogiwow": {
-      "date_checked": "2025-08-18T00:36:53.535194+00:00",
+      "date_checked": "2025-08-19T00:32:48.026371+00:00",
       "gif_count": 631,
-      "pic_count": 18362,
-      "video_count": 3339,
-      "subscriber_count": 453,
-      "post_count": 22374,
-      "latest_post": "2025-08-17T22:00:31+00:00",
+      "pic_count": 18366,
+      "video_count": 3340,
+      "subscriber_count": 454,
+      "post_count": 22379,
+      "latest_post": "2025-08-18T22:00:41+00:00",
       "channel_id": 1210374469,
       "channel_hash": -2346579541698018441,
       "bio": "",
       "title": "doggo pics 4 all genders"
     },
     "dogpics": {
-      "date_checked": "2025-08-18T00:36:54.668161+00:00",
+      "date_checked": "2025-08-19T00:32:48.732757+00:00",
       "gif_count": 1504,
       "pic_count": 7236,
       "video_count": 341,
-      "subscriber_count": 3922,
+      "subscriber_count": 3921,
       "post_count": 9748,
       "latest_post": "2025-08-15T22:26:26+00:00",
       "channel_id": 1053684232,
@@ -950,7 +950,7 @@
       "title": "Dogs"
     },
     "dogpictures": {
-      "date_checked": "2025-08-18T00:36:56.008537+00:00",
+      "date_checked": "2025-08-19T00:32:49.596325+00:00",
       "gif_count": 0,
       "pic_count": 203395,
       "video_count": 0,
@@ -963,11 +963,11 @@
       "title": "r/dogpictures"
     },
     "gooddoggifs": {
-      "date_checked": "2025-08-18T00:36:57.155569+00:00",
+      "date_checked": "2025-08-19T00:32:50.401902+00:00",
       "gif_count": 1683,
       "pic_count": 0,
       "video_count": 83,
-      "subscriber_count": 299,
+      "subscriber_count": 298,
       "post_count": 1771,
       "latest_post": "2024-06-13T15:39:19+00:00",
       "channel_id": 1262818086,
@@ -976,7 +976,7 @@
       "title": "Good Dog GIFs"
     },
     "dailyduckpic": {
-      "date_checked": "2025-08-18T00:36:58.473757+00:00",
+      "date_checked": "2025-08-19T00:32:51.202621+00:00",
       "gif_count": 7,
       "pic_count": 823,
       "video_count": 734,
@@ -989,7 +989,7 @@
       "title": "Daily Duck"
     },
     "dailyducks": {
-      "date_checked": "2025-08-18T00:36:59.648863+00:00",
+      "date_checked": "2025-08-19T00:32:51.913454+00:00",
       "gif_count": 13,
       "pic_count": 202,
       "video_count": 22,
@@ -1002,7 +1002,7 @@
       "title": "\u0423\u0442\u044f \u043d\u0430 \u043a\u0430\u0436\u0434\u044b\u0439 \u0434\u0435\u043d\u044c"
     },
     "duckgifs": {
-      "date_checked": "2025-08-18T00:37:00.777401+00:00",
+      "date_checked": "2025-08-19T00:32:52.626564+00:00",
       "gif_count": 192,
       "pic_count": 32,
       "video_count": 101,
@@ -1015,7 +1015,7 @@
       "title": "Anatidae repository"
     },
     "ducksandgeese": {
-      "date_checked": "2025-08-18T00:37:01.923205+00:00",
+      "date_checked": "2025-08-19T00:32:53.399516+00:00",
       "gif_count": 23,
       "pic_count": 369,
       "video_count": 55,
@@ -1028,13 +1028,13 @@
       "title": "Ducks & Geese"
     },
     "fennecfriends": {
-      "date_checked": "2025-08-18T00:37:03.077981+00:00",
-      "gif_count": 299,
+      "date_checked": "2025-08-19T00:32:54.163456+00:00",
+      "gif_count": 300,
       "pic_count": 2993,
       "video_count": 704,
       "subscriber_count": 2142,
-      "post_count": 4339,
-      "latest_post": "2025-08-17T20:39:10+00:00",
+      "post_count": 4341,
+      "latest_post": "2025-08-18T08:51:48+00:00",
       "channel_id": 1280209457,
       "channel_hash": 401751333710986112,
       "bio": "fennec is overlord submit your egg",
@@ -1054,7 +1054,7 @@
       "title": "Fennec Posting"
     },
     "fennecgifs": {
-      "date_checked": "2025-08-18T00:37:04.441786+00:00",
+      "date_checked": "2025-08-19T00:33:02.087409+00:00",
       "gif_count": 77,
       "pic_count": 0,
       "video_count": 0,
@@ -1093,33 +1093,33 @@
       "title": "Ferrets"
     },
     "hourlyfops": {
-      "date_checked": "2025-08-18T00:37:05.747793+00:00",
+      "date_checked": "2025-08-19T00:33:03.316844+00:00",
       "gif_count": 521,
-      "pic_count": 47670,
+      "pic_count": 47694,
       "video_count": 553,
-      "subscriber_count": 4090,
-      "post_count": 48996,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "subscriber_count": 4093,
+      "post_count": 49020,
+      "latest_post": "2025-08-19T00:00:13+00:00",
       "channel_id": 1172849990,
       "channel_hash": 8506360952387053464,
       "bio": "Hourly Foxes\n\nPlease keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Fops"
     },
     "hourlyfoxes": {
-      "date_checked": "2025-08-18T00:37:07.074458+00:00",
+      "date_checked": "2025-08-19T00:33:04.182084+00:00",
       "gif_count": 0,
-      "pic_count": 70118,
+      "pic_count": 70142,
       "video_count": 0,
-      "subscriber_count": 2955,
-      "post_count": 70137,
-      "latest_post": "2025-08-18T00:00:57+00:00",
+      "subscriber_count": 2953,
+      "post_count": 70161,
+      "latest_post": "2025-08-19T00:01:05+00:00",
       "channel_id": 1127924025,
       "channel_hash": -2876940117012627178,
       "bio": "Hourly Fox Pics to help you through your day.  Want the bot to auto forward to your group on Telegram? Just message @LeonatoLynx to set it up for you! Enjoy! This bot is now in the Mastodon Fediverse at: @foxes@hourly.photo",
       "title": "HourlyFoxes"
     },
     "dailysadfrog": {
-      "date_checked": "2025-08-18T00:37:08.239380+00:00",
+      "date_checked": "2025-08-19T00:33:04.954801+00:00",
       "gif_count": 0,
       "pic_count": 149,
       "video_count": 0,
@@ -1145,7 +1145,7 @@
       "title": "Daily Guinea Pigs \ud83c\udf40"
     },
     "hedgehoggifs": {
-      "date_checked": "2025-08-18T00:37:09.379632+00:00",
+      "date_checked": "2025-08-19T00:33:06.044564+00:00",
       "gif_count": 69,
       "pic_count": 1,
       "video_count": 35,
@@ -1158,13 +1158,13 @@
       "title": "Hedgehog Gifs"
     },
     "hourlyhuskies": {
-      "date_checked": "2025-08-18T00:37:10.530649+00:00",
+      "date_checked": "2025-08-19T00:33:06.790394+00:00",
       "gif_count": 0,
-      "pic_count": 40338,
+      "pic_count": 40362,
       "video_count": 0,
-      "subscriber_count": 273,
-      "post_count": 40344,
-      "latest_post": "2025-08-18T00:01:08+00:00",
+      "subscriber_count": 274,
+      "post_count": 40368,
+      "latest_post": "2025-08-19T00:01:17+00:00",
       "channel_id": 1081205630,
       "channel_hash": 3792249707005465937,
       "bio": "Hourly Husky Pics to help you through your day.  Want the bot to auto forward to your group on Telegram? Just message @LeonatoLynx to set it up for you! Enjoy! This bot is now in the Mastodon Fediverse at: @huskies@hourly.photo",
@@ -1236,7 +1236,7 @@
       "title": "Kittens Daily"
     },
     "lizardgifs": {
-      "date_checked": "2025-08-18T00:37:11.683932+00:00",
+      "date_checked": "2025-08-19T00:33:07.565455+00:00",
       "gif_count": 334,
       "pic_count": 41,
       "video_count": 27,
@@ -1249,13 +1249,13 @@
       "title": "Lizard Gifs"
     },
     "hourlylynxes": {
-      "date_checked": "2025-08-18T00:37:12.801749+00:00",
+      "date_checked": "2025-08-19T00:33:08.280665+00:00",
       "gif_count": 0,
-      "pic_count": 70239,
+      "pic_count": 70263,
       "video_count": 0,
-      "subscriber_count": 913,
-      "post_count": 70261,
-      "latest_post": "2025-08-18T00:01:17+00:00",
+      "subscriber_count": 914,
+      "post_count": 70285,
+      "latest_post": "2025-08-19T00:01:26+00:00",
       "channel_id": 1148918372,
       "channel_hash": -4804044415282697833,
       "bio": "A Lynx Pic every hour to help you through your day.  Contact @LeonatoLynx to set it up for your chats! =^.^= This bot is now in the Mastodon Fediverse at: @lynxes@hourly.photo",
@@ -1288,20 +1288,20 @@
       "title": "Lynxes"
     },
     "hourlymanes": {
-      "date_checked": "2025-08-18T00:37:13.926108+00:00",
+      "date_checked": "2025-08-19T00:33:09.020054+00:00",
       "gif_count": 40,
-      "pic_count": 43024,
+      "pic_count": 43048,
       "video_count": 37,
-      "subscriber_count": 1053,
-      "post_count": 43191,
-      "latest_post": "2025-08-18T00:00:03+00:00",
+      "subscriber_count": 1052,
+      "post_count": 43215,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1286884970,
       "channel_hash": 7499402552544765110,
       "bio": "Hourly Maned Wolves\n\nPlease keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Guara Central"
     },
     "monkey_gif": {
-      "date_checked": "2025-08-18T00:37:15.046273+00:00",
+      "date_checked": "2025-08-19T00:33:09.721560+00:00",
       "gif_count": 110,
       "pic_count": 0,
       "video_count": 0,
@@ -1353,7 +1353,7 @@
       "title": "Otters"
     },
     "dailyotter": {
-      "date_checked": "2025-08-18T00:37:16.168872+00:00",
+      "date_checked": "2025-08-19T00:33:10.428703+00:00",
       "gif_count": 6,
       "pic_count": 2075,
       "video_count": 1,
@@ -1392,7 +1392,7 @@
       "title": "Otter daily!"
     },
     "ottergif": {
-      "date_checked": "2025-08-18T00:37:17.316122+00:00",
+      "date_checked": "2025-08-19T00:33:11.187192+00:00",
       "gif_count": 1,
       "pic_count": 0,
       "video_count": 0,
@@ -1444,7 +1444,7 @@
       "title": "Daily Otter-Pic"
     },
     "iloveowls": {
-      "date_checked": "2025-08-18T00:37:18.679559+00:00",
+      "date_checked": "2025-08-19T00:33:12.043534+00:00",
       "gif_count": 10,
       "pic_count": 3552,
       "video_count": 97,
@@ -1483,7 +1483,7 @@
       "title": "Panda"
     },
     "parrotgif": {
-      "date_checked": "2025-08-18T00:37:19.859632+00:00",
+      "date_checked": "2025-08-19T00:33:12.853490+00:00",
       "gif_count": 200,
       "pic_count": 48,
       "video_count": 133,
@@ -1509,11 +1509,11 @@
       "title": "Parrot [4]"
     },
     "bunnygifs": {
-      "date_checked": "2025-08-18T00:37:21.003760+00:00",
+      "date_checked": "2025-08-19T00:33:13.558714+00:00",
       "gif_count": 1627,
       "pic_count": 1,
       "video_count": 1,
-      "subscriber_count": 1201,
+      "subscriber_count": 1200,
       "post_count": 1705,
       "latest_post": "2025-08-15T11:02:30+00:00",
       "channel_id": 1289662194,
@@ -1522,7 +1522,7 @@
       "title": "Bunny Gifs"
     },
     "catsrabbits": {
-      "date_checked": "2025-08-18T00:37:22.137679+00:00",
+      "date_checked": "2025-08-19T00:33:14.268221+00:00",
       "gif_count": 246,
       "pic_count": 0,
       "video_count": 36,
@@ -1561,7 +1561,7 @@
       "title": "Bun Gifs"
     },
     "tomomoplusarmando": {
-      "date_checked": "2025-08-18T00:37:23.404243+00:00",
+      "date_checked": "2025-08-19T00:33:15.013233+00:00",
       "gif_count": 238,
       "pic_count": 395,
       "video_count": 205,
@@ -1574,7 +1574,7 @@
       "title": "The Good, The Fab, The Funny - (All Bunnies)"
     },
     "daily_raccoon": {
-      "date_checked": "2025-08-18T00:37:24.568149+00:00",
+      "date_checked": "2025-08-19T00:33:15.726895+00:00",
       "gif_count": 260,
       "pic_count": 663,
       "video_count": 352,
@@ -1587,7 +1587,7 @@
       "title": "Raccoon Daily"
     },
     "dailyraccoons": {
-      "date_checked": "2025-08-18T00:37:25.705631+00:00",
+      "date_checked": "2025-08-19T00:33:16.454730+00:00",
       "gif_count": 15,
       "pic_count": 2065,
       "video_count": 1,
@@ -1600,11 +1600,11 @@
       "title": "Daily Raccoons\u00b2"
     },
     "dailyraccs": {
-      "date_checked": "2025-08-18T00:37:26.833246+00:00",
+      "date_checked": "2025-08-19T00:33:17.262650+00:00",
       "gif_count": 152,
       "pic_count": 1655,
       "video_count": 179,
-      "subscriber_count": 2287,
+      "subscriber_count": 2286,
       "post_count": 2068,
       "latest_post": "2024-05-24T12:58:01+00:00",
       "channel_id": 1276210696,
@@ -1626,11 +1626,11 @@
       "title": "Racc attac daily"
     },
     "daily_seals": {
-      "date_checked": "2025-08-18T00:37:27.964834+00:00",
+      "date_checked": "2025-08-19T00:33:18.001281+00:00",
       "gif_count": 43,
       "pic_count": 422,
       "video_count": 13,
-      "subscriber_count": 81,
+      "subscriber_count": 82,
       "post_count": 663,
       "latest_post": "2024-09-17T18:45:05+00:00",
       "channel_id": 1050725636,
@@ -1639,33 +1639,33 @@
       "title": "Daily Seals & Guinea Pigs"
     },
     "sealsandmanatees": {
-      "date_checked": "2025-08-18T00:37:29.087769+00:00",
+      "date_checked": "2025-08-19T00:33:18.853652+00:00",
       "gif_count": 26,
-      "pic_count": 1252,
+      "pic_count": 1254,
       "video_count": 192,
       "subscriber_count": 66,
-      "post_count": 1605,
-      "latest_post": "2025-08-17T01:07:17+00:00",
+      "post_count": 1607,
+      "latest_post": "2025-08-18T14:03:16+00:00",
       "channel_id": 1263227656,
       "channel_hash": -5454250218172791355,
       "bio": "Here come them blubber babies!",
       "title": "Seals & Manatees"
     },
     "hourlyservals": {
-      "date_checked": "2025-08-18T00:37:30.241300+00:00",
+      "date_checked": "2025-08-19T00:33:19.594914+00:00",
       "gif_count": 0,
-      "pic_count": 51087,
+      "pic_count": 51111,
       "video_count": 0,
-      "subscriber_count": 497,
-      "post_count": 51098,
-      "latest_post": "2025-08-18T00:00:52+00:00",
+      "subscriber_count": 496,
+      "post_count": 51122,
+      "latest_post": "2025-08-19T00:00:54+00:00",
       "channel_id": 1366571726,
       "channel_hash": 6105354954547224212,
       "bio": "Hourly Serval Pics to help you through your day.  Want the bot to auto forward to your group on Telegram? Just message @LeonatoLynx to set it up for you! Enjoy! This bot is now in the Mastodon Fediverse at: @servals@hourly.photo",
       "title": "HourlyServals"
     },
     "servalpics": {
-      "date_checked": "2025-08-18T00:37:31.393934+00:00",
+      "date_checked": "2025-08-19T00:33:20.402753+00:00",
       "gif_count": 14,
       "pic_count": 244,
       "video_count": 3,
@@ -1704,7 +1704,7 @@
       "title": "Infinite Shark Gifs"
     },
     "dailywahs": {
-      "date_checked": "2025-08-18T00:37:32.570620+00:00",
+      "date_checked": "2025-08-19T00:33:21.128635+00:00",
       "gif_count": 11,
       "pic_count": 450,
       "video_count": 0,
@@ -1717,13 +1717,13 @@
       "title": "Daily Wahs"
     },
     "hourlywah": {
-      "date_checked": "2025-08-18T00:37:33.703450+00:00",
+      "date_checked": "2025-08-19T00:33:21.866711+00:00",
       "gif_count": 63,
-      "pic_count": 42345,
+      "pic_count": 42369,
       "video_count": 19,
       "subscriber_count": 916,
-      "post_count": 42504,
-      "latest_post": "2025-08-18T00:00:01+00:00",
+      "post_count": 42528,
+      "latest_post": "2025-08-19T00:00:01+00:00",
       "channel_id": 1335701002,
       "channel_hash": 201064569526995644,
       "bio": "Hourly Red Pandas\nPlease keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
@@ -1782,7 +1782,7 @@
       "title": "Red Panda GIFs"
     },
     "wolfgifstash": {
-      "date_checked": "2025-08-18T00:37:34.845606+00:00",
+      "date_checked": "2025-08-19T00:33:22.589915+00:00",
       "gif_count": 87,
       "pic_count": 0,
       "video_count": 1,
@@ -1795,20 +1795,20 @@
       "title": "Luke's wolf gif stash"
     },
     "hourlywolves": {
-      "date_checked": "2025-08-18T00:37:36.026623+00:00",
+      "date_checked": "2025-08-19T00:33:23.332038+00:00",
       "gif_count": 0,
-      "pic_count": 67793,
+      "pic_count": 67817,
       "video_count": 0,
-      "subscriber_count": 3555,
-      "post_count": 67814,
-      "latest_post": "2025-08-18T00:01:12+00:00",
+      "subscriber_count": 3558,
+      "post_count": 67838,
+      "latest_post": "2025-08-19T00:01:21+00:00",
       "channel_id": 1103586844,
       "channel_hash": -14369575156671823,
       "bio": "Hourly Wolf Pics to help you through your day.  Want the bot to auto forward to your group on Telegram? Just message @LeonatoLynx to set it up for you! Enjoy! This bot is now in the Mastodon Fediverse at: @wolves@hourly.photo",
       "title": "HourlyWolves"
     },
     "gifs_yeens_like": {
-      "date_checked": "2025-08-18T00:37:37.193323+00:00",
+      "date_checked": "2025-08-19T00:33:24.077677+00:00",
       "gif_count": 789,
       "pic_count": 2,
       "video_count": 2,
@@ -1821,13 +1821,13 @@
       "title": "Gifs Fur Yeeners"
     },
     "hourlyyeen": {
-      "date_checked": "2025-08-18T00:37:38.323029+00:00",
+      "date_checked": "2025-08-19T00:33:24.786186+00:00",
       "gif_count": 148,
-      "pic_count": 45174,
+      "pic_count": 45198,
       "video_count": 74,
-      "subscriber_count": 2062,
-      "post_count": 45502,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "subscriber_count": 2061,
+      "post_count": 45527,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1141853896,
       "channel_hash": -8957573729412866475,
       "bio": "Hourly Hyena\n\nPlease keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.\nhttps://twitter.com/HourlyYeen",
@@ -1873,7 +1873,7 @@
       "title": "Hyenas Pics, GIF's and Videos"
     },
     "dailyawds": {
-      "date_checked": "2025-08-18T00:37:39.877764+00:00",
+      "date_checked": "2025-08-19T00:33:32.813919+00:00",
       "gif_count": 8,
       "pic_count": 3834,
       "video_count": 0,
@@ -1886,37 +1886,37 @@
       "title": "Daily AWD's"
     },
     "goodpupperfans": {
-      "date_checked": "2025-08-18T00:37:41.060045+00:00",
+      "date_checked": "2025-08-19T00:33:33.643698+00:00",
       "gif_count": 3770,
-      "pic_count": 5900,
-      "video_count": 1906,
-      "subscriber_count": 3566,
-      "post_count": 11679,
-      "latest_post": "2025-08-16T19:16:28+00:00",
+      "pic_count": 5903,
+      "video_count": 1908,
+      "subscriber_count": 3567,
+      "post_count": 11684,
+      "latest_post": "2025-08-18T21:49:35+00:00",
       "channel_id": 1487075733,
       "channel_hash": 8030092697062491536,
       "bio": "Have a pupper. Have all the puppers ! Sometimes we even post animals that just act like puppers.\n\nWe only spread love. We take no credit/ownership of any posts, unless # hash-tagged.\nContact @TheHalfHeard",
       "title": "Good Pupper Fan Club \ud83d\udc3e\ud83c\udf3b"
     },
     "hourlyposs": {
-      "date_checked": "2025-08-18T00:37:42.188727+00:00",
+      "date_checked": "2025-08-19T00:33:34.431058+00:00",
       "gif_count": 32,
-      "pic_count": 39477,
+      "pic_count": 39502,
       "video_count": 26,
-      "subscriber_count": 772,
-      "post_count": 39599,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "subscriber_count": 771,
+      "post_count": 39624,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1422444859,
       "channel_hash": -2753429298110665074,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Hiss"
     },
     "floppaedits": {
-      "date_checked": "2025-08-18T00:37:43.633227+00:00",
+      "date_checked": "2025-08-19T00:33:35.203150+00:00",
       "gif_count": 123,
       "pic_count": 3844,
       "video_count": 873,
-      "subscriber_count": 1931,
+      "subscriber_count": 1930,
       "post_count": 5134,
       "latest_post": "2025-08-08T10:32:38+00:00",
       "channel_id": 1318705855,
@@ -1938,11 +1938,11 @@
       "title": "f\u0337l\u0337o\u0337p\u0338p\u0336a\u0338i\u0336sm"
     },
     "flickrsneps": {
-      "date_checked": "2025-08-18T00:37:44.769375+00:00",
+      "date_checked": "2025-08-19T00:33:35.972850+00:00",
       "gif_count": 2,
       "pic_count": 15454,
       "video_count": 1,
-      "subscriber_count": 353,
+      "subscriber_count": 352,
       "post_count": 15557,
       "latest_post": "2022-12-19T20:00:15+00:00",
       "channel_id": 1084745741,
@@ -1951,11 +1951,11 @@
       "title": "Flickr Sneps"
     },
     "redtaily": {
-      "date_checked": "2025-08-18T00:37:45.925247+00:00",
+      "date_checked": "2025-08-19T00:33:36.781724+00:00",
       "gif_count": 13,
       "pic_count": 2387,
       "video_count": 7,
-      "subscriber_count": 1110,
+      "subscriber_count": 1109,
       "post_count": 2446,
       "latest_post": "2024-11-13T20:09:13+00:00",
       "channel_id": 1355185734,
@@ -1964,11 +1964,11 @@
       "title": "\u0420\u044b\u0436\u0435\u0435 \u0425\u0432\u043e\u0441\u0442\u0435\u0439\u0448\u0435\u0441\u0442\u0432\u043e"
     },
     "bestdogs": {
-      "date_checked": "2025-08-18T00:37:47.059828+00:00",
+      "date_checked": "2025-08-19T00:33:37.689630+00:00",
       "gif_count": 351,
       "pic_count": 6869,
       "video_count": 458,
-      "subscriber_count": 421,
+      "subscriber_count": 422,
       "post_count": 7684,
       "latest_post": "2025-08-14T15:49:51+00:00",
       "channel_id": 1095831266,
@@ -1977,11 +1977,11 @@
       "title": "Good Dogs"
     },
     "birds": {
-      "date_checked": "2025-08-18T00:36:38.313128+00:00",
+      "date_checked": "2025-08-19T00:32:37.339675+00:00",
       "gif_count": 0,
       "pic_count": 550,
       "video_count": 0,
-      "subscriber_count": 5083,
+      "subscriber_count": 5077,
       "post_count": 561,
       "latest_post": "2024-10-19T02:45:01+00:00",
       "channel_id": 1483991707,
@@ -1990,37 +1990,37 @@
       "title": "Birds Pictures World"
     },
     "brokencats": {
-      "date_checked": "2025-08-18T00:37:48.188657+00:00",
+      "date_checked": "2025-08-19T00:33:38.751566+00:00",
       "gif_count": 1792,
       "pic_count": 3749,
-      "video_count": 2433,
-      "subscriber_count": 24604,
-      "post_count": 7985,
-      "latest_post": "2025-08-13T15:46:35+00:00",
+      "video_count": 2435,
+      "subscriber_count": 24599,
+      "post_count": 7987,
+      "latest_post": "2025-08-18T14:19:01+00:00",
       "channel_id": 1354173693,
       "channel_hash": -4130844339420045010,
       "bio": "Broken Cats Channel\nInbox: @catsinboxbot\nAdmin: @lesharodin (I dont buy/sell ads)",
       "title": "Broken Cats"
     },
     "cats_cats": {
-      "date_checked": "2025-08-18T00:37:49.346806+00:00",
-      "gif_count": 20481,
-      "pic_count": 23795,
-      "video_count": 2787,
-      "subscriber_count": 88109,
-      "post_count": 47698,
-      "latest_post": "2025-08-17T20:57:06+00:00",
+      "date_checked": "2025-08-19T00:33:39.605048+00:00",
+      "gif_count": 20489,
+      "pic_count": 23798,
+      "video_count": 2788,
+      "subscriber_count": 88102,
+      "post_count": 47710,
+      "latest_post": "2025-08-18T20:53:06+00:00",
       "channel_id": 1142011374,
       "channel_hash": -5386516882775686897,
       "bio": "\u0423 \u043d\u0430\u0441 \u043b\u0430\u043f\u043a\u0435 \n\n\u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b: @memetutorial\n\n\u041f\u043e \u0432\u0441\u0435\u043c \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u043c: @KotekiBot",
       "title": "\u0411\u043b\u044f\u0446\u043a\u0438\u0435 \u043a\u043e\u0442\u044b"
     },
     "catsc": {
-      "date_checked": "2025-08-18T00:37:50.480625+00:00",
+      "date_checked": "2025-08-19T00:33:40.473980+00:00",
       "gif_count": 0,
       "pic_count": 327,
       "video_count": 596,
-      "subscriber_count": 791,
+      "subscriber_count": 793,
       "post_count": 946,
       "latest_post": "2025-08-17T08:51:46+00:00",
       "channel_id": 1120181927,
@@ -2029,13 +2029,13 @@
       "title": "\u043c\u0435\u043c\u043d\u044b\u0435 \u0436\u0438\u0432\u043e\u0442\u043d\u044b\u0435"
     },
     "cutedogs": {
-      "date_checked": "2025-08-18T00:37:51.606189+00:00",
+      "date_checked": "2025-08-19T00:33:41.336447+00:00",
       "gif_count": 3,
-      "pic_count": 11374,
+      "pic_count": 11377,
       "video_count": 20,
-      "subscriber_count": 2142,
-      "post_count": 11440,
-      "latest_post": "2025-08-17T17:30:02+00:00",
+      "subscriber_count": 2144,
+      "post_count": 11443,
+      "latest_post": "2025-08-18T17:30:02+00:00",
       "channel_id": 1005173055,
       "channel_hash": 7042885767748277204,
       "bio": "Only cutest dogs ever! Subscribe!\nAdmin - @Schr0dinger\n\n\ud83d\udd3c\u041f\u043e \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u043c \u0440\u0435\u043a\u043b\u0430\u043c\u044b: https://telega.io/c/cutedogs\n\ud83d\udd3cIf you have any questions about advertising, please contact: https://telega.io/c/cutedogs",
@@ -2055,7 +2055,7 @@
       "title": "Frogs Frogs Frogs"
     },
     "cowscowscows": {
-      "date_checked": "2025-08-18T00:37:53.000009+00:00",
+      "date_checked": "2025-08-19T00:33:42.328595+00:00",
       "gif_count": 83,
       "pic_count": 2381,
       "video_count": 466,
@@ -2068,7 +2068,7 @@
       "title": "Cows Cows Cows"
     },
     "lionslionslions": {
-      "date_checked": "2025-08-18T00:37:54.188369+00:00",
+      "date_checked": "2025-08-19T00:33:43.130011+00:00",
       "gif_count": 50,
       "pic_count": 656,
       "video_count": 127,
@@ -2081,11 +2081,11 @@
       "title": "Lions Lions Lions"
     },
     "shibainudoge": {
-      "date_checked": "2025-08-18T00:37:55.363377+00:00",
+      "date_checked": "2025-08-19T00:33:44.376546+00:00",
       "gif_count": 743,
       "pic_count": 15070,
       "video_count": 4047,
-      "subscriber_count": 792,
+      "subscriber_count": 791,
       "post_count": 20003,
       "latest_post": "2025-08-17T16:27:01+00:00",
       "channel_id": 1067896319,
@@ -2094,7 +2094,7 @@
       "title": "Shiba Inu / Cute Doge / Dog Pictures / Photos / Videos"
     },
     "otterappreciation": {
-      "date_checked": "2025-08-18T00:37:56.725426+00:00",
+      "date_checked": "2025-08-19T00:33:45.364510+00:00",
       "gif_count": 5,
       "pic_count": 74,
       "video_count": 3,
@@ -2120,33 +2120,33 @@
       "title": "Foxes (Goro-San Appreciation Society)"
     },
     "hourlybleat": {
-      "date_checked": "2025-08-18T00:37:57.874607+00:00",
+      "date_checked": "2025-08-19T00:33:46.078843+00:00",
       "gif_count": 6,
-      "pic_count": 39433,
+      "pic_count": 39457,
       "video_count": 2,
-      "subscriber_count": 438,
-      "post_count": 39501,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "subscriber_count": 439,
+      "post_count": 39525,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1296957872,
       "channel_hash": 3977048938139838460,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Bleats"
     },
     "koteparty": {
-      "date_checked": "2025-08-18T00:37:59.042667+00:00",
-      "gif_count": 24023,
-      "pic_count": 29285,
-      "video_count": 16646,
-      "subscriber_count": 12003,
-      "post_count": 70208,
-      "latest_post": "2025-08-17T18:28:12+00:00",
+      "date_checked": "2025-08-19T00:33:46.787474+00:00",
+      "gif_count": 24025,
+      "pic_count": 29293,
+      "video_count": 16655,
+      "subscriber_count": 12022,
+      "post_count": 70227,
+      "latest_post": "2025-08-18T18:00:36+00:00",
       "channel_id": 1447082021,
       "channel_hash": 8090513131361543005,
       "bio": "\u041a\u043e\u0442\u0435\u0435\u043a, \u0431\u043e\u043b\u044c\u0448\u0435 \u043a\u043e\u0442\u0435\u0435\u043a ...\n\u041f\u043e\u0434\u0434\u0435\u0440\u0436\u0430\u0442\u044c \u043a\u0430\u043d\u0430\u043b:\n\u042e\u043c\u0430\u043d\u0438 \u0431\u0430\u043d\u043a:\nMastercard 5599 0020 1239 1449 \n\u042emoney \u043a\u043e\u0448\u0435\u043b\u0451\u043a 410015182159945 \n\u0421\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u043e - @llAleXeYll\n\u0427\u0430\u0442 \u043a\u0430\u043d\u0430\u043b\u0430 https://t.me/joinchat/VgdTvoYQEvbGn0pA\n\u041a\u0443\u043f\u0438\u0442\u044c \u0440\u0435\u043a\u043b\u0430\u043c\u0443: https://telega.in/c/KotEPaRtY",
       "title": "\ud83c\udd3a \ud83c\udd3e \ud83c\udd43 \ud83c\udd34 \ud83d\udc3e \ud83c\udd3f \ud83c\udd30 \ud83c\udd41 \ud83c\udd43 \ud83c\udd48"
     },
     "thekittyhouse": {
-      "date_checked": "2025-08-18T00:38:00.177400+00:00",
+      "date_checked": "2025-08-19T00:33:47.490683+00:00",
       "gif_count": 2989,
       "pic_count": 20297,
       "video_count": 4827,
@@ -2159,26 +2159,26 @@
       "title": "The Cat House\ud83d\udc3e"
     },
     "roumdcat": {
-      "date_checked": "2025-08-18T00:38:01.314600+00:00",
+      "date_checked": "2025-08-19T00:33:48.276556+00:00",
       "gif_count": 1934,
       "pic_count": 8925,
-      "video_count": 6559,
-      "subscriber_count": 6726,
-      "post_count": 18006,
-      "latest_post": "2025-08-18T00:10:54+00:00",
+      "video_count": 6561,
+      "subscriber_count": 6727,
+      "post_count": 18009,
+      "latest_post": "2025-08-18T21:22:40+00:00",
       "channel_id": 1260431447,
       "channel_hash": -1072616392804998833,
       "bio": "\ud83d\udd18Group\ud83d\udd18\nhttps://t.me/joinchat/H5DWGkURwRAu3D7OnCCWJA\n\n\ud83d\udd18Send Us Stuff\ud83d\udd18\n@roumd_catbot\n\nAlso check out: @roumdbirds and @roumdoggos",
       "title": "Roumd Cats and Memes"
     },
     "cuteotters": {
-      "date_checked": "2025-08-18T00:38:02.536446+00:00",
+      "date_checked": "2025-08-19T00:33:48.986657+00:00",
       "gif_count": 646,
-      "pic_count": 1887,
-      "video_count": 468,
+      "pic_count": 1893,
+      "video_count": 469,
       "subscriber_count": 1827,
-      "post_count": 3532,
-      "latest_post": "2025-08-17T18:43:12+00:00",
+      "post_count": 3539,
+      "latest_post": "2025-08-18T19:12:53+00:00",
       "channel_id": 1142042496,
       "channel_hash": 7953890417290493215,
       "bio": "Love them\ud83e\udda6\n\nContact and suggestions: The chat",
@@ -2198,20 +2198,20 @@
       "title": "\ud83e\udd8a Fox News \u2764\ufe0f \ud83c\uddfa\ud83c\udde6"
     },
     "fox_vulpes_renard_lis": {
-      "date_checked": "2025-08-18T00:38:04.969341+00:00",
+      "date_checked": "2025-08-19T00:33:50.411472+00:00",
       "gif_count": 201,
-      "pic_count": 8861,
+      "pic_count": 8865,
       "video_count": 966,
-      "subscriber_count": 866,
-      "post_count": 10066,
-      "latest_post": "2025-08-17T11:38:55+00:00",
+      "subscriber_count": 864,
+      "post_count": 10070,
+      "latest_post": "2025-08-18T18:00:01+00:00",
       "channel_id": 1336270193,
       "channel_hash": -5428452855985467580,
       "bio": "\ud83e\udd8a \u041a\u0430\u043d\u0430\u043b \u0434\u043b\u044f \u0442\u0435\u0445, \u043a\u0442\u043e \u043b\u044e\u0431\u0438\u0442 \u043b\u0438\u0441\u0438\u0446 \u0438 \u043b\u0438\u0441\u043e\u0432. \ud83e\udd8a",
       "title": "\u041b\u0438\u0441\u0438\u0439 \u043a\u0430\u043d\u0430\u043b"
     },
     "wah_gifs": {
-      "date_checked": "2025-08-18T00:38:06.103857+00:00",
+      "date_checked": "2025-08-19T00:33:51.124768+00:00",
       "gif_count": 152,
       "pic_count": 0,
       "video_count": 0,
@@ -2224,7 +2224,7 @@
       "title": "Wah Gifs"
     },
     "spanglegifs": {
-      "date_checked": "2025-08-18T00:38:07.337558+00:00",
+      "date_checked": "2025-08-19T00:33:51.837684+00:00",
       "gif_count": 0,
       "pic_count": 0,
       "video_count": 0,
@@ -2250,7 +2250,7 @@
       "title": "Bad Memes and Good Dogs"
     },
     "dogsandflowers": {
-      "date_checked": "2025-08-18T00:38:08.459938+00:00",
+      "date_checked": "2025-08-19T00:33:52.561697+00:00",
       "gif_count": 66,
       "pic_count": 1652,
       "video_count": 117,
@@ -2263,7 +2263,7 @@
       "title": "\ud83c\udf38 \u0421\u043e\u0431\u0430\u043a\u0438 \u0418 \u0426\u0432\u0435\u0442\u044b \ud83c\udf3a"
     },
     "glorytomiku": {
-      "date_checked": "2025-08-18T00:38:09.599738+00:00",
+      "date_checked": "2025-08-19T00:33:53.302021+00:00",
       "gif_count": 9,
       "pic_count": 256,
       "video_count": 9,
@@ -2276,7 +2276,7 @@
       "title": "Miku the Cat"
     },
     "iboopyeens": {
-      "date_checked": "2025-08-18T00:38:10.766156+00:00",
+      "date_checked": "2025-08-19T00:33:54.130543+00:00",
       "gif_count": 5,
       "pic_count": 68,
       "video_count": 3,
@@ -2289,13 +2289,13 @@
       "title": "iBoopYeens"
     },
     "cutefoxes": {
-      "date_checked": "2025-08-18T00:38:11.891902+00:00",
+      "date_checked": "2025-08-19T00:33:54.838024+00:00",
       "gif_count": 98,
-      "pic_count": 5195,
+      "pic_count": 5196,
       "video_count": 1,
       "subscriber_count": 1281,
-      "post_count": 5534,
-      "latest_post": "2025-08-17T10:32:50+00:00",
+      "post_count": 5535,
+      "latest_post": "2025-08-18T10:32:59+00:00",
       "channel_id": 1050972829,
       "channel_hash": 8649087478045896008,
       "bio": "Channel for cute and funny foxes. Uploading pics directly from Rss feeds + stickers! Best foxy gifs and pics.",
@@ -2315,7 +2315,7 @@
       "title": "Meows and barks"
     },
     "farmanimals": {
-      "date_checked": "2025-08-18T00:38:13.015231+00:00",
+      "date_checked": "2025-08-19T00:33:55.582667+00:00",
       "gif_count": 609,
       "pic_count": 612,
       "video_count": 157,
@@ -2328,11 +2328,11 @@
       "title": "Farm Animals"
     },
     "cutebunnies": {
-      "date_checked": "2025-08-18T00:38:14.166609+00:00",
+      "date_checked": "2025-08-19T00:33:56.393985+00:00",
       "gif_count": 137,
       "pic_count": 1806,
       "video_count": 8,
-      "subscriber_count": 801,
+      "subscriber_count": 802,
       "post_count": 1961,
       "latest_post": "2023-07-09T16:02:08+00:00",
       "channel_id": 1205097693,
@@ -2341,20 +2341,20 @@
       "title": "Cute Bunnies"
     },
     "ratpost": {
-      "date_checked": "2025-08-18T00:38:15.293049+00:00",
+      "date_checked": "2025-08-19T00:34:04.305990+00:00",
       "gif_count": 193,
-      "pic_count": 2289,
+      "pic_count": 2290,
       "video_count": 437,
       "subscriber_count": 1150,
-      "post_count": 3457,
-      "latest_post": "2025-08-17T22:06:04+00:00",
+      "post_count": 3458,
+      "latest_post": "2025-08-18T17:47:55+00:00",
       "channel_id": 1333008186,
       "channel_hash": -9004108756390470498,
       "bio": "Rats we like\nSend us rats if ya wanna @mintyfoxxe @LeonSmithie \nIcon by @lilanchorartsartchannel !",
       "title": "Mint's Ratposting"
     },
     "pander_paradise": {
-      "date_checked": "2025-08-18T00:38:16.438253+00:00",
+      "date_checked": "2025-08-19T00:34:05.063535+00:00",
       "gif_count": 331,
       "pic_count": 1744,
       "video_count": 153,
@@ -2367,26 +2367,26 @@
       "title": "Pander Paradise"
     },
     "catarium": {
-      "date_checked": "2025-08-18T00:38:17.587293+00:00",
+      "date_checked": "2025-08-19T00:34:05.832167+00:00",
       "gif_count": 4057,
       "pic_count": 489,
-      "video_count": 1286,
-      "subscriber_count": 5647,
-      "post_count": 6142,
-      "latest_post": "2025-08-16T21:55:24+00:00",
+      "video_count": 1287,
+      "subscriber_count": 5641,
+      "post_count": 6143,
+      "latest_post": "2025-08-18T19:43:14+00:00",
       "channel_id": 1280839206,
       "channel_hash": 8180096033872303035,
       "bio": "Catarium - \u0444\u0430\u0431\u0440\u0438\u043a\u0430 \u0442\u0435\u043f\u043b\u0430.\n\u041a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439, \u043e\u0442\u043e\u0431\u0440\u0430\u043d\u043d\u044b\u0439 \u0432\u0440\u0443\u0447\u043d\u0443\u044e  \u043c\u0435\u0434\u0438\u0430\u043a\u043e\u043d\u0442\u0435\u043d\u0442. \u0422\u043e\u043b\u044c\u043a\u043e \u0441\u0430\u043c\u043e\u0435 \u043b\u0443\u0447\u0448\u0435\u0435.\n\nCatarium - the essence of warmth.\nCraft-fully selected content for you.\nOnly the best.\n@CatariumBot - Contact us\n\nDonate: @CatariumDonate",
       "title": "Catarium \ud83c\uddfa\ud83c\udde6"
     },
     "imacat": {
-      "date_checked": "2025-08-18T00:38:18.715400+00:00",
+      "date_checked": "2025-08-19T00:34:06.733367+00:00",
       "gif_count": 15445,
-      "pic_count": 730,
-      "video_count": 6358,
-      "subscriber_count": 16748,
-      "post_count": 22844,
-      "latest_post": "2025-08-16T19:36:53+00:00",
+      "pic_count": 729,
+      "video_count": 6377,
+      "subscriber_count": 16739,
+      "post_count": 22862,
+      "latest_post": "2025-08-18T18:43:39+00:00",
       "channel_id": 1060285947,
       "channel_hash": -4854180328954551022,
       "bio": "This channel helps you wake up every morning. \nAnimals gifs: @imnotacat\n\n\u042d\u0442\u043e\u0442 \u043a\u0430\u043d\u0430\u043b \u043f\u043e\u043c\u043e\u0433\u0430\u0435\u0442 \u0432\u0430\u043c \u043f\u0440\u043e\u0441\u043d\u0443\u0442\u044c\u0441\u044f \u043a\u0430\u0436\u0434\u043e\u0435 \u0443\u0442\u0440\u043e.\n\n\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u044b: @nakxwest",
@@ -2406,7 +2406,7 @@
       "title": "\u2665\ufe0f \u041a\u0440\u0443\u0433\u043b\u044b\u0439 \u041a\u043e\u0442 \u2665\ufe0f"
     },
     "toadschannel": {
-      "date_checked": "2025-08-18T00:38:20.037443+00:00",
+      "date_checked": "2025-08-19T00:34:07.601731+00:00",
       "gif_count": 144,
       "pic_count": 8026,
       "video_count": 445,
@@ -2419,7 +2419,7 @@
       "title": "Toads"
     },
     "notaraccoon": {
-      "date_checked": "2025-08-18T00:38:21.200378+00:00",
+      "date_checked": "2025-08-19T00:34:08.309710+00:00",
       "gif_count": 551,
       "pic_count": 1856,
       "video_count": 413,
@@ -2432,37 +2432,37 @@
       "title": "pand\u00e6monium"
     },
     "smolkitties": {
-      "date_checked": "2025-08-18T00:38:22.324038+00:00",
+      "date_checked": "2025-08-19T00:34:09.072167+00:00",
       "gif_count": 662,
       "pic_count": 2550,
-      "video_count": 893,
-      "subscriber_count": 2082,
-      "post_count": 4166,
-      "latest_post": "2025-08-16T21:33:51+00:00",
+      "video_count": 900,
+      "subscriber_count": 2083,
+      "post_count": 4173,
+      "latest_post": "2025-08-18T12:30:31+00:00",
       "channel_id": 1217507979,
       "channel_hash": -2318803667695142735,
       "bio": "Only pocket kittens here\n\nKirby --> @kirbypink",
       "title": "Tiny kittens \u209b\u2098\u2092\u2097posting"
     },
     "birblife": {
-      "date_checked": "2025-08-18T00:38:23.569898+00:00",
+      "date_checked": "2025-08-19T00:34:09.863859+00:00",
       "gif_count": 1572,
-      "pic_count": 9064,
+      "pic_count": 9066,
       "video_count": 2221,
       "subscriber_count": 3400,
-      "post_count": 13440,
-      "latest_post": "2025-08-17T20:28:47+00:00",
+      "post_count": 13442,
+      "latest_post": "2025-08-18T21:38:41+00:00",
       "channel_id": 1363895234,
       "channel_hash": -7338150429079918388,
       "bio": "The best birb memes on the Internet!\n\u041e\u0442\u0431\u043e\u0440\u043d\u044b\u0435 \u043f\u0430\u043f\u0443\u0433\u0438 \u0438 \u043b\u0443\u0447\u0448\u0438\u0435 \u043e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u0435 birb memes.\n\n\u0414\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0435 \u043a\u0430\u043d\u0430\u043b\u044b: @papugi @thebirb \n\u041d\u0430\u0448 \u0447\u0430\u0442\u0438\u043a: @birbchat\n\u041d\u0430\u0448\u0438 \u0441\u0442\u0438\u043a\u0435\u0440\u044b: @birbstickers\n\n\u041f\u043e \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u043c \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u0430: @crossbill\n\nBirb Thug Life\nSince 2017\nYos! \ud83e\udd9c",
       "title": "Birb Life"
     },
     "papugi": {
-      "date_checked": "2025-08-18T00:38:24.696330+00:00",
+      "date_checked": "2025-08-19T00:34:10.590112+00:00",
       "gif_count": 367,
       "pic_count": 1197,
       "video_count": 50,
-      "subscriber_count": 3978,
+      "subscriber_count": 3975,
       "post_count": 1674,
       "latest_post": "2025-08-01T09:26:57+00:00",
       "channel_id": 1231697195,
@@ -2471,7 +2471,7 @@
       "title": "\u041f\u0430\u043f\u0443\u0433\u0438"
     },
     "thebirb": {
-      "date_checked": "2025-08-18T00:38:25.815178+00:00",
+      "date_checked": "2025-08-19T00:34:11.321272+00:00",
       "gif_count": 239,
       "pic_count": 2947,
       "video_count": 252,
@@ -2497,20 +2497,20 @@
       "title": "\u041e\u043f\u043e\u0441\u0441\u0443\u043c"
     },
     "puppersandborks": {
-      "date_checked": "2025-08-18T00:38:26.937762+00:00",
-      "gif_count": 1630,
-      "pic_count": 131097,
+      "date_checked": "2025-08-19T00:34:12.037858+00:00",
+      "gif_count": 1631,
+      "pic_count": 131138,
       "video_count": 97,
-      "subscriber_count": 1062,
-      "post_count": 132888,
-      "latest_post": "2025-08-18T00:30:03+00:00",
+      "subscriber_count": 1061,
+      "post_count": 132930,
+      "latest_post": "2025-08-19T00:30:04+00:00",
       "channel_id": 1074650994,
       "channel_hash": 2441708839769642500,
       "bio": "Puppers from all over the web just for you\n\nControlled by the same slave robot from @assortedComics",
       "title": "Puppers and Borks"
     },
     "possums_here": {
-      "date_checked": "2025-08-18T00:38:28.119337+00:00",
+      "date_checked": "2025-08-19T00:34:12.749234+00:00",
       "gif_count": 347,
       "pic_count": 3429,
       "video_count": 543,
@@ -2536,7 +2536,7 @@
       "title": "Cute sloth sleep at home"
     },
     "jezitto": {
-      "date_checked": "2025-08-18T00:38:29.456289+00:00",
+      "date_checked": "2025-08-19T00:34:13.456746+00:00",
       "gif_count": 163,
       "pic_count": 1688,
       "video_count": 77,
@@ -2549,11 +2549,11 @@
       "title": "\u042f\u0434\u0440\u0435\u043d\u044b\u0439 \u0401\u0436\u0438\u0442\u0442\u043e"
     },
     "dookers": {
-      "date_checked": "2025-08-18T00:38:30.625625+00:00",
+      "date_checked": "2025-08-19T00:34:14.161700+00:00",
       "gif_count": 187,
       "pic_count": 2173,
       "video_count": 100,
-      "subscriber_count": 1967,
+      "subscriber_count": 1966,
       "post_count": 2494,
       "latest_post": "2022-09-29T20:16:47+00:00",
       "channel_id": 1132518564,
@@ -2562,24 +2562,24 @@
       "title": "Ferrets"
     },
     "vidrochki": {
-      "date_checked": "2025-08-18T00:38:31.754671+00:00",
+      "date_checked": "2025-08-19T00:34:14.877512+00:00",
       "gif_count": 2309,
-      "pic_count": 24302,
-      "video_count": 9523,
-      "subscriber_count": 5680,
-      "post_count": 36943,
-      "latest_post": "2025-08-17T22:52:34+00:00",
+      "pic_count": 24310,
+      "video_count": 9528,
+      "subscriber_count": 5681,
+      "post_count": 36956,
+      "latest_post": "2025-08-18T18:19:01+00:00",
       "channel_id": 1228014634,
       "channel_hash": -116107756988333183,
       "bio": "\u0414\u043b\u044f \u0441\u0432\u044f\u0437\u0438  @perevaldyatlova  \ud83e\udda6",
       "title": "\u0412\u044b\u044b\u0434\u0440\u044b\u044b\u044b (\u0432\u044b\u0434\u0440\u044b/otters)"
     },
     "possumemes": {
-      "date_checked": "2025-08-18T00:38:32.894924+00:00",
+      "date_checked": "2025-08-19T00:34:15.614171+00:00",
       "gif_count": 263,
       "pic_count": 4032,
       "video_count": 377,
-      "subscriber_count": 1835,
+      "subscriber_count": 1834,
       "post_count": 4975,
       "latest_post": "2025-08-09T09:06:43+00:00",
       "channel_id": 1354121153,
@@ -2588,20 +2588,20 @@
       "title": "\u041c\u0435\u043c\u0438 \u043f\u0440\u043e \u043e\u043f\u043e\u0441\u0443\u043c\u0456\u0432\ud83c\uddfa\ud83c\udde6"
     },
     "cat_kv": {
-      "date_checked": "2025-08-18T00:38:34.045441+00:00",
+      "date_checked": "2025-08-19T00:34:16.319573+00:00",
       "gif_count": 322,
       "pic_count": 2088,
-      "video_count": 14139,
-      "subscriber_count": 5852,
-      "post_count": 16618,
-      "latest_post": "2025-08-17T18:02:32+00:00",
+      "video_count": 14143,
+      "subscriber_count": 5855,
+      "post_count": 16622,
+      "latest_post": "2025-08-18T18:02:26+00:00",
       "channel_id": 1266917894,
       "channel_hash": 8700715857087488896,
       "bio": "\u2757\u0412\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u26a0\ufe0f \u041d\u0430 \u043a\u0430\u043d\u0430\u043b\u0435 \u043e\u0440\u0443\u0434\u0443\u0435\u0442 \u0448\u0435\u0440\u0441\u0442\u044f\u043d\u0430\u044f \u041e\u041f\u0413\n\n\u041f\u043e \u0440\u0435\u043f\u043e\u0441\u0442\u0430\u043c: @opanastasii",
       "title": "cat mood \ud83d\udc3e"
     },
     "surfingbirds": {
-      "date_checked": "2025-08-18T00:38:35.163451+00:00",
+      "date_checked": "2025-08-19T00:34:17.036034+00:00",
       "gif_count": 233,
       "pic_count": 615,
       "video_count": 101,
@@ -2614,11 +2614,11 @@
       "title": "Surfing Birds"
     },
     "trippycats": {
-      "date_checked": "2025-08-18T00:38:36.282776+00:00",
+      "date_checked": "2025-08-19T00:34:17.761424+00:00",
       "gif_count": 727,
       "pic_count": 3206,
       "video_count": 38,
-      "subscriber_count": 998,
+      "subscriber_count": 996,
       "post_count": 4129,
       "latest_post": "2022-01-09T14:07:32+00:00",
       "channel_id": 1127626037,
@@ -2627,7 +2627,7 @@
       "title": "\u041a\u043e\u0442\u0443\u0430\u043b\u044b"
     },
     "trippydogs": {
-      "date_checked": "2025-08-18T00:38:37.413047+00:00",
+      "date_checked": "2025-08-19T00:34:18.579334+00:00",
       "gif_count": 101,
       "pic_count": 228,
       "video_count": 1,
@@ -2653,11 +2653,11 @@
       "title": "rats & rats & rats & rats & capybaras"
     },
     "chats_cats_kocky_koty": {
-      "date_checked": "2025-08-18T00:38:39.666184+00:00",
+      "date_checked": "2025-08-19T00:34:20.286211+00:00",
       "gif_count": 228,
       "pic_count": 9352,
       "video_count": 707,
-      "subscriber_count": 1660,
+      "subscriber_count": 1659,
       "post_count": 10996,
       "latest_post": "2025-08-17T15:26:17+00:00",
       "channel_id": 1410150386,
@@ -2666,7 +2666,7 @@
       "title": "\u0421hats & cats & ko\u010dky & koty"
     },
     "voce_bernese": {
-      "date_checked": "2025-08-18T00:38:40.857770+00:00",
+      "date_checked": "2025-08-19T00:34:21.022995+00:00",
       "gif_count": 7,
       "pic_count": 1236,
       "video_count": 137,
@@ -2679,39 +2679,39 @@
       "title": "Bernese Mountain Dog"
     },
     "hourlyott": {
-      "date_checked": "2025-08-18T00:38:42.034198+00:00",
+      "date_checked": "2025-08-19T00:34:21.747779+00:00",
       "gif_count": 17,
-      "pic_count": 39589,
+      "pic_count": 39613,
       "video_count": 28,
-      "subscriber_count": 1028,
-      "post_count": 39694,
-      "latest_post": "2025-08-18T00:00:01+00:00",
+      "subscriber_count": 1029,
+      "post_count": 39718,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1173937062,
       "channel_hash": -4724480682612610553,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Otter"
     },
     "hourlyleo": {
-      "date_checked": "2025-08-18T00:38:43.233438+00:00",
+      "date_checked": "2025-08-19T00:34:22.463261+00:00",
       "gif_count": 1,
-      "pic_count": 39668,
+      "pic_count": 39692,
       "video_count": 3,
       "subscriber_count": 256,
-      "post_count": 39734,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 39758,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1178275766,
       "channel_hash": -2752086312236749254,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Lions"
     },
     "hourlysneks": {
-      "date_checked": "2025-08-18T00:38:44.447308+00:00",
+      "date_checked": "2025-08-19T00:34:23.248182+00:00",
       "gif_count": 6,
-      "pic_count": 39017,
+      "pic_count": 39041,
       "video_count": 5,
       "subscriber_count": 226,
-      "post_count": 39089,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 39113,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1494606818,
       "channel_hash": -5040705503813316554,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
@@ -2731,7 +2731,7 @@
       "title": "Crowposting"
     },
     "birbchannel": {
-      "date_checked": "2025-08-18T00:38:46.758684+00:00",
+      "date_checked": "2025-08-19T00:34:24.864971+00:00",
       "gif_count": 115,
       "pic_count": 1503,
       "video_count": 65,
@@ -2757,11 +2757,11 @@
       "title": "Cougar Pics"
     },
     "samoyed_channel": {
-      "date_checked": "2025-08-18T00:38:48.005041+00:00",
+      "date_checked": "2025-08-19T00:34:25.614307+00:00",
       "gif_count": 205,
       "pic_count": 2354,
       "video_count": 55,
-      "subscriber_count": 578,
+      "subscriber_count": 577,
       "post_count": 2696,
       "latest_post": "2023-05-06T16:34:47+00:00",
       "channel_id": 1078029387,
@@ -2770,7 +2770,7 @@
       "title": "Samoyeds"
     },
     "burrs": {
-      "date_checked": "2025-08-18T00:38:50.389816+00:00",
+      "date_checked": "2025-08-19T00:34:35.202659+00:00",
       "gif_count": 552,
       "pic_count": 653,
       "video_count": 347,
@@ -2796,11 +2796,11 @@
       "title": "snake gifs (try)"
     },
     "lapqpera": {
-      "date_checked": "2025-08-18T00:38:51.678201+00:00",
+      "date_checked": "2025-08-19T00:34:36.023206+00:00",
       "gif_count": 495,
       "pic_count": 3179,
       "video_count": 888,
-      "subscriber_count": 1202,
+      "subscriber_count": 1201,
       "post_count": 5232,
       "latest_post": "2025-08-17T11:00:23+00:00",
       "channel_id": 1284578668,
@@ -2809,7 +2809,7 @@
       "title": "LA PQPERA"
     },
     "ilprocionw": {
-      "date_checked": "2025-08-18T00:38:52.830711+00:00",
+      "date_checked": "2025-08-19T00:34:36.788493+00:00",
       "gif_count": 14,
       "pic_count": 107,
       "video_count": 20,
@@ -2822,7 +2822,7 @@
       "title": "IL PROCIONW"
     },
     "laranw": {
-      "date_checked": "2025-08-18T00:38:53.976115+00:00",
+      "date_checked": "2025-08-19T00:34:37.614664+00:00",
       "gif_count": 25,
       "pic_count": 431,
       "video_count": 97,
@@ -2835,20 +2835,20 @@
       "title": "LA RANW"
     },
     "el_buni": {
-      "date_checked": "2025-08-18T00:38:55.102676+00:00",
-      "gif_count": 867,
-      "pic_count": 6929,
-      "video_count": 987,
-      "subscriber_count": 1071,
-      "post_count": 9766,
-      "latest_post": "2025-08-17T19:40:18+00:00",
+      "date_checked": "2025-08-19T00:34:38.339453+00:00",
+      "gif_count": 868,
+      "pic_count": 6937,
+      "video_count": 988,
+      "subscriber_count": 1072,
+      "post_count": 9777,
+      "latest_post": "2025-08-18T18:10:55+00:00",
       "channel_id": 1220557457,
       "channel_hash": 210969782467396952,
       "bio": "@el_bunigc to chat/send (your) bnuy/ask for advice\n\nEveryone is welcome here, except fascists and/or homotransphobic people\n\ud83d\udc30\ud83e\udd0d\ud83c\udff3\ufe0f\u200d\ud83c\udf08\n\nEng/ita",
       "title": "Bunarium"
     },
     "lalumacw": {
-      "date_checked": "2025-08-18T00:38:56.311815+00:00",
+      "date_checked": "2025-08-19T00:34:39.071858+00:00",
       "gif_count": 33,
       "pic_count": 303,
       "video_count": 40,
@@ -2861,7 +2861,7 @@
       "title": "LA LUMACW"
     },
     "capibqra": {
-      "date_checked": "2025-08-18T00:38:57.439891+00:00",
+      "date_checked": "2025-08-19T00:34:39.792423+00:00",
       "gif_count": 20,
       "pic_count": 181,
       "video_count": 21,
@@ -2874,7 +2874,7 @@
       "title": "Il Capibqra"
     },
     "canepallareal": {
-      "date_checked": "2025-08-18T00:39:00.026079+00:00",
+      "date_checked": "2025-08-19T00:34:41.490137+00:00",
       "gif_count": 9,
       "pic_count": 287,
       "video_count": 49,
@@ -2887,11 +2887,11 @@
       "title": "CANEPALLA"
     },
     "bestioline": {
-      "date_checked": "2025-08-18T00:39:01.154837+00:00",
+      "date_checked": "2025-08-19T00:34:42.293030+00:00",
       "gif_count": 120,
       "pic_count": 2377,
       "video_count": 243,
-      "subscriber_count": 1161,
+      "subscriber_count": 1160,
       "post_count": 2941,
       "latest_post": "2025-08-10T11:46:06+00:00",
       "channel_id": 1397625213,
@@ -2900,7 +2900,7 @@
       "title": "bestioline"
     },
     "lalontrq": {
-      "date_checked": "2025-08-18T00:39:02.324257+00:00",
+      "date_checked": "2025-08-19T00:34:43.100448+00:00",
       "gif_count": 128,
       "pic_count": 389,
       "video_count": 41,
@@ -2913,11 +2913,11 @@
       "title": "la lontrq"
     },
     "paperwchesaltano": {
-      "date_checked": "2025-08-18T00:39:03.696061+00:00",
+      "date_checked": "2025-08-19T00:34:43.878426+00:00",
       "gif_count": 78,
       "pic_count": 105,
       "video_count": 296,
-      "subscriber_count": 292,
+      "subscriber_count": 293,
       "post_count": 596,
       "latest_post": "2025-07-17T11:57:48+00:00",
       "channel_id": 1217692317,
@@ -2926,11 +2926,11 @@
       "title": "LE PAPERWEW CHE SALTANOP"
     },
     "ilriccip": {
-      "date_checked": "2025-08-18T00:39:04.835177+00:00",
+      "date_checked": "2025-08-19T00:34:44.649473+00:00",
       "gif_count": 75,
       "pic_count": 133,
       "video_count": 34,
-      "subscriber_count": 243,
+      "subscriber_count": 242,
       "post_count": 269,
       "latest_post": "2022-05-17T21:31:08+00:00",
       "channel_id": 1442605648,
@@ -2939,7 +2939,7 @@
       "title": "IL RICCIP"
     },
     "nyaasus": {
-      "date_checked": "2025-08-18T00:39:05.970168+00:00",
+      "date_checked": "2025-08-19T00:34:45.409040+00:00",
       "gif_count": 317,
       "pic_count": 1572,
       "video_count": 151,
@@ -2952,7 +2952,7 @@
       "title": "lu nyase"
     },
     "ilploplo": {
-      "date_checked": "2025-08-18T00:39:07.297206+00:00",
+      "date_checked": "2025-08-19T00:34:46.153580+00:00",
       "gif_count": 62,
       "pic_count": 510,
       "video_count": 66,
@@ -2965,20 +2965,20 @@
       "title": "IL PLOPLO"
     },
     "liltummy": {
-      "date_checked": "2025-08-18T00:39:08.425087+00:00",
+      "date_checked": "2025-08-19T00:34:46.911486+00:00",
       "gif_count": 12,
-      "pic_count": 778,
+      "pic_count": 780,
       "video_count": 180,
       "subscriber_count": 148,
-      "post_count": 1008,
-      "latest_post": "2025-08-17T12:06:40+00:00",
+      "post_count": 1010,
+      "latest_post": "2025-08-18T20:55:24+00:00",
       "channel_id": 1237822615,
       "channel_hash": -7673765217473238067,
       "bio": "",
       "title": "Pancino (e Tozzetto e Bruno , occasionalmente anche Grigietta)"
     },
     "cogeshiiiiba": {
-      "date_checked": "2025-08-18T00:39:09.577390+00:00",
+      "date_checked": "2025-08-19T00:34:47.673425+00:00",
       "gif_count": 174,
       "pic_count": 1853,
       "video_count": 250,
@@ -2991,7 +2991,7 @@
       "title": "shiba coge \ud83d\ude33"
     },
     "nulistheshiba": {
-      "date_checked": "2025-08-18T00:38:58.689545+00:00",
+      "date_checked": "2025-08-19T00:34:40.560608+00:00",
       "gif_count": 201,
       "pic_count": 3010,
       "video_count": 355,
@@ -3004,20 +3004,20 @@
       "title": "Nulis' diary"
     },
     "allprocyon": {
-      "date_checked": "2025-08-18T00:39:10.703712+00:00",
+      "date_checked": "2025-08-19T00:34:48.395001+00:00",
       "gif_count": 1648,
-      "pic_count": 12913,
-      "video_count": 4642,
-      "subscriber_count": 1533,
-      "post_count": 19354,
-      "latest_post": "2025-08-17T19:00:45+00:00",
+      "pic_count": 12915,
+      "video_count": 4645,
+      "subscriber_count": 1524,
+      "post_count": 19359,
+      "latest_post": "2025-08-18T19:04:07+00:00",
       "channel_id": 1169588791,
       "channel_hash": -7581327554435746743,
       "bio": "\u0412\u0441\u0451 \u043e \u0435\u043d\u043e\u0442\u0430\u0445\n\u0412\u0442\u043e\u0440\u043e\u0439 \u043a\u0430\u043d\u0430\u043b - https://t.me/acsltl\n\u041f\u043e \u0432\u0441\u0435\u043c \u0432\u043e\u043f\u0440\u043e\u0441\u0430\u043c \u043a @come_to_me_weirdo\n\u041b\u0443\u0447\u0448\u0438\u0439 \u043f\u043e\u043c\u043e\u0449\u043d\u0438\u043a @hhhgw55",
       "title": "Procyon/raccoon/\u0435\u043d\u043e\u0442"
     },
     "musia_shuvalova": {
-      "date_checked": "2025-08-18T00:39:11.837183+00:00",
+      "date_checked": "2025-08-19T00:34:49.122962+00:00",
       "gif_count": 13,
       "pic_count": 214,
       "video_count": 6,
@@ -3030,46 +3030,46 @@
       "title": "\u2728 Musia \u2728"
     },
     "hourlycanine": {
-      "date_checked": "2025-08-18T00:39:12.988382+00:00",
+      "date_checked": "2025-08-19T00:34:49.845109+00:00",
       "gif_count": 8,
-      "pic_count": 35391,
+      "pic_count": 35415,
       "video_count": 2,
       "subscriber_count": 145,
-      "post_count": 35455,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 35479,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1502027813,
       "channel_hash": 6265076330458217380,
       "bio": "",
       "title": "Hourly Canine"
     },
     "hourlyskunk": {
-      "date_checked": "2025-08-18T00:39:14.168565+00:00",
+      "date_checked": "2025-08-19T00:34:50.560048+00:00",
       "gif_count": 43,
-      "pic_count": 38753,
+      "pic_count": 38777,
       "video_count": 7,
       "subscriber_count": 410,
-      "post_count": 38865,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 38889,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1486972374,
       "channel_hash": 8301938847655855511,
       "bio": "Please keep all comments on the images SFW. Don't make lewd, vulgar, or inappropriate comments about animals or other people in the comments.",
       "title": "Hourly Skunk"
     },
     "hourlypuma": {
-      "date_checked": "2025-08-18T00:39:15.294625+00:00",
+      "date_checked": "2025-08-19T00:34:51.314257+00:00",
       "gif_count": 0,
-      "pic_count": 37197,
+      "pic_count": 37221,
       "video_count": 1,
       "subscriber_count": 175,
-      "post_count": 37255,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 37279,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1477014821,
       "channel_hash": 168203334795614838,
       "bio": "",
       "title": "Hourly Puma"
     },
     "horse_horse": {
-      "date_checked": "2025-08-18T00:39:16.428361+00:00",
+      "date_checked": "2025-08-19T00:34:52.253468+00:00",
       "gif_count": 12,
       "pic_count": 1716,
       "video_count": 1052,
@@ -3095,7 +3095,7 @@
       "title": "Fox Channel"
     },
     "bestfoxes": {
-      "date_checked": "2025-08-18T00:39:17.577256+00:00",
+      "date_checked": "2025-08-19T00:34:52.961603+00:00",
       "gif_count": 8,
       "pic_count": 788,
       "video_count": 16,
@@ -3121,20 +3121,20 @@
       "title": "Daily Foxes"
     },
     "wolfchannel": {
-      "date_checked": "2025-08-18T00:39:18.744621+00:00",
+      "date_checked": "2025-08-19T00:34:53.674314+00:00",
       "gif_count": 57,
-      "pic_count": 2198,
+      "pic_count": 2199,
       "video_count": 21,
       "subscriber_count": 513,
-      "post_count": 2401,
-      "latest_post": "2025-08-17T21:49:43+00:00",
+      "post_count": 2402,
+      "latest_post": "2025-08-18T08:23:01+00:00",
       "channel_id": 1008571690,
       "channel_hash": -4005666244599672136,
       "bio": "A channel with wolf pictures or drawings in\nAll credit goes to the respective authors\n\nHave some cool wolf pictures, detected any duplicates? Send them to @WolFi !",
       "title": "The wolf channel \ud83d\udc3a"
     },
     "wolfgif": {
-      "date_checked": "2025-08-18T00:39:19.891343+00:00",
+      "date_checked": "2025-08-19T00:34:54.404372+00:00",
       "gif_count": 32,
       "pic_count": 0,
       "video_count": 21,
@@ -3147,7 +3147,7 @@
       "title": "Wolf Gifs \ud83d\udc3a"
     },
     "wolfgifs": {
-      "date_checked": "2025-08-18T00:39:21.059646+00:00",
+      "date_checked": "2025-08-19T00:34:55.178743+00:00",
       "gif_count": 38,
       "pic_count": 0,
       "video_count": 0,
@@ -3160,7 +3160,7 @@
       "title": "Wolf_Gifs"
     },
     "whales_whales": {
-      "date_checked": "2025-08-18T00:39:22.198723+00:00",
+      "date_checked": "2025-08-19T00:34:55.891640+00:00",
       "gif_count": 14,
       "pic_count": 0,
       "video_count": 0,
@@ -3173,7 +3173,7 @@
       "title": "Whale \ud83d\udc0b"
     },
     "chickenslife": {
-      "date_checked": "2025-08-18T00:39:23.323891+00:00",
+      "date_checked": "2025-08-19T00:34:56.644909+00:00",
       "gif_count": 6,
       "pic_count": 990,
       "video_count": 473,
@@ -3225,7 +3225,7 @@
       "title": "\u0412\u044b\u0434\u0440\u0430\u043d\u0430\u043b"
     },
     "otterlife": {
-      "date_checked": "2025-08-18T00:39:24.520326+00:00",
+      "date_checked": "2025-08-19T00:34:57.523561+00:00",
       "gif_count": 4,
       "pic_count": 137,
       "video_count": 11,
@@ -3251,7 +3251,7 @@
       "title": "\ud83e\udda6Otters army\ud83e\udda6"
     },
     "ottergang": {
-      "date_checked": "2025-08-18T00:39:25.841959+00:00",
+      "date_checked": "2025-08-19T00:35:06.528354+00:00",
       "gif_count": 445,
       "pic_count": 3048,
       "video_count": 525,
@@ -3277,7 +3277,7 @@
       "title": "Eagle"
     },
     "shark_gifs": {
-      "date_checked": "2025-08-18T00:39:26.977595+00:00",
+      "date_checked": "2025-08-19T00:35:07.261481+00:00",
       "gif_count": 17,
       "pic_count": 0,
       "video_count": 0,
@@ -3290,7 +3290,7 @@
       "title": "shark gif"
     },
     "rexgsd": {
-      "date_checked": "2025-08-18T00:39:28.100539+00:00",
+      "date_checked": "2025-08-19T00:35:08.187786+00:00",
       "gif_count": 315,
       "pic_count": 963,
       "video_count": 15,
@@ -3316,7 +3316,7 @@
       "title": "Corvid stash"
     },
     "leggypics": {
-      "date_checked": "2025-08-18T00:39:29.253858+00:00",
+      "date_checked": "2025-08-19T00:35:08.909599+00:00",
       "gif_count": 39,
       "pic_count": 1875,
       "video_count": 20,
@@ -3368,7 +3368,7 @@
       "title": "\u0410\u043d\u044c\u043a\u0438\u043d\u044b \u0431\u0443\u0434\u043d\u0438"
     },
     "bigcats": {
-      "date_checked": "2025-08-18T00:39:30.389513+00:00",
+      "date_checked": "2025-08-19T00:35:09.620755+00:00",
       "gif_count": 174,
       "pic_count": 745,
       "video_count": 40,
@@ -3394,7 +3394,7 @@
       "title": "Big Cats"
     },
     "justgoose": {
-      "date_checked": "2025-08-18T00:39:31.546824+00:00",
+      "date_checked": "2025-08-19T00:35:10.399503+00:00",
       "gif_count": 0,
       "pic_count": 115,
       "video_count": 5,
@@ -3407,20 +3407,20 @@
       "title": "\u0645\u0632\u0631\u0639\u0647 \u0637\u06cc\u0648\u0631_ \u063a\u0627\u0632(Goose)"
     },
     "hourlymartens": {
-      "date_checked": "2025-08-18T00:39:32.672777+00:00",
+      "date_checked": "2025-08-19T00:35:11.125118+00:00",
       "gif_count": 1703,
-      "pic_count": 31958,
-      "video_count": 6630,
-      "subscriber_count": 1831,
-      "post_count": 40411,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "pic_count": 31971,
+      "video_count": 6641,
+      "subscriber_count": 1832,
+      "post_count": 40435,
+      "latest_post": "2025-08-19T00:00:01+00:00",
       "channel_id": 1249702211,
       "channel_hash": 6749826518090946076,
       "bio": "Just martens! Every hour! PM @Ra_Zim with high quality additions if you have any!",
       "title": "Hourly Martens"
     },
     "marten_daily": {
-      "date_checked": "2025-08-18T00:39:33.808070+00:00",
+      "date_checked": "2025-08-19T00:35:11.934336+00:00",
       "gif_count": 0,
       "pic_count": 0,
       "video_count": 0,
@@ -3446,7 +3446,7 @@
       "title": "Sneps"
     },
     "dailytoad": {
-      "date_checked": "2025-08-18T00:39:34.966269+00:00",
+      "date_checked": "2025-08-19T00:35:12.760584+00:00",
       "gif_count": 74,
       "pic_count": 5046,
       "video_count": 619,
@@ -3472,7 +3472,7 @@
       "title": "Red Pandas"
     },
     "daily_red_panda": {
-      "date_checked": "2025-08-18T00:39:36.150803+00:00",
+      "date_checked": "2025-08-19T00:35:13.728385+00:00",
       "gif_count": 16,
       "pic_count": 271,
       "video_count": 46,
@@ -3485,7 +3485,7 @@
       "title": "Daily Dose of Red Panda"
     },
     "red_pandas_channel": {
-      "date_checked": "2025-08-18T00:39:37.273103+00:00",
+      "date_checked": "2025-08-19T00:35:14.540388+00:00",
       "gif_count": 1,
       "pic_count": 19,
       "video_count": 0,
@@ -3498,7 +3498,7 @@
       "title": "Red pandas"
     },
     "dailypossums": {
-      "date_checked": "2025-08-18T00:39:38.910176+00:00",
+      "date_checked": "2025-08-19T00:35:15.335358+00:00",
       "gif_count": 99,
       "pic_count": 1732,
       "video_count": 1391,
@@ -3511,7 +3511,7 @@
       "title": "\ud83d\udcf8 Daily Possums \ud83d\udcf9"
     },
     "reptilegif": {
-      "date_checked": "2025-08-18T00:39:40.043629+00:00",
+      "date_checked": "2025-08-19T00:35:16.252566+00:00",
       "gif_count": 357,
       "pic_count": 0,
       "video_count": 2,
@@ -3524,11 +3524,11 @@
       "title": "Reptiles and other cuteness"
     },
     "possum": {
-      "date_checked": "2025-08-18T00:39:41.190667+00:00",
+      "date_checked": "2025-08-19T00:35:17.092812+00:00",
       "gif_count": 0,
       "pic_count": 105,
       "video_count": 1,
-      "subscriber_count": 59,
+      "subscriber_count": 60,
       "post_count": 107,
       "latest_post": "2025-08-10T20:33:01+00:00",
       "channel_id": 1375961227,
@@ -3550,7 +3550,7 @@
       "title": "animali carini"
     },
     "gatinicarini": {
-      "date_checked": "2025-08-18T00:39:43.551148+00:00",
+      "date_checked": "2025-08-19T00:35:18.848402+00:00",
       "gif_count": 3078,
       "pic_count": 78,
       "video_count": 203,
@@ -3576,7 +3576,7 @@
       "title": "froggies"
     },
     "doggoscute": {
-      "date_checked": "2025-08-18T00:39:44.866717+00:00",
+      "date_checked": "2025-08-19T00:35:19.754954+00:00",
       "gif_count": 802,
       "pic_count": 4,
       "video_count": 19,
@@ -3589,7 +3589,7 @@
       "title": "Cani"
     },
     "floppabooty": {
-      "date_checked": "2025-08-18T00:39:45.997233+00:00",
+      "date_checked": "2025-08-19T00:35:20.497517+00:00",
       "gif_count": 71,
       "pic_count": 8,
       "video_count": 9,
@@ -3602,7 +3602,7 @@
       "title": "Floppa Fan Club"
     },
     "muchshibe": {
-      "date_checked": "2025-08-18T00:39:48.314171+00:00",
+      "date_checked": "2025-08-19T00:35:22.097592+00:00",
       "gif_count": 489,
       "pic_count": 804,
       "video_count": 86,
@@ -3615,11 +3615,11 @@
       "title": "shibe"
     },
     "doggoch": {
-      "date_checked": "2025-08-18T00:39:49.478181+00:00",
+      "date_checked": "2025-08-19T00:35:22.842838+00:00",
       "gif_count": 340,
       "pic_count": 4402,
       "video_count": 338,
-      "subscriber_count": 1048,
+      "subscriber_count": 1047,
       "post_count": 6675,
       "latest_post": "2025-07-05T12:18:55+00:00",
       "channel_id": 1094626347,
@@ -3628,7 +3628,7 @@
       "title": "Doggo"
     },
     "shibeposting": {
-      "date_checked": "2025-08-18T00:39:50.608619+00:00",
+      "date_checked": "2025-08-19T00:35:23.587720+00:00",
       "gif_count": 23,
       "pic_count": 6954,
       "video_count": 18,
@@ -3654,7 +3654,7 @@
       "title": "\ud83d\udc15gli shiba di effepo\ud83d\udc15"
     },
     "shibapazzi": {
-      "date_checked": "2025-08-18T00:39:52.926370+00:00",
+      "date_checked": "2025-08-19T00:35:25.215795+00:00",
       "gif_count": 0,
       "pic_count": 13,
       "video_count": 0,
@@ -3667,7 +3667,7 @@
       "title": "\ud83d\udcf8 shiba pazzi (foto) \ud83d\udcf8"
     },
     "pumagifs": {
-      "date_checked": "2025-08-18T00:39:54.051674+00:00",
+      "date_checked": "2025-08-19T00:35:25.925469+00:00",
       "gif_count": 222,
       "pic_count": 0,
       "video_count": 2,
@@ -3680,7 +3680,7 @@
       "title": "Puma GIFs"
     },
     "capybaras": {
-      "date_checked": "2025-08-18T00:39:55.194106+00:00",
+      "date_checked": "2025-08-19T00:35:26.814304+00:00",
       "gif_count": 19,
       "pic_count": 6663,
       "video_count": 15,
@@ -3693,7 +3693,7 @@
       "title": "Capybaras"
     },
     "squirrelgifs": {
-      "date_checked": "2025-08-18T00:39:56.338273+00:00",
+      "date_checked": "2025-08-19T00:35:27.559502+00:00",
       "gif_count": 247,
       "pic_count": 1,
       "video_count": 4,
@@ -3719,7 +3719,7 @@
       "title": "\u041a\u0440\u044b\u0441\u0438\u043d\u0430\u044f \u043b\u044e\u0431\u043e\u0432\u044c \ud83e\udd70\ud83d\udc00"
     },
     "odessa_rat_club_szczurownia": {
-      "date_checked": "2025-08-18T00:39:57.523590+00:00",
+      "date_checked": "2025-08-19T00:35:28.263732+00:00",
       "gif_count": 0,
       "pic_count": 190,
       "video_count": 2,
@@ -3732,7 +3732,7 @@
       "title": "odessa rat club/szczurownia"
     },
     "ratspets": {
-      "date_checked": "2025-08-18T00:39:58.665417+00:00",
+      "date_checked": "2025-08-19T00:35:29.014491+00:00",
       "gif_count": 66,
       "pic_count": 3583,
       "video_count": 264,
@@ -3745,7 +3745,7 @@
       "title": "\u041a\u0440\u0456\u0441\u0443\u043b\u044c\u043a\u0435\u043d\u0438 \ud83c\uddfa\ud83c\udde6"
     },
     "breakingrat": {
-      "date_checked": "2025-08-18T00:39:59.791748+00:00",
+      "date_checked": "2025-08-19T00:35:29.716315+00:00",
       "gif_count": 4,
       "pic_count": 303,
       "video_count": 8,
@@ -3771,13 +3771,13 @@
       "title": "ratschannel"
     },
     "dailymonkeys": {
-      "date_checked": "2025-08-18T00:40:00.924739+00:00",
+      "date_checked": "2025-08-19T00:35:37.572299+00:00",
       "gif_count": 61,
       "pic_count": 1633,
-      "video_count": 3355,
-      "subscriber_count": 3430,
-      "post_count": 5150,
-      "latest_post": "2025-08-17T17:22:01+00:00",
+      "video_count": 3358,
+      "subscriber_count": 3429,
+      "post_count": 5153,
+      "latest_post": "2025-08-18T18:11:54+00:00",
       "channel_id": 1455235796,
       "channel_hash": 406266827648551495,
       "bio": "Monke is here\n\nSubmit a monke and other communication: @ne_pasha",
@@ -3823,13 +3823,13 @@
       "title": "\u041d\u0430\u0441\u0435\u043a\u043e\u043c\u044b\u0435 \ud83e\udd9f \ud83d\udd77\ud83d\udc1c\ud83e\udd82\ud83d\udc0c\ud83e\udd8b\ud83d\udc1d\ud83e\udd97\ud83d\udc1b\ud83d\udc1e"
     },
     "huskiesgif": {
-      "date_checked": "2025-08-18T00:40:02.093561+00:00",
+      "date_checked": "2025-08-19T00:35:38.333245+00:00",
       "gif_count": 275,
       "pic_count": 329,
-      "video_count": 665,
-      "subscriber_count": 110,
-      "post_count": 1340,
-      "latest_post": "2025-08-17T22:31:14+00:00",
+      "video_count": 666,
+      "subscriber_count": 111,
+      "post_count": 1341,
+      "latest_post": "2025-08-18T11:21:19+00:00",
       "channel_id": 1184808540,
       "channel_hash": 8790371510577122641,
       "bio": "",
@@ -3849,7 +3849,7 @@
       "title": "\u0425\u043e\u0440\u0435\u043c\u0430\u043d\u044b"
     },
     "parrotlife": {
-      "date_checked": "2025-08-18T00:40:03.251791+00:00",
+      "date_checked": "2025-08-19T00:35:39.096874+00:00",
       "gif_count": 9,
       "pic_count": 1169,
       "video_count": 41,
@@ -3862,11 +3862,11 @@
       "title": "\ud83e\udd9c \u0412\u043e\u043b\u043d\u0438\u0441\u0442\u044b\u0435 \u043f\u043e\u043f\u0443\u0433\u0430\u0439\u0447\u0438\u043a\u0438 \ud83e\udd9c"
     },
     "parrots": {
-      "date_checked": "2025-08-18T00:40:04.498915+00:00",
+      "date_checked": "2025-08-19T00:35:39.833438+00:00",
       "gif_count": 19,
       "pic_count": 914,
       "video_count": 74,
-      "subscriber_count": 2189,
+      "subscriber_count": 2190,
       "post_count": 1183,
       "latest_post": "2025-08-01T09:32:36+00:00",
       "channel_id": 1302901189,
@@ -3875,7 +3875,7 @@
       "title": "parrots \ud83d\udc26\ud83c\udf49"
     },
     "parrotsland": {
-      "date_checked": "2025-08-18T00:40:05.655649+00:00",
+      "date_checked": "2025-08-19T00:35:40.837247+00:00",
       "gif_count": 0,
       "pic_count": 30,
       "video_count": 16,
@@ -3901,11 +3901,11 @@
       "title": "\u0444\u0430\u043d \u0430\u043a\u043a\u0430\u0443\u043d\u0442 \u0441 \u0444\u0430\u043d\u0444\u0438\u043a\u0430\u043c\u0438 floppa"
     },
     "pigeonschannel": {
-      "date_checked": "2025-08-18T00:40:06.842727+00:00",
+      "date_checked": "2025-08-19T00:35:41.577980+00:00",
       "gif_count": 583,
       "pic_count": 843,
       "video_count": 211,
-      "subscriber_count": 920,
+      "subscriber_count": 918,
       "post_count": 1758,
       "latest_post": "2024-05-14T19:01:57+00:00",
       "channel_id": 1162870795,
@@ -3914,7 +3914,7 @@
       "title": "Pigeon's channel"
     },
     "pigeonslife": {
-      "date_checked": "2025-08-18T00:40:08.045394+00:00",
+      "date_checked": "2025-08-19T00:35:42.360204+00:00",
       "gif_count": 11,
       "pic_count": 496,
       "video_count": 199,
@@ -3940,7 +3940,7 @@
       "title": "Free fixed tip"
     },
     "fengif": {
-      "date_checked": "2025-08-18T00:40:09.194802+00:00",
+      "date_checked": "2025-08-19T00:35:43.101855+00:00",
       "gif_count": 392,
       "pic_count": 0,
       "video_count": 0,
@@ -4031,13 +4031,13 @@
       "title": "\ud83d\udc3cPanda Post\ud83d\udc3c"
     },
     "cuteducks": {
-      "date_checked": "2025-08-18T00:40:10.817762+00:00",
+      "date_checked": "2025-08-19T00:35:44.171692+00:00",
       "gif_count": 19,
-      "pic_count": 1280,
-      "video_count": 96,
-      "subscriber_count": 416,
-      "post_count": 1414,
-      "latest_post": "2025-08-17T07:50:20+00:00",
+      "pic_count": 1283,
+      "video_count": 98,
+      "subscriber_count": 418,
+      "post_count": 1419,
+      "latest_post": "2025-08-18T07:50:20+00:00",
       "channel_id": 1556278554,
       "channel_hash": -5214144823694150367,
       "bio": "One duck in a day keeps depression away!\n\u041e\u043d\u043b\u0438 \u043f\u0435\u0440\u044c\u044f \u0438 \u043f\u0443\u0448\u043e\u043a.\n\u041d\u0430\u0448\u0438 \u0441\u0442\u0438\u043a\u0435\u0440\u044b https://t.me/addstickers/D7843K\n\u0412\u0430\u0448\u0438 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u0444\u043e\u0442\u043e\u0447\u043a\u0438 \u0443\u0442\u043e\u0447\u0435\u043a \n\u043e\u0442\u043f\u0440\u0430\u0432\u043b\u044f\u0439\u0442\u0435 \u0432 \u0414\u0438\u0440\u0435\u043a\u0442",
@@ -4070,20 +4070,20 @@
       "title": "\u06a9\u0627\u0646\u0627\u0644 \u067e\u0631\u0646\u062f\u06af\u0627\u0646"
     },
     "fluffybirbs": {
-      "date_checked": "2025-08-18T00:40:12.198632+00:00",
+      "date_checked": "2025-08-19T00:35:44.900830+00:00",
       "gif_count": 10,
-      "pic_count": 1181,
+      "pic_count": 1182,
       "video_count": 293,
       "subscriber_count": 60,
-      "post_count": 2581,
-      "latest_post": "2025-08-16T22:29:36+00:00",
+      "post_count": 2582,
+      "latest_post": "2025-08-18T07:28:03+00:00",
       "channel_id": 1247993897,
       "channel_hash": -8113432423560352054,
       "bio": "If you have pictures of birds, message Sora for admin privileges. Bird memes allowed.",
       "title": "Bird Hotline"
     },
     "hourlybirds": {
-      "date_checked": "2025-08-18T00:40:13.336551+00:00",
+      "date_checked": "2025-08-19T00:35:45.680491+00:00",
       "gif_count": 0,
       "pic_count": 0,
       "video_count": 0,
@@ -4096,11 +4096,11 @@
       "title": "Bird per hour but its tg reposts"
     },
     "roumdbirds": {
-      "date_checked": "2025-08-18T00:40:14.454648+00:00",
+      "date_checked": "2025-08-19T00:35:46.385477+00:00",
       "gif_count": 126,
       "pic_count": 944,
       "video_count": 844,
-      "subscriber_count": 1209,
+      "subscriber_count": 1211,
       "post_count": 1979,
       "latest_post": "2025-08-17T18:44:00+00:00",
       "channel_id": 1359011058,
@@ -4109,7 +4109,7 @@
       "title": "Roumd Birds and Squirrels"
     },
     "bearpictures": {
-      "date_checked": "2025-08-18T00:40:15.636324+00:00",
+      "date_checked": "2025-08-19T00:35:47.152751+00:00",
       "gif_count": 7,
       "pic_count": 124,
       "video_count": 23,
@@ -4148,7 +4148,7 @@
       "title": "Kitten's lovers"
     },
     "dailyfrog": {
-      "date_checked": "2025-08-18T00:40:16.788182+00:00",
+      "date_checked": "2025-08-19T00:35:47.875779+00:00",
       "gif_count": 0,
       "pic_count": 420,
       "video_count": 4,
@@ -4174,7 +4174,7 @@
       "title": "daily frogs\u30fb\u03c9\u30fb"
     },
     "frog_channel": {
-      "date_checked": "2025-08-18T00:40:18.089855+00:00",
+      "date_checked": "2025-08-19T00:35:48.933874+00:00",
       "gif_count": 1,
       "pic_count": 4,
       "video_count": 32,
@@ -4187,7 +4187,7 @@
       "title": "\ud83d\udc38 Frog Channel \ud83d\udc38"
     },
     "froggifs": {
-      "date_checked": "2025-08-18T00:40:19.231067+00:00",
+      "date_checked": "2025-08-19T00:35:49.701475+00:00",
       "gif_count": 42,
       "pic_count": 0,
       "video_count": 0,
@@ -4200,7 +4200,7 @@
       "title": "Frog gifs"
     },
     "frogpost": {
-      "date_checked": "2025-08-18T00:40:20.363423+00:00",
+      "date_checked": "2025-08-19T00:35:50.478676+00:00",
       "gif_count": 134,
       "pic_count": 289,
       "video_count": 24,
@@ -4226,7 +4226,7 @@
       "title": "\u043b\u044f\u0433\u0443\u0448\u0430\u0447\u0438\u0439 \u043a\u0430\u043d\u0430\u043b\ud83d\udc38"
     },
     "cat_gif": {
-      "date_checked": "2025-08-18T00:40:21.506319+00:00",
+      "date_checked": "2025-08-19T00:35:51.221249+00:00",
       "gif_count": 556,
       "pic_count": 0,
       "video_count": 0,
@@ -4278,7 +4278,7 @@
       "title": "Cat Pictures \ud83d\udc08"
     },
     "catpost": {
-      "date_checked": "2025-08-18T00:40:22.956149+00:00",
+      "date_checked": "2025-08-19T00:35:52.264870+00:00",
       "gif_count": 1,
       "pic_count": 39,
       "video_count": 14,
@@ -4291,7 +4291,7 @@
       "title": "CAT-POST"
     },
     "catsappreciation": {
-      "date_checked": "2025-08-18T00:40:24.195031+00:00",
+      "date_checked": "2025-08-19T00:35:53.161699+00:00",
       "gif_count": 48,
       "pic_count": 271,
       "video_count": 5,
@@ -4317,7 +4317,7 @@
       "title": "Cats GIFs"
     },
     "catsland": {
-      "date_checked": "2025-08-18T00:40:25.362418+00:00",
+      "date_checked": "2025-08-19T00:35:53.912476+00:00",
       "gif_count": 1003,
       "pic_count": 1212,
       "video_count": 194,
@@ -4343,7 +4343,7 @@
       "title": "\u732b\u732b\u55b5\ud83d\udc31"
     },
     "daily_cats": {
-      "date_checked": "2025-08-18T00:40:27.681932+00:00",
+      "date_checked": "2025-08-19T00:35:55.459599+00:00",
       "gif_count": 11,
       "pic_count": 491,
       "video_count": 0,
@@ -4395,7 +4395,7 @@
       "title": "\u0421\u043f\u0435\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0439 \u043a\u0430\u043d\u0430\u043b \u0441 \u043a\u043e\u0442\u0438\u043a\u0430\u043c\u0438"
     },
     "bunchannel": {
-      "date_checked": "2025-08-18T00:40:28.850607+00:00",
+      "date_checked": "2025-08-19T00:35:56.198519+00:00",
       "gif_count": 8,
       "pic_count": 394,
       "video_count": 25,
@@ -4421,13 +4421,13 @@
       "title": "Hourly Buns"
     },
     "bestdoggos": {
-      "date_checked": "2025-08-18T00:40:30.012948+00:00",
+      "date_checked": "2025-08-19T00:35:56.905918+00:00",
       "gif_count": 332,
       "pic_count": 364,
-      "video_count": 1088,
+      "video_count": 1089,
       "subscriber_count": 33,
-      "post_count": 1911,
-      "latest_post": "2025-08-07T07:08:13+00:00",
+      "post_count": 1912,
+      "latest_post": "2025-08-18T07:14:34+00:00",
       "channel_id": 1346296861,
       "channel_hash": 8852593054878438576,
       "bio": "@bestdoggos\n@BestJews\n@bestmonkie",
@@ -4473,7 +4473,7 @@
       "title": "\ud83e\udd40\ud83c\udf44\u041a\u0430\u0434\u0440\u044b \u0441\u043e\u0431\u0430\u043a\ud83c\udf44\ud83e\udd40"
     },
     "dogegif": {
-      "date_checked": "2025-08-18T00:40:31.221818+00:00",
+      "date_checked": "2025-08-19T00:35:57.630561+00:00",
       "gif_count": 42,
       "pic_count": 30,
       "video_count": 0,
@@ -4486,7 +4486,7 @@
       "title": "Doge Gif"
     },
     "doggochannel": {
-      "date_checked": "2025-08-18T00:40:32.391568+00:00",
+      "date_checked": "2025-08-19T00:35:58.358730+00:00",
       "gif_count": 0,
       "pic_count": 42,
       "video_count": 0,
@@ -4551,11 +4551,11 @@
       "title": "\u15f0\u144c\u146d \u1455\u176a\u0431\u15e9\u0447\u15f4\u13e6\ud83c\udf7f\u2764\ufe0f"
     },
     "dogsgif": {
-      "date_checked": "2025-08-18T00:40:33.565315+00:00",
+      "date_checked": "2025-08-19T00:35:59.061518+00:00",
       "gif_count": 773,
       "pic_count": 0,
       "video_count": 0,
-      "subscriber_count": 209,
+      "subscriber_count": 210,
       "post_count": 783,
       "latest_post": "2022-01-13T18:50:36+00:00",
       "channel_id": 1139829797,
@@ -4642,7 +4642,7 @@
       "title": "\u0417\u0432\u0435\u0437\u0434\u043e\u043f\u0430\u0434"
     },
     "samoyedgif": {
-      "date_checked": "2025-08-18T00:40:35.082156+00:00",
+      "date_checked": "2025-08-19T00:35:59.966038+00:00",
       "gif_count": 62,
       "pic_count": 0,
       "video_count": 0,
@@ -4655,7 +4655,7 @@
       "title": "\u767d\u6bdb\u6bdb\u85a9\u6469\u8036"
     },
     "samoyedgifs": {
-      "date_checked": "2025-08-18T00:40:36.252658+00:00",
+      "date_checked": "2025-08-19T00:36:00.700505+00:00",
       "gif_count": 361,
       "pic_count": 0,
       "video_count": 1,
@@ -4681,7 +4681,7 @@
       "title": "PersianAnaliz"
     },
     "shibagif": {
-      "date_checked": "2025-08-18T00:40:37.408916+00:00",
+      "date_checked": "2025-08-19T00:36:09.543206+00:00",
       "gif_count": 0,
       "pic_count": 0,
       "video_count": 0,
@@ -4707,7 +4707,7 @@
       "title": "REPTILE PETS"
     },
     "shibainuch": {
-      "date_checked": "2025-08-18T00:40:38.765741+00:00",
+      "date_checked": "2025-08-19T00:36:10.438518+00:00",
       "gif_count": 2,
       "pic_count": 35,
       "video_count": 1,
@@ -4720,7 +4720,7 @@
       "title": "\ud83c\udde8\ud83c\udded Dogs \ud83c\udde8\ud83c\udded"
     },
     "dailyshibainu": {
-      "date_checked": "2025-08-18T00:40:40.073040+00:00",
+      "date_checked": "2025-08-19T00:36:11.186110+00:00",
       "gif_count": 7,
       "pic_count": 78,
       "video_count": 3,
@@ -4785,7 +4785,7 @@
       "title": "Rats rats rats \u2764\ufe0f"
     },
     "birbposting": {
-      "date_checked": "2025-08-18T00:40:41.555857+00:00",
+      "date_checked": "2025-08-19T00:36:12.031481+00:00",
       "gif_count": 14,
       "pic_count": 199,
       "video_count": 195,
@@ -4798,7 +4798,7 @@
       "title": "Birbposting"
     },
     "cutedogeposting": {
-      "date_checked": "2025-08-18T00:40:42.858402+00:00",
+      "date_checked": "2025-08-19T00:36:12.765577+00:00",
       "gif_count": 9,
       "pic_count": 269,
       "video_count": 29,
@@ -4824,7 +4824,7 @@
       "title": "\u041a\u043e\u0442\u0438\u043a\u0438"
     },
     "catsbooty": {
-      "date_checked": "2025-08-18T00:40:44.325807+00:00",
+      "date_checked": "2025-08-19T00:36:13.602663+00:00",
       "gif_count": 8,
       "pic_count": 482,
       "video_count": 129,
@@ -4837,13 +4837,13 @@
       "title": "\u041a\u043e\u0448\u0430\u0447\u044c\u0438 \u0436\u043e\u043f\u043a\u0438"
     },
     "sealposting": {
-      "date_checked": "2025-08-18T00:40:45.560882+00:00",
+      "date_checked": "2025-08-19T00:36:14.340247+00:00",
       "gif_count": 98,
-      "pic_count": 1421,
+      "pic_count": 1422,
       "video_count": 181,
       "subscriber_count": 49,
-      "post_count": 3749,
-      "latest_post": "2025-08-17T17:04:01+00:00",
+      "post_count": 3750,
+      "latest_post": "2025-08-18T14:06:19+00:00",
       "channel_id": 1322396643,
       "channel_hash": 7780449858132468586,
       "bio": "Seals. Just seals.\n\nYour #1 source for obese sea mammals\n\nChannel info:\nhttps://t.me/Sealposting/2107",
@@ -4863,20 +4863,20 @@
       "title": "\ud83d\udc36 Cheemskeef \ud83d\udc36"
     },
     "monkelee": {
-      "date_checked": "2025-08-18T00:40:47.330298+00:00",
+      "date_checked": "2025-08-19T00:36:15.245015+00:00",
       "gif_count": 1066,
       "pic_count": 869,
-      "video_count": 1230,
-      "subscriber_count": 1083,
-      "post_count": 3737,
-      "latest_post": "2025-08-17T10:48:01+00:00",
+      "video_count": 1232,
+      "subscriber_count": 1082,
+      "post_count": 3740,
+      "latest_post": "2025-08-18T16:06:02+00:00",
       "channel_id": 1448837619,
       "channel_hash": -5685158878672440776,
       "bio": "Italian monke posting channel \u2764\ufe0f\ud83c\uddee\ud83c\uddf9\n\ud83d\udc12 @Monkeposting_bot forwading bot.\nGroup: @MonkeChat \ud83d\udc35\n\nSince 2021",
       "title": "Monke Posting"
     },
     "arthropodlove": {
-      "date_checked": "2025-08-18T00:40:48.524131+00:00",
+      "date_checked": "2025-08-19T00:36:16.038107+00:00",
       "gif_count": 4,
       "pic_count": 679,
       "video_count": 5,
@@ -4889,7 +4889,7 @@
       "title": "Arthropodlove \ud83d\udd77\ud83e\udd8b\ud83e\udd80"
     },
     "procionimagici": {
-      "date_checked": "2025-08-18T00:40:49.727776+00:00",
+      "date_checked": "2025-08-19T00:36:16.872246+00:00",
       "gif_count": 765,
       "pic_count": 14,
       "video_count": 1,
@@ -4902,7 +4902,7 @@
       "title": "\ud83e\udd9d Racoon Gifs \ud83e\udd9d"
     },
     "gifscimia": {
-      "date_checked": "2025-08-18T00:40:51.048495+00:00",
+      "date_checked": "2025-08-19T00:36:17.822015+00:00",
       "gif_count": 638,
       "pic_count": 877,
       "video_count": 538,
@@ -4915,7 +4915,7 @@
       "title": "scimia"
     },
     "scimmiapostaggio": {
-      "date_checked": "2025-08-18T00:40:52.263517+00:00",
+      "date_checked": "2025-08-19T00:36:18.688632+00:00",
       "gif_count": 354,
       "pic_count": 159,
       "video_count": 380,
@@ -4941,11 +4941,11 @@
       "title": "Otterposting"
     },
     "bunnyposting": {
-      "date_checked": "2025-08-18T00:40:53.436040+00:00",
+      "date_checked": "2025-08-19T00:36:19.893601+00:00",
       "gif_count": 63,
       "pic_count": 1074,
       "video_count": 563,
-      "subscriber_count": 651,
+      "subscriber_count": 650,
       "post_count": 1723,
       "latest_post": "2025-07-30T19:18:35+00:00",
       "channel_id": 1472136309,
@@ -4954,7 +4954,7 @@
       "title": "Soft Bunnyposting of Wonders"
     },
     "bunniesposting": {
-      "date_checked": "2025-08-18T00:40:54.608437+00:00",
+      "date_checked": "2025-08-19T00:36:20.640870+00:00",
       "gif_count": 0,
       "pic_count": 107,
       "video_count": 1,
@@ -4980,7 +4980,7 @@
       "title": "Turtleposting"
     },
     "frogsposting": {
-      "date_checked": "2025-08-18T00:40:55.762353+00:00",
+      "date_checked": "2025-08-19T00:36:21.427308+00:00",
       "gif_count": 3,
       "pic_count": 52,
       "video_count": 0,
@@ -4993,11 +4993,11 @@
       "title": "frogposting"
     },
     "monkegifs": {
-      "date_checked": "2025-08-18T00:40:56.908982+00:00",
+      "date_checked": "2025-08-19T00:36:22.153833+00:00",
       "gif_count": 61,
       "pic_count": 4,
       "video_count": 0,
-      "subscriber_count": 28,
+      "subscriber_count": 27,
       "post_count": 68,
       "latest_post": "2022-01-28T13:37:05+00:00",
       "channel_id": 1410248576,
@@ -5006,7 +5006,7 @@
       "title": "Monke gifs"
     },
     "cowposting": {
-      "date_checked": "2025-08-18T00:40:58.096680+00:00",
+      "date_checked": "2025-08-19T00:36:22.907468+00:00",
       "gif_count": 37,
       "pic_count": 221,
       "video_count": 131,
@@ -5032,7 +5032,7 @@
       "title": "\u041b\u0438\u0441\u044b"
     },
     "snakeslove": {
-      "date_checked": "2025-08-18T00:41:00.402255+00:00",
+      "date_checked": "2025-08-19T00:36:24.429312+00:00",
       "gif_count": 0,
       "pic_count": 4,
       "video_count": 2,
@@ -5058,7 +5058,7 @@
       "title": "Squirrel love\ud83d\ude07"
     },
     "snailslove": {
-      "date_checked": "2025-08-18T00:41:01.582214+00:00",
+      "date_checked": "2025-08-19T00:36:25.232298+00:00",
       "gif_count": 11,
       "pic_count": 75,
       "video_count": 18,
@@ -5071,13 +5071,13 @@
       "title": "\u0423\u043b\u0438\u0442\u043a\u0438"
     },
     "hourlybears": {
-      "date_checked": "2025-08-18T00:41:02.715401+00:00",
+      "date_checked": "2025-08-19T00:36:26.154372+00:00",
       "gif_count": 0,
-      "pic_count": 33985,
+      "pic_count": 34009,
       "video_count": 4,
       "subscriber_count": 454,
-      "post_count": 34038,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 34062,
+      "latest_post": "2025-08-19T00:01:40+00:00",
       "channel_id": 1570705739,
       "channel_hash": -4417077744825210688,
       "bio": "",
@@ -5097,11 +5097,11 @@
       "title": "\u041a\u0440\u044b\u0441\u043a\u0438"
     },
     "friesian_horses": {
-      "date_checked": "2025-08-18T00:41:04.221970+00:00",
+      "date_checked": "2025-08-19T00:36:27.104641+00:00",
       "gif_count": 30,
       "pic_count": 2203,
       "video_count": 1135,
-      "subscriber_count": 171,
+      "subscriber_count": 172,
       "post_count": 3507,
       "latest_post": "2025-08-07T06:35:26+00:00",
       "channel_id": 1357249881,
@@ -5110,7 +5110,7 @@
       "title": "\ud83d\udc97\ud83d\udc97\u0444\u0440\u0438\u0437\u0441\u043a\u0430\u044f \u043b\u043e\u0448\u0430\u0434\u0438 \ud83d\udc97\ud83d\udc97"
     },
     "yeentt": {
-      "date_checked": "2025-08-18T00:41:05.361547+00:00",
+      "date_checked": "2025-08-19T00:36:27.864261+00:00",
       "gif_count": 210,
       "pic_count": 0,
       "video_count": 91,
@@ -5123,33 +5123,33 @@
       "title": "Whimsy's Whoopers"
     },
     "hourlyserval": {
-      "date_checked": "2025-08-18T00:41:06.539350+00:00",
+      "date_checked": "2025-08-19T00:36:28.578587+00:00",
       "gif_count": 1,
-      "pic_count": 30928,
+      "pic_count": 30952,
       "video_count": 6,
       "subscriber_count": 198,
-      "post_count": 30987,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 31011,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1356444856,
       "channel_hash": -7876130862455918479,
       "bio": "",
       "title": "Hourly Sogga"
     },
     "hourlyshibe": {
-      "date_checked": "2025-08-18T00:41:07.715298+00:00",
+      "date_checked": "2025-08-19T00:36:29.291857+00:00",
       "gif_count": 0,
-      "pic_count": 30834,
+      "pic_count": 30858,
       "video_count": 1,
       "subscriber_count": 112,
-      "post_count": 30880,
-      "latest_post": "2025-08-18T00:00:02+00:00",
+      "post_count": 30904,
+      "latest_post": "2025-08-19T00:00:02+00:00",
       "channel_id": 1689632720,
       "channel_hash": 4376991417986319877,
       "bio": "",
       "title": "Hourly Shibe"
     },
     "altaygoats": {
-      "date_checked": "2025-08-18T00:41:08.855112+00:00",
+      "date_checked": "2025-08-19T00:36:30.007862+00:00",
       "gif_count": 50,
       "pic_count": 424,
       "video_count": 258,
@@ -5162,7 +5162,7 @@
       "title": "\u044d\u0447\u043a\u0438\u043b\u0435\u0440 \u043b\u0435 \u0431\u0438\u0440 \u044d\u043c\u0435\u0448 \u044d\u0442\u043d\u043e\u0433\u0440\u0430\u0444\u0438\u044f"
     },
     "monkegif": {
-      "date_checked": "2025-08-18T00:39:47.130114+00:00",
+      "date_checked": "2025-08-19T00:35:21.253430+00:00",
       "gif_count": 121,
       "pic_count": 0,
       "video_count": 0,
@@ -5175,7 +5175,7 @@
       "title": "Monkey Gifs"
     },
     "truefoxnews": {
-      "date_checked": "2025-08-18T00:38:03.845630+00:00",
+      "date_checked": "2025-08-19T00:33:49.689065+00:00",
       "gif_count": 144,
       "pic_count": 1234,
       "video_count": 932,
@@ -5188,7 +5188,7 @@
       "title": "\ud83e\udd8a Fox News \u2764\ufe0f \ud83c\uddfa\ud83c\udde6"
     },
     "dailyarcticfox": {
-      "date_checked": "2025-08-18T00:41:09.998397+00:00",
+      "date_checked": "2025-08-19T00:36:30.729920+00:00",
       "gif_count": 0,
       "pic_count": 101,
       "video_count": 0,
@@ -5201,7 +5201,7 @@
       "title": "Daily Arctic Fox \u2744\ufe0f\ud83e\udd8a"
     },
     "justsomefens": {
-      "date_checked": "2025-08-18T00:41:11.151682+00:00",
+      "date_checked": "2025-08-19T00:36:31.480362+00:00",
       "gif_count": 7,
       "pic_count": 863,
       "video_count": 188,
@@ -5214,11 +5214,11 @@
       "title": "Just some fens"
     },
     "cucach": {
-      "date_checked": "2025-08-18T00:41:12.293080+00:00",
+      "date_checked": "2025-08-19T00:36:32.186675+00:00",
       "gif_count": 1293,
       "pic_count": 7684,
       "video_count": 3407,
-      "subscriber_count": 4522,
+      "subscriber_count": 4518,
       "post_count": 12416,
       "latest_post": "2025-04-03T17:11:17+00:00",
       "channel_id": 1145284805,
@@ -5240,7 +5240,7 @@
       "title": "the skunk stash"
     },
     "pangolins_here": {
-      "date_checked": "2025-08-18T00:41:13.681608+00:00",
+      "date_checked": "2025-08-19T00:36:33.001521+00:00",
       "gif_count": 26,
       "pic_count": 465,
       "video_count": 53,
@@ -5253,7 +5253,7 @@
       "title": "\u043f\u0430\u043d\u0433\u043e\u043b\u0438\u043d\u044b \u043d\u0430 \u043c\u0435\u0441\u0442\u0435"
     },
     "ooohyena": {
-      "date_checked": "2025-08-18T00:41:14.818748+00:00",
+      "date_checked": "2025-08-19T00:36:39.813329+00:00",
       "gif_count": 50,
       "pic_count": 1057,
       "video_count": 121,
@@ -5266,7 +5266,7 @@
       "title": "\ud83d\udc90\u0414\u043d\u0435\u0432\u043d\u0438\u043a \u0433\u0438\u0435\u043d\u044b\ud83d\udc90"
     },
     "capymema": {
-      "date_checked": "2025-08-18T00:41:15.949793+00:00",
+      "date_checked": "2025-08-19T00:36:40.525658+00:00",
       "gif_count": 76,
       "pic_count": 1672,
       "video_count": 284,
@@ -5279,63 +5279,63 @@
       "title": "Capymema #\u0423\u043a\u0440\u0422\u0491"
     },
     "acsltl": {
-      "date_checked": "2025-08-18T00:41:17.154852+00:00",
+      "date_checked": "2025-08-19T00:36:41.234723+00:00",
       "gif_count": 205,
-      "pic_count": 5835,
+      "pic_count": 5840,
       "video_count": 1242,
       "subscriber_count": 425,
-      "post_count": 7340,
-      "latest_post": "2025-08-17T19:02:54+00:00",
+      "post_count": 7345,
+      "latest_post": "2025-08-18T19:03:58+00:00",
       "channel_id": 1616565567,
       "channel_hash": 7063309660658273083,
       "bio": "\u0412\u0441\u0451 \u043e \u043f\u043b\u0430\u0432\u0430\u044e\u0449\u0438\u0445 \u0434\u0440\u0430\u043a\u043e\u043d\u0430\u0445\n\n\n@come_to_me_weirdo \u043e\u0431\u0440\u0430\u0449\u0430\u0435\u043c\u0441\u044f\n\n\u0412\u0442\u043e\u0440\u043e\u0439 \u043a\u0430\u043d\u0430\u043b https://t.me/allprocyon",
       "title": "Axolotl, \u0430\u043a\u0441\u043e\u043b\u043e\u0442\u043b\u044c \u043d\u0430 \u0432\u0441\u0435 \u0441\u043b\u0443\u0447\u0430\u0438 \u0436\u0438\u0437\u043d\u0438"
     },
     "laski_hori": {
-      "date_checked": "2025-08-18T00:41:18.317799+00:00",
+      "date_checked": "2025-08-19T00:36:41.982714+00:00",
       "gif_count": 356,
-      "pic_count": 7984,
-      "video_count": 1489,
-      "subscriber_count": 1933,
-      "post_count": 10179,
-      "latest_post": "2025-08-17T21:51:29+00:00",
+      "pic_count": 7986,
+      "video_count": 1490,
+      "subscriber_count": 1934,
+      "post_count": 10182,
+      "latest_post": "2025-08-18T14:28:22+00:00",
       "channel_id": 1498554499,
       "channel_hash": 8818225222546038732,
       "bio": "\u0421\u0435\u043c\u0435\u0439\u0441\u0442\u0432\u043e: \u041a\u0443\u043d\u044c\u0438 \n\u0410\u0432\u0442\u043e\u0440\u0441\u043a\u0438\u0435 \u043c\u0435\u043c\u044b: \u043f\u0435\u0440\u0438\u043e\u0434\u0438\u0447\u0435\u0441\u043a\u0438. \n\u041f\u0440\u0435\u0434\u043b\u043e\u0436\u043a\u0443 \u043c\u043e\u0436\u043d\u043e \u043a\u0438\u0434\u0430\u0442\u044c \u0432 \u0447\u0430\u0442\u0438\u043a :3\n\u0427\u0430\u0442\u0438\u043a \u043a\u0430\u043d\u0430\u043b\u0430: https://t.me/laski_hori_chat\n\ud83d\ude0a",
       "title": "\u041b\u0430\u0441\u043a\u0438, \u0445\u043e\u0440\u0438 \u0438 \u043f\u0440\u043e\u0447\u0438\u0435 \u043a\u0443\u043d\u044f\u0448\u0438"
     },
     "lovehusky": {
-      "date_checked": "2025-08-18T00:41:19.444409+00:00",
+      "date_checked": "2025-08-19T00:36:42.706200+00:00",
       "gif_count": 159,
       "pic_count": 4906,
-      "video_count": 4874,
-      "subscriber_count": 464,
-      "post_count": 10591,
-      "latest_post": "2025-08-17T20:23:01+00:00",
+      "video_count": 4878,
+      "subscriber_count": 465,
+      "post_count": 10595,
+      "latest_post": "2025-08-18T20:23:01+00:00",
       "channel_id": 1170549827,
       "channel_hash": -5026877155138256588,
       "bio": "\ud83d\udc3e\u041f\u0435\u0440\u0432\u044b\u0439 \u043a\u0430\u043d\u0430\u043b \u0441 \u043b\u0430\u0435\u0447\u043d\u044b\u043c\u0438\ud83d\udc3e\n\u2764\ufe0f\u0420\u0430\u0437\u0432\u043b\u0435\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u044b\u0439 \u043a\u043e\u043d\u0442\u0435\u043d\u0442\u2764\ufe0f\n\u041c\u044b \u043f\u0443\u0431\u043b\u0438\u043a\u0443\u0435\u043c \u0445\u0430\u0441\u043a\u0438, \u043c\u0430\u043b\u0430\u043c\u0443\u0442\u043e\u0432, \u0441\u0438\u0431\u0430-\u0438\u043d\u0443, \u0430\u043a\u0438\u0442\u0430-\u0438\u043d\u0443 \u0438 \u0430\u043c\u0435\u0440\u0438\u043a\u0430\u043d\u0441\u043a\u0443\u044e \u0430\u043a\u0438\u0442\u0443, \u043b\u0430\u0435\u043a, \u0441\u0430\u043c\u043e\u0435\u0434\u043e\u0432. \u0410 \u0442\u0430\u043a\u0436\u0435 \u0440\u0435\u043f\u043e\u0441\u0442\u044b \u0441 \u0434\u0440\u0443\u0436\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0445 \u043a\u0430\u043d\u0430\u043b\u043e\u0432.\n\n\u041e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u044f \u043e \u043f\u0440\u0438\u0441\u0442\u0440\u043e\u0439\u0441\u0442\u0432\u0435 \u0438 \u0441\u043e\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0435\u0441\u0442\u0432\u043e: @Ultra_Ignis",
       "title": "\u0425\u0430\u0441\u043a\u0438, \u041b\u0430\u0439\u043a\u0438, \u0421\u0430\u043c\u043e\u0435\u0434\u044b \u0438 \u0434\u0440\u0443\u0433\u0438\u0435"
     },
     "hrushechki": {
-      "date_checked": "2025-08-18T00:41:20.595660+00:00",
+      "date_checked": "2025-08-19T00:36:43.430391+00:00",
       "gif_count": 856,
-      "pic_count": 9268,
-      "video_count": 7863,
+      "pic_count": 9272,
+      "video_count": 7868,
       "subscriber_count": 1783,
-      "post_count": 18652,
-      "latest_post": "2025-08-17T14:05:28+00:00",
+      "post_count": 18661,
+      "latest_post": "2025-08-18T19:22:01+00:00",
       "channel_id": 1297755057,
       "channel_hash": 7617915364258619883,
       "bio": "\u041b\u044e\u0431\u0438\u0442\u0435\u043b\u044f\u043c \u0445\u0440\u044e\u0448\u0435\u0447\u0435\u043a \u043f\u043e\u0441\u0432\u044f\u0449\u0430\u0435\u0442\u0441\u044f\n\n\u041f\u0440\u0438\u0441\u043b\u0430\u0442\u044c \u0445\u0440\u044e\u0448\u043a\u0443 \u0441\u044e\u0434\u0430 - @hrushkobot\n\n\u0422\u0435\u0433\u0438 \u043a\u0430\u043d\u0430\u043b\u0430: \n#\u0441\u0442\u0438\u043a\u0435\u0440\u044b\n#\u0430\u0446\u043a\u0430\u044f\u043a\u0443\u0445\u043d\u044f (\u0425\u0440\u044e\u0448\u0430 \u0420\u0430\u043c\u0437\u0438 \u043d\u0430 \u0441\u0432\u044f\u0437\u0438) \n#\u043a\u043e\u043f\u044b\u0442\u0446\u0435\u0444\u0435\u0442\u0438\u0448 (\u043c\u0438\u043b\u044b\u0435 \u0441\u0435\u0440\u0434\u0446\u0443 \u043a\u043e\u043f\u044b\u0442\u0446\u0430)\n#\u043f\u044f\u0442\u0430\u0447\u043e\u043a\u0444\u0435\u0442\u0438\u0448 (\u0448\u043b\u0430\u0434\u043a\u0438\u0435 \u043f\u044f\u0442\u0430\u043a\u0438)\n#\u043a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u044c\u0430\u0434\u043c\u0438\u043d\u043a\u0438\n#\u043c\u0435\u043c (\u043c\u043e\u0438)\n\n\u0420\u0415\u041a\u041b\u0410\u041c\u0423 \u041d\u0415 \u041f\u0420\u041e\u0414\u0410\u042e \u0418 \u041d\u0415 \u041f\u041e\u041a\u0423\u041f\u0410\u042e",
       "title": "\u0425\u0440\u044e\u0448\u043a\u043e\u043c\u0430\u043d\u0438\u044f"
     },
     "plan_kinaki": {
-      "date_checked": "2025-08-18T00:41:21.753590+00:00",
+      "date_checked": "2025-08-19T00:36:44.226698+00:00",
       "gif_count": 216,
       "pic_count": 7841,
       "video_count": 7793,
-      "subscriber_count": 1221,
+      "subscriber_count": 1222,
       "post_count": 16116,
       "latest_post": "2025-08-15T21:03:58+00:00",
       "channel_id": 1782715187,
@@ -5344,7 +5344,7 @@
       "title": "\u041f\u043b\u0430\u043d \u041a\u0438\u043d\u0430\u043a\u0438 \u2615\ufe0f"
     },
     "ara_chno": {
-      "date_checked": "2025-08-18T00:41:22.946283+00:00",
+      "date_checked": "2025-08-19T00:36:44.943203+00:00",
       "gif_count": 1,
       "pic_count": 285,
       "video_count": 19,
@@ -5357,7 +5357,7 @@
       "title": "\ud83d\udd78\ud83d\udd77\ud83d\udd78 \u041f\u0430\u0443\u043a\u0430\u043d\u044b \ud83d\udd78\ud83d\udd77\ud83d\udd78"
     },
     "chaosfoxes": {
-      "date_checked": "2025-08-18T00:41:24.076323+00:00",
+      "date_checked": "2025-08-19T00:36:45.670774+00:00",
       "gif_count": 91,
       "pic_count": 2291,
       "video_count": 109,
@@ -5370,7 +5370,7 @@
       "title": "foxes!"
     },
     "chaossneps": {
-      "date_checked": "2025-08-18T00:41:25.255035+00:00",
+      "date_checked": "2025-08-19T00:36:46.438392+00:00",
       "gif_count": 39,
       "pic_count": 518,
       "video_count": 12,
@@ -5383,7 +5383,7 @@
       "title": "sneps!"
     },
     "batgifarchive": {
-      "date_checked": "2025-08-18T00:36:32.289676+00:00",
+      "date_checked": "2025-08-19T00:32:33.600365+00:00",
       "gif_count": 316,
       "pic_count": 0,
       "video_count": 3,
@@ -5396,7 +5396,7 @@
       "title": "Bat Gif Archive"
     },
     "ratscapies": {
-      "date_checked": "2025-08-18T00:38:38.544486+00:00",
+      "date_checked": "2025-08-19T00:34:19.379815+00:00",
       "gif_count": 19,
       "pic_count": 1585,
       "video_count": 264,
@@ -5409,7 +5409,7 @@
       "title": "rats & rats & rats & rats & capybaras"
     },
     "crowposting": {
-      "date_checked": "2025-08-18T00:38:45.594755+00:00",
+      "date_checked": "2025-08-19T00:34:24.001258+00:00",
       "gif_count": 20,
       "pic_count": 1116,
       "video_count": 20,
@@ -5422,7 +5422,7 @@
       "title": "Crowposting"
     },
     "animalicarinii": {
-      "date_checked": "2025-08-18T00:39:42.393251+00:00",
+      "date_checked": "2025-08-19T00:35:18.057789+00:00",
       "gif_count": 950,
       "pic_count": 10,
       "video_count": 36,
@@ -5435,7 +5435,7 @@
       "title": "animali carini"
     },
     "shibaeffepo": {
-      "date_checked": "2025-08-18T00:39:51.760267+00:00",
+      "date_checked": "2025-08-19T00:35:24.367893+00:00",
       "gif_count": 0,
       "pic_count": 1,
       "video_count": 0,
@@ -5448,7 +5448,7 @@
       "title": "\ud83d\udc15gli shiba di effepo\ud83d\udc15"
     },
     "maomaomeow": {
-      "date_checked": "2025-08-18T00:40:26.525838+00:00",
+      "date_checked": "2025-08-19T00:35:54.743245+00:00",
       "gif_count": 26,
       "pic_count": 541,
       "video_count": 128,
@@ -5461,20 +5461,20 @@
       "title": "\u732b\u732b\u55b5\ud83d\udc31"
     },
     "foxespost": {
-      "date_checked": "2025-08-18T00:40:59.217159+00:00",
+      "date_checked": "2025-08-19T00:36:23.607588+00:00",
       "gif_count": 90,
-      "pic_count": 99796,
+      "pic_count": 99810,
       "video_count": 312,
       "subscriber_count": 40,
-      "post_count": 103350,
-      "latest_post": "2025-08-17T20:13:53+00:00",
+      "post_count": 103364,
+      "latest_post": "2025-08-18T20:38:53+00:00",
       "channel_id": 1281894729,
       "channel_hash": 3602320876741094050,
       "bio": "\u0411\u043e\u0442, \u0441\u043e\u0431\u0438\u0440\u0430\u044e\u0449\u0438\u0439 \u043b\u0438\u0441 \u0441 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u044b\u0445 \u043c\u0435\u0441\u0442 \u0432 \u0438\u043d\u0442\u0435\u0440\u043d\u0435\u0442\u0435.",
       "title": "\u041b\u0438\u0441\u044b"
     },
     "bagofcheetos": {
-      "date_checked": "2025-08-18T00:38:49.256167+00:00",
+      "date_checked": "2025-08-19T00:34:26.350054+00:00",
       "gif_count": 29,
       "pic_count": 650,
       "video_count": 90,
@@ -5487,20 +5487,20 @@
       "title": "Bag of cheetos \ud83d\udc06"
     },
     "budyarchive": {
-      "date_checked": "2025-08-18T00:41:26.391897+00:00",
+      "date_checked": "2025-08-19T00:36:47.176318+00:00",
       "gif_count": 243,
-      "pic_count": 4858,
-      "video_count": 1845,
-      "subscriber_count": 1649,
-      "post_count": 7036,
-      "latest_post": "2025-08-17T17:13:03+00:00",
+      "pic_count": 4861,
+      "video_count": 1849,
+      "subscriber_count": 1652,
+      "post_count": 7043,
+      "latest_post": "2025-08-18T21:45:44+00:00",
       "channel_id": 1643726635,
       "channel_hash": 4071354521106803407,
       "bio": "Archiving Budys and sometimes even Pals since 2021.",
       "title": "Budy Archive"
     },
     "skonktime": {
-      "date_checked": "2025-08-18T00:41:27.540220+00:00",
+      "date_checked": "2025-08-19T00:36:47.972601+00:00",
       "gif_count": 165,
       "pic_count": 4561,
       "video_count": 74,
@@ -5513,11 +5513,11 @@
       "title": "Skonktime"
     },
     "fennecforecast": {
-      "date_checked": "2025-08-18T00:41:28.957141+00:00",
+      "date_checked": "2025-08-19T00:36:48.696515+00:00",
       "gif_count": 74,
       "pic_count": 1408,
       "video_count": 304,
-      "subscriber_count": 817,
+      "subscriber_count": 816,
       "post_count": 2310,
       "latest_post": "2025-08-17T16:16:04+00:00",
       "channel_id": 1579958828,
@@ -5526,7 +5526,7 @@
       "title": "Fennec Forecast"
     },
     "chaosyotes": {
-      "date_checked": "2025-08-18T00:41:30.136446+00:00",
+      "date_checked": "2025-08-19T00:36:49.458049+00:00",
       "gif_count": 2,
       "pic_count": 163,
       "video_count": 5,
@@ -5543,112 +5543,112 @@
     {
       "handle": "HourlyCoon",
       "error": "Cache update failed: Channel handle should be HourlyCoon but it is HourlyBandit",
-      "timestamp": "2025-08-18T00:36:27.554863"
+      "timestamp": "2025-08-19T00:32:21.592578"
     },
     {
       "handle": "FerretGifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:37:04.608838"
+      "timestamp": "2025-08-19T00:33:02.266330"
     },
     {
       "handle": "otterpics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:37:17.483214"
+      "timestamp": "2025-08-19T00:33:11.295447"
     },
     {
       "handle": "yeenpics",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:37:38.490527"
+      "timestamp": "2025-08-19T00:33:24.916884"
     },
     {
       "handle": "CuteFrogges",
       "error": "Cache update failed: Channel handle should be CuteFrogges but it is frogsfrogsfrogs1",
-      "timestamp": "2025-08-18T00:37:51.771950"
+      "timestamp": "2025-08-19T00:33:41.503861"
     },
     {
       "handle": "roundcats",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:38:18.884376"
+      "timestamp": "2025-08-19T00:34:06.859604"
     },
     {
       "handle": "snekgifs",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:38:50.557416"
+      "timestamp": "2025-08-19T00:34:35.311764"
     },
     {
       "handle": "ottersgif",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:39:24.688395"
+      "timestamp": "2025-08-19T00:34:57.631060"
     },
     {
       "handle": "froggosfroggies",
       "error": "Cache update failed: Channel handle should be froggosfroggies but it is vivalerane",
-      "timestamp": "2025-08-18T00:39:43.716371"
+      "timestamp": "2025-08-19T00:35:18.959562"
     },
     {
       "handle": "dailypanda",
       "error": "Cache update failed: Channel handle should be dailypanda but it is kasperpanda",
-      "timestamp": "2025-08-18T00:40:09.360667"
+      "timestamp": "2025-08-19T00:35:43.209054"
     },
     {
       "handle": "panda",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:40:09.518258"
+      "timestamp": "2025-08-19T00:35:43.322096"
     },
     {
       "handle": "pandagifs",
       "error": "Cache update failed: Channel handle should be pandagifs but it is GIFdeanimale",
-      "timestamp": "2025-08-18T00:40:09.678268"
+      "timestamp": "2025-08-19T00:35:43.419149"
     },
     {
       "handle": "dailyfrogs",
       "error": "Cache update failed: Channel handle should be dailyfrogs but it is frogtoday",
-      "timestamp": "2025-08-18T00:40:16.953051"
+      "timestamp": "2025-08-19T00:35:47.990694"
     },
     {
       "handle": "CatPictures",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:40:21.676671"
+      "timestamp": "2025-08-19T00:35:51.347439"
     },
     {
       "handle": "dogspictures",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:40:33.733107"
+      "timestamp": "2025-08-19T00:35:59.169097"
     },
     {
       "handle": "puppygif",
       "error": "Cache update failed: Channel handle should be puppygif but it is lilu_knits",
-      "timestamp": "2025-08-18T00:40:33.886446"
+      "timestamp": "2025-08-19T00:35:59.262467"
     },
     {
       "handle": "reptilepets",
       "error": "Cache update failed: Channel handle should be reptilepets but it is joeperronreptiles",
-      "timestamp": "2025-08-18T00:40:37.575785"
+      "timestamp": "2025-08-19T00:36:09.657341"
     },
     {
       "handle": "ratscute",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:40:40.239431"
+      "timestamp": "2025-08-19T00:36:11.297840"
     },
     {
       "handle": "catsch",
       "error": "Cache update failed: Channel catsch no longer has a username",
-      "timestamp": "2025-08-18T00:40:43.029581"
+      "timestamp": "2025-08-19T00:36:12.880460"
     },
     {
       "handle": "dogposting",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:40:45.750690"
+      "timestamp": "2025-08-19T00:36:14.448430"
     },
     {
       "handle": "rats_rats",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:41:02.900527"
+      "timestamp": "2025-08-19T00:36:26.391277"
     },
     {
       "handle": "skunkstash",
       "error": "Cache update failed: The channel specified is private and you lack permission to access it. Another reason may be that you were banned from it (caused by GetChannelsRequest)",
-      "timestamp": "2025-08-18T00:41:12.561668"
+      "timestamp": "2025-08-19T00:36:32.299554"
     }
   ]
 }
