@@ -2704,518 +2704,518 @@
   "errors": [
     {
       "handle": "FennecsDaily",
-      "error": "Cache update failed: {'Unknown error': '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: \\'3\\',cZone: \\'api.twitter.com\\',cType: \\'managed\\',cRay: \\'9b76339dcf83f589\\',cH: \\'usV92r3QXmNc91EOLau3DxD6dVkYkbQAWxPrikR8vG8-1767314390-1.2.1.1-lE_eRYFyz3eflp9gkL6J8zByWwabmTOOIeOV.MySPVX_IdX_rvybpwfp7QkaK1SK\\',cUPMDTk:\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=1290041799210393603&tweet_mode=compat&__cf_chl_tk=tEhXwz3JFwVlXV9jS2p7vzisnFxLkn1bxOiU6YUlaeI-1767314390-1.0.1.1-OlXfbNTiXvtAtTGyNsWINU37M8Dn7MPrIgjGNujsbfU\",cFPWv: \\'g\\',cITimeS: \\'1767314390\\',cTplC:0,cTplV:5,cTplB: \\'0\\',fa:\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=1290041799210393603&tweet_mode=compat&__cf_chl_f_tk=tEhXwz3JFwVlXV9jS2p7vzisnFxLkn1bxOiU6YUlaeI-1767314390-1.0.1.1-OlXfbNTiXvtAtTGyNsWINU37M8Dn7MPrIgjGNujsbfU\",md: \\'FsLVui5rhVBIPnJt6JjBvQB449xn1KMYcnt8UnXB6vw-1767314390-1.2.1.1-w5Ley5sz77lLnZZlsv8vFq7fql1DhrYM7GzmDsV3lqrfBlI.75Hmbvp0dKQNDiwkzAwhPsTkINwLpTsk9K1LJKpn_kTf8UwC8dxey3kZJ35WoQx5BPuOw5jjVPBNQjiNgX1CFdqBe0vKHxMjWomqWPEyqZAhcLuf.1ku1XOdF331XZAkXbYfgWWuLtHd2Bd8kw9ok2jUBFXabeTa_drtNKxwVEGtvCfducwWliAu.dNbM3K_CzELTUCtI7sG6Wkj2uAyOdlq8g1b1FB0SaVvrPUYqmZYhDRLOOK6.ydyWvP7eRkvlcNhdNH5qvYIAy13eknjOWcUiY0EHRIdL5l6oGh8ZD4jrMrdfI97LR5k0guqtugMYh1y7A5Xn1PLgREDaP6nlksVUqoh4LXwCX4_.Ok_3DtOFuDHRGjLZQ0VTeE8IFgQGzDfG8PZ3_MhoztNEXXEP2i4FvXr24lH5ypAytUIk_55g09aTyR5dqJivVzaFcQym_zB.XY6_x8QeekeWu6pM0fcuYbnUzYKpK_iD.92zuv7JsYHE7sbvd0CXOPN5Wb7Sa7jqcBxMMdGVIkPI81O1UqxO1EBKj.nA5194Y0GZZ._jYPB99wOLtmxywXr2HVND0csEV5bBX.TFGMNBVPhdIC8V7YjL85hqpnwIYKcGUcCZmH8KGNv3rWHao59HuCKDVNeP6m5sL8kA8UxuDKH2dhlhZdhEmDrPEpoujHIs3Lfm_bVQ_XTK2D6OFIV.BkhgMy.eeeZH8y.EmUuLIews98zDTGyX2zCBlWrKxqXG8zyYwCgCim5ZH7NRITl9UJKvDANDzCOh5sM.YK04quQZFvSyz5hGwP1yJjQsyowArwa2D3kBJx_W_zYQxEIialTQ7w_drlRV50IHe2H2vyRFmj4KjSVZuxPhF7rx9qPJdyU4eBSv5hVeP5Fy2jAqh0dqNF_Ed6rDfx3ofXj\\',mdrd: \\'\\',};var a = document.createElement(\\'script\\');a.src = \\'/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9b76339dcf83f589\\';window._cf_chl_opt.cOgUHash = location.hash === \\'\\' && location.href.indexOf(\\'#\\') !== -1 ? \\'#\\' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === \\'\\' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(\\'?\\') !== -1 ? \\'?\\' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=1290041799210393603&tweet_mode=compat&__cf_chl_rt_tk=tEhXwz3JFwVlXV9jS2p7vzisnFxLkn1bxOiU6YUlaeI-1767314390-1.0.1.1-OlXfbNTiXvtAtTGyNsWINU37M8Dn7MPrIgjGNujsbfU\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(\\'head\\')[0].appendChild(a);}());</script></body></html>'}",
-      "timestamp": "2026-01-02T00:39:50.717383"
+      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
+      "timestamp": "2026-01-03T00:37:58.348397"
     },
     {
       "handle": "platinumfoxes",
-      "error": "Cache update failed: {'Unknown error': '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: \\'3\\',cZone: \\'api.twitter.com\\',cType: \\'managed\\',cRay: \\'9b7633aaf9680010\\',cH: \\'RfeXV4PoCJN6aGUXFU8f796Iqwp43FnPEXSG4Rr9UoQ-1767314392-1.2.1.1-S8y6RC2qpm2zwI4LYum5idkSPXXfkOmEAxoC5To2H1litmTToVcmOy9AaSLWh23H\\',cUPMDTk:\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=1170746320115646464&tweet_mode=compat&__cf_chl_tk=.vH3yElHdmftHRn3I_DWTfxtyA4bM2wokjZIgD8BlU4-1767314392-1.0.1.1-Gmc.2Ru9.oWALmS_7r.iP1D3mPtQjLXkKs1fHh4X118\",cFPWv: \\'g\\',cITimeS: \\'1767314392\\',cTplC:0,cTplV:5,cTplB: \\'0\\',fa:\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=1170746320115646464&tweet_mode=compat&__cf_chl_f_tk=.vH3yElHdmftHRn3I_DWTfxtyA4bM2wokjZIgD8BlU4-1767314392-1.0.1.1-Gmc.2Ru9.oWALmS_7r.iP1D3mPtQjLXkKs1fHh4X118\",md: \\'4LlnFA_qZSMYjczSjS0hzASWHUsFyU_HRbbOmQc7bIo-1767314392-1.2.1.1-Qbdm.sfPnl0xSmB_GruMM.iZbhZNXtZSkfcF7q2uVEhdm7K775moVktlZMwr.6KLeY81KSfJTbkhXo7HtG8g3r9H32yo8ObB2jsDqdazds3XGw1NAyDPTG_fGZsWr1a0zKg6t4YZYhVdXUFuOUh6Wl8iFYlO_TXvEs8b_N8HQn8g3Sha6SQ7qhoczNvArRn4iuQfEYTxSi_qcu6Yiab4S7Cba5_lUVueZ59tvBJDLgu6a957VhmwgGhyg3cqFj1dXEi.DwIMepyfy11NCegGKTyM4dLoukfMCf9JM08qUlHJCzAgZ6cHgc8CEAy.5dtlFhv7KNQMDpkUMLSmp_nhGz.fR9i6CD4YQQ42dd5YmIkS1PKdIbkiTYjeS2XkfLBjJMo86GFFiZjqJ4DGfOb5z9.AZqnE.yo3UNUwqkE0mGf2a82ZQ3wyLKfyMmrQALuiDpqt7DQQG6Y1rF3gHDAVehjRb12pVF3s7IJFNg9t.zmqoG2F48v0C60dX_oTK2Mb4Da5k9ZG9JxhvNWCR9Vr1pkrkqRpuHHZ_ZDjEptwP3JpU0LxKhOBGOwyn.sWNyDZQc__Y_oIMz1PS_g57Drsp6Cm44Hoyeer6hM1USCYsdVrV7gEjJ295vh65M8ziv5POmBaetKswjdURkWKG13UGZpeS01.6F6L64juXX1kw.V602NBYm2wIfds3EZGUTV98RY0633.AqksFmgsPnmNpqtHVQL5zVm1ejtGXavC0R3I5ntnzNMb_5DQdHsHda36YV4VN1oFnHsB875btTvnuyurDt0.ECP.d2hbkKfsbGCPWkfimOondoV3wcBV5hAbLgVETLjVy1yjGmB7SDPL5A2u032.Cporj1SHsyBsRLVFc8nzM2J_Uk9NfFUHDoVEyfWh8emaWW.W.Eiz1qR844UpeUopMHmBFnq5f8pjD5zl40fwDBPygy6ubYMcOtRh\\',mdrd: \\'\\',};var a = document.createElement(\\'script\\');a.src = \\'/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9b7633aaf9680010\\';window._cf_chl_opt.cOgUHash = location.hash === \\'\\' && location.href.indexOf(\\'#\\') !== -1 ? \\'#\\' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === \\'\\' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(\\'?\\') !== -1 ? \\'?\\' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=1170746320115646464&tweet_mode=compat&__cf_chl_rt_tk=.vH3yElHdmftHRn3I_DWTfxtyA4bM2wokjZIgD8BlU4-1767314392-1.0.1.1-Gmc.2Ru9.oWALmS_7r.iP1D3mPtQjLXkKs1fHh4X118\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(\\'head\\')[0].appendChild(a);}());</script></body></html>'}",
-      "timestamp": "2026-01-02T00:39:52.817005"
+      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
+      "timestamp": "2026-01-03T00:38:00.407796"
     },
     {
       "handle": "HourlyCheetahs",
-      "error": "Cache update failed: {'Unknown error': '<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+\");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv=\"refresh\" content=\"360\"></head><body><div class=\"main-wrapper\" role=\"main\"><div class=\"main-content\"><noscript><div class=\"h2\"><span id=\"challenge-error-text\">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: \\'3\\',cZone: \\'api.twitter.com\\',cType: \\'managed\\',cRay: \\'9b7633b81f23fa1f\\',cH: \\'VKcclLtIOc.p6LeGdZgDbsc9e71ezTUuxCh9FaTguOo-1767314394-1.2.1.1-qEE0w9zF.NSfLmAznmRu3kzwTROJ6TbC9bcezw0d.JKkYIh52ffFAU8gqNMg1nXq\\',cUPMDTk:\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=921775810939408384&tweet_mode=compat&__cf_chl_tk=fOlM6yjfeJ4KmnHawtfxBi8GZcmKBU1QLgXuTcqTzLU-1767314394-1.0.1.1-jjbJYuV1bHWy_vhGF1BMeqJETefXP.GYPSLgCiNxfM4\",cFPWv: \\'g\\',cITimeS: \\'1767314394\\',cTplC:0,cTplV:5,cTplB: \\'0\\',fa:\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=921775810939408384&tweet_mode=compat&__cf_chl_f_tk=fOlM6yjfeJ4KmnHawtfxBi8GZcmKBU1QLgXuTcqTzLU-1767314394-1.0.1.1-jjbJYuV1bHWy_vhGF1BMeqJETefXP.GYPSLgCiNxfM4\",md: \\'RUp_oFXHRyNgUPvix58199nDrD5NGnUTzFilsPnFp1c-1767314394-1.2.1.1-H3tDMNXB2lxQ527E._5Kcc6I7Z72c6oBK_B2zVbL8pOZH_OxwOjEmxa341WYufaZ0te9hj1ZDw.zvjCutnA7bUrzaOoNeab6RXBjq7Hf.hw8.61UbFtxZtEUrWa0a5DgUl8HsmtInavDImL3GlAmYM.5hLp8n7DM69gg5ty6YoRGvQBqrlqL9ySk68exvCEfLrCXd.62IGuTU1GR_Zohs2ejEdNNS8X3pbaHsH50NiWnGMdB6.ldKSKuzyNtCFho0Bp9kOsJ3KoPvn1IKAwCRLKYFfevKrjJQXcwCLIn9I1D_FYoiJzVcvLHiese8vtfg8laDporXktD0dCqNaUOjDHPaVyZnDzuGwUt3Ld4mZ0TU9P6xdy4OMLULpGcLk.tgco0fQ0TL_ltPSacaYBiPsSRg4P96BhXUipSvHExG1KWgMxF5oSQT3dFEGkWTQnaz5NvtS2U1QZnZ0bY8SCFhUm3cQ_XuDONTxywRDNwkTnfAFMiqoKGSkZ.A9WlzDnou362kk58PXzIQjsEyzOIWQK82Z4ZWhV.uPhCkMYwn3EqjaPmwqPzsYSH7EEFZvmWdHIYGZznRPMvFiW_rDjk_Z4Nk3sc3EmlsB12oGqFhZRKXgazCLTKFcIJi0OHCrGiKK5ppXMq9IlHItvKjSz9K.8aNWTub2txoCEUmRsOkuEO6q2Tyd4NRc072vqXSCYsNUACS_SB55QQrk_4_pDfE5CJ9ST1wyvj_gnY0vCIDiwBVLpW8w68I_uI1E_dC.Qd0rmffQUUEcZD_Xn9d4KMHwdWx6IMITvEXCip7moK8niWoGjmpp_8SZ6GCDJx3c0c2ujD0lRSMVWwjnHtNJ55GLOf1NLB6lueEWF4dc_e7DYWTb_RlOcHT9dImb_gFs2GO.NQQY2PQ7awJ.NU.GxaEar8CxRC2Ddyhu36QCoq6Aw\\',mdrd: \\'\\',};var a = document.createElement(\\'script\\');a.src = \\'/cdn-cgi/challenge-platform/h/g/orchestrate/chl_page/v1?ray=9b7633b81f23fa1f\\';window._cf_chl_opt.cOgUHash = location.hash === \\'\\' && location.href.indexOf(\\'#\\') !== -1 ? \\'#\\' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === \\'\\' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf(\\'?\\') !== -1 ? \\'?\\' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,\"\\\\/1.1\\\\/users\\\\/show.json?include_entities=True&user_id=921775810939408384&tweet_mode=compat&__cf_chl_rt_tk=fOlM6yjfeJ4KmnHawtfxBi8GZcmKBU1QLgXuTcqTzLU-1767314394-1.0.1.1-jjbJYuV1bHWy_vhGF1BMeqJETefXP.GYPSLgCiNxfM4\"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName(\\'head\\')[0].appendChild(a);}());</script></body></html>'}",
-      "timestamp": "2026-01-02T00:39:54.918544"
+      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
+      "timestamp": "2026-01-03T00:38:02.457273"
     },
     {
       "handle": "hourlyfoxes",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:39:57.043609"
+      "timestamp": "2026-01-03T00:38:04.507135"
     },
     {
       "handle": "HourlyLynxes",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:39:59.100367"
+      "timestamp": "2026-01-03T00:38:06.575496"
     },
     {
       "handle": "flickrsneps",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:01.163199"
+      "timestamp": "2026-01-03T00:38:08.623238"
     },
     {
       "handle": "hourlywolvesbot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:03.218675"
+      "timestamp": "2026-01-03T00:38:10.681997"
     },
     {
       "handle": "redpandasdaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:05.272445"
+      "timestamp": "2026-01-03T00:38:12.732906"
     },
     {
       "handle": "DeerHourly",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:07.328026"
+      "timestamp": "2026-01-03T00:38:14.786993"
     },
     {
       "handle": "cowsjpg",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:09.394072"
+      "timestamp": "2026-01-03T00:38:16.837587"
     },
     {
       "handle": "CapybaraDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:11.447304"
+      "timestamp": "2026-01-03T00:38:18.900096"
     },
     {
       "handle": "hourlyFox",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:13.506226"
+      "timestamp": "2026-01-03T00:38:20.954004"
     },
     {
       "handle": "hourlycats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:15.559805"
+      "timestamp": "2026-01-03T00:38:23.007708"
     },
     {
       "handle": "hourlypanda",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:17.615839"
+      "timestamp": "2026-01-03T00:38:25.067358"
     },
     {
       "handle": "hourlytiger",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:19.675322"
+      "timestamp": "2026-01-03T00:38:27.122203"
     },
     {
       "handle": "DailyPengus",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:21.728786"
+      "timestamp": "2026-01-03T00:38:29.176992"
     },
     {
       "handle": "HourlyPinguins",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:23.780813"
+      "timestamp": "2026-01-03T00:38:31.232273"
     },
     {
       "handle": "DailyHyenas",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:25.834164"
+      "timestamp": "2026-01-03T00:38:33.283635"
     },
     {
       "handle": "EelsDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:27.886584"
+      "timestamp": "2026-01-03T00:38:35.332765"
     },
     {
       "handle": "birdperhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:29.942074"
+      "timestamp": "2026-01-03T00:38:37.385291"
     },
     {
       "handle": "SnakeHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:31.998349"
+      "timestamp": "2026-01-03T00:38:39.453956"
     },
     {
       "handle": "rabbiteveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:34.053761"
+      "timestamp": "2026-01-03T00:38:41.515745"
     },
     {
       "handle": "deerchive",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:36.109663"
+      "timestamp": "2026-01-03T00:38:43.570947"
     },
     {
       "handle": "HourlyYeen",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:38.162903"
+      "timestamp": "2026-01-03T00:38:45.631876"
     },
     {
       "handle": "TheDailyPossums",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:40.217532"
+      "timestamp": "2026-01-03T00:38:47.683111"
     },
     {
       "handle": "Foxwthreataura",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:42.271110"
+      "timestamp": "2026-01-03T00:38:49.736703"
     },
     {
       "handle": "DailyMarten",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:44.324400"
+      "timestamp": "2026-01-03T00:38:51.791954"
     },
     {
       "handle": "PossumEveryHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:46.379972"
+      "timestamp": "2026-01-03T00:38:53.848873"
     },
     {
       "handle": "cat_dot_exe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:48.438095"
+      "timestamp": "2026-01-03T00:38:55.905056"
     },
     {
       "handle": "TrueFoxNews",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:50.496098"
+      "timestamp": "2026-01-03T00:38:57.955439"
     },
     {
       "handle": "WikiFoxSpain__",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:52.551212"
+      "timestamp": "2026-01-03T00:39:00.010976"
     },
     {
       "handle": "FopsHourly",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:54.606324"
+      "timestamp": "2026-01-03T00:39:02.066364"
     },
     {
       "handle": "HourlyWah",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:56.660104"
+      "timestamp": "2026-01-03T00:39:04.132893"
     },
     {
       "handle": "HourlyYote",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:40:58.716693"
+      "timestamp": "2026-01-03T00:39:06.186653"
     },
     {
       "handle": "HourlyMarten",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:00.770453"
+      "timestamp": "2026-01-03T00:39:08.241633"
     },
     {
       "handle": "aqualuvsuotd",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:02.827305"
+      "timestamp": "2026-01-03T00:39:10.296231"
     },
     {
       "handle": "obscure_otd",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:04.888023"
+      "timestamp": "2026-01-03T00:39:12.354958"
     },
     {
       "handle": "insect_otd",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:06.941578"
+      "timestamp": "2026-01-03T00:39:14.408204"
     },
     {
       "handle": "otdbat",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:08.994972"
+      "timestamp": "2026-01-03T00:39:16.470640"
     },
     {
       "handle": "gayocats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:11.048985"
+      "timestamp": "2026-01-03T00:39:18.527723"
     },
     {
       "handle": "CalicoDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:13.103248"
+      "timestamp": "2026-01-03T00:39:20.591180"
     },
     {
       "handle": "chinchillahour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:15.159017"
+      "timestamp": "2026-01-03T00:39:22.643913"
     },
     {
       "handle": "CorgiEveryHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:17.222968"
+      "timestamp": "2026-01-03T00:39:24.697867"
     },
     {
       "handle": "CowoftheDay1",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:19.276860"
+      "timestamp": "2026-01-03T00:39:26.751174"
     },
     {
       "handle": "cow_everyhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:21.331044"
+      "timestamp": "2026-01-03T00:39:28.808859"
     },
     {
       "handle": "dogeveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:23.386209"
+      "timestamp": "2026-01-03T00:39:30.862659"
     },
     {
       "handle": "COdogstalker",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:25.443710"
+      "timestamp": "2026-01-03T00:39:32.916075"
     },
     {
       "handle": "Dogofthe_",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:27.498486"
+      "timestamp": "2026-01-03T00:39:34.977858"
     },
     {
       "handle": "borzbot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:29.551989"
+      "timestamp": "2026-01-03T00:39:37.032058"
     },
     {
       "handle": "DonkeyoftheDay1",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:31.604689"
+      "timestamp": "2026-01-03T00:39:39.084567"
     },
     {
       "handle": "hourly_fish",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:33.661105"
+      "timestamp": "2026-01-03T00:39:41.146085"
     },
     {
       "handle": "frogofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:35.719958"
+      "timestamp": "2026-01-03T00:39:43.200616"
     },
     {
       "handle": "bot_fox_",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:37.773412"
+      "timestamp": "2026-01-03T00:39:45.262643"
     },
     {
       "handle": "DailyArcticFox",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:39.827201"
+      "timestamp": "2026-01-03T00:39:47.318951"
     },
     {
       "handle": "the_dailyfox",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:41.884055"
+      "timestamp": "2026-01-03T00:39:49.382408"
     },
     {
       "handle": "qonqon_biyori",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:43.939586"
+      "timestamp": "2026-01-03T00:39:51.431444"
     },
     {
       "handle": "kitunegazou",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:46.002203"
+      "timestamp": "2026-01-03T00:39:53.485443"
     },
     {
       "handle": "mofumofu_fooox",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:48.063644"
+      "timestamp": "2026-01-03T00:39:55.542894"
     },
     {
       "handle": "GatorsDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:50.128230"
+      "timestamp": "2026-01-03T00:39:57.601940"
     },
     {
       "handle": "goatofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:52.185043"
+      "timestamp": "2026-01-03T00:39:59.665484"
     },
     {
       "handle": "hamsterybot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:54.257774"
+      "timestamp": "2026-01-03T00:40:01.731107"
     },
     {
       "handle": "hamsterofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:56.311219"
+      "timestamp": "2026-01-03T00:40:03.789730"
     },
     {
       "handle": "daily__hedgehog",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:41:58.365467"
+      "timestamp": "2026-01-03T00:40:05.851340"
     },
     {
       "handle": "huskersbot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:00.420529"
+      "timestamp": "2026-01-03T00:40:07.913315"
     },
     {
       "handle": "koalaseveryhr",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:02.475287"
+      "timestamp": "2026-01-03T00:40:09.967291"
     },
     {
       "handle": "hourlylizards",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:04.532060"
+      "timestamp": "2026-01-03T00:40:12.017259"
     },
     {
       "handle": "OtterAnHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:06.595817"
+      "timestamp": "2026-01-03T00:40:14.076389"
     },
     {
       "handle": "PandaEveryHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:08.650463"
+      "timestamp": "2026-01-03T00:40:16.141637"
     },
     {
       "handle": "pigofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:10.704422"
+      "timestamp": "2026-01-03T00:40:18.196951"
     },
     {
       "handle": "quokkaeveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:12.762288"
+      "timestamp": "2026-01-03T00:40:20.250417"
     },
     {
       "handle": "rabbitoftheday",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:14.841227"
+      "timestamp": "2026-01-03T00:40:22.301976"
     },
     {
       "handle": "rabbit_isle_bot",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:16.893636"
+      "timestamp": "2026-01-03T00:40:24.359043"
     },
     {
       "handle": "raccoonhourly",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:18.947413"
+      "timestamp": "2026-01-03T00:40:26.415634"
     },
     {
       "handle": "ServalEveryHr",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:21.011748"
+      "timestamp": "2026-01-03T00:40:28.465448"
     },
     {
       "handle": "RedPandaEveryHr",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:23.065752"
+      "timestamp": "2026-01-03T00:40:30.522857"
     },
     {
       "handle": "FennecEveryHr",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:25.122560"
+      "timestamp": "2026-01-03T00:40:32.575073"
     },
     {
       "handle": "SharksEveryDayy",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:27.180164"
+      "timestamp": "2026-01-03T00:40:34.628099"
     },
     {
       "handle": "shoebillhours",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:29.241639"
+      "timestamp": "2026-01-03T00:40:36.680009"
     },
     {
       "handle": "snailOTD",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:31.294798"
+      "timestamp": "2026-01-03T00:40:38.731038"
     },
     {
       "handle": "MexicanWolves",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:33.349664"
+      "timestamp": "2026-01-03T00:40:40.794869"
     },
     {
       "handle": "weirdlilguys",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:35.404122"
+      "timestamp": "2026-01-03T00:40:42.844035"
     },
     {
       "handle": "Thereisnocat_",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:37.457053"
+      "timestamp": "2026-01-03T00:40:44.899099"
     },
     {
       "handle": "TranslatedCats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:39.514646"
+      "timestamp": "2026-01-03T00:40:46.951806"
     },
     {
       "handle": "CatWorkers",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:41.568623"
+      "timestamp": "2026-01-03T00:40:49.012303"
     },
     {
       "handle": "nocontextscats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:43.623656"
+      "timestamp": "2026-01-03T00:40:51.062083"
     },
     {
       "handle": "nocontextsdogs",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:45.681229"
+      "timestamp": "2026-01-03T00:40:53.117280"
     },
     {
       "handle": "VulpesPerson",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:47.734642"
+      "timestamp": "2026-01-03T00:40:55.168213"
     },
     {
       "handle": "hourly_lion",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:49.792064"
+      "timestamp": "2026-01-03T00:40:57.222807"
     },
     {
       "handle": "deergifs",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:51.848359"
+      "timestamp": "2026-01-03T00:40:59.276322"
     },
     {
       "handle": "PazyBirds",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:53.902621"
+      "timestamp": "2026-01-03T00:41:01.330607"
     },
     {
       "handle": "Happydog___",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:55.960222"
+      "timestamp": "2026-01-03T00:41:03.386134"
     },
     {
       "handle": "shouldhaveaduck",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:42:58.019011"
+      "timestamp": "2026-01-03T00:41:05.442745"
     },
     {
       "handle": "CrowMonthly",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:00.075232"
+      "timestamp": "2026-01-03T00:41:07.503387"
     },
     {
       "handle": "city_crows",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:02.129838"
+      "timestamp": "2026-01-03T00:41:09.556101"
     },
     {
       "handle": "dailystoat",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:04.182135"
+      "timestamp": "2026-01-03T00:41:11.614971"
     },
     {
       "handle": "ShibaEveryHour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:06.237809"
+      "timestamp": "2026-01-03T00:41:13.677366"
     },
     {
       "handle": "fox_info_net",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:08.303633"
+      "timestamp": "2026-01-03T00:41:15.731180"
     },
     {
       "handle": "HourlySamoyeds",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:10.357094"
+      "timestamp": "2026-01-03T00:41:17.857456"
     },
     {
       "handle": "azarasi_bot1",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:12.417154"
+      "timestamp": "2026-01-03T00:41:19.910692"
     },
     {
       "handle": "nywolforg",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:14.473962"
+      "timestamp": "2026-01-03T00:41:21.963243"
     },
     {
       "handle": "BatsDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:16.530764"
+      "timestamp": "2026-01-03T00:41:24.022443"
     },
     {
       "handle": "pandafloofs",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:18.586312"
+      "timestamp": "2026-01-03T00:41:26.071379"
     },
     {
       "handle": "skunkeveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-02T00:43:20.648360"
+      "timestamp": "2026-01-03T00:41:28.125437"
     }
   ]
 }
