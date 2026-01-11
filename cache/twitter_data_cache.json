@@ -2704,518 +2704,518 @@
   "errors": [
     {
       "handle": "FennecsDaily",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:34.834322"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:42.734429"
     },
     {
       "handle": "platinumfoxes",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:36.953135"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:44.764320"
     },
     {
       "handle": "HourlyCheetahs",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:39.070331"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:46.803734"
     },
     {
       "handle": "hourlyfoxes",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:41.185838"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:48.839795"
     },
     {
       "handle": "HourlyLynxes",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:43.295786"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:50.869632"
     },
     {
       "handle": "flickrsneps",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:45.404745"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:52.900476"
     },
     {
       "handle": "hourlywolvesbot",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:47.528256"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:54.936194"
     },
     {
       "handle": "redpandasdaily",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:49.650631"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:56.976246"
     },
     {
       "handle": "DeerHourly",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:51.765910"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:43:59.006181"
     },
     {
       "handle": "cowsjpg",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:53.876142"
+      "timestamp": "2026-01-11T00:44:01.044592"
     },
     {
       "handle": "CapybaraDaily",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:55.999194"
+      "timestamp": "2026-01-11T00:44:03.083536"
     },
     {
       "handle": "hourlyFox",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:40:58.120055"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:05.140667"
     },
     {
       "handle": "hourlycats",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:00.245133"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:07.177293"
     },
     {
       "handle": "hourlypanda",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:02.357718"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:09.208371"
     },
     {
       "handle": "hourlytiger",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:04.468187"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:11.245980"
     },
     {
       "handle": "DailyPengus",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:06.589864"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:13.278634"
     },
     {
       "handle": "HourlyPinguins",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:08.700737"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:15.310753"
     },
     {
       "handle": "DailyHyenas",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:10.817428"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:17.341548"
     },
     {
       "handle": "EelsDaily",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:12.935236"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:19.373510"
     },
     {
       "handle": "birdperhour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:15.042974"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:21.412076"
     },
     {
       "handle": "SnakeHour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:17.164049"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:23.445520"
     },
     {
       "handle": "rabbiteveryhour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:19.275787"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:25.479996"
     },
     {
       "handle": "deerchive",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:21.403374"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:27.517016"
     },
     {
       "handle": "HourlyYeen",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:23.517048"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:29.549223"
     },
     {
       "handle": "TheDailyPossums",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:25.637111"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:31.582430"
     },
     {
       "handle": "Foxwthreataura",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:27.753184"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:33.626233"
     },
     {
       "handle": "DailyMarten",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:29.867222"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:35.675889"
     },
     {
       "handle": "PossumEveryHour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:31.995496"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:37.706567"
     },
     {
       "handle": "cat_dot_exe",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:34.108368"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:39.785290"
     },
     {
       "handle": "TrueFoxNews",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:36.234328"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:41.819002"
     },
     {
       "handle": "WikiFoxSpain__",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:38.355740"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:43.854977"
     },
     {
       "handle": "FopsHourly",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:40.470626"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:45.896477"
     },
     {
       "handle": "HourlyWah",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:42.589724"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:47.949990"
     },
     {
       "handle": "HourlyYote",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:44.709934"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:49.984815"
     },
     {
       "handle": "HourlyMarten",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:46.827916"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:52.022315"
     },
     {
       "handle": "aqualuvsuotd",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:48.940283"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:54.054604"
     },
     {
       "handle": "obscure_otd",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:51.052930"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:56.088693"
     },
     {
       "handle": "insect_otd",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:53.166815"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:44:58.131864"
     },
     {
       "handle": "otdbat",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:55.286247"
+      "timestamp": "2026-01-11T00:45:00.164004"
     },
     {
       "handle": "gayocats",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:57.403629"
+      "timestamp": "2026-01-11T00:45:02.198493"
     },
     {
       "handle": "CalicoDaily",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:41:59.508477"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:04.231735"
     },
     {
       "handle": "chinchillahour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:01.637836"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:06.264723"
     },
     {
       "handle": "CorgiEveryHour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:03.757046"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:08.312249"
     },
     {
       "handle": "CowoftheDay1",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:05.869923"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:10.343100"
     },
     {
       "handle": "cow_everyhour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:07.984259"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:12.386257"
     },
     {
       "handle": "dogeveryhour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:10.102834"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:14.418513"
     },
     {
       "handle": "COdogstalker",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:12.213449"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:16.449502"
     },
     {
       "handle": "Dogofthe_",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:14.325342"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:18.486597"
     },
     {
       "handle": "borzbot",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:16.436921"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:20.525999"
     },
     {
       "handle": "DonkeyoftheDay1",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:18.540477"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:22.567139"
     },
     {
       "handle": "hourly_fish",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:20.655110"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:24.599941"
     },
     {
       "handle": "frogofthe",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:22.778160"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:26.629602"
     },
     {
       "handle": "bot_fox_",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:24.904760"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:28.667518"
     },
     {
       "handle": "DailyArcticFox",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:27.021815"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:30.703606"
     },
     {
       "handle": "the_dailyfox",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:29.131534"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:32.824063"
     },
     {
       "handle": "qonqon_biyori",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:31.238108"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:34.858083"
     },
     {
       "handle": "kitunegazou",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:33.355550"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:36.889869"
     },
     {
       "handle": "mofumofu_fooox",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:35.468301"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:38.919853"
     },
     {
       "handle": "GatorsDaily",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:37.575542"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:40.956739"
     },
     {
       "handle": "goatofthe",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:39.695806"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:42.995293"
     },
     {
       "handle": "hamsterybot",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:41.819217"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:45.042207"
     },
     {
       "handle": "hamsterofthe",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:43.934015"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:47.072333"
     },
     {
       "handle": "daily__hedgehog",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:46.045593"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:49.102879"
     },
     {
       "handle": "huskersbot",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:48.154174"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:51.133279"
     },
     {
       "handle": "koalaseveryhr",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:50.263126"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:53.172498"
     },
     {
       "handle": "hourlylizards",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:52.365871"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:55.206983"
     },
     {
       "handle": "OtterAnHour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:54.496497"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:57.240881"
     },
     {
       "handle": "PandaEveryHour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:56.614075"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:45:59.271051"
     },
     {
       "handle": "pigofthe",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:42:58.720794"
+      "timestamp": "2026-01-11T00:46:01.317719"
     },
     {
       "handle": "quokkaeveryhour",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:00.843118"
+      "timestamp": "2026-01-11T00:46:03.349390"
     },
     {
       "handle": "rabbitoftheday",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:02.960230"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:05.381073"
     },
     {
       "handle": "rabbit_isle_bot",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:05.082976"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:07.411636"
     },
     {
       "handle": "raccoonhourly",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:07.196868"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:09.450080"
     },
     {
       "handle": "ServalEveryHr",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:09.306778"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:11.480260"
     },
     {
       "handle": "RedPandaEveryHr",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:11.421674"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:13.520460"
     },
     {
       "handle": "FennecEveryHr",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:13.531846"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:15.550427"
     },
     {
       "handle": "SharksEveryDayy",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:15.654122"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:17.600298"
     },
     {
       "handle": "shoebillhours",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:17.771741"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:19.638465"
     },
     {
       "handle": "snailOTD",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:19.884101"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:21.680504"
     },
     {
       "handle": "MexicanWolves",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:21.994998"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:23.729653"
     },
     {
       "handle": "weirdlilguys",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:24.120982"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:25.766799"
     },
     {
       "handle": "Thereisnocat_",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:26.235006"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:27.801116"
     },
     {
       "handle": "TranslatedCats",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:28.345998"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:29.835605"
     },
     {
       "handle": "CatWorkers",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:30.454124"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:31.867933"
     },
     {
       "handle": "nocontextscats",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:32.584324"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:33.899874"
     },
     {
       "handle": "nocontextsdogs",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:34.693474"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:35.931678"
     },
     {
       "handle": "VulpesPerson",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:36.810621"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:37.972238"
     },
     {
       "handle": "hourly_lion",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:38.935848"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:40.008663"
     },
     {
       "handle": "deergifs",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:41.054865"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:42.043100"
     },
     {
       "handle": "PazyBirds",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:43.169723"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:44.076428"
     },
     {
       "handle": "Happydog___",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:45.278165"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:46.113248"
     },
     {
       "handle": "shouldhaveaduck",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:47.389807"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:48.147528"
     },
     {
       "handle": "CrowMonthly",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:49.512084"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:50.178375"
     },
     {
       "handle": "city_crows",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:51.630845"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:52.209004"
     },
     {
       "handle": "dailystoat",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:53.734277"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:54.240148"
     },
     {
       "handle": "ShibaEveryHour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:55.838719"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:56.276180"
     },
     {
       "handle": "fox_info_net",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:43:57.946857"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:46:58.313391"
     },
     {
       "handle": "HourlySamoyeds",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:44:00.055988"
+      "timestamp": "2026-01-11T00:47:00.362797"
     },
     {
       "handle": "azarasi_bot1",
       "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:44:02.176026"
+      "timestamp": "2026-01-11T00:47:02.406243"
     },
     {
       "handle": "nywolforg",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:44:04.286042"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:47:04.437067"
     },
     {
       "handle": "BatsDaily",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:44:06.395499"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:47:06.470791"
     },
     {
       "handle": "pandafloofs",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:44:08.522680"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:47:08.512142"
     },
     {
       "handle": "skunkeveryhour",
-      "error": "Cache update failed: [{'code': 32, 'message': 'Could not authenticate you.'}]",
-      "timestamp": "2026-01-10T00:44:10.629071"
+      "error": "Cache update failed: [{'message': 'Sorry, that page does not exist', 'code': 34}]",
+      "timestamp": "2026-01-11T00:47:10.550104"
     }
   ]
 }
